@@ -1,0 +1,32 @@
+{
+  "Atlanta FaZe": {
+    "Win/Loss": "0,",
+    "Hardpoint": "1,0,",
+    "Search": "0,",
+    "Control": "0,",
+    "KDs": {
+      "Simp": "0.93,",
+      "Abeazy": "1.11,",
+      "Cellium": "0.94,",
+      "Drazah": "0.90,"
+    },
+    "BP": {
+      "Simp": "0.89,",
+      "Abeazy": "1.02,",
+      "Cellium": "0.95,",
+      "Drazah": "0.91,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },

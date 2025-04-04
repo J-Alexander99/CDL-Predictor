@@ -1,0 +1,326 @@
+{
+    "Atlanta FaZe": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Boston Breach": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Carolina Royal Ravens": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Cloud9 New York": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "LA Guerrillas M8": {
+        "Win/Loss": [
+            "L"
+        ],
+        "Hardpoint": [
+            "L",
+            "W"
+        ],
+        "Search": [
+            "W",
+            "L"
+        ],
+        "Control": [
+            "L"
+        ],
+        "KDs": {
+            "KiSMET": [
+                "1.03"
+            ],
+            "Lynz": [
+                "1.18"
+            ],
+            "Priestahh": [
+                "0.91"
+            ],
+            "Skyz": [
+                "1.37"
+            ]
+        },
+        "BP": {
+            "KiSMET": [
+                "0.98"
+            ],
+            "Lynz": [
+                "1.17"
+            ],
+            "Priestahh": [
+                "0.95"
+            ],
+            "Skyz": [
+                "1.20"
+            ]
+        },
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Los Angeles Thieves": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Miami Heretics": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Minnesota ROKKR": {
+        "Win/Loss": [
+            "W"
+        ],
+        "Hardpoint": [
+            "W",
+            "L"
+        ],
+        "Search": [
+            "L",
+            "W"
+        ],
+        "Control": [
+            "W"
+        ],
+        "KDs": {
+            "Estreal": [
+                "0.94"
+            ],
+            "Gio": [
+                "0.82"
+            ],
+            "Nero": [
+                "0.97"
+            ],
+            "PaulEhx": [
+                "0.86"
+            ]
+        },
+        "BP": {
+            "Estreal": [
+                "0.92"
+            ],
+            "Gio": [
+                "0.94"
+            ],
+            "Nero": [
+                "0.96"
+            ],
+            "PaulEhx": [
+                "0.87"
+            ]
+        },
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 1,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "OpTic Texas": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Toronto Ultra": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Vancouver Surge": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "Vegas Falcons": {
+        "Win/Loss": [],
+        "Hardpoint": [],
+        "Search": [],
+        "Control": [],
+        "KDs": {},
+        "BP": {},
+        "Head 2 Head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0
+        }
+    }
+}

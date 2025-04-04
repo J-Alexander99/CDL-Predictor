@@ -1,0 +1,33 @@
+  "LA Guerrillas M8": {
+    "Win/Loss": "0,0,",
+    "Hardpoint": "0,1,0,0,",
+    "Search": "1,0,0,",
+    "Control": "0,1,",
+    "KDs": {
+      "KiSMET": "1.03,1.00,",
+      "Lunarz": "",
+      "Lynz": "1.18,0.92,",
+      "Priestahh": "0.91,0.82,",
+      "Skys": "1.37,0.77,"
+    },
+    "BP": {
+      "KiSMET": "0.98,0.91,",
+      "Lunarz": "",
+      "Lynz": "1.17,0.92,",
+      "Priestahh": "0.95,0.89,",
+      "Skys":"1.20,0.83,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },

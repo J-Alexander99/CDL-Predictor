@@ -1,0 +1,31 @@
+  "OpTic Texas": {
+    "Win/Loss": "0,1,",
+    "Hardpoint": "1,0,1,",
+    "Search": "0,0,1,",
+    "Control": "1,1,",
+    "KDs": {
+      "Dashy": "1.11,1.10,",
+      "Kenny": "0.75,0.95,",
+      "Pred": "1.11,1.26,",
+      "Shotzzy": "1.25,1.87,"
+    },
+    "BP": {
+      "Dashy": "1.07,1.27,",
+      "Kenny": "0.81,1.21,",
+      "Pred": "1.10,1.23,",
+      "Shotzzy": "1.18,1.47,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "1",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },

@@ -1,0 +1,32 @@
+  "Toronto Ultra": {
+    "Win/Loss": "1,1,",
+    "Hardpoint": "0,1,0,1,",
+    "Search": "1,1,1,",
+    "Control": "1,0,",
+    "KDs": {
+      "Beans": "1.06,1.10,",
+      "CleanX": "1.27,1.02,",
+      "Insight": "0.89,1.10,",
+      "JoeDeceives": "0.91,0.99,"
+    },
+    "BP": {
+      "Beans": "1.03,1.08,",
+      "CleanX": "1.23,1.01,",
+      "Insight": "0.96,1.08,",
+      "JoeDeceives": "1.02,1.00,"
+    },
+    "Head 2 Head": {
+      "FaZe": "1",
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "1",
+      "Falcons": ""
+    }
+  },

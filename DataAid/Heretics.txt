@@ -1,0 +1,31 @@
+  "Miami Heretics": {
+    "Win/Loss": "1,0,",
+    "Hardpoint": "1,1,0,",
+    "Search": "1,0,0,",
+    "Control": "1,1,",
+    "KDs": {
+      "Lucky": "1.02,0.65,",
+      "MettalZ": "1.15,0.82,",
+      "ReeaL": "1.10,1.50,",
+      "RenKoR": "1.07,1.23,"
+    },
+    "BP": {
+      "Lucky": "1.13,0.87,",
+      "MettalZ": "1.21,0.96,",
+      "ReeaL": "1.24,1.35,",
+      "RenKoR": "1.10,1.24,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": "1"
+    }
+  },

@@ -1,0 +1,213 @@
+[
+  {
+    "match_id": "CDL20240310_001",
+    "date": "2024-03-10",
+    "match_type": "LAN",
+    "stage": "Group Stage",
+    "team_A": {
+      "name": "OpTic Texas",
+      "win_rate": 68.5
+    },
+    "team_B": {
+      "name": "Atlanta FaZe",
+      "win_rate": 72.3
+    },
+    "final_score": "2-3",
+    "map_results": [
+      {
+        "map": "Vault",
+        "mode": "Hardpoint",
+        "winner": "OpTic Texas",
+        "score": "250-230",
+        "player_stats": {
+          "OpTic Texas": {
+            "Shotzzy": {
+              "kd": 1.25,
+              "kills": 28,
+              "deaths": 22,
+              "hill_time": 80
+            },
+            "Dashy": { "kd": 1.15, "kills": 24, "deaths": 21, "hill_time": 60 },
+            "Kenny": { "kd": 1.25, "kills": 28, "deaths": 22, "hill_time": 80 },
+            "Pred": { "kd": 1.25, "kills": 28, "deaths": 22, "hill_time": 80 }
+          },
+          "Atlanta FaZe": {
+            "aBeZy": { "kd": 1.1, "kills": 25, "deaths": 23, "hill_time": 75 },
+            "Simp": { "kd": 1.08, "kills": 22, "deaths": 24, "hill_time": 70 },
+            "Cellium": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "hill_time": 70
+            },
+            "Drazah": { "kd": 1.08, "kills": 22, "deaths": 24, "hill_time": 70 }
+          }
+        }
+      },
+      {
+        "map": "Red Card",
+        "mode": "Search&Destroy",
+        "winner": "OpTic Texas",
+        "score": "6-5",
+        "player_stats": {
+          "OpTic Texas": {
+            "Shotzzy": {
+              "kd": 1.25,
+              "kills": 28,
+              "deaths": 22,
+              "first_bloods": 1
+            },
+            "Dashy": {
+              "kd": 1.15,
+              "kills": 24,
+              "deaths": 21,
+              "first_bloods": 0
+            },
+            "Kenny": {
+              "kd": 1.25,
+              "kills": 28,
+              "deaths": 22,
+              "first_bloods": 0
+            },
+            "Pred": { "kd": 1.25, "kills": 28, "deaths": 22, "first_bloods": 0 }
+          },
+          "Atlanta FaZe": {
+            "aBeZy": {
+              "kd": 1.1,
+              "kills": 25,
+              "deaths": 23,
+              "first_bloods": 5
+            },
+            "Simp": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "first_bloods": 0
+            },
+            "Cellium": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "first_bloods": 0
+            },
+            "Drazah": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "first_bloods": 0
+            }
+          }
+        }
+      },
+      {
+        "map": "Hacienda",
+        "mode": "Control",
+        "winner": "Atlanta FaZe",
+        "score": "3-0",
+        "player_stats": {
+          "OpTic Texas": {
+            "Shotzzy": { "kd": 1.25, "kills": 28, "deaths": 22, "ticks": 0 },
+            "Dashy": { "kd": 1.15, "kills": 24, "deaths": 21, "ticks": 0 },
+            "Kenny": { "kd": 1.25, "kills": 28, "deaths": 22, "ticks": 0 },
+            "Pred": { "kd": 1.25, "kills": 28, "deaths": 22, "ticks": 0 }
+          },
+          "Atlanta FaZe": {
+            "aBeZy": { "kd": 1.1, "kills": 25, "deaths": 23, "ticks": 5 },
+            "Simp": { "kd": 1.08, "kills": 22, "deaths": 24, "ticks": 7 },
+            "Cellium": { "kd": 1.08, "kills": 22, "deaths": 24, "ticks": 2 },
+            "Drazah": { "kd": 1.08, "kills": 22, "deaths": 24, "ticks": 4 }
+          }
+        }
+      },
+      {
+        "map": "Hacienda",
+        "mode": "Hardpoint",
+        "winner": "Atlanta FaZe",
+        "score": "250-130",
+        "player_stats": {
+          "OpTic Texas": {
+            "Shotzzy": {
+              "kd": 1.25,
+              "kills": 28,
+              "deaths": 22,
+              "hill_time": 80
+            },
+            "Dashy": { "kd": 1.15, "kills": 24, "deaths": 21, "hill_time": 60 },
+            "Kenny": { "kd": 1.25, "kills": 28, "deaths": 22, "hill_time": 80 },
+            "Pred": { "kd": 1.25, "kills": 28, "deaths": 22, "hill_time": 80 }
+          },
+          "Atlanta FaZe": {
+            "aBeZy": { "kd": 1.1, "kills": 25, "deaths": 23, "hill_time": 75 },
+            "Simp": { "kd": 1.08, "kills": 22, "deaths": 24, "hill_time": 70 },
+            "Cellium": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "hill_time": 70
+            },
+            "Drazah": { "kd": 1.08, "kills": 22, "deaths": 24, "hill_time": 70 }
+          }
+        }
+      },
+      {
+        "map": "Skyline",
+        "mode": "Search&Destroy",
+        "winner": "Atlanta FaZe",
+        "score": "1-6",
+        "player_stats": {
+          "OpTic Texas": {
+            "Shotzzy": {
+              "kd": 1.25,
+              "kills": 28,
+              "deaths": 22,
+              "first_bloods": 1
+            },
+            "Dashy": {
+              "kd": 1.15,
+              "kills": 24,
+              "deaths": 21,
+              "first_bloods": 0
+            },
+            "Kenny": {
+              "kd": 1.25,
+              "kills": 28,
+              "deaths": 22,
+              "first_bloods": 0
+            },
+            "Pred": { "kd": 1.25, "kills": 28, "deaths": 22, "first_bloods": 0 }
+          },
+          "Atlanta FaZe": {
+            "aBeZy": {
+              "kd": 1.1,
+              "kills": 25,
+              "deaths": 23,
+              "first_bloods": 5
+            },
+            "Simp": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "first_bloods": 0
+            },
+            "Cellium": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "first_bloods": 0
+            },
+            "Drazah": {
+              "kd": 1.08,
+              "kills": 22,
+              "deaths": 24,
+              "first_bloods": 0
+            }
+          }
+        }
+      }
+    ],
+    "head_to_head": {
+      "OpTic Texas": 12,
+      "Atlanta FaZe": 15
+    }
+  }
+]

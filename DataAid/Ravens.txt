@@ -1,0 +1,31 @@
+  "Carolina Royal Ravens": {
+    "Win/Loss": "1,1,",
+    "Hardpoint": "1,1,1,1,",
+    "Search": "0,1,",
+    "Control": "1,0,",
+    "KDs": {
+      "Gwinn": "1.24,1.39,",
+      "SlasheR": "1.23,1.20,",
+      "TJHaLy": "0.88,0.96,",
+      "Vivid": "0.85,1.01,"
+    },
+    "BP": {
+      "Gwinn": "1.18,1.26,",
+      "SlasheR": "1.17,1.17,",
+      "TJHaLy": "0.96,1.05,",
+      "Vivid": "0.92,0.99,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "1",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": "1"
+    }
+  },

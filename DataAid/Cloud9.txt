@@ -1,0 +1,31 @@
+  "Cloud9 New York": {
+    "Win/Loss": "0,0,",
+    "Hardpoint": "0,0,0,",
+    "Search": "1,0,",
+    "Control": "0,0,",
+    "KDs": {
+      "Attach": "0.70,0.82,",
+      "Kremp": "0.84,0.77,",
+      "Mack": "0.96,0.83,",
+      "Sib": "0.76,0.77,"
+    },
+    "BP": {
+      "Attach": "0.62,0.72,",
+      "Kremp": "0.69,0.68,",
+      "Mack": "0.78,0.69,",
+      "Sib": "0.67,0.72,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },

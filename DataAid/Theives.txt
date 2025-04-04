@@ -1,0 +1,31 @@
+  "Los Angeles Theives": {
+    "Win/Loss": "1,",
+    "Hardpoint": "1,1,",
+    "Search": "0,",
+    "Control": "1,",
+    "KDs": {
+      "Envoy": "1.18,",
+      "Ghosty": "1.00,",
+      "HyDra": "1.43,",
+      "Scrap": "1.25,"
+    },
+    "BP": {
+      "Envoy": "1.32,",
+      "Ghosty": "1.21,",
+      "HyDra": "1.39,",
+      "Scrap": "1.33,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "1",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },

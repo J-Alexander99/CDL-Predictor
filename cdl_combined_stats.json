@@ -1,0 +1,77 @@
+{
+    "match_results": [
+        {
+            "team_1": "OpTic",
+            "team_1_score": 250,
+            "team_2": "Breach",
+            "team_2_score": 136
+        },
+        {
+            "team_1": "OpTic",
+            "team_1_score": 2,
+            "team_2": "Breach",
+            "team_2_score": 6
+        },
+        {
+            "team_1": "OpTic",
+            "team_1_score": 3,
+            "team_2": "Breach",
+            "team_2_score": 1
+        },
+        {
+            "team_1": "OpTic",
+            "team_1_score": 185,
+            "team_2": "Breach",
+            "team_2_score": 250
+        },
+        {
+            "team_1": "OpTic",
+            "team_1_score": 3,
+            "team_2": "Breach",
+            "team_2_score": 6
+        }
+    ],
+    "series_score": "2-3",
+    "player_data": [
+        {
+            "player": "Dashy",
+            "KD": "1.11",
+            "BP_Rating": "1.07"
+        },
+        {
+            "player": "Kenny",
+            "KD": "0.75",
+            "BP_Rating": "0.81"
+        },
+        {
+            "player": "Pred",
+            "KD": "1.11",
+            "BP_Rating": "1.10"
+        },
+        {
+            "player": "Shotzzy",
+            "KD": "1.25",
+            "BP_Rating": "1.18"
+        },
+        {
+            "player": "Cammy",
+            "KD": "1.11",
+            "BP_Rating": "1.06"
+        },
+        {
+            "player": "Owakening",
+            "KD": "0.99",
+            "BP_Rating": "0.95"
+        },
+        {
+            "player": "Purj",
+            "KD": "0.77",
+            "BP_Rating": "0.85"
+        },
+        {
+            "player": "Snoopy",
+            "KD": "0.99",
+            "BP_Rating": "0.99"
+        }
+    ]
+}

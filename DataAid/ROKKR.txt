@@ -1,0 +1,31 @@
+  "Minnesota ROKKR": {
+    "Win/Loss": "1,1,",
+    "Hardpoint": "1,0,0,1,",
+    "Search": "0,1,1,1,",
+    "Control": "1,0,",
+    "KDs": {
+      "Estreal": "0.94,0.67,",
+      "Gio": "0.82,0.8,",
+      "Nero": "0.97,0.98,",
+      "PaulEhx": "0.86,1.15,"
+    },
+    "BP": {
+      "Estreal": "0.92,0.74,",
+      "Gio": "0.94,0.79,",
+      "Nero": "0.96,0.90,",
+      "PaulEhx": "0.87,1.06,"
+    },
+    "Head 2 Head": {
+      "Breach": "1",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "1",
+      "LAT": "",
+      "Heretics": "",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },

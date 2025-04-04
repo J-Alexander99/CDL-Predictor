@@ -1,0 +1,124 @@
+{
+    "match_id": "LAGMR06-12-24",
+    "date": "",
+    "match_type": "Online",
+    "team_A": {
+        "name": "LA Guerrillas M8",
+        "roster_similarity": 0,
+        "last_10_mode_performance": {
+            "Hardpoint": {
+                "wins": 1,
+                "losses": 1,
+                "win_rate": 50.0
+            },
+            "Search": {
+                "wins": 1,
+                "losses": 1,
+                "win_rate": 50.0
+            },
+            "Control": {
+                "wins": 0,
+                "losses": 1,
+                "win_rate": 0.0
+            }
+        },
+        "last_10_series_performance": {
+            "wins": 0,
+            "losses": 1,
+            "win_rate": 0.0
+        },
+        "players": {
+            "KiSMET": {
+                "avg_kd": 1.03,
+                "avg_bp_rating": 0.98
+            },
+            "Lynz": {
+                "avg_kd": 1.18,
+                "avg_bp_rating": 1.17
+            },
+            "Priestahh": {
+                "avg_kd": 0.91,
+                "avg_bp_rating": 0.95
+            },
+            "Skyz": {
+                "avg_kd": 1.37,
+                "avg_bp_rating": 1.2
+            }
+        },
+        "head_to_head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "Minnesota ROKKR": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "team_B": {
+        "name": "Minnesota ROKKR",
+        "roster_similarity": 0,
+        "last_10_mode_performance": {
+            "Hardpoint": {
+                "wins": 1,
+                "losses": 1,
+                "win_rate": 50.0
+            },
+            "Search": {
+                "wins": 1,
+                "losses": 1,
+                "win_rate": 50.0
+            },
+            "Control": {
+                "wins": 1,
+                "losses": 0,
+                "win_rate": 100.0
+            }
+        },
+        "last_10_series_performance": {
+            "wins": 1,
+            "losses": 0,
+            "win_rate": 100.0
+        },
+        "players": {
+            "Estreal": {
+                "avg_kd": 0.94,
+                "avg_bp_rating": 0.92
+            },
+            "Gio": {
+                "avg_kd": 0.82,
+                "avg_bp_rating": 0.94
+            },
+            "Nero": {
+                "avg_kd": 0.97,
+                "avg_bp_rating": 0.96
+            },
+            "PaulEhx": {
+                "avg_kd": 0.86,
+                "avg_bp_rating": 0.87
+            }
+        },
+        "head_to_head": {
+            "Atlanta FaZe": 0,
+            "Boston Breach": 0,
+            "Carolina Royal Ravens": 0,
+            "Cloud9 New York": 0,
+            "LA Guerrillas M8": 1,
+            "Los Angeles Thieves": 0,
+            "Miami Heretics": 0,
+            "OpTic Texas": 0,
+            "Toronto Ultra": 0,
+            "Vancouver Surge": 0,
+            "Vegas Falcons": 0
+        }
+    },
+    "final_score": "2-3",
+    "head_to_head": {
+        "LA Guerrillas M8": 0,
+        "Minnesota ROKKR": 1
+    }
+}

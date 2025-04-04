@@ -1,0 +1,33 @@
+  "Vancouver Surge": {
+    "Win/Loss": "0,1,",
+    "Hardpoint": "1,0,0,1,",
+    "Search": "0,0,1,1,",
+    "Control": "1,0,",
+    "KDs": {
+      "04": "0.93,1.11,",
+      "Abuzah": "0.79,0.99,",
+      "Nastie": "0.99,0.93,",
+      "Neptune": "",
+      "Hicksy": "1.13,0.84,"
+    },
+    "BP": {
+      "04": "0.93,1.01,",
+      "Abuzah": "0.81,0.90,",
+      "Nastie": "1.02,0.90,",
+      "Neptune": "",
+      "Hicksy": "1.07,0.78,"
+    },
+    "Head 2 Head": {
+      "Breach": "",
+      "Ravens": "",
+      "Cloud9": "",
+      "Guerrillas": "",
+      "LAT": "",
+      "Heretics": "1",
+      "ROKKR": "",
+      "Optic": "",
+      "Ultra": "",
+      "Surge": "",
+      "Falcons": ""
+    }
+  },
