@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214811",
+    "team_a": "Toronto KOI",
+    "team_b": "FaZe Vegas",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2025-14-12",
+    "url": "https://www.breakingpoint.gg/match/214811/Toronto-KOI-vs-FaZe-Vegas-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 250,
+      "team_b_score": 231
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 72,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 5,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 5,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 89,
+        "deaths": 92,
+        "kd": 0.97,
+        "plus_minus": "-6",
+        "damage": 12344,
+        "rating": 0.84
+      },
+      {
+        "player": "Insight",
+        "kills": 78,
+        "deaths": 85,
+        "kd": 0.92,
+        "plus_minus": "+5",
+        "damage": 10238,
+        "rating": 1.05
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 81,
+        "deaths": 91,
+        "kd": 0.89,
+        "plus_minus": "+2",
+        "damage": 11701,
+        "rating": 0.62
+      },
+      {
+        "player": "ReeaL",
+        "kills": 89,
+        "deaths": 87,
+        "kd": 1.02,
+        "plus_minus": "+2",
+        "damage": 11125,
+        "rating": 1.1
+      }
+    ],
+    "team_b": [
+      {
+        "player": "04",
+        "kills": 86,
+        "deaths": 89,
+        "kd": 0.97,
+        "plus_minus": "+0",
+        "damage": 10977,
+        "rating": 1.31
+      },
+      {
+        "player": "Abuzah",
+        "kills": 87,
+        "deaths": 84,
+        "kd": 1.04,
+        "plus_minus": "-2",
+        "damage": 12453,
+        "rating": 1.34
+      },
+      {
+        "player": "Drazah",
+        "kills": 87,
+        "deaths": 85,
+        "kd": 1.02,
+        "plus_minus": "-2",
+        "damage": 12054,
+        "rating": 0.89
+      },
+      {
+        "player": "Simp",
+        "kills": 94,
+        "deaths": 79,
+        "kd": 1.19,
+        "plus_minus": "+1",
+        "damage": 11757,
+        "rating": 1.04
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 30,
+        "kd": 0.8,
+        "damage": 3488,
+        "rating": 0.85
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3195,
+        "rating": 1.2
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 28,
+        "kd": 1.07,
+        "damage": 3923,
+        "rating": 1.11
+      },
+      {
+        "map_number": 1,
+        "player_name": "ReeaL",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 26,
+        "kd": 1.08,
+        "damage": 3760,
+        "rating": 1.11
+      },
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 28,
+        "kd": 1.0,
+        "damage": 3349,
+        "rating": 0.95
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 27,
+        "kd": 0.93,
+        "damage": 4080,
+        "rating": 0.89
+      },
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 29,
+        "kd": 0.93,
+        "damage": 3608,
+        "rating": 0.89
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 3396,
+        "rating": 0.99
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 1107,
+        "rating": 0.92
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 9,
+        "kd": 1.0,
+        "damage": 1565,
+        "rating": 0.98
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1022,
+        "rating": 0.99
+      },
+      {
+        "map_number": 2,
+        "player_name": "ReeaL",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 985,
+        "rating": 0.92
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 9,
+        "kd": 0.56,
+        "damage": 711,
+        "rating": 0.76
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 1135,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 1176,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 5,
+        "kd": 2.2,
+        "damage": 1347,
+        "rating": 1.44
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 21,
+        "kd": 1.33,
+        "damage": 3681,
+        "rating": 1.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 18,
+        "kd": 1.22,
+        "damage": 2634,
+        "rating": 2.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3002,
+        "rating": 0.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "ReeaL",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 22,
+        "kd": 1.09,
+        "damage": 2669,
+        "rating": 2.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 26,
+        "kd": 0.65,
+        "damage": 2490,
+        "rating": 2.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 25,
+        "kd": 0.92,
+        "damage": 3200,
+        "rating": 2.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 24,
+        "kd": 0.92,
+        "damage": 2980,
+        "rating": 0.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 24,
+        "kd": 0.88,
+        "damage": 2692,
+        "rating": 0.0
+      },
+      {
+        "map_number": 4,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 27,
+        "kd": 0.85,
+        "damage": 2998,
+        "rating": 0.41
+      },
+      {
+        "map_number": 4,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 30,
+        "kd": 0.5,
+        "damage": 2083,
+        "rating": 0.2
+      },
+      {
+        "map_number": 4,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 26,
+        "kd": 0.58,
+        "damage": 2410,
+        "rating": 0.33
+      },
+      {
+        "map_number": 4,
+        "player_name": "ReeaL",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 25,
+        "kd": 0.92,
+        "damage": 2910,
+        "rating": 0.47
+      },
+      {
+        "map_number": 4,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 20,
+        "kd": 1.45,
+        "damage": 3327,
+        "rating": 1.7
+      },
+      {
+        "map_number": 4,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 20,
+        "kd": 1.2,
+        "damage": 3164,
+        "rating": 1.53
+      },
+      {
+        "map_number": 4,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 18,
+        "kd": 1.44,
+        "damage": 3247,
+        "rating": 1.63
+      },
+      {
+        "map_number": 4,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 18,
+        "kd": 1.61,
+        "damage": 3341,
+        "rating": 1.73
+      },
+      {
+        "map_number": 5,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1070,
+        "rating": 1.01
+      },
+      {
+        "map_number": 5,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 761,
+        "rating": 0.88
+      },
+      {
+        "map_number": 5,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 1344,
+        "rating": 0.67
+      },
+      {
+        "map_number": 5,
+        "player_name": "ReeaL",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 801,
+        "rating": 1.02
+      },
+      {
+        "map_number": 5,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1100,
+        "rating": 1.12
+      },
+      {
+        "map_number": 5,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 5,
+        "kd": 1.8,
+        "damage": 874,
+        "rating": 1.34
+      },
+      {
+        "map_number": 5,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 1043,
+        "rating": 0.9
+      },
+      {
+        "map_number": 5,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 981,
+        "rating": 1.06
+      }
+    ]
+  }
+}
