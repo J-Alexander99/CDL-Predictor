@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214810",
+    "team_a": "Miami Heretics",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2025-14-12",
+    "url": "https://www.breakingpoint.gg/match/214810/Miami-Heretics-vs-Cloud9-New-York-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 2
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 250,
+      "team_b_score": 154
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 165,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 6,
+      "team_b_score": 3
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "MettalZ",
+        "kills": 93,
+        "deaths": 83,
+        "kd": 1.12,
+        "plus_minus": "+3",
+        "damage": 11662,
+        "rating": 1.06
+      },
+      {
+        "player": "RenKoR",
+        "kills": 79,
+        "deaths": 74,
+        "kd": 1.07,
+        "plus_minus": "+15",
+        "damage": 11134,
+        "rating": 1.02
+      },
+      {
+        "player": "SupeR",
+        "kills": 78,
+        "deaths": 68,
+        "kd": 1.15,
+        "plus_minus": "-3",
+        "damage": 10901,
+        "rating": 1.11
+      },
+      {
+        "player": "Traixx",
+        "kills": 85,
+        "deaths": 82,
+        "kd": 1.04,
+        "plus_minus": "+10",
+        "damage": 10253,
+        "rating": 1.05
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Afro",
+        "kills": 76,
+        "deaths": 76,
+        "kd": 1.0,
+        "plus_minus": "-5",
+        "damage": 9521,
+        "rating": 0.92
+      },
+      {
+        "player": "Beans",
+        "kills": 75,
+        "deaths": 83,
+        "kd": 0.9,
+        "plus_minus": "-16",
+        "damage": 10735,
+        "rating": 1.04
+      },
+      {
+        "player": "Mack",
+        "kills": 83,
+        "deaths": 93,
+        "kd": 0.89,
+        "plus_minus": "+1",
+        "damage": 11182,
+        "rating": 0.85
+      },
+      {
+        "player": "Vivid",
+        "kills": 72,
+        "deaths": 84,
+        "kd": 0.86,
+        "plus_minus": "-5",
+        "damage": 10266,
+        "rating": 0.95
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3244,
+        "rating": 1.25
+      },
+      {
+        "map_number": 1,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 17,
+        "kd": 1.88,
+        "damage": 3692,
+        "rating": 1.64
+      },
+      {
+        "map_number": 1,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 19,
+        "kd": 0.84,
+        "damage": 2446,
+        "rating": 1.02
+      },
+      {
+        "map_number": 1,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 21,
+        "kd": 1.48,
+        "damage": 3577,
+        "rating": 1.49
+      },
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 26,
+        "kd": 0.81,
+        "damage": 2665,
+        "rating": 0.69
+      },
+      {
+        "map_number": 1,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 28,
+        "kd": 0.43,
+        "damage": 2119,
+        "rating": 0.36
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 3628,
+        "rating": 0.86
+      },
+      {
+        "map_number": 1,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 24,
+        "kd": 0.79,
+        "damage": 2700,
+        "rating": 0.7
+      },
+      {
+        "map_number": 2,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1203,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 2,
+        "deaths": 7,
+        "kd": 0.29,
+        "damage": 734,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 839,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 881,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 1,
+        "deaths": 8,
+        "kd": 0.13,
+        "damage": 226,
+        "rating": 0.57
+      },
+      {
+        "map_number": 2,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 13,
+        "deaths": 3,
+        "kd": 4.33,
+        "damage": 1510,
+        "rating": 1.77
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 653,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 1232,
+        "rating": 1.28
+      },
+      {
+        "map_number": 3,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 20,
+        "kd": 1.55,
+        "damage": 3318,
+        "rating": 1.35
+      },
+      {
+        "map_number": 3,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 20,
+        "kd": 1.0,
+        "damage": 3010,
+        "rating": 1.12
+      },
+      {
+        "map_number": 3,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 19,
+        "kd": 1.26,
+        "damage": 3834,
+        "rating": 1.22
+      },
+      {
+        "map_number": 3,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 26,
+        "kd": 0.85,
+        "damage": 2223,
+        "rating": 1.07
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 18,
+        "kd": 1.44,
+        "damage": 3019,
+        "rating": 1.01
+      },
+      {
+        "map_number": 3,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 26,
+        "kd": 0.77,
+        "damage": 3145,
+        "rating": 0.75
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 27,
+        "kd": 0.93,
+        "damage": 2863,
+        "rating": 0.81
+      },
+      {
+        "map_number": 3,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 26,
+        "kd": 0.54,
+        "damage": 2452,
+        "rating": 0.66
+      },
+      {
+        "map_number": 4,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 27,
+        "kd": 0.85,
+        "damage": 2879,
+        "rating": 0.62
+      },
+      {
+        "map_number": 4,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 26,
+        "kd": 0.77,
+        "damage": 2804,
+        "rating": 0.58
+      },
+      {
+        "map_number": 4,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 20,
+        "kd": 1.15,
+        "damage": 2956,
+        "rating": 0.88
+      },
+      {
+        "map_number": 4,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 24,
+        "kd": 0.88,
+        "damage": 2923,
+        "rating": 0.68
+      },
+      {
+        "map_number": 4,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 19,
+        "kd": 1.11,
+        "damage": 2655,
+        "rating": 1.26
+      },
+      {
+        "map_number": 4,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 22,
+        "kd": 1.18,
+        "damage": 3249,
+        "rating": 1.37
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 24,
+        "kd": 1.0,
+        "damage": 3289,
+        "rating": 1.24
+      },
+      {
+        "map_number": 4,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 22,
+        "kd": 1.18,
+        "damage": 3116,
+        "rating": 1.37
+      },
+      {
+        "map_number": 5,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1018,
+        "rating": 1.11
+      },
+      {
+        "map_number": 5,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 894,
+        "rating": 1.14
+      },
+      {
+        "map_number": 5,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 4,
+        "kd": 2.25,
+        "damage": 826,
+        "rating": 1.46
+      },
+      {
+        "map_number": 5,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 649,
+        "rating": 1.0
+      },
+      {
+        "map_number": 5,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 956,
+        "rating": 1.05
+      },
+      {
+        "map_number": 5,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 4,
+        "kd": 1.0,
+        "damage": 712,
+        "rating": 0.94
+      },
+      {
+        "map_number": 5,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 749,
+        "rating": 0.54
+      },
+      {
+        "map_number": 5,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 766,
+        "rating": 0.76
+      }
+    ]
+  }
+}

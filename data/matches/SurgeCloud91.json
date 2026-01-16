@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214808",
+    "team_a": "Vancouver Surge",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2025-13-12",
+    "url": "https://www.breakingpoint.gg/match/214808/Vancouver-Surge-vs-Cloud9-New-York-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 240,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 2,
+      "team_b_score": 3
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Abe",
+        "kills": 66,
+        "deaths": 63,
+        "kd": 1.05,
+        "plus_minus": "-1",
+        "damage": 9295,
+        "rating": 0.88
+      },
+      {
+        "player": "Gwinn",
+        "kills": 77,
+        "deaths": 68,
+        "kd": 1.13,
+        "plus_minus": "+9",
+        "damage": 9313,
+        "rating": 0.91
+      },
+      {
+        "player": "Lqgend",
+        "kills": 39,
+        "deaths": 61,
+        "kd": 0.64,
+        "plus_minus": "-9",
+        "damage": 5521,
+        "rating": 0.69
+      },
+      {
+        "player": "Lunarz",
+        "kills": 60,
+        "deaths": 52,
+        "kd": 1.15,
+        "plus_minus": "+8",
+        "damage": 8229,
+        "rating": 1.04
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Afro",
+        "kills": 63,
+        "deaths": 55,
+        "kd": 1.15,
+        "plus_minus": "+5",
+        "damage": 7918,
+        "rating": 1.09
+      },
+      {
+        "player": "Beans",
+        "kills": 64,
+        "deaths": 63,
+        "kd": 1.02,
+        "plus_minus": "-1",
+        "damage": 9316,
+        "rating": 1.19
+      },
+      {
+        "player": "Mack",
+        "kills": 62,
+        "deaths": 62,
+        "kd": 1.0,
+        "plus_minus": "-5",
+        "damage": 8029,
+        "rating": 1.16
+      },
+      {
+        "player": "Vivid",
+        "kills": 54,
+        "deaths": 62,
+        "kd": 0.87,
+        "plus_minus": "-6",
+        "damage": 7906,
+        "rating": 1.04
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 33,
+        "kd": 0.97,
+        "damage": 4397,
+        "rating": 0.88
+      },
+      {
+        "map_number": 1,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 42,
+        "deaths": 33,
+        "kd": 1.27,
+        "damage": 4586,
+        "rating": 1.15
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lqgend",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 30,
+        "kd": 0.7,
+        "damage": 2989,
+        "rating": 0.67
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 26,
+        "kd": 1.31,
+        "damage": 4434,
+        "rating": 1.15
+      },
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 29,
+        "kd": 1.17,
+        "damage": 4036,
+        "rating": 1.23
+      },
+      {
+        "map_number": 1,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 34,
+        "kd": 0.97,
+        "damage": 4816,
+        "rating": 1.06
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 33,
+        "kd": 0.85,
+        "damage": 3506,
+        "rating": 0.94
+      },
+      {
+        "map_number": 1,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 33,
+        "kd": 0.82,
+        "damage": 3926,
+        "rating": 0.91
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 9,
+        "kd": 0.67,
+        "damage": 1278,
+        "rating": 0.61
+      },
+      {
+        "map_number": 2,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 9,
+        "kd": 0.33,
+        "damage": 838,
+        "rating": 0.44
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lqgend",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 624,
+        "rating": 0.52
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1151,
+        "rating": 1.01
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 637,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 4,
+        "kd": 2.5,
+        "damage": 1367,
+        "rating": 1.6
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 5,
+        "kd": 2.0,
+        "damage": 1177,
+        "rating": 1.55
+      },
+      {
+        "map_number": 2,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 1082,
+        "rating": 1.31
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 21,
+        "kd": 1.33,
+        "damage": 3620,
+        "rating": 1.15
+      },
+      {
+        "map_number": 3,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3889,
+        "rating": 1.14
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lqgend",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 23,
+        "kd": 0.65,
+        "damage": 1908,
+        "rating": 0.87
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 20,
+        "kd": 0.85,
+        "damage": 2644,
+        "rating": 0.96
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 19,
+        "kd": 1.32,
+        "damage": 3245,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 25,
+        "kd": 0.84,
+        "damage": 3133,
+        "rating": 0.9
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 24,
+        "kd": 1.0,
+        "damage": 3346,
+        "rating": 0.98
+      },
+      {
+        "map_number": 3,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 2898,
+        "rating": 0.9
+      }
+    ]
+  }
+}

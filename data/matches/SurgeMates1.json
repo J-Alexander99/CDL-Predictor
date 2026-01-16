@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214798",
+    "team_a": "Vancouver Surge",
+    "team_b": "Paris Gentle Mates",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2025-06-12",
+    "url": "https://www.breakingpoint.gg/match/214798/Vancouver-Surge-vs-Paris-Gentle-Mates-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 152,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 1,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Abe",
+        "kills": 54,
+        "deaths": 59,
+        "kd": 0.92,
+        "plus_minus": "-5",
+        "damage": 7635,
+        "rating": 0.8
+      },
+      {
+        "player": "Gwinn",
+        "kills": 72,
+        "deaths": 63,
+        "kd": 1.14,
+        "plus_minus": "+6",
+        "damage": 8586,
+        "rating": 0.86
+      },
+      {
+        "player": "Lqgend",
+        "kills": 49,
+        "deaths": 58,
+        "kd": 0.84,
+        "plus_minus": "-3",
+        "damage": 5721,
+        "rating": 0.8
+      },
+      {
+        "player": "Lunarz",
+        "kills": 50,
+        "deaths": 61,
+        "kd": 0.82,
+        "plus_minus": "-9",
+        "damage": 7512,
+        "rating": 0.75
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Envoy",
+        "kills": 52,
+        "deaths": 63,
+        "kd": 0.83,
+        "plus_minus": "-5",
+        "damage": 7019,
+        "rating": 0.99
+      },
+      {
+        "player": "Ghosty",
+        "kills": 66,
+        "deaths": 43,
+        "kd": 1.53,
+        "plus_minus": "+7",
+        "damage": 7847,
+        "rating": 1.37
+      },
+      {
+        "player": "Neptune",
+        "kills": 64,
+        "deaths": 58,
+        "kd": 1.1,
+        "plus_minus": "+4",
+        "damage": 7802,
+        "rating": 1.26
+      },
+      {
+        "player": "Sib",
+        "kills": 59,
+        "deaths": 63,
+        "kd": 0.94,
+        "plus_minus": "+4",
+        "damage": 7937,
+        "rating": 1.16
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 31,
+        "kd": 0.84,
+        "damage": 3739,
+        "rating": 0.58
+      },
+      {
+        "map_number": 1,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 37,
+        "deaths": 31,
+        "kd": 1.19,
+        "damage": 4038,
+        "rating": 0.81
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lqgend",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 2779,
+        "rating": 0.66
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 29,
+        "kd": 0.69,
+        "damage": 3517,
+        "rating": 0.52
+      },
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 2966,
+        "rating": 1.16
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 23,
+        "kd": 1.3,
+        "damage": 4178,
+        "rating": 1.45
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 27,
+        "kd": 1.15,
+        "damage": 3888,
+        "rating": 1.4
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 29,
+        "kd": 1.14,
+        "damage": 4095,
+        "rating": 1.42
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 986,
+        "rating": 0.76
+      },
+      {
+        "map_number": 2,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 748,
+        "rating": 0.56
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lqgend",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 857,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.63,
+        "damage": 819,
+        "rating": 0.66
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 413,
+        "rating": 0.92
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 2,
+        "kd": 4.5,
+        "damage": 905,
+        "rating": 1.56
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 7,
+        "kd": 1.57,
+        "damage": 1482,
+        "rating": 1.46
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1094,
+        "rating": 1.29
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 20,
+        "kd": 1.05,
+        "damage": 2910,
+        "rating": 1.07
+      },
+      {
+        "map_number": 3,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 24,
+        "kd": 1.33,
+        "damage": 3800,
+        "rating": 1.21
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lqgend",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 23,
+        "kd": 0.78,
+        "damage": 2085,
+        "rating": 0.96
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 24,
+        "kd": 1.04,
+        "damage": 3176,
+        "rating": 1.08
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 27,
+        "kd": 0.89,
+        "damage": 3640,
+        "rating": 0.89
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 18,
+        "kd": 1.5,
+        "damage": 2764,
+        "rating": 1.11
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 24,
+        "kd": 0.92,
+        "damage": 2432,
+        "rating": 0.91
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 28,
+        "kd": 0.64,
+        "damage": 2748,
+        "rating": 0.77
+      }
+    ]
+  }
+}

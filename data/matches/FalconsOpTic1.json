@@ -38,7 +38,7 @@
         "kd": 0.85,
         "plus_minus": "+2",
         "damage": 6478,
-        "rating": 0.51
+        "rating": 0.71
       },
       {
         "player": "Exnid",
@@ -47,7 +47,7 @@
         "kd": 0.68,
         "plus_minus": "-7",
         "damage": 5285,
-        "rating": 0.33
+        "rating": 0.54
       },
       {
         "player": "KiSMET",
@@ -56,7 +56,7 @@
         "kd": 0.7,
         "plus_minus": "-4",
         "damage": 5931,
-        "rating": 0.78
+        "rating": 0.62
       },
       {
         "player": "Pred",
@@ -65,7 +65,7 @@
         "kd": 0.94,
         "plus_minus": "-5",
         "damage": 7235,
-        "rating": 0.52
+        "rating": 0.75
       }
     ],
     "team_b": [
@@ -76,7 +76,7 @@
         "kd": 1.07,
         "plus_minus": "+6",
         "damage": 7172,
-        "rating": 0.8
+        "rating": 1.21
       },
       {
         "player": "Huke",
@@ -85,7 +85,7 @@
         "kd": 0.84,
         "plus_minus": "-3",
         "damage": 6130,
-        "rating": 0.73
+        "rating": 1.12
       },
       {
         "player": "Mercules",
@@ -94,7 +94,7 @@
         "kd": 1.8,
         "plus_minus": "+8",
         "damage": 8087,
-        "rating": 2.06
+        "rating": 1.56
       },
       {
         "player": "Shotzzy",
@@ -103,7 +103,7 @@
         "kd": 1.5,
         "plus_minus": "+3",
         "damage": 7510,
-        "rating": 1.26
+        "rating": 1.48
       }
     ],
     "per_map": [
@@ -275,7 +275,7 @@
         "deaths": 22,
         "kd": 0.64,
         "damage": 2458,
-        "rating": 0.0
+        "rating": 0.6
       },
       {
         "map_number": 3,
@@ -285,7 +285,7 @@
         "deaths": 23,
         "kd": 0.83,
         "damage": 2694,
-        "rating": 0.0
+        "rating": 0.64
       },
       {
         "map_number": 3,
@@ -295,7 +295,7 @@
         "deaths": 25,
         "kd": 0.56,
         "damage": 2119,
-        "rating": 1.0
+        "rating": 0.52
       },
       {
         "map_number": 3,
@@ -305,7 +305,7 @@
         "deaths": 23,
         "kd": 1.0,
         "damage": 3182,
-        "rating": 0.0
+        "rating": 0.69
       },
       {
         "map_number": 3,
@@ -315,7 +315,7 @@
         "deaths": 19,
         "kd": 0.95,
         "damage": 2860,
-        "rating": 0.0
+        "rating": 1.23
       },
       {
         "map_number": 3,
@@ -325,7 +325,7 @@
         "deaths": 21,
         "kd": 0.81,
         "damage": 2498,
-        "rating": 0.0
+        "rating": 1.18
       },
       {
         "map_number": 3,
@@ -335,7 +335,7 @@
         "deaths": 13,
         "kd": 1.92,
         "damage": 3484,
-        "rating": 3.0
+        "rating": 1.49
       },
       {
         "map_number": 3,
@@ -345,7 +345,7 @@
         "deaths": 17,
         "kd": 1.94,
         "damage": 3318,
-        "rating": 1.0
+        "rating": 1.65
       }
     ]
   }

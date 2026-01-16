@@ -1,0 +1,4 @@
+# Add your match URLs here, one per line
+# Lines starting with # are ignored
+
+https://www.breakingpoint.gg/match/214800/Riyadh-Falcons-vs-Los-Angeles-Thieves-at-CDL-Major-1-Qualifier-2026

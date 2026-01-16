@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214809",
+    "team_a": "Riyadh Falcons",
+    "team_b": "Boston Breach",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2025-14-12",
+    "url": "https://www.breakingpoint.gg/match/214809/Riyadh-Falcons-vs-Boston-Breach-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 233,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 250,
+      "team_b_score": 233
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 6,
+      "team_b_score": 1
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 4,
+      "team_b_score": 3
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Cellium",
+        "kills": 97,
+        "deaths": 70,
+        "kd": 1.39,
+        "plus_minus": "+8",
+        "damage": 11756,
+        "rating": 1.25
+      },
+      {
+        "player": "Exnid",
+        "kills": 88,
+        "deaths": 84,
+        "kd": 1.05,
+        "plus_minus": "-4",
+        "damage": 11842,
+        "rating": 1.08
+      },
+      {
+        "player": "KiSMET",
+        "kills": 95,
+        "deaths": 94,
+        "kd": 1.01,
+        "plus_minus": "+1",
+        "damage": 12401,
+        "rating": 1.12
+      },
+      {
+        "player": "Pred",
+        "kills": 83,
+        "deaths": 84,
+        "kd": 0.99,
+        "plus_minus": "-3",
+        "damage": 10712,
+        "rating": 1.07
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Cammy",
+        "kills": 84,
+        "deaths": 90,
+        "kd": 0.93,
+        "plus_minus": "-2",
+        "damage": 11375,
+        "rating": 0.89
+      },
+      {
+        "player": "Nastie",
+        "kills": 80,
+        "deaths": 85,
+        "kd": 0.94,
+        "plus_minus": "+0",
+        "damage": 11401,
+        "rating": 0.88
+      },
+      {
+        "player": "Purj",
+        "kills": 69,
+        "deaths": 95,
+        "kd": 0.73,
+        "plus_minus": "-5",
+        "damage": 9564,
+        "rating": 0.75
+      },
+      {
+        "player": "Snoopy",
+        "kills": 99,
+        "deaths": 93,
+        "kd": 1.06,
+        "plus_minus": "+5",
+        "damage": 11592,
+        "rating": 0.95
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 24,
+        "kd": 1.33,
+        "damage": 3553,
+        "rating": 1.17
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 30,
+        "kd": 0.87,
+        "damage": 3945,
+        "rating": 0.8
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 29,
+        "kd": 1.03,
+        "damage": 4078,
+        "rating": 0.95
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 30,
+        "kd": 0.9,
+        "damage": 3419,
+        "rating": 0.83
+      },
+      {
+        "map_number": 1,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 31,
+        "kd": 0.94,
+        "damage": 4069,
+        "rating": 1.02
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 3542,
+        "rating": 1.07
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 3519,
+        "rating": 0.92
+      },
+      {
+        "map_number": 1,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 27,
+        "kd": 1.19,
+        "damage": 3707,
+        "rating": 1.23
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 2,
+        "kd": 3.0,
+        "damage": 1026,
+        "rating": 1.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 4,
+        "kd": 1.0,
+        "damage": 598,
+        "rating": 1.15
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 4,
+        "kd": 2.0,
+        "damage": 756,
+        "rating": 1.47
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 983,
+        "rating": 1.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 1,
+        "deaths": 6,
+        "kd": 0.17,
+        "damage": 291,
+        "rating": 0.57
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 674,
+        "rating": 0.77
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 7,
+        "kd": 0.29,
+        "damage": 415,
+        "rating": 0.53
+      },
+      {
+        "map_number": 2,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 657,
+        "rating": 0.73
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 16,
+        "kd": 1.69,
+        "damage": 3011,
+        "rating": 1.33
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 23,
+        "kd": 0.96,
+        "damage": 2429,
+        "rating": 1.11
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 3010,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 18,
+        "kd": 1.22,
+        "damage": 2903,
+        "rating": 1.19
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 2766,
+        "rating": 0.77
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 21,
+        "kd": 1.14,
+        "damage": 3416,
+        "rating": 0.92
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 25,
+        "kd": 0.56,
+        "damage": 1801,
+        "rating": 0.68
+      },
+      {
+        "map_number": 3,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 25,
+        "kd": 1.12,
+        "damage": 3254,
+        "rating": 0.9
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 28,
+        "kd": 1.14,
+        "damage": 4166,
+        "rating": 1.12
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 27,
+        "kd": 1.33,
+        "damage": 4870,
+        "rating": 1.26
+      },
+      {
+        "map_number": 4,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 35,
+        "kd": 0.97,
+        "damage": 4557,
+        "rating": 0.99
+      },
+      {
+        "map_number": 4,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 32,
+        "kd": 0.84,
+        "damage": 3407,
+        "rating": 0.87
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 30,
+        "kd": 1.23,
+        "damage": 4249,
+        "rating": 1.18
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 31,
+        "kd": 0.74,
+        "damage": 3769,
+        "rating": 0.76
+      },
+      {
+        "map_number": 4,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 33,
+        "kd": 0.85,
+        "damage": 3829,
+        "rating": 0.85
+      },
+      {
+        "map_number": 4,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 35,
+        "kd": 0.97,
+        "damage": 3974,
+        "rating": 0.96
+      }
+    ]
+  }
+}

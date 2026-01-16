@@ -6,6 +6,7 @@ from pathlib import Path
 
 from src.utils import setup_logger
 from config.settings import PROJECT_ROOT, LOGS_DIR
+from config.teams import TEAM_SHORT_NAMES
 from src.database.db_manager import DatabaseManager
 
 logger = setup_logger("main", LOGS_DIR)
@@ -41,19 +42,34 @@ def scrape(url: str, save: str):
         data['match_info']['team_a_score'] = team_a_wins
         data['match_info']['team_b_score'] = team_b_wins
         
+        # Generate filename based on teams and match count
+        team_a = data['match_info']['team_a']
+        team_b = data['match_info']['team_b']
+        match_date = data['match_info']['date']
+        match_year = match_date.split('-')[0]
+        
+        # Get short team names, fallback to cleaned full name if not in mapping
+        short_team_a = TEAM_SHORT_NAMES.get(team_a, ''.join(c for c in team_a if c.isalnum()))
+        short_team_b = TEAM_SHORT_NAMES.get(team_b, ''.join(c for c in team_b if c.isalnum()))
+        
+        # Query database to count existing matches between these teams this year
+        db = DatabaseManager()
+        match_count = db.get_head_to_head_count(team_a, team_b, match_year)
+        match_number = match_count + 1  # Next match number
+        
+        # Create filename: TeamATeamB1.json, TeamATeamB2.json, etc.
+        filename = f"{short_team_a}{short_team_b}{match_number}.json"
+        
         # Save to file
         save_path = Path(save)
         save_path.mkdir(parents=True, exist_ok=True)
-        
-        match_id = data["match_info"]["match_id"]
-        output_file = save_path / f"match_{match_id}.json"
+        output_file = save_path / filename
         
         with open(output_file, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=2, ensure_ascii=False)
         
         # Save to database and update stats
         try:
-            db = DatabaseManager()
             db.insert_match(data)
             db.update_all_stats()
             logger.info("Match saved to database and stats updated")
@@ -74,6 +90,93 @@ def scrape(url: str, save: str):
 
 
 @cli.command()
+@click.option('--file', 'url_file', required=True, help='File containing match URLs (one per line)')
+@click.option('--save', default='data/matches', help='Directory to save scraped data')
+@click.option('--delay', default=10, help='Delay between scrapes in seconds (default: 10)')
+def scrape_bulk(url_file: str, save: str, delay: int):
+    """Scrape multiple matches from a file containing URLs"""
+    import json
+    import time
+    from pathlib import Path
+    from src.scrapers.enhanced_match_scraper import EnhancedMatchScraper
+    
+    # Read URLs from file
+    try:
+        with open(url_file, 'r') as f:
+            urls = [line.strip() for line in f if line.strip() and not line.strip().startswith('#')]
+    except FileNotFoundError:
+        click.echo(f"[ERROR] File not found: {url_file}", err=True)
+        return
+    
+    if not urls:
+        click.echo("[ERROR] No URLs found in file", err=True)
+        return
+    
+    click.echo(f"\nFound {len(urls)} matches to scrape")
+    click.echo(f"Delay between scrapes: {delay} seconds\n")
+    
+    success_count = 0
+    fail_count = 0
+    
+    for i, url in enumerate(urls, 1):
+        click.echo(f"[{i}/{len(urls)}] Scraping {url}...")
+        
+        try:
+            scraper = EnhancedMatchScraper()
+            data = scraper.scrape(url)
+            
+            # Calculate final scores
+            team_a_wins = sum(1 for m in data['map_results'] if m['team_a_score'] > m['team_b_score'])
+            team_b_wins = sum(1 for m in data['map_results'] if m['team_b_score'] > m['team_a_score'])
+            data['match_info']['team_a_score'] = team_a_wins
+            data['match_info']['team_b_score'] = team_b_wins
+            
+            # Generate filename
+            team_a = data['match_info']['team_a']
+            team_b = data['match_info']['team_b']
+            match_date = data['match_info']['date']
+            match_year = match_date.split('-')[0]
+            
+            short_team_a = TEAM_SHORT_NAMES.get(team_a, ''.join(c for c in team_a if c.isalnum()))
+            short_team_b = TEAM_SHORT_NAMES.get(team_b, ''.join(c for c in team_b if c.isalnum()))
+            
+            db = DatabaseManager()
+            match_count = db.get_head_to_head_count(team_a, team_b, match_year)
+            match_number = match_count + 1
+            filename = f"{short_team_a}{short_team_b}{match_number}.json"
+            
+            # Save to file
+            save_path = Path(save)
+            save_path.mkdir(parents=True, exist_ok=True)
+            output_file = save_path / filename
+            
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump(data, f, indent=2, ensure_ascii=False)
+            
+            # Save to database
+            db.insert_match(data)
+            db.update_all_stats()
+            
+            click.echo(f"  ✓ {team_a} vs {team_b} ({team_a_wins}-{team_b_wins}) → {filename}\n")
+            success_count += 1
+            
+            # Delay before next scrape (except for last one)
+            if i < len(urls):
+                time.sleep(delay)
+                
+        except Exception as e:
+            click.echo(f"  ✗ Failed: {str(e)}\n", err=True)
+            logger.error(f"Failed to scrape {url}: {str(e)}")
+            fail_count += 1
+            continue
+    
+    click.echo("\n" + "="*50)
+    click.echo(f"Bulk scraping complete!")
+    click.echo(f"  Success: {success_count}/{len(urls)}")
+    click.echo(f"  Failed: {fail_count}/{len(urls)}")
+
+
+@cli.command()
 def update_stats():
     """Update all team and player statistics from database"""
     logger.info("Updating statistics...")
@@ -91,15 +194,140 @@ def update_stats():
 @cli.command()
 @click.option('--team-a', required=True, help='First team name')
 @click.option('--team-b', required=True, help='Second team name')
-@click.option('--match-type', type=click.Choice(['online', 'lan']), default='online')
-def predict(team_a: str, team_b: str, match_type: str):
+def predict(team_a: str, team_b: str):
     """Predict the outcome of a match between two teams"""
-    logger.info(f"Predicting: {team_a} vs {team_b} ({match_type})")
-    click.echo(f"\nPredicting: {team_a} vs {team_b}")
-    click.echo(f"Match Type: {match_type.upper()}")
-    click.echo("\n" + "="*50)
-    # TODO: Implement prediction logic
-    click.echo("\nPrediction: Coming soon...")
+    from src.predictor import MatchPredictor
+    
+    logger.info(f"Predicting: {team_a} vs {team_b}")
+    click.echo(f"\n{'='*80}")
+    click.echo(f"CDL MATCH PREDICTION: {team_a} vs {team_b}")
+    click.echo(f"{'='*80}\n")
+    
+    try:
+        predictor = MatchPredictor()
+        result = predictor.predict(team_a, team_b)
+        
+        # Display rosters
+        click.echo("CURRENT ROSTERS:")
+        click.echo(f"  {team_a}: {', '.join(result['team_a_roster'])}")
+        click.echo(f"  {team_b}: {', '.join(result['team_b_roster'])}")
+        click.echo()
+        
+        # Display team statistics
+        click.echo("TEAM STATISTICS:")
+        stats_a = result['team_a_stats']
+        stats_b = result['team_b_stats']
+        
+        click.echo(f"\n  {team_a}:")
+        click.echo(f"    Team Chemistry:")
+        click.echo(f"      Weighted Matches: {stats_a['weighted_matches']} ({stats_a['matches_played']} total)")
+        click.echo(f"      Win Rate: {stats_a['win_rate']}%")
+        click.echo(f"      Map Win Rate: {stats_a['map_win_rate']}%")
+        click.echo(f"    Roster Quality:")
+        click.echo(f"      Avg K/D: {stats_a['roster_quality']['avg_kd']}")
+        click.echo(f"      Avg Rating: {stats_a['roster_quality']['avg_rating']}")
+        click.echo(f"      Avg Damage: {stats_a['roster_quality']['avg_damage']:.0f}")
+        
+        click.echo(f"\n  {team_b}:")
+        click.echo(f"    Team Chemistry:")
+        click.echo(f"      Weighted Matches: {stats_b['weighted_matches']} ({stats_b['matches_played']} total)")
+        click.echo(f"      Win Rate: {stats_b['win_rate']}%")
+        click.echo(f"      Map Win Rate: {stats_b['map_win_rate']}%")
+        click.echo(f"    Roster Quality:")
+        click.echo(f"      Avg K/D: {stats_b['roster_quality']['avg_kd']}")
+        click.echo(f"      Avg Rating: {stats_b['roster_quality']['avg_rating']}")
+        click.echo(f"      Avg Damage: {stats_b['roster_quality']['avg_damage']:.0f}")
+        
+        # Display head-to-head
+        h2h = result['head_to_head']
+        if h2h['total_matches'] > 0:
+            click.echo(f"\nHEAD-TO-HEAD RECORD:")
+            click.echo(f"  {team_a}: {h2h['team_a_wins']} wins")
+            click.echo(f"  {team_b}: {h2h['team_b_wins']} wins")
+            click.echo(f"  Total matches: {h2h['total_matches']}")
+        else:
+            click.echo(f"\nHEAD-TO-HEAD: No previous matches")
+        
+        # Display prediction
+        click.echo(f"\n{'='*80}")
+        click.echo("PREDICTIONS:")
+        click.echo(f"{'='*80}")
+        
+        # Overall Team Comparison
+        click.echo(f"\n  1) OVERALL TEAM COMPARISON (All modes combined + H2H):")
+        overall_winner = team_a if result['team_a_win_probability'] > result['team_b_win_probability'] else team_b
+        overall_margin = abs(result['team_a_win_probability'] - result['team_b_win_probability'])
+        click.echo(f"     Predicted Winner: {overall_winner}")
+        click.echo(f"     Win Probability:")
+        click.echo(f"       {team_a}: {result['team_a_win_probability']}%")
+        click.echo(f"       {team_b}: {result['team_b_win_probability']}%")
+        click.echo(f"     Margin: {overall_margin:.1f}%")
+        
+        # Mode-Specific Map Prediction
+        click.echo(f"\n  2) MODE-SPECIFIC MAP-BY-MAP PREDICTION:")
+        click.echo(f"     Predicted Winner: {result['predicted_winner']}")
+        click.echo(f"     Predicted Score: {result['predicted_score']}")
+        
+        # Map-by-map breakdown with detailed mode stats
+        click.echo(f"\n  Map-by-Map Predictions:")
+        for map_pred in result['map_predictions']:
+            winner = map_pred['predicted_winner']
+            winner_symbol = "→" if winner == team_a else "←"
+            
+            mode_stats_a = map_pred['team_a_mode_stats']
+            mode_stats_b = map_pred['team_b_mode_stats']
+            
+            click.echo(f"\n    Map {map_pred['map_number']}: {map_pred['mode']}")
+            click.echo(f"      {team_a}: {map_pred['team_a_probability']}% {winner_symbol if winner == team_a else ''}")
+            click.echo(f"        Mode Stats: {mode_stats_a['win_rate']:.1f}% WR, {mode_stats_a['weighted_maps']:.1f} weighted maps", nl=False)
+            if mode_stats_a.get('avg_score_diff', 0) != 0:
+                click.echo(f", Avg Diff: {mode_stats_a['avg_score_diff']:+.1f}")
+            else:
+                click.echo()
+            
+            click.echo(f"      {team_b}: {map_pred['team_b_probability']}% {winner_symbol if winner == team_b else ''}")
+            click.echo(f"        Mode Stats: {mode_stats_b['win_rate']:.1f}% WR, {mode_stats_b['weighted_maps']:.1f} weighted maps", nl=False)
+            if mode_stats_b.get('avg_score_diff', 0) != 0:
+                click.echo(f", Avg Diff: {mode_stats_b['avg_score_diff']:+.1f}")
+            else:
+                click.echo()
+        
+        # Analysis note
+        click.echo(f"\n  ANALYSIS:")
+        overall_winner = team_a if result['team_a_win_probability'] > result['team_b_win_probability'] else team_b
+        map_winner = result['predicted_winner']
+        
+        if overall_winner == map_winner:
+            click.echo(f"    ✓ Both predictions align - {overall_winner} favored")
+            click.echo(f"    Confidence: HIGH")
+        else:
+            click.echo(f"    ⚠ Predictions diverge!")
+            click.echo(f"      Overall comparison favors: {overall_winner}")
+            click.echo(f"      Mode-specific favors: {map_winner}")
+            click.echo(f"    Confidence: MODERATE - Mode-specific strengths may override overall stats")
+        
+        if result['confidence'] < 10:
+            click.echo(f"    Note: Very close matchup ({result['confidence']:.1f}% margin)")
+        elif result['confidence'] > 30:
+            click.echo(f"    Note: Strong favorite ({result['confidence']:.1f}% margin)")
+        
+        # Pick/Ban Prediction
+        click.echo(f"\n  3) PREDICTED MAP POOL (Pick/Ban Simulation):")
+        pick_ban = result['pick_ban_prediction']
+        
+        for pred_map in pick_ban['predicted_maps']:
+            click.echo(f"\n    Map {pred_map['map_number']}: {pred_map['mode']} - {pred_map['predicted_map']}")
+            if 'team_a_winrate' in pred_map:
+                click.echo(f"      {team_a}: {pred_map['team_a_winrate']}% WR ({pred_map['team_a_plays']:.1f} weighted plays)")
+                click.echo(f"      {team_b}: {pred_map['team_b_winrate']}% WR ({pred_map['team_b_plays']:.1f} weighted plays)")
+            click.echo(f"      Reasoning: {pred_map['reasoning']}")
+        
+        click.echo(f"\n{'='*80}\n")
+        
+    except Exception as e:
+        logger.error(f"Prediction failed: {str(e)}")
+        click.echo(f"\n[ERROR] {str(e)}", err=True)
+        click.echo(f"Make sure both team names are spelled correctly.\n", err=True)
 
 
 @cli.command()

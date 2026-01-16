@@ -2,6 +2,27 @@
 CDL Team mappings and configurations
 """
 
+# Short team names for file naming (location removed)
+TEAM_SHORT_NAMES = {
+    "Atlanta FaZe": "FaZe",
+    "Boston Breach": "Breach",
+    "Carolina Royal Ravens": "Ravens",
+    "Cloud9 New York": "Cloud9",
+    "FaZe Vegas": "FaZe",
+    "G2 Minnesota": "G2",
+    "LA Guerrillas M8": "Guerrillas",
+    "Los Angeles Thieves": "Thieves",
+    "Miami Heretics": "Heretics",
+    "Minnesota ROKKR": "ROKKR",
+    "OpTic Texas": "OpTic",
+    "Paris Gentle Mates": "Mates",
+    "Riyadh Falcons": "Falcons",
+    "Toronto KOI": "KOI",
+    "Toronto Ultra": "Ultra",
+    "Vancouver Surge": "Surge",
+    "Vegas Falcons": "Falcons"
+}
+
 TEAM_LOGO_MAPPING = {
     "TX-OpTic-color-darkmode.png": "OpTic Texas",
     "ATL-FaZe-color-darkmode.png": "Atlanta FaZe",

@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214799",
+    "team_a": "G2 Minnesota",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2025-06-12",
+    "url": "https://www.breakingpoint.gg/match/214799/G2-Minnesota-vs-Cloud9-New-York-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 2
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 221,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 225,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 6,
+      "team_b_score": 2
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 6,
+      "team_b_score": 3
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Estreal",
+        "kills": 113,
+        "deaths": 93,
+        "kd": 1.22,
+        "plus_minus": "+7",
+        "damage": 13145,
+        "rating": 1.16
+      },
+      {
+        "player": "Kremp",
+        "kills": 108,
+        "deaths": 99,
+        "kd": 1.09,
+        "plus_minus": "+1",
+        "damage": 13100,
+        "rating": 1.18
+      },
+      {
+        "player": "Mamba",
+        "kills": 93,
+        "deaths": 98,
+        "kd": 0.95,
+        "plus_minus": "-12",
+        "damage": 13291,
+        "rating": 1.05
+      },
+      {
+        "player": "Skyz",
+        "kills": 78,
+        "deaths": 94,
+        "kd": 0.83,
+        "plus_minus": "-8",
+        "damage": 11543,
+        "rating": 0.98
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Afro",
+        "kills": 106,
+        "deaths": 96,
+        "kd": 1.1,
+        "plus_minus": "+1",
+        "damage": 12684,
+        "rating": 0.99
+      },
+      {
+        "player": "Beans",
+        "kills": 87,
+        "deaths": 97,
+        "kd": 0.9,
+        "plus_minus": "+2",
+        "damage": 12424,
+        "rating": 0.85
+      },
+      {
+        "player": "Mack",
+        "kills": 105,
+        "deaths": 104,
+        "kd": 1.01,
+        "plus_minus": "+5",
+        "damage": 12724,
+        "rating": 0.96
+      },
+      {
+        "player": "Vivid",
+        "kills": 86,
+        "deaths": 96,
+        "kd": 0.9,
+        "plus_minus": "+4",
+        "damage": 12928,
+        "rating": 0.82
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 38,
+        "deaths": 31,
+        "kd": 1.23,
+        "damage": 4293,
+        "rating": 1.17
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 34,
+        "kd": 1.03,
+        "damage": 4178,
+        "rating": 1.0
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 34,
+        "kd": 0.65,
+        "damage": 3382,
+        "rating": 0.64
+      },
+      {
+        "map_number": 1,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 29,
+        "kd": 0.72,
+        "damage": 3361,
+        "rating": 0.76
+      },
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 32,
+        "kd": 1.03,
+        "damage": 4451,
+        "rating": 1.05
+      },
+      {
+        "map_number": 1,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 27,
+        "kd": 1.07,
+        "damage": 3935,
+        "rating": 1.08
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 30,
+        "kd": 1.17,
+        "damage": 4251,
+        "rating": 1.16
+      },
+      {
+        "map_number": 1,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 27,
+        "kd": 1.15,
+        "damage": 3920,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 624,
+        "rating": 1.04
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 6,
+        "kd": 1.67,
+        "damage": 1390,
+        "rating": 1.28
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 1133,
+        "rating": 0.98
+      },
+      {
+        "map_number": 2,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 936,
+        "rating": 1.04
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 764,
+        "rating": 0.9
+      },
+      {
+        "map_number": 2,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 6,
+        "kd": 0.33,
+        "damage": 628,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 13,
+        "deaths": 7,
+        "kd": 1.86,
+        "damage": 1373,
+        "rating": 1.28
+      },
+      {
+        "map_number": 2,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 850,
+        "rating": 0.74
+      },
+      {
+        "map_number": 3,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 20,
+        "kd": 1.35,
+        "damage": 3093,
+        "rating": 1.29
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 19,
+        "kd": 1.16,
+        "damage": 2687,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 21,
+        "kd": 1.38,
+        "damage": 3935,
+        "rating": 1.32
+      },
+      {
+        "map_number": 3,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 2750,
+        "rating": 1.08
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 22,
+        "kd": 0.77,
+        "damage": 2264,
+        "rating": 0.78
+      },
+      {
+        "map_number": 3,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 3061,
+        "rating": 0.78
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 28,
+        "kd": 0.86,
+        "damage": 2790,
+        "rating": 0.75
+      },
+      {
+        "map_number": 3,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 23,
+        "kd": 0.87,
+        "damage": 2944,
+        "rating": 0.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 30,
+        "kd": 1.2,
+        "damage": 4234,
+        "rating": 1.13
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 34,
+        "kd": 0.88,
+        "damage": 3219,
+        "rating": 0.85
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 34,
+        "kd": 0.85,
+        "damage": 3712,
+        "rating": 0.83
+      },
+      {
+        "map_number": 4,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 31,
+        "kd": 0.84,
+        "damage": 3909,
+        "rating": 0.83
+      },
+      {
+        "map_number": 4,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 44,
+        "deaths": 28,
+        "kd": 1.57,
+        "damage": 4276,
+        "rating": 1.48
+      },
+      {
+        "map_number": 4,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 31,
+        "kd": 0.87,
+        "damage": 3976,
+        "rating": 0.92
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 31,
+        "kd": 0.84,
+        "damage": 3177,
+        "rating": 0.89
+      },
+      {
+        "map_number": 4,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 31,
+        "kd": 1.03,
+        "damage": 4782,
+        "rating": 1.06
+      },
+      {
+        "map_number": 5,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 901,
+        "rating": 1.18
+      },
+      {
+        "map_number": 5,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 6,
+        "kd": 1.83,
+        "damage": 1626,
+        "rating": 1.57
+      },
+      {
+        "map_number": 5,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 3,
+        "kd": 2.67,
+        "damage": 1129,
+        "rating": 1.48
+      },
+      {
+        "map_number": 5,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 587,
+        "rating": 1.2
+      },
+      {
+        "map_number": 5,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 929,
+        "rating": 0.74
+      },
+      {
+        "map_number": 5,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 824,
+        "rating": 0.74
+      },
+      {
+        "map_number": 5,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 1133,
+        "rating": 0.71
+      },
+      {
+        "map_number": 5,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 0,
+        "deaths": 8,
+        "kd": 0.0,
+        "damage": 432,
+        "rating": 0.37
+      }
+    ]
+  }
+}

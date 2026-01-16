@@ -616,6 +616,40 @@ class DatabaseManager:
         finally:
             conn.close()
     
+    def get_head_to_head_count(self, team_a: str, team_b: str, year: str = None) -> int:
+        """Get count of matches between two teams (optionally in a specific year)
+        
+        Args:
+            team_a: First team name
+            team_b: Second team name
+            year: Optional year filter (e.g., "2026")
+        
+        Returns:
+            Number of matches between the teams
+        """
+        conn = self.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            if year:
+                cursor.execute("""
+                    SELECT COUNT(*) 
+                    FROM matches 
+                    WHERE ((team_a = ? AND team_b = ?) OR (team_a = ? AND team_b = ?))
+                    AND strftime('%Y', match_date) = ?
+                """, (team_a, team_b, team_b, team_a, year))
+            else:
+                cursor.execute("""
+                    SELECT COUNT(*) 
+                    FROM matches 
+                    WHERE (team_a = ? AND team_b = ?) OR (team_a = ? AND team_b = ?)
+                """, (team_a, team_b, team_b, team_a))
+            
+            return cursor.fetchone()[0]
+            
+        finally:
+            conn.close()
+    
     def get_team_map_mode_stats(self, team_name: str, map_name: str = None, mode: str = None) -> List[Dict]:
         """Get team statistics for specific map-mode combinations
         
