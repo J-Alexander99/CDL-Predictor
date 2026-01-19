@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214825",
+    "team_a": "Cloud9 New York",
+    "team_b": "Boston Breach",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-18-01",
+    "url": "https://www.breakingpoint.gg/match/214825/Cloud9-New-York-vs-Boston-Breach-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 212
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 105,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 4
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Exposure",
+      "team_a_score": 0,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 3,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Afro",
+        "kills": 71,
+        "deaths": 87,
+        "kd": 0.82,
+        "plus_minus": "+7",
+        "damage": 9566,
+        "rating": 0.84
+      },
+      {
+        "player": "Beans",
+        "kills": 92,
+        "deaths": 83,
+        "kd": 1.11,
+        "plus_minus": "+8",
+        "damage": 11268,
+        "rating": 0.95
+      },
+      {
+        "player": "Mack",
+        "kills": 82,
+        "deaths": 90,
+        "kd": 0.91,
+        "plus_minus": "+7",
+        "damage": 11119,
+        "rating": 0.77
+      },
+      {
+        "player": "Vivid",
+        "kills": 77,
+        "deaths": 84,
+        "kd": 0.92,
+        "plus_minus": "+0",
+        "damage": 10534,
+        "rating": 0.81
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Cammy",
+        "kills": 89,
+        "deaths": 77,
+        "kd": 1.16,
+        "plus_minus": "-8",
+        "damage": 10690,
+        "rating": 1.22
+      },
+      {
+        "player": "Nastie",
+        "kills": 95,
+        "deaths": 71,
+        "kd": 1.34,
+        "plus_minus": "+0",
+        "damage": 11783,
+        "rating": 1.27
+      },
+      {
+        "player": "Purj",
+        "kills": 79,
+        "deaths": 91,
+        "kd": 0.87,
+        "plus_minus": "-3",
+        "damage": 11089,
+        "rating": 1.04
+      },
+      {
+        "player": "Snoopy",
+        "kills": 81,
+        "deaths": 83,
+        "kd": 0.98,
+        "plus_minus": "-11",
+        "damage": 10503,
+        "rating": 1.11
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 23,
+        "kd": 1.3,
+        "damage": 3797,
+        "rating": 1.19
+      },
+      {
+        "map_number": 1,
+        "player_name": "Beans",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 23,
+        "kd": 1.35,
+        "damage": 3418,
+        "rating": 1.22
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mack",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 23,
+        "kd": 1.3,
+        "damage": 3714,
+        "rating": 1.19
+      },
+      {
+        "map_number": 1,
+        "player_name": "Vivid",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 22,
+        "kd": 1.0,
+        "damage": 3209,
+        "rating": 0.96
+      },
+      {
+        "map_number": 1,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 27,
+        "kd": 0.7,
+        "damage": 2619,
+        "rating": 0.77
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 26,
+        "kd": 1.0,
+        "damage": 3700,
+        "rating": 1.04
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 29,
+        "kd": 0.9,
+        "damage": 3578,
+        "rating": 0.95
+      },
+      {
+        "map_number": 1,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 31,
+        "kd": 0.65,
+        "damage": 2868,
+        "rating": 0.68
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 7,
+        "kd": 1.57,
+        "damage": 1415,
+        "rating": 1.3
+      },
+      {
+        "map_number": 2,
+        "player_name": "Beans",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 5,
+        "kd": 2.0,
+        "damage": 1113,
+        "rating": 1.35
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mack",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 732,
+        "rating": 0.81
+      },
+      {
+        "map_number": 2,
+        "player_name": "Vivid",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 9,
+        "kd": 0.89,
+        "damage": 1069,
+        "rating": 1.0
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.63,
+        "damage": 868,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 8,
+        "kd": 1.38,
+        "damage": 1447,
+        "rating": 1.11
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 1060,
+        "rating": 0.89
+      },
+      {
+        "map_number": 2,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 9,
+        "kd": 0.67,
+        "damage": 1082,
+        "rating": 0.77
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 14,
+        "deaths": 29,
+        "kd": 0.48,
+        "damage": 1886,
+        "rating": 0.63
+      },
+      {
+        "map_number": 3,
+        "player_name": "Beans",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 29,
+        "kd": 0.93,
+        "damage": 3897,
+        "rating": 0.79
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mack",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 28,
+        "kd": 0.93,
+        "damage": 3634,
+        "rating": 0.8
+      },
+      {
+        "map_number": 3,
+        "player_name": "Vivid",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 28,
+        "kd": 1.07,
+        "damage": 3473,
+        "rating": 0.85
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 25,
+        "kd": 1.08,
+        "damage": 3318,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 21,
+        "kd": 1.57,
+        "damage": 3658,
+        "rating": 1.36
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 28,
+        "kd": 0.96,
+        "damage": 3531,
+        "rating": 1.16
+      },
+      {
+        "map_number": 3,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 23,
+        "kd": 1.17,
+        "damage": 3186,
+        "rating": 1.22
+      },
+      {
+        "map_number": 4,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 22,
+        "kd": 0.59,
+        "damage": 1752,
+        "rating": 0.38
+      },
+      {
+        "map_number": 4,
+        "player_name": "Beans",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 21,
+        "kd": 0.95,
+        "damage": 2675,
+        "rating": 0.58
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mack",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 25,
+        "kd": 0.8,
+        "damage": 2698,
+        "rating": 0.42
+      },
+      {
+        "map_number": 4,
+        "player_name": "Vivid",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 19,
+        "kd": 0.68,
+        "damage": 2100,
+        "rating": 0.51
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 13,
+        "kd": 2.38,
+        "damage": 2860,
+        "rating": 2.0
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 15,
+        "kd": 1.27,
+        "damage": 2343,
+        "rating": 1.45
+      },
+      {
+        "map_number": 4,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 22,
+        "kd": 0.73,
+        "damage": 2511,
+        "rating": 1.16
+      },
+      {
+        "map_number": 4,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 16,
+        "kd": 1.31,
+        "damage": 2738,
+        "rating": 1.51
+      },
+      {
+        "map_number": 5,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 716,
+        "rating": 0.68
+      },
+      {
+        "map_number": 5,
+        "player_name": "Beans",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 165,
+        "rating": 0.79
+      },
+      {
+        "map_number": 5,
+        "player_name": "Mack",
+        "team": "team_a",
+        "kills": 2,
+        "deaths": 6,
+        "kd": 0.33,
+        "damage": 341,
+        "rating": 0.64
+      },
+      {
+        "map_number": 5,
+        "player_name": "Vivid",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 683,
+        "rating": 0.72
+      },
+      {
+        "map_number": 5,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 1025,
+        "rating": 1.36
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 1,
+        "kd": 6.0,
+        "damage": 635,
+        "rating": 1.4
+      },
+      {
+        "map_number": 5,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 4,
+        "kd": 0.75,
+        "damage": 409,
+        "rating": 1.06
+      },
+      {
+        "map_number": 5,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 629,
+        "rating": 1.36
+      }
+    ]
+  }
+}

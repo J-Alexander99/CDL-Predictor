@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214824",
+    "team_a": "FaZe Vegas",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-17-01",
+    "url": "https://www.breakingpoint.gg/match/214824/FaZe-Vegas-vs-Cloud9-New-York-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 250,
+      "team_b_score": 128
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 6,
+      "team_b_score": 2
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 8,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "04",
+        "kills": 71,
+        "deaths": 42,
+        "kd": 1.69,
+        "plus_minus": "+19",
+        "damage": 7977,
+        "rating": 1.58
+      },
+      {
+        "player": "Abuzah",
+        "kills": 53,
+        "deaths": 42,
+        "kd": 1.26,
+        "plus_minus": "-6",
+        "damage": 6286,
+        "rating": 1.32
+      },
+      {
+        "player": "Drazah",
+        "kills": 52,
+        "deaths": 42,
+        "kd": 1.24,
+        "plus_minus": "+2",
+        "damage": 6274,
+        "rating": 1.43
+      },
+      {
+        "player": "Simp",
+        "kills": 55,
+        "deaths": 48,
+        "kd": 1.15,
+        "plus_minus": "+7",
+        "damage": 6827,
+        "rating": 1.3
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Afro",
+        "kills": 44,
+        "deaths": 56,
+        "kd": 0.79,
+        "plus_minus": "-9",
+        "damage": 5731,
+        "rating": 0.64
+      },
+      {
+        "player": "Beans",
+        "kills": 43,
+        "deaths": 56,
+        "kd": 0.77,
+        "plus_minus": "-7",
+        "damage": 6311,
+        "rating": 0.6
+      },
+      {
+        "player": "Mack",
+        "kills": 42,
+        "deaths": 62,
+        "kd": 0.68,
+        "plus_minus": "-7",
+        "damage": 5346,
+        "rating": 0.52
+      },
+      {
+        "player": "Vivid",
+        "kills": 45,
+        "deaths": 57,
+        "kd": 0.79,
+        "plus_minus": "+1",
+        "damage": 6427,
+        "rating": 0.62
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 40,
+        "deaths": 21,
+        "kd": 1.9,
+        "damage": 4093,
+        "rating": 1.86
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 24,
+        "kd": 0.75,
+        "damage": 2592,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 2765,
+        "rating": 1.31
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 25,
+        "kd": 1.28,
+        "damage": 4015,
+        "rating": 1.52
+      },
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 29,
+        "kd": 0.69,
+        "damage": 2718,
+        "rating": 0.48
+      },
+      {
+        "map_number": 1,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 28,
+        "kd": 0.75,
+        "damage": 2669,
+        "rating": 0.53
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 30,
+        "kd": 0.77,
+        "damage": 2831,
+        "rating": 0.5
+      },
+      {
+        "map_number": 1,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 3457,
+        "rating": 0.72
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 3,
+        "kd": 2.67,
+        "damage": 886,
+        "rating": 1.48
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 951,
+        "rating": 1.21
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 3,
+        "kd": 3.67,
+        "damage": 1043,
+        "rating": 1.71
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 589,
+        "rating": 1.08
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1102,
+        "rating": 0.77
+      },
+      {
+        "map_number": 2,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 684,
+        "rating": 0.6
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 548,
+        "rating": 0.52
+      },
+      {
+        "map_number": 2,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 744,
+        "rating": 0.64
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 18,
+        "kd": 1.28,
+        "damage": 2998,
+        "rating": 1.41
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 14,
+        "kd": 2.14,
+        "damage": 2743,
+        "rating": 1.65
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 18,
+        "kd": 1.0,
+        "damage": 2466,
+        "rating": 1.27
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 16,
+        "kd": 1.13,
+        "damage": 2223,
+        "rating": 1.29
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 20,
+        "kd": 0.85,
+        "damage": 1911,
+        "rating": 0.66
+      },
+      {
+        "map_number": 3,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 21,
+        "kd": 0.9,
+        "damage": 2958,
+        "rating": 0.66
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 24,
+        "kd": 0.67,
+        "damage": 1967,
+        "rating": 0.54
+      },
+      {
+        "map_number": 3,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 24,
+        "kd": 0.58,
+        "damage": 2226,
+        "rating": 0.51
+      }
+    ]
+  }
+}

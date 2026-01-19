@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214821",
+    "team_a": "Riyadh Falcons",
+    "team_b": "Paris Gentle Mates",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-16-01",
+    "url": "https://www.breakingpoint.gg/match/214821/Riyadh-Falcons-vs-Paris-Gentle-Mates-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 55,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Blackheart",
+      "team_a_score": 250,
+      "team_b_score": 231
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 4
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 2,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Cellium",
+        "kills": 64,
+        "deaths": 76,
+        "kd": 0.84,
+        "plus_minus": "-4",
+        "damage": 9366,
+        "rating": 0.83
+      },
+      {
+        "player": "Exnid",
+        "kills": 72,
+        "deaths": 72,
+        "kd": 1.0,
+        "plus_minus": "-8",
+        "damage": 8648,
+        "rating": 0.9
+      },
+      {
+        "player": "KiSMET",
+        "kills": 62,
+        "deaths": 70,
+        "kd": 0.89,
+        "plus_minus": "-9",
+        "damage": 8974,
+        "rating": 0.9
+      },
+      {
+        "player": "Pred",
+        "kills": 86,
+        "deaths": 70,
+        "kd": 1.23,
+        "plus_minus": "-3",
+        "damage": 10628,
+        "rating": 1.05
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Envoy",
+        "kills": 71,
+        "deaths": 71,
+        "kd": 1.0,
+        "plus_minus": "+5",
+        "damage": 8696,
+        "rating": 1.07
+      },
+      {
+        "player": "Ghosty",
+        "kills": 66,
+        "deaths": 66,
+        "kd": 1.0,
+        "plus_minus": "+12",
+        "damage": 9933,
+        "rating": 1.06
+      },
+      {
+        "player": "Neptune",
+        "kills": 85,
+        "deaths": 71,
+        "kd": 1.2,
+        "plus_minus": "+16",
+        "damage": 10218,
+        "rating": 1.2
+      },
+      {
+        "player": "Sib",
+        "kills": 66,
+        "deaths": 77,
+        "kd": 0.86,
+        "plus_minus": "-9",
+        "damage": 8990,
+        "rating": 1.0
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 19,
+        "kd": 0.79,
+        "damage": 2289,
+        "rating": 0.31
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 12,
+        "deaths": 20,
+        "kd": 0.6,
+        "damage": 1689,
+        "rating": 0.22
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 18,
+        "kd": 0.5,
+        "damage": 1678,
+        "rating": 0.27
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 18,
+        "kd": 0.83,
+        "damage": 2123,
+        "rating": 0.36
+      },
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 12,
+        "kd": 1.42,
+        "damage": 2100,
+        "rating": 1.64
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 9,
+        "kd": 2.33,
+        "damage": 2621,
+        "rating": 1.88
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 13,
+        "kd": 2.23,
+        "damage": 2724,
+        "rating": 2.2
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 17,
+        "kd": 0.47,
+        "damage": 1575,
+        "rating": 1.12
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 1067,
+        "rating": 1.11
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 961,
+        "rating": 1.01
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 5,
+        "kd": 1.8,
+        "damage": 1129,
+        "rating": 1.35
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1373,
+        "rating": 1.29
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 9,
+        "kd": 0.67,
+        "damage": 958,
+        "rating": 0.71
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 1274,
+        "rating": 0.68
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 905,
+        "rating": 0.66
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 7,
+        "kd": 1.71,
+        "damage": 1364,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 14,
+        "deaths": 19,
+        "kd": 0.74,
+        "damage": 2539,
+        "rating": 0.97
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 20,
+        "kd": 1.05,
+        "damage": 2330,
+        "rating": 1.11
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 18,
+        "kd": 1.22,
+        "damage": 2799,
+        "rating": 1.17
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 21,
+        "kd": 1.33,
+        "damage": 3120,
+        "rating": 1.25
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 24,
+        "kd": 0.67,
+        "damage": 2069,
+        "rating": 0.75
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 20,
+        "kd": 0.95,
+        "damage": 2519,
+        "rating": 0.89
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 19,
+        "kd": 1.11,
+        "damage": 2807,
+        "rating": 0.95
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 22,
+        "kd": 1.0,
+        "damage": 2608,
+        "rating": 0.9
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 30,
+        "kd": 0.9,
+        "damage": 3471,
+        "rating": 0.92
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 26,
+        "kd": 1.31,
+        "damage": 3668,
+        "rating": 1.26
+      },
+      {
+        "map_number": 4,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 29,
+        "kd": 0.76,
+        "damage": 3368,
+        "rating": 0.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 25,
+        "kd": 1.36,
+        "damage": 4012,
+        "rating": 1.29
+      },
+      {
+        "map_number": 4,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3569,
+        "rating": 1.18
+      },
+      {
+        "map_number": 4,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 30,
+        "kd": 0.77,
+        "damage": 3519,
+        "rating": 0.78
+      },
+      {
+        "map_number": 4,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 31,
+        "kd": 1.0,
+        "damage": 3782,
+        "rating": 0.99
+      },
+      {
+        "map_number": 4,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 31,
+        "kd": 0.77,
+        "damage": 3443,
+        "rating": 0.78
+      }
+    ]
+  }
+}
