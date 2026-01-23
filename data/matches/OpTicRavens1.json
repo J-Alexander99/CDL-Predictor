@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214828",
+    "team_a": "OpTic Texas",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-23-01",
+    "url": "https://www.breakingpoint.gg/match/214828/OpTic-Texas-vs-Carolina-Royal-Ravens-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 1,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 250,
+      "team_b_score": 186
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 133,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 2,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Dashy",
+        "kills": 71,
+        "deaths": 82,
+        "kd": 0.87,
+        "plus_minus": "-4",
+        "damage": 9834,
+        "rating": 0.8
+      },
+      {
+        "player": "Huke",
+        "kills": 73,
+        "deaths": 81,
+        "kd": 0.9,
+        "plus_minus": "-3",
+        "damage": 9040,
+        "rating": 0.89
+      },
+      {
+        "player": "Mercules",
+        "kills": 76,
+        "deaths": 89,
+        "kd": 0.85,
+        "plus_minus": "+2",
+        "damage": 10645,
+        "rating": 0.86
+      },
+      {
+        "player": "Shotzzy",
+        "kills": 75,
+        "deaths": 86,
+        "kd": 0.87,
+        "plus_minus": "+5",
+        "damage": 8999,
+        "rating": 0.83
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Craze",
+        "kills": 74,
+        "deaths": 79,
+        "kd": 0.94,
+        "plus_minus": "-6",
+        "damage": 8940,
+        "rating": 1.01
+      },
+      {
+        "player": "Exceed",
+        "kills": 76,
+        "deaths": 72,
+        "kd": 1.06,
+        "plus_minus": "-5",
+        "damage": 9827,
+        "rating": 1.1
+      },
+      {
+        "player": "Lurqxx",
+        "kills": 94,
+        "deaths": 73,
+        "kd": 1.29,
+        "plus_minus": "+0",
+        "damage": 11472,
+        "rating": 1.18
+      },
+      {
+        "player": "Nero",
+        "kills": 94,
+        "deaths": 71,
+        "kd": 1.32,
+        "plus_minus": "+11",
+        "damage": 11296,
+        "rating": 1.32
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 26,
+        "kd": 0.85,
+        "damage": 2940,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 29,
+        "kd": 0.9,
+        "damage": 3052,
+        "rating": 1.15
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 27,
+        "kd": 1.07,
+        "damage": 3800,
+        "rating": 1.31
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 24,
+        "kd": 1.21,
+        "damage": 3594,
+        "rating": 1.38
+      },
+      {
+        "map_number": 1,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 27,
+        "kd": 0.78,
+        "damage": 2901,
+        "rating": 0.61
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 29,
+        "kd": 0.83,
+        "damage": 3102,
+        "rating": 0.62
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 3244,
+        "rating": 0.76
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 23,
+        "kd": 1.48,
+        "damage": 3397,
+        "rating": 1.08
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 777,
+        "rating": 0.63
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1100,
+        "rating": 1.05
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 8,
+        "kd": 1.13,
+        "damage": 1204,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 400,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 736,
+        "rating": 0.94
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 970,
+        "rating": 1.2
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 1140,
+        "rating": 1.0
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 5,
+        "kd": 2.2,
+        "damage": 1248,
+        "rating": 1.46
+      },
+      {
+        "map_number": 3,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 26,
+        "kd": 0.96,
+        "damage": 3043,
+        "rating": 0.79
+      },
+      {
+        "map_number": 3,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 24,
+        "kd": 0.96,
+        "damage": 2810,
+        "rating": 0.81
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 31,
+        "kd": 0.65,
+        "damage": 2811,
+        "rating": 0.63
+      },
+      {
+        "map_number": 3,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 33,
+        "kd": 0.79,
+        "damage": 3318,
+        "rating": 0.67
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 24,
+        "kd": 1.17,
+        "damage": 3055,
+        "rating": 1.26
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 21,
+        "kd": 1.14,
+        "damage": 3216,
+        "rating": 1.22
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 39,
+        "deaths": 22,
+        "kd": 1.77,
+        "damage": 4563,
+        "rating": 1.5
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 27,
+        "kd": 0.85,
+        "damage": 3362,
+        "rating": 1.13
+      },
+      {
+        "map_number": 4,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 22,
+        "kd": 0.95,
+        "damage": 3074,
+        "rating": 0.67
+      },
+      {
+        "map_number": 4,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 22,
+        "kd": 0.73,
+        "damage": 2078,
+        "rating": 0.54
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 23,
+        "kd": 0.78,
+        "damage": 2830,
+        "rating": 0.55
+      },
+      {
+        "map_number": 4,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 22,
+        "kd": 0.73,
+        "damage": 1687,
+        "rating": 0.54
+      },
+      {
+        "map_number": 4,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 21,
+        "kd": 0.95,
+        "damage": 2248,
+        "rating": 1.25
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 16,
+        "kd": 1.25,
+        "damage": 2539,
+        "rating": 1.38
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 18,
+        "kd": 1.28,
+        "damage": 2525,
+        "rating": 1.45
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 16,
+        "kd": 1.63,
+        "damage": 3289,
+        "rating": 1.63
+      }
+    ]
+  }
+}

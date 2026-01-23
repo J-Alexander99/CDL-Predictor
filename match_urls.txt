@@ -1,6 +1,5 @@
 # Add your match URLs here, one per line
 # Lines starting with # are ignored
 
-https://www.breakingpoint.gg/match/214825/Cloud9-New-York-vs-Boston-Breach-at-CDL-Major-1-Qualifier-2026
-https://www.breakingpoint.gg/match/214826/G2-Minnesota-vs-FaZe-Vegas-at-CDL-Major-1-Qualifier-2026
-https://www.breakingpoint.gg/match/214827/OpTic-Texas-vs-Los-Angeles-Thieves-at-CDL-Major-1-Qualifier-2026
+https://www.breakingpoint.gg/match/214829/Toronto-KOI-vs-Paris-Gentle-Mates-at-CDL-Major-1-Qualifier-2026
+https://www.breakingpoint.gg/match/214828/OpTic-Texas-vs-Carolina-Royal-Ravens-at-CDL-Major-1-Qualifier-2026
