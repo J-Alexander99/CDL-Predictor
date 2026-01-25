@@ -1,0 +1,407 @@
+# CDL PREDICTOR USER GUIDE
+================================================================================
+
+## OVERVIEW
+The CDL Predictor is a comprehensive system for scraping Call of Duty League match 
+data, storing it in a database, and generating predictions with professional graphics.
+
+================================================================================
+
+## SYSTEM COMPONENTS
+
+1. **Web Scraper** - Extracts match data from BreakingPoint.gg
+2. **Database** - Stores all match data, player stats, and team statistics
+3. **Prediction Engine** - Analyzes team performance and predicts match outcomes
+4. **Graphics Generator** - Creates professional prediction graphics with team branding
+
+================================================================================
+
+## GETTING STARTED
+
+### Prerequisites
+- Python 3.10+
+- All dependencies installed: `pip install -r requirements.txt`
+- Team logos in the `images/` directory (PNG or WEBP format)
+
+### Database Setup
+The database is automatically created on first run. It stores:
+- Match results (scores, dates, teams)
+- Map-by-map results (mode, map, scores)
+- Player statistics (K/D, rating, damage)
+- Team statistics (win rates, mode performance)
+
+================================================================================
+
+## SCRAPING MATCH DATA
+
+### Single Match Scraping
+```bash
+python main.py scrape --url "https://www.breakingpoint.gg/match/[MATCH_ID]/..."
+```
+
+### Bulk Match Scraping
+1. Add URLs to `match_urls.txt` (one per line)
+2. Lines starting with # are ignored (comments)
+3. Run the bulk scraper:
+```bash
+python main.py scrape-bulk --file match_urls.txt
+```
+
+**Options:**
+- `--delay 10` - Delay between scrapes in seconds (default: 10)
+- `--save data/matches` - Custom save directory
+
+**What Gets Scraped:**
+- Match date and teams
+- Final match score
+- Map-by-map results (mode, map name, scores)
+- Player statistics (kills, deaths, damage, rating)
+- Automatically saves to database and updates stats
+
+================================================================================
+
+## GENERATING PREDICTIONS
+
+### Basic Prediction
+```bash
+python main.py predict --team-a "FaZe Vegas" --team-b "Vancouver Surge"
+```
+
+### Prediction with Graphic
+```bash
+python main.py predict --team-a "FaZe Vegas" --team-b "Vancouver Surge" -g
+```
+
+**Options:**
+- `-g` or `--generate-graphic` - Generate visual prediction graphic
+- `--output-dir outputs` - Custom output directory for graphics
+
+### Team Names (Must Match Exactly)
+- Boston Breach
+- Carolina Royal Ravens
+- Cloud9 New York
+- FaZe Vegas
+- G2 Minnesota
+- Los Angeles Thieves
+- Miami Heretics
+- OpTic Texas
+- Paris Gentle Mates
+- Riyadh Falcons
+- Toronto KOI
+- Vancouver Surge
+
+### Prediction Output Includes:
+1. **Current Rosters** - Players on each team
+2. **Team Statistics** - Win rates, K/D, ratings
+3. **Win Probability** - Overall percentage for each team
+4. **Map-by-Map Prediction** - Predicted score (e.g., 3-2)
+5. **Mode Breakdown** - Performance in HP, S&D, Control
+6. **Predicted Map Pool** - Pick/ban simulation results
+7. **Confidence Level** - How confident the prediction is
+
+### Understanding Predictions
+- **Confidence**: Based on margin between teams
+  - <10%: Very Low
+  - 10-20%: Low
+  - 20-30%: Moderate
+  - >30%: High
+
+- **Roster Weighting**: Recent matches with similar rosters weighted more heavily
+- **Mode-Specific**: Each game mode analyzed separately
+- **Head-to-Head**: Previous matchups factor into predictions
+
+================================================================================
+
+## PREDICTION GRAPHICS
+
+Graphics are automatically generated with the `-g` flag and include:
+
+### Visual Components:
+1. **Win Probability Bar Chart** - Side-by-side comparison
+2. **Predicted Score** - Expected final score
+3. **Confidence Meter** - Visual gauge of prediction strength
+4. **Team Statistics** - Win Rate, Map Win Rate, K/D, Rating
+5. **Predicted Map Pool** - 5 maps from pick/ban simulation
+6. **Map-by-Map Predictions** - Win probability for each map
+7. **Team Logos** - Background watermarks with team colors
+
+### Graphics Features:
+- Team-specific brand colors
+- Transparent overlays showing team logos
+- Professional dark theme (#2a2a2a background)
+- High resolution (150 DPI)
+- Saved as PNG files with timestamp
+
+### Output Location:
+Graphics saved to `outputs/` directory:
+- Format: `TeamATeamB_YYYYMMDD_HHMMSS.png`
+- Example: `FaZeVegas_vs_VancouverSurge_20260125_213828.png`
+
+================================================================================
+
+## DATABASE QUERIES
+
+### Method 1: Python Scripts
+Create a query script (example):
+
+```python
+from src.database.db_manager import DatabaseManager
+
+db = DatabaseManager()
+conn = db.get_connection()
+cursor = conn.cursor()
+
+# Example: Get team's Search & Destroy results
+cursor.execute("""
+    SELECT m.match_date, m.team_a, m.team_b, 
+           mr.map_name, mr.team_a_score, mr.team_b_score, mr.winner
+    FROM matches m
+    JOIN map_results mr ON m.match_id = mr.match_id
+    WHERE (m.team_a = ? OR m.team_b = ?) 
+    AND mr.mode = 'Search & Destroy'
+    ORDER BY m.match_date DESC
+""", ('Toronto KOI', 'Toronto KOI'))
+
+results = cursor.fetchall()
+for row in results:
+    print(row)
+
+conn.close()
+```
+
+### Method 2: CLI Commands
+
+**List All Teams:**
+```bash
+python main.py teams
+```
+
+**View Team Statistics:**
+```bash
+python main.py team-stats --team "FaZe Vegas"
+python main.py team-stats --team "FaZe Vegas" --mode "Hardpoint"
+python main.py team-stats --team "FaZe Vegas" --map "Den"
+```
+
+**View Player Statistics:**
+```bash
+python main.py player-stats --player "Simp"
+python main.py player-stats --player "Simp" --mode "Search & Destroy"
+python main.py player-stats --player "Simp" --mode "Hardpoint" --map "Den"
+```
+
+**Update Statistics:**
+```bash
+python main.py update-stats
+```
+Recalculates all team and player statistics from scratch.
+
+================================================================================
+
+## COMMON QUERIES
+
+### Find All Matches Between Two Teams:
+```python
+cursor.execute("""
+    SELECT match_id, match_date, team_a_score, team_b_score, winner
+    FROM matches 
+    WHERE (team_a = ? AND team_b = ?) OR (team_a = ? AND team_b = ?)
+    ORDER BY match_date DESC
+""", ('FaZe Vegas', 'OpTic Texas', 'OpTic Texas', 'FaZe Vegas'))
+```
+
+### Get Team's Performance on Specific Map/Mode:
+```python
+cursor.execute("""
+    SELECT m.match_date, mr.team_a_score, mr.team_b_score, mr.winner
+    FROM matches m
+    JOIN map_results mr ON m.match_id = mr.match_id
+    WHERE (m.team_a = ? OR m.team_b = ?)
+    AND mr.mode = ?
+    AND mr.map_name = ?
+    ORDER BY m.match_date DESC
+""", ('Carolina Royal Ravens', 'Carolina Royal Ravens', 'Overload', 'Scar'))
+```
+
+### Get Player's Recent Performance:
+```python
+cursor.execute("""
+    SELECT m.match_date, m.team_a, m.team_b,
+           pms.kills, pms.deaths, pms.kd_ratio, pms.rating
+    FROM player_match_stats pms
+    JOIN matches m ON pms.match_id = m.match_id
+    WHERE pms.player_name = ?
+    ORDER BY m.match_date DESC
+    LIMIT 5
+""", ('Simp',))
+```
+
+### Calculate Win Rate for Specific Mode:
+```python
+cursor.execute("""
+    SELECT 
+        COUNT(*) as total_maps,
+        SUM(CASE WHEN winner = ? THEN 1 ELSE 0 END) as wins
+    FROM matches m
+    JOIN map_results mr ON m.match_id = mr.match_id
+    WHERE (m.team_a = ? OR m.team_b = ?)
+    AND mr.mode = ?
+""", ('FaZe Vegas', 'FaZe Vegas', 'FaZe Vegas', 'Search & Destroy'))
+```
+
+================================================================================
+
+## DATABASE SCHEMA
+
+### Tables:
+- **matches** - Match information (teams, date, scores, winner)
+- **map_results** - Individual map results (mode, map, scores)
+- **player_match_stats** - Player performance per match
+- **team_stats** - Aggregated team statistics
+- **player_stats** - Aggregated player statistics
+- **team_map_mode_stats** - Team performance by map/mode combo
+- **player_mode_stats** - Player stats by mode
+- **player_map_mode_stats** - Player stats by map/mode combo
+
+### Key Fields:
+- `match_id` - Unique match identifier
+- `mode` - Hardpoint, Search & Destroy, or Overload
+- `map_name` - Den, Scar, Exposure, Colossus, Raid, Blackheart
+- `kd_ratio` - Kills divided by deaths
+- `rating` - Overall performance rating
+- `roster_overlap` - Percentage of shared players between matches
+
+================================================================================
+
+## WORKFLOW EXAMPLES
+
+### Example 1: Scrape and Predict
+```bash
+# 1. Add match URL to match_urls.txt
+# 2. Scrape the matches
+python main.py scrape-bulk --file match_urls.txt
+
+# 3. Generate prediction with graphic
+python main.py predict --team-a "OpTic Texas" --team-b "FaZe Vegas" -g
+```
+
+### Example 2: Analyze Team Performance
+```bash
+# View overall stats
+python main.py team-stats --team "Miami Heretics"
+
+# Check Hardpoint performance
+python main.py team-stats --team "Miami Heretics" --mode "Hardpoint"
+
+# Check specific map
+python main.py team-stats --team "Miami Heretics" --map "Den"
+```
+
+### Example 3: Player Research
+```bash
+# Check player overall stats
+python main.py player-stats --player "Simp"
+
+# Check player's S&D stats
+python main.py player-stats --player "Simp" --mode "Search & Destroy"
+
+# Check player on specific map/mode
+python main.py player-stats --player "Simp" --mode "Hardpoint" --map "Exposure"
+```
+
+================================================================================
+
+## TIPS & BEST PRACTICES
+
+### Scraping:
+- Use 10+ second delays to avoid rate limiting
+- Verify URLs work in browser before scraping
+- Check database after scraping to ensure data saved
+- Run `update-stats` if statistics seem incorrect
+
+### Predictions:
+- More data = better predictions
+- At least 3-5 matches per team recommended
+- Predictions improve with recent matches
+- Check head-to-head history manually if needed
+
+### Graphics:
+- Ensure team logos are in `images/` folder
+- Use correct team name format (see list above)
+- Graphics saved with timestamp, won't overwrite
+- Can customize colors in `graphics_generator.py`
+
+### Database:
+- Run `update-stats` after bulk imports
+- Database is SQLite, can view with DB Browser
+- Located at project root as `cdl_predictor.db`
+- Backup before major changes
+
+================================================================================
+
+## TROUBLESHOOTING
+
+### "Could not find roster for team"
+- Team name spelling must be exact
+- Team must have at least one match in database
+- Check team name with: `python main.py teams`
+
+### Scraping Fails
+- Check internet connection
+- Verify URL is correct and match is complete
+- Increase delay if rate limited
+- Check logs in `logs/` directory
+
+### Graphics Not Generating
+- Ensure matplotlib is installed
+- Check team logos exist in `images/` folder
+- Verify output directory is writable
+- Check for errors in logs
+
+### Database Errors
+- Run `update-stats` to refresh statistics
+- Check database file isn't corrupted
+- Delete and re-scrape if needed
+- Backup database regularly
+
+================================================================================
+
+## FILE STRUCTURE
+
+```
+CDL-Predictor/
+├── main.py                  # Main CLI entry point
+├── requirements.txt         # Python dependencies
+├── match_urls.txt          # URLs for bulk scraping
+├── USER_GUIDE.txt          # This file
+├── config/
+│   ├── settings.py         # Project settings
+│   └── teams.py            # Team names and mappings
+├── data/
+│   └── matches/            # Scraped match JSON files
+├── images/                 # Team logos (PNG/WEBP)
+├── logs/                   # Application logs
+├── outputs/                # Generated graphics
+└── src/
+    ├── database/           # Database management
+    ├── models/             # Data models
+    ├── predictor/          # Prediction engine
+    ├── scrapers/           # Web scraping
+    └── utils/              # Utilities and graphics
+
+================================================================================
+
+## SUPPORT & UPDATES
+
+For issues or questions:
+1. Check logs in `logs/` directory
+2. Verify database with `python main.py teams`
+3. Review this guide for correct usage
+4. Check that all dependencies are installed
+
+Update statistics after major changes:
+```bash
+python main.py update-stats
+```
+
+================================================================================

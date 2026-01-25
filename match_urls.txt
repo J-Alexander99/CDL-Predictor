@@ -1,5 +1,4 @@
 # Add your match URLs here, one per line
 # Lines starting with # are ignored
 
-https://www.breakingpoint.gg/match/214829/Toronto-KOI-vs-Paris-Gentle-Mates-at-CDL-Major-1-Qualifier-2026
-https://www.breakingpoint.gg/match/214828/OpTic-Texas-vs-Carolina-Royal-Ravens-at-CDL-Major-1-Qualifier-2026
+https://www.breakingpoint.gg/match/214830/Toronto-KOI-vs-G2-Minnesota-at-CDL-Major-1-Qualifier-2026

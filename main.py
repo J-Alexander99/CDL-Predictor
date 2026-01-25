@@ -194,7 +194,9 @@ def update_stats():
 @cli.command()
 @click.option('--team-a', required=True, help='First team name')
 @click.option('--team-b', required=True, help='Second team name')
-def predict(team_a: str, team_b: str):
+@click.option('--generate-graphic', '-g', is_flag=True, help='Generate prediction graphic')
+@click.option('--output-dir', default='outputs', help='Directory for generated graphics')
+def predict(team_a: str, team_b: str, generate_graphic: bool, output_dir: str):
     """Predict the outcome of a match between two teams"""
     from src.predictor import MatchPredictor
     
@@ -323,6 +325,18 @@ def predict(team_a: str, team_b: str):
             click.echo(f"      Reasoning: {pred_map['reasoning']}")
         
         click.echo(f"\n{'='*80}\n")
+        
+        # Generate graphic if requested
+        if generate_graphic:
+            try:
+                from src.utils.graphics_generator import generate_prediction_graphic
+                click.echo("Generating prediction graphic...")
+                graphic_path = generate_prediction_graphic(result, output_dir=output_dir)
+                click.echo(f"[SUCCESS] Graphic saved to: {graphic_path}\n")
+                logger.info(f"Generated graphic: {graphic_path}")
+            except Exception as graphic_error:
+                logger.error(f"Graphic generation failed: {str(graphic_error)}")
+                click.echo(f"[WARNING] Failed to generate graphic: {str(graphic_error)}\n", err=True)
         
     except Exception as e:
         logger.error(f"Prediction failed: {str(e)}")

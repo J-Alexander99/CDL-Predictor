@@ -14,8 +14,14 @@ sqlalchemy>=2.0.0
 # ML/Prediction (for future)
 scikit-learn>=1.3.0
 
+# Visualization
+matplotlib>=3.8.0
+
 # CLI
 click>=8.1.0
+
+# Web Interface
+flask>=3.0.0
 
 # Utilities
 python-dotenv>=1.0.0

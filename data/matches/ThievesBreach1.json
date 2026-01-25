@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214832",
+    "team_a": "Los Angeles Thieves",
+    "team_b": "Boston Breach",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-24-01",
+    "url": "https://www.breakingpoint.gg/match/214832/Los-Angeles-Thieves-vs-Boston-Breach-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 2
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 236,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 168
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 6,
+      "team_b_score": 2
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 1
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 2,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "aBeZy",
+        "kills": 95,
+        "deaths": 82,
+        "kd": 1.16,
+        "plus_minus": "+5",
+        "damage": 11976,
+        "rating": 1.17
+      },
+      {
+        "player": "HyDra",
+        "kills": 100,
+        "deaths": 98,
+        "kd": 1.02,
+        "plus_minus": "-4",
+        "damage": 11637,
+        "rating": 1.12
+      },
+      {
+        "player": "Kenny",
+        "kills": 94,
+        "deaths": 93,
+        "kd": 1.01,
+        "plus_minus": "+2",
+        "damage": 11162,
+        "rating": 1.08
+      },
+      {
+        "player": "Scrap",
+        "kills": 91,
+        "deaths": 90,
+        "kd": 1.01,
+        "plus_minus": "+0",
+        "damage": 12844,
+        "rating": 1.1
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Cammy",
+        "kills": 102,
+        "deaths": 95,
+        "kd": 1.07,
+        "plus_minus": "+2",
+        "damage": 13964,
+        "rating": 0.95
+      },
+      {
+        "player": "Nastie",
+        "kills": 87,
+        "deaths": 88,
+        "kd": 0.99,
+        "plus_minus": "-2",
+        "damage": 11363,
+        "rating": 0.89
+      },
+      {
+        "player": "Purj",
+        "kills": 78,
+        "deaths": 103,
+        "kd": 0.76,
+        "plus_minus": "-4",
+        "damage": 10083,
+        "rating": 0.78
+      },
+      {
+        "player": "Snoopy",
+        "kills": 95,
+        "deaths": 95,
+        "kd": 1.0,
+        "plus_minus": "+1",
+        "damage": 11171,
+        "rating": 0.91
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 27,
+        "kd": 1.19,
+        "damage": 3686,
+        "rating": 1.07
+      },
+      {
+        "map_number": 1,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 34,
+        "kd": 0.88,
+        "damage": 4198,
+        "rating": 0.82
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kenny",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 34,
+        "kd": 1.06,
+        "damage": 4027,
+        "rating": 0.98
+      },
+      {
+        "map_number": 1,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 34,
+        "kd": 1.0,
+        "damage": 4487,
+        "rating": 0.93
+      },
+      {
+        "map_number": 1,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 31,
+        "kd": 1.06,
+        "damage": 4416,
+        "rating": 1.12
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 32,
+        "kd": 0.94,
+        "damage": 4075,
+        "rating": 1.01
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 38,
+        "kd": 0.89,
+        "damage": 3933,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 31,
+        "kd": 1.03,
+        "damage": 4048,
+        "rating": 1.1
+      },
+      {
+        "map_number": 2,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 3,
+        "kd": 2.67,
+        "damage": 951,
+        "rating": 1.51
+      },
+      {
+        "map_number": 2,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 5,
+        "kd": 2.0,
+        "damage": 1018,
+        "rating": 1.58
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kenny",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 3,
+        "kd": 1.67,
+        "damage": 456,
+        "rating": 1.27
+      },
+      {
+        "map_number": 2,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 5,
+        "kd": 1.0,
+        "damage": 657,
+        "rating": 1.18
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 1020,
+        "rating": 0.49
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 7,
+        "kd": 0.29,
+        "damage": 284,
+        "rating": 0.53
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 570,
+        "rating": 0.74
+      },
+      {
+        "map_number": 2,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 570,
+        "rating": 0.7
+      },
+      {
+        "map_number": 3,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 24,
+        "kd": 0.67,
+        "damage": 2421,
+        "rating": 0.65
+      },
+      {
+        "map_number": 3,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 2480,
+        "rating": 0.69
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kenny",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 28,
+        "kd": 0.71,
+        "damage": 2289,
+        "rating": 0.6
+      },
+      {
+        "map_number": 3,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 3202,
+        "rating": 0.7
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 23,
+        "kd": 1.17,
+        "damage": 3550,
+        "rating": 1.34
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 18,
+        "kd": 1.5,
+        "damage": 3052,
+        "rating": 1.4
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 18,
+        "kd": 0.94,
+        "damage": 2286,
+        "rating": 1.17
+      },
+      {
+        "map_number": 3,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 20,
+        "kd": 1.5,
+        "damage": 3399,
+        "rating": 1.45
+      },
+      {
+        "map_number": 4,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 22,
+        "kd": 1.55,
+        "damage": 3997,
+        "rating": 1.54
+      },
+      {
+        "map_number": 4,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 29,
+        "kd": 1.07,
+        "damage": 3421,
+        "rating": 1.27
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kenny",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 24,
+        "kd": 1.13,
+        "damage": 3586,
+        "rating": 1.27
+      },
+      {
+        "map_number": 4,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 25,
+        "kd": 0.92,
+        "damage": 3503,
+        "rating": 1.12
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 27,
+        "kd": 1.19,
+        "damage": 3979,
+        "rating": 0.94
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 25,
+        "kd": 1.0,
+        "damage": 3610,
+        "rating": 0.83
+      },
+      {
+        "map_number": 4,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 34,
+        "kd": 0.59,
+        "damage": 3016,
+        "rating": 0.42
+      },
+      {
+        "map_number": 4,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 30,
+        "kd": 0.77,
+        "damage": 2616,
+        "rating": 0.62
+      },
+      {
+        "map_number": 5,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 921,
+        "rating": 1.1
+      },
+      {
+        "map_number": 5,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 4,
+        "kd": 1.5,
+        "damage": 520,
+        "rating": 1.26
+      },
+      {
+        "map_number": 5,
+        "player_name": "Kenny",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 4,
+        "kd": 1.5,
+        "damage": 804,
+        "rating": 1.26
+      },
+      {
+        "map_number": 5,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 2,
+        "kd": 4.5,
+        "damage": 995,
+        "rating": 1.56
+      },
+      {
+        "map_number": 5,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 999,
+        "rating": 0.87
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 342,
+        "rating": 0.7
+      },
+      {
+        "map_number": 5,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 7,
+        "kd": 0.29,
+        "damage": 278,
+        "rating": 0.58
+      },
+      {
+        "map_number": 5,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 538,
+        "rating": 0.67
+      }
+    ]
+  }
+}
