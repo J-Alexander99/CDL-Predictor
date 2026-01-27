@@ -1,4 +1,3 @@
 # Add your match URLs here, one per line
 # Lines starting with # are ignored
 
-https://www.breakingpoint.gg/match/214830/Toronto-KOI-vs-G2-Minnesota-at-CDL-Major-1-Qualifier-2026
