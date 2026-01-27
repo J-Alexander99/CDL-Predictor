@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214835",
+    "team_a": "Vancouver Surge",
+    "team_b": "FaZe Vegas",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-25-01",
+    "url": "https://www.breakingpoint.gg/match/214835/Vancouver-Surge-vs-FaZe-Vegas-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 151,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 2,
+      "team_b_score": 6
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Abe",
+        "kills": 52,
+        "deaths": 61,
+        "kd": 0.85,
+        "plus_minus": "+2",
+        "damage": 6562,
+        "rating": 0.74
+      },
+      {
+        "player": "Gwinn",
+        "kills": 46,
+        "deaths": 61,
+        "kd": 0.75,
+        "plus_minus": "-7",
+        "damage": 7095,
+        "rating": 0.66
+      },
+      {
+        "player": "Lunarz",
+        "kills": 45,
+        "deaths": 55,
+        "kd": 0.82,
+        "plus_minus": "-4",
+        "damage": 7084,
+        "rating": 0.75
+      },
+      {
+        "player": "TJHaLy",
+        "kills": 51,
+        "deaths": 63,
+        "kd": 0.81,
+        "plus_minus": "-7",
+        "damage": 7092,
+        "rating": 0.69
+      }
+    ],
+    "team_b": [
+      {
+        "player": "04",
+        "kills": 47,
+        "deaths": 49,
+        "kd": 0.96,
+        "plus_minus": "+0",
+        "damage": 5987,
+        "rating": 1.16
+      },
+      {
+        "player": "Abuzah",
+        "kills": 66,
+        "deaths": 46,
+        "kd": 1.43,
+        "plus_minus": "+10",
+        "damage": 8007,
+        "rating": 1.38
+      },
+      {
+        "player": "Drazah",
+        "kills": 46,
+        "deaths": 47,
+        "kd": 0.98,
+        "plus_minus": "+1",
+        "damage": 7322,
+        "rating": 1.11
+      },
+      {
+        "player": "Simp",
+        "kills": 80,
+        "deaths": 52,
+        "kd": 1.54,
+        "plus_minus": "+5",
+        "damage": 9443,
+        "rating": 1.52
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 24,
+        "kd": 1.08,
+        "damage": 3086,
+        "rating": 0.81
+      },
+      {
+        "map_number": 1,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 2545,
+        "rating": 0.55
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 2801,
+        "rating": 0.64
+      },
+      {
+        "map_number": 1,
+        "player_name": "TJHaLy",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 3104,
+        "rating": 0.55
+      },
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 21,
+        "kd": 1.0,
+        "damage": 2489,
+        "rating": 1.22
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 20,
+        "kd": 1.5,
+        "damage": 3658,
+        "rating": 1.58
+      },
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 19,
+        "kd": 1.05,
+        "damage": 3154,
+        "rating": 1.23
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3201,
+        "rating": 1.41
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 708,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 817,
+        "rating": 0.74
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 983,
+        "rating": 0.91
+      },
+      {
+        "map_number": 2,
+        "player_name": "TJHaLy",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 9,
+        "kd": 0.89,
+        "damage": 1139,
+        "rating": 0.81
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 5,
+        "kd": 1.0,
+        "damage": 641,
+        "rating": 1.08
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 994,
+        "rating": 1.22
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 617,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 13,
+        "deaths": 6,
+        "kd": 2.17,
+        "damage": 1497,
+        "rating": 1.6
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abe",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 30,
+        "kd": 0.7,
+        "damage": 2768,
+        "rating": 0.63
+      },
+      {
+        "map_number": 3,
+        "player_name": "Gwinn",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 3733,
+        "rating": 0.68
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lunarz",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 25,
+        "kd": 0.76,
+        "damage": 3300,
+        "rating": 0.71
+      },
+      {
+        "map_number": 3,
+        "player_name": "TJHaLy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 29,
+        "kd": 0.86,
+        "damage": 2849,
+        "rating": 0.7
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 23,
+        "kd": 0.91,
+        "damage": 2857,
+        "rating": 1.17
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 21,
+        "kd": 1.38,
+        "damage": 3355,
+        "rating": 1.35
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 22,
+        "kd": 1.05,
+        "damage": 3551,
+        "rating": 1.22
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 40,
+        "deaths": 24,
+        "kd": 1.67,
+        "damage": 4745,
+        "rating": 1.54
+      }
+    ]
+  }
+}

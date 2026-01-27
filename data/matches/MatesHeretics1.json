@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214833",
+    "team_a": "Paris Gentle Mates",
+    "team_b": "Miami Heretics",
+    "tournament": "CDL Major 1 Qualifier",
+    "date": "2026-25-01",
+    "url": "https://www.breakingpoint.gg/match/214833/Paris-Gentle-Mates-vs-Miami-Heretics-at-CDL-Major-1-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 240
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 166
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Exposure",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 3,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Envoy",
+        "kills": 99,
+        "deaths": 96,
+        "kd": 1.03,
+        "plus_minus": "-5",
+        "damage": 12262,
+        "rating": 1.05
+      },
+      {
+        "player": "Ghosty",
+        "kills": 76,
+        "deaths": 79,
+        "kd": 0.96,
+        "plus_minus": "-1",
+        "damage": 10249,
+        "rating": 1.02
+      },
+      {
+        "player": "Neptune",
+        "kills": 88,
+        "deaths": 82,
+        "kd": 1.07,
+        "plus_minus": "+6",
+        "damage": 10366,
+        "rating": 1.13
+      },
+      {
+        "player": "Sib",
+        "kills": 80,
+        "deaths": 91,
+        "kd": 0.88,
+        "plus_minus": "-12",
+        "damage": 11007,
+        "rating": 0.93
+      }
+    ],
+    "team_b": [
+      {
+        "player": "MettalZ",
+        "kills": 77,
+        "deaths": 93,
+        "kd": 0.83,
+        "plus_minus": "-3",
+        "damage": 10513,
+        "rating": 0.83
+      },
+      {
+        "player": "RenKoR",
+        "kills": 91,
+        "deaths": 82,
+        "kd": 1.11,
+        "plus_minus": "+7",
+        "damage": 12807,
+        "rating": 1.02
+      },
+      {
+        "player": "SupeR",
+        "kills": 90,
+        "deaths": 77,
+        "kd": 1.17,
+        "plus_minus": "-1",
+        "damage": 11041,
+        "rating": 1.08
+      },
+      {
+        "player": "Traixx",
+        "kills": 90,
+        "deaths": 92,
+        "kd": 0.98,
+        "plus_minus": "+8",
+        "damage": 10732,
+        "rating": 0.93
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 35,
+        "kd": 0.86,
+        "damage": 3743,
+        "rating": 0.99
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 27,
+        "kd": 0.96,
+        "damage": 3993,
+        "rating": 1.08
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 30,
+        "kd": 1.2,
+        "damage": 4002,
+        "rating": 1.32
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 33,
+        "kd": 0.64,
+        "damage": 3418,
+        "rating": 0.75
+      },
+      {
+        "map_number": 1,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 31,
+        "kd": 0.9,
+        "damage": 4021,
+        "rating": 0.79
+      },
+      {
+        "map_number": 1,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 27,
+        "kd": 1.26,
+        "damage": 4829,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 27,
+        "kd": 0.96,
+        "damage": 3055,
+        "rating": 0.86
+      },
+      {
+        "map_number": 1,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 29,
+        "kd": 1.28,
+        "damage": 3678,
+        "rating": 1.11
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 8,
+        "kd": 0.75,
+        "damage": 1156,
+        "rating": 0.79
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 588,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 909,
+        "rating": 1.06
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 426,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 400,
+        "rating": 0.98
+      },
+      {
+        "map_number": 2,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 5,
+        "kd": 1.2,
+        "damage": 853,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 5,
+        "kd": 2.0,
+        "damage": 1373,
+        "rating": 1.42
+      },
+      {
+        "map_number": 2,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 895,
+        "rating": 1.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 24,
+        "kd": 1.08,
+        "damage": 3239,
+        "rating": 0.98
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 22,
+        "kd": 0.77,
+        "damage": 2019,
+        "rating": 0.86
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 21,
+        "kd": 0.71,
+        "damage": 2381,
+        "rating": 0.84
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 21,
+        "kd": 1.24,
+        "damage": 3395,
+        "rating": 1.04
+      },
+      {
+        "map_number": 3,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 23,
+        "kd": 0.91,
+        "damage": 2993,
+        "rating": 1.01
+      },
+      {
+        "map_number": 3,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 2886,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 17,
+        "kd": 1.18,
+        "damage": 2696,
+        "rating": 1.1
+      },
+      {
+        "map_number": 3,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 23,
+        "kd": 1.04,
+        "damage": 3085,
+        "rating": 1.07
+      },
+      {
+        "map_number": 4,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 37,
+        "deaths": 29,
+        "kd": 1.28,
+        "damage": 4124,
+        "rating": 1.44
+      },
+      {
+        "map_number": 4,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 24,
+        "kd": 1.17,
+        "damage": 3649,
+        "rating": 1.29
+      },
+      {
+        "map_number": 4,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 25,
+        "kd": 1.16,
+        "damage": 3074,
+        "rating": 1.3
+      },
+      {
+        "map_number": 4,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 31,
+        "kd": 0.97,
+        "damage": 3768,
+        "rating": 1.19
+      },
+      {
+        "map_number": 4,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 34,
+        "kd": 0.71,
+        "damage": 3099,
+        "rating": 0.53
+      },
+      {
+        "map_number": 4,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 29,
+        "kd": 0.97,
+        "damage": 4239,
+        "rating": 0.77
+      },
+      {
+        "map_number": 4,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 28,
+        "kd": 1.21,
+        "damage": 3917,
+        "rating": 0.93
+      },
+      {
+        "map_number": 4,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 33,
+        "kd": 0.7,
+        "damage": 3074,
+        "rating": 0.54
+      }
+    ]
+  }
+}
