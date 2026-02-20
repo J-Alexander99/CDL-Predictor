@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214854",
+    "team_a": "OpTic Texas",
+    "team_b": "Boston Breach",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-13-02",
+    "url": "https://www.breakingpoint.gg/match/214854/OpTic-Texas-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 180
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 6,
+      "team_b_score": 3
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 3,
+      "team_b_score": 2
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Dashy",
+        "kills": 57,
+        "deaths": 54,
+        "kd": 1.06,
+        "plus_minus": "-8",
+        "damage": 7760,
+        "rating": 1.17
+      },
+      {
+        "player": "Huke",
+        "kills": 50,
+        "deaths": 54,
+        "kd": 0.93,
+        "plus_minus": "-2",
+        "damage": 6856,
+        "rating": 1.06
+      },
+      {
+        "player": "Mercules",
+        "kills": 65,
+        "deaths": 44,
+        "kd": 1.48,
+        "plus_minus": "+15",
+        "damage": 8001,
+        "rating": 1.42
+      },
+      {
+        "player": "Shotzzy",
+        "kills": 67,
+        "deaths": 54,
+        "kd": 1.24,
+        "plus_minus": "+8",
+        "damage": 7250,
+        "rating": 1.39
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Cammy",
+        "kills": 47,
+        "deaths": 70,
+        "kd": 0.67,
+        "plus_minus": "-9",
+        "damage": 6519,
+        "rating": 0.62
+      },
+      {
+        "player": "Nastie",
+        "kills": 51,
+        "deaths": 51,
+        "kd": 1.0,
+        "plus_minus": "+4",
+        "damage": 6449,
+        "rating": 0.77
+      },
+      {
+        "player": "Purj",
+        "kills": 53,
+        "deaths": 60,
+        "kd": 0.88,
+        "plus_minus": "-5",
+        "damage": 7272,
+        "rating": 0.78
+      },
+      {
+        "player": "Snoopy",
+        "kills": 54,
+        "deaths": 58,
+        "kd": 0.93,
+        "plus_minus": "-3",
+        "damage": 7174,
+        "rating": 0.78
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 29,
+        "kd": 0.72,
+        "damage": 3109,
+        "rating": 0.91
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 22,
+        "kd": 0.91,
+        "damage": 2938,
+        "rating": 1.07
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 37,
+        "deaths": 22,
+        "kd": 1.68,
+        "damage": 4244,
+        "rating": 1.63
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 24,
+        "kd": 1.33,
+        "damage": 3577,
+        "rating": 1.41
+      },
+      {
+        "map_number": 1,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 32,
+        "kd": 0.72,
+        "damage": 3098,
+        "rating": 0.56
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 23,
+        "kd": 1.17,
+        "damage": 3639,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 27,
+        "kd": 0.81,
+        "damage": 3376,
+        "rating": 0.7
+      },
+      {
+        "map_number": 1,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 3344,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 1025,
+        "rating": 1.33
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 796,
+        "rating": 0.98
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 3,
+        "kd": 2.67,
+        "damage": 1259,
+        "rating": 1.51
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 3,
+        "kd": 3.33,
+        "damage": 761,
+        "rating": 1.67
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 504,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 1,
+        "deaths": 8,
+        "kd": 0.13,
+        "damage": 271,
+        "rating": 0.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1063,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 727,
+        "rating": 0.67
+      },
+      {
+        "map_number": 3,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 20,
+        "kd": 1.45,
+        "damage": 3626,
+        "rating": 1.27
+      },
+      {
+        "map_number": 3,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 3122,
+        "rating": 1.14
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 19,
+        "kd": 1.05,
+        "damage": 2498,
+        "rating": 1.11
+      },
+      {
+        "map_number": 3,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 27,
+        "kd": 0.93,
+        "damage": 2912,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cammy",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 31,
+        "kd": 0.65,
+        "damage": 2917,
+        "rating": 0.69
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 20,
+        "kd": 1.15,
+        "damage": 2539,
+        "rating": 0.95
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 2833,
+        "rating": 0.83
+      },
+      {
+        "map_number": 3,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 23,
+        "kd": 1.04,
+        "damage": 3103,
+        "rating": 0.91
+      }
+    ]
+  }
+}

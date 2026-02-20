@@ -71,7 +71,7 @@ python main.py predict --team-a "FaZe Vegas" --team-b "Vancouver Surge"
 ```bash
 python main.py predict --team-a "FaZe Vegas" --team-b "Vancouver Surge" -g
 ```
-python main.py predict --team-a "FaZe Vegas" --team-b "Toronto KOI" -g
+python main.py predict --team-a "Los Angeles Thieves" --team-b "Toronto KOI"
 **Options:**
 - `-g` or `--generate-graphic` - Generate visual prediction graphic
 - `--output-dir outputs` - Custom output directory for graphics
