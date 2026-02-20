@@ -1,121 +1,121 @@
 {
   "match_info": {
-    "match_id": "214801",
+    "match_id": "214852",
     "team_a": "Paris Gentle Mates",
     "team_b": "FaZe Vegas",
-    "tournament": "CDL Major 1 Qualifier",
-    "date": "2025-07-12",
-    "url": "https://www.breakingpoint.gg/match/214801/Paris-Gentle-Mates-vs-FaZe-Vegas-at-CDL-Major-1-Qualifier-2026",
-    "team_a_score": 2,
-    "team_b_score": 3
+    "tournament": "CDL Major 1 Tournament",
+    "date": "2026-01-02",
+    "url": "https://www.breakingpoint.gg/match/214852/Paris-Gentle-Mates-vs-FaZe-Vegas-at-CDL-Major-1-Tournament-2026",
+    "team_a_score": 3,
+    "team_b_score": 2
   },
   "map_results": [
     {
       "mode": "Hardpoint",
-      "map_name": "Den",
-      "team_a_score": 250,
-      "team_b_score": 149
+      "map_name": "Scar",
+      "team_a_score": 182,
+      "team_b_score": 250
     },
     {
       "mode": "Hardpoint",
-      "map_name": "Exposure",
+      "map_name": "Colossus",
       "team_a_score": 250,
-      "team_b_score": 130
+      "team_b_score": 169
     },
     {
       "mode": "Search & Destroy",
-      "map_name": "Scar",
-      "team_a_score": 3,
-      "team_b_score": 6
+      "map_name": "Exposure",
+      "team_a_score": 6,
+      "team_b_score": 1
     },
     {
       "mode": "Search & Destroy",
-      "map_name": "Den",
-      "team_a_score": 0,
-      "team_b_score": 6
+      "map_name": "Colossus",
+      "team_a_score": 6,
+      "team_b_score": 5
     },
     {
       "mode": "Overload",
       "map_name": "Exposure",
       "team_a_score": 1,
-      "team_b_score": 6
+      "team_b_score": 3
     }
   ],
   "player_stats": {
     "team_a": [
       {
         "player": "Envoy",
-        "kills": 76,
-        "deaths": 82,
-        "kd": 0.93,
-        "plus_minus": "+1",
-        "damage": 9625,
-        "rating": 0.92
+        "kills": 82,
+        "deaths": 101,
+        "kd": 0.81,
+        "plus_minus": "-8",
+        "damage": 10970,
+        "rating": 0.91
       },
       {
         "player": "Ghosty",
-        "kills": 70,
-        "deaths": 76,
-        "kd": 0.92,
-        "plus_minus": "+6",
-        "damage": 9750,
-        "rating": 0.93
+        "kills": 82,
+        "deaths": 92,
+        "kd": 0.89,
+        "plus_minus": "-14",
+        "damage": 11038,
+        "rating": 0.95
       },
       {
         "player": "Neptune",
-        "kills": 84,
-        "deaths": 77,
-        "kd": 1.09,
-        "plus_minus": "+9",
-        "damage": 10203,
-        "rating": 1.01
+        "kills": 88,
+        "deaths": 83,
+        "kd": 1.06,
+        "plus_minus": "-3",
+        "damage": 11125,
+        "rating": 1.08
       },
       {
         "player": "Sib",
-        "kills": 74,
-        "deaths": 83,
-        "kd": 0.89,
-        "plus_minus": "-4",
-        "damage": 10487,
-        "rating": 0.89
+        "kills": 92,
+        "deaths": 91,
+        "kd": 1.01,
+        "plus_minus": "+0",
+        "damage": 13381,
+        "rating": 1.06
       }
     ],
     "team_b": [
       {
         "player": "04",
-        "kills": 94,
-        "deaths": 81,
-        "kd": 1.16,
-        "plus_minus": "-10",
-        "damage": 10539,
-        "rating": 1.1
+        "kills": 85,
+        "deaths": 88,
+        "kd": 0.97,
+        "plus_minus": "+7",
+        "damage": 11266,
+        "rating": 0.94
       },
       {
         "player": "Abuzah",
-        "kills": 72,
-        "deaths": 71,
-        "kd": 1.01,
-        "plus_minus": "-9",
-        "damage": 10278,
-        "rating": 1.09
+        "kills": 98,
+        "deaths": 89,
+        "kd": 1.1,
+        "plus_minus": "+4",
+        "damage": 12808,
+        "rating": 1.0
       },
       {
         "player": "Drazah",
-        "kills": 63,
-        "deaths": 84,
-        "kd": 0.75,
-        "plus_minus": "+1",
-        "damage": 8855,
-        "rating": 0.88
+        "kills": 87,
+        "deaths": 82,
+        "kd": 1.06,
+        "plus_minus": "+3",
+        "damage": 11501,
+        "rating": 0.98
       },
       {
         "player": "Simp",
-        "kills": 86,
-        "deaths": 68,
-        "kd": 1.26,
-        "plus_minus": "+6",
-        "damage": 11201,
-        "rating": 1.16
+        "kills": 97,
+        "deaths": 85,
+        "kd": 1.14,
+        "plus_minus": "+11",
+        "damage": 12121,
+        "rating": 1.07
       }
     ],
     "per_map": [
@@ -123,401 +123,401 @@
         "map_number": 1,
         "player_name": "Envoy",
         "team": "team_a",
-        "kills": 25,
-        "deaths": 24,
-        "kd": 1.04,
-        "damage": 3176,
-        "rating": 1.32
+        "kills": 26,
+        "deaths": 34,
+        "kd": 0.76,
+        "damage": 3575,
+        "rating": 0.7
       },
       {
         "map_number": 1,
         "player_name": "Ghosty",
         "team": "team_a",
-        "kills": 24,
-        "deaths": 18,
-        "kd": 1.33,
-        "damage": 2672,
-        "rating": 1.43
+        "kills": 20,
+        "deaths": 34,
+        "kd": 0.59,
+        "damage": 3147,
+        "rating": 0.53
       },
       {
         "map_number": 1,
         "player_name": "Neptune",
         "team": "team_a",
-        "kills": 29,
-        "deaths": 20,
-        "kd": 1.45,
-        "damage": 3587,
-        "rating": 1.57
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 3202,
+        "rating": 0.85
       },
       {
         "map_number": 1,
         "player_name": "Sib",
         "team": "team_a",
-        "kills": 21,
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 3936,
+        "rating": 0.93
+      },
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 32,
         "deaths": 25,
-        "kd": 0.84,
-        "damage": 3050,
+        "kd": 1.28,
+        "damage": 4014,
+        "rating": 1.27
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 26,
+        "kd": 1.15,
+        "damage": 3612,
+        "rating": 1.18
+      },
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 25,
+        "kd": 1.12,
+        "damage": 3806,
         "rating": 1.15
       },
       {
         "map_number": 1,
-        "player_name": "04",
-        "team": "team_b",
-        "kills": 20,
-        "deaths": 30,
-        "kd": 0.67,
-        "damage": 2853,
-        "rating": 0.4
-      },
-      {
-        "map_number": 1,
-        "player_name": "Abuzah",
-        "team": "team_b",
-        "kills": 17,
-        "deaths": 26,
-        "kd": 0.65,
-        "damage": 2908,
-        "rating": 0.47
-      },
-      {
-        "map_number": 1,
-        "player_name": "Drazah",
-        "team": "team_b",
-        "kills": 24,
-        "deaths": 23,
-        "kd": 1.04,
-        "damage": 2672,
-        "rating": 0.75
-      },
-      {
-        "map_number": 1,
         "player_name": "Simp",
         "team": "team_b",
-        "kills": 26,
-        "deaths": 20,
-        "kd": 1.3,
-        "damage": 2920,
-        "rating": 0.91
+        "kills": 33,
+        "deaths": 22,
+        "kd": 1.5,
+        "damage": 4204,
+        "rating": 1.38
       },
       {
         "map_number": 2,
         "player_name": "Envoy",
         "team": "team_a",
-        "kills": 4,
-        "deaths": 9,
-        "kd": 0.44,
-        "damage": 618,
-        "rating": 0.57
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 998,
+        "rating": 1.32
       },
       {
         "map_number": 2,
         "player_name": "Ghosty",
         "team": "team_a",
-        "kills": 3,
-        "deaths": 7,
-        "kd": 0.43,
-        "damage": 791,
-        "rating": 0.66
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 1030,
+        "rating": 1.19
       },
       {
         "map_number": 2,
         "player_name": "Neptune",
         "team": "team_a",
-        "kills": 7,
-        "deaths": 7,
-        "kd": 1.0,
-        "damage": 825,
-        "rating": 0.88
+        "kills": 4,
+        "deaths": 3,
+        "kd": 1.33,
+        "damage": 300,
+        "rating": 1.16
       },
       {
         "map_number": 2,
         "player_name": "Sib",
         "team": "team_a",
-        "kills": 8,
-        "deaths": 6,
-        "kd": 1.33,
-        "damage": 1240,
-        "rating": 1.01
+        "kills": 9,
+        "deaths": 3,
+        "kd": 3.0,
+        "damage": 1014,
+        "rating": 1.52
       },
       {
         "map_number": 2,
         "player_name": "04",
         "team": "team_b",
-        "kills": 5,
-        "deaths": 5,
-        "kd": 1.0,
-        "damage": 831,
-        "rating": 1.08
+        "kills": 1,
+        "deaths": 7,
+        "kd": 0.14,
+        "damage": 228,
+        "rating": 0.54
       },
       {
         "map_number": 2,
         "player_name": "Abuzah",
         "team": "team_b",
-        "kills": 9,
-        "deaths": 4,
-        "kd": 2.25,
-        "damage": 940,
-        "rating": 1.43
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 826,
+        "rating": 0.78
       },
       {
         "map_number": 2,
         "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 683,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
         "team": "team_b",
         "kills": 5,
         "deaths": 7,
         "kd": 0.71,
-        "damage": 638,
-        "rating": 0.97
-      },
-      {
-        "map_number": 2,
-        "player_name": "Simp",
-        "team": "team_b",
-        "kills": 10,
-        "deaths": 6,
-        "kd": 1.67,
-        "damage": 1565,
-        "rating": 1.39
+        "damage": 481,
+        "rating": 0.71
       },
       {
         "map_number": 3,
         "player_name": "Envoy",
-        "team": "team_a",
-        "kills": 16,
-        "deaths": 28,
-        "kd": 0.57,
-        "damage": 1932,
-        "rating": 0.58
-      },
-      {
-        "map_number": 3,
-        "player_name": "Ghosty",
         "team": "team_a",
         "kills": 17,
-        "deaths": 27,
-        "kd": 0.63,
-        "damage": 2700,
-        "rating": 0.61
+        "deaths": 26,
+        "kd": 0.65,
+        "damage": 2417,
+        "rating": 0.64
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 20,
+        "kd": 1.05,
+        "damage": 2494,
+        "rating": 0.84
       },
       {
         "map_number": 3,
         "player_name": "Neptune",
         "team": "team_a",
-        "kills": 23,
-        "deaths": 26,
-        "kd": 0.88,
-        "damage": 2854,
-        "rating": 0.7
+        "kills": 21,
+        "deaths": 22,
+        "kd": 0.95,
+        "damage": 2581,
+        "rating": 0.79
       },
       {
         "map_number": 3,
         "player_name": "Sib",
         "team": "team_a",
-        "kills": 27,
-        "deaths": 28,
-        "kd": 0.96,
-        "damage": 3255,
+        "kills": 18,
+        "deaths": 24,
+        "kd": 0.75,
+        "damage": 2822,
         "rating": 0.7
       },
       {
         "map_number": 3,
         "player_name": "04",
         "team": "team_b",
-        "kills": 33,
-        "deaths": 20,
-        "kd": 1.65,
-        "damage": 3466,
-        "rating": 1.5
+        "kills": 19,
+        "deaths": 19,
+        "kd": 1.0,
+        "damage": 2479,
+        "rating": 1.16
       },
       {
         "map_number": 3,
         "player_name": "Abuzah",
         "team": "team_b",
-        "kills": 24,
-        "deaths": 18,
-        "kd": 1.33,
-        "damage": 2980,
-        "rating": 1.32
+        "kills": 29,
+        "deaths": 19,
+        "kd": 1.53,
+        "damage": 3290,
+        "rating": 1.4
       },
       {
         "map_number": 3,
         "player_name": "Drazah",
         "team": "team_b",
-        "kills": 21,
-        "deaths": 25,
-        "kd": 0.84,
-        "damage": 3120,
-        "rating": 1.18
+        "kills": 23,
+        "deaths": 19,
+        "kd": 1.21,
+        "damage": 3086,
+        "rating": 1.26
       },
       {
         "map_number": 3,
         "player_name": "Simp",
         "team": "team_b",
-        "kills": 29,
+        "kills": 21,
         "deaths": 20,
-        "kd": 1.45,
-        "damage": 3392,
-        "rating": 1.41
+        "kd": 1.05,
+        "damage": 2684,
+        "rating": 1.2
       },
       {
         "map_number": 4,
         "player_name": "Envoy",
         "team": "team_a",
-        "kills": 27,
-        "deaths": 15,
-        "kd": 1.8,
-        "damage": 3351,
-        "rating": 1.66
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 3086,
+        "rating": 1.24
       },
       {
         "map_number": 4,
         "player_name": "Ghosty",
         "team": "team_a",
-        "kills": 25,
-        "deaths": 18,
-        "kd": 1.39,
-        "damage": 3079,
-        "rating": 1.5
+        "kills": 30,
+        "deaths": 26,
+        "kd": 1.15,
+        "damage": 3249,
+        "rating": 1.35
       },
       {
         "map_number": 4,
         "player_name": "Neptune",
         "team": "team_a",
-        "kills": 24,
-        "deaths": 18,
-        "kd": 1.33,
-        "damage": 2527,
-        "rating": 1.46
+        "kills": 25,
+        "deaths": 24,
+        "kd": 1.04,
+        "damage": 3496,
+        "rating": 1.23
       },
       {
         "map_number": 4,
         "player_name": "Sib",
         "team": "team_a",
-        "kills": 16,
-        "deaths": 18,
-        "kd": 0.89,
-        "damage": 2526,
-        "rating": 1.14
+        "kills": 31,
+        "deaths": 27,
+        "kd": 1.15,
+        "damage": 4265,
+        "rating": 1.36
       },
       {
         "map_number": 4,
         "player_name": "04",
         "team": "team_b",
-        "kills": 28,
-        "deaths": 24,
-        "kd": 1.17,
-        "damage": 2845,
-        "rating": 0.83
+        "kills": 24,
+        "deaths": 29,
+        "kd": 0.83,
+        "damage": 3229,
+        "rating": 0.64
       },
       {
         "map_number": 4,
         "player_name": "Abuzah",
         "team": "team_b",
-        "kills": 14,
-        "deaths": 22,
-        "kd": 0.64,
-        "damage": 2463,
-        "rating": 0.52
+        "kills": 27,
+        "deaths": 30,
+        "kd": 0.9,
+        "damage": 3929,
+        "rating": 0.68
       },
       {
         "map_number": 4,
         "player_name": "Drazah",
         "team": "team_b",
-        "kills": 10,
-        "deaths": 26,
-        "kd": 0.38,
-        "damage": 1905,
-        "rating": 0.25
+        "kills": 26,
+        "deaths": 24,
+        "kd": 1.08,
+        "damage": 2915,
+        "rating": 0.85
       },
       {
         "map_number": 4,
         "player_name": "Simp",
         "team": "team_b",
-        "kills": 16,
-        "deaths": 20,
-        "kd": 0.8,
-        "damage": 2788,
+        "kills": 25,
+        "deaths": 29,
+        "kd": 0.86,
+        "damage": 3214,
+        "rating": 0.66
+      },
+      {
+        "map_number": 5,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 10,
+        "kd": 0.5,
+        "damage": 894,
         "rating": 0.65
       },
       {
         "map_number": 5,
-        "player_name": "Envoy",
-        "team": "team_a",
-        "kills": 4,
-        "deaths": 6,
-        "kd": 0.67,
-        "damage": 548,
-        "rating": 0.48
-      },
-      {
-        "map_number": 5,
         "player_name": "Ghosty",
         "team": "team_a",
-        "kills": 1,
-        "deaths": 6,
-        "kd": 0.17,
-        "damage": 508,
-        "rating": 0.46
+        "kills": 6,
+        "deaths": 8,
+        "kd": 0.75,
+        "damage": 1118,
+        "rating": 0.84
       },
       {
         "map_number": 5,
         "player_name": "Neptune",
         "team": "team_a",
-        "kills": 1,
+        "kills": 13,
         "deaths": 6,
-        "kd": 0.17,
-        "damage": 410,
-        "rating": 0.46
+        "kd": 2.17,
+        "damage": 1546,
+        "rating": 1.38
       },
       {
         "map_number": 5,
         "player_name": "Sib",
         "team": "team_a",
-        "kills": 2,
-        "deaths": 6,
-        "kd": 0.33,
-        "damage": 416,
-        "rating": 0.47
+        "kills": 7,
+        "deaths": 10,
+        "kd": 0.7,
+        "damage": 1344,
+        "rating": 0.77
       },
       {
         "map_number": 5,
         "player_name": "04",
         "team": "team_b",
-        "kills": 8,
-        "deaths": 2,
-        "kd": 4.0,
-        "damage": 544,
-        "rating": 1.71
+        "kills": 9,
+        "deaths": 8,
+        "kd": 1.13,
+        "damage": 1316,
+        "rating": 1.11
       },
       {
         "map_number": 5,
         "player_name": "Abuzah",
         "team": "team_b",
-        "kills": 8,
-        "deaths": 1,
-        "kd": 8.0,
-        "damage": 987,
-        "rating": 1.72
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 1151,
+        "rating": 0.98
       },
       {
         "map_number": 5,
         "player_name": "Drazah",
         "team": "team_b",
-        "kills": 3,
-        "deaths": 3,
-        "kd": 1.0,
-        "damage": 520,
-        "rating": 1.26
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.63,
+        "damage": 1011,
+        "rating": 0.85
       },
       {
         "map_number": 5,
         "player_name": "Simp",
         "team": "team_b",
-        "kills": 5,
-        "deaths": 2,
-        "kd": 2.5,
-        "damage": 536,
-        "rating": 1.44
+        "kills": 13,
+        "deaths": 7,
+        "kd": 1.86,
+        "damage": 1538,
+        "rating": 1.42
       }
     ]
   }

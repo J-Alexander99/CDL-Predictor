@@ -1,25 +1,25 @@
 {
   "match_info": {
-    "match_id": "214794",
+    "match_id": "214838",
     "team_a": "Riyadh Falcons",
     "team_b": "OpTic Texas",
-    "tournament": "CDL Major 1 Qualifier",
-    "date": "2025-05-12",
-    "url": "https://www.breakingpoint.gg/match/214794/Riyadh-Falcons-vs-OpTic-Texas-at-CDL-Major-1-Qualifier-2026",
+    "tournament": "CDL Major 1 Tournament",
+    "date": "2026-29-01",
+    "url": "https://www.breakingpoint.gg/match/214838/Riyadh-Falcons-vs-OpTic-Texas-at-CDL-Major-1-Tournament-2026",
     "team_a_score": 0,
     "team_b_score": 3
   },
   "map_results": [
     {
       "mode": "Hardpoint",
-      "map_name": "Scar",
-      "team_a_score": 154,
+      "map_name": "Colossus",
+      "team_a_score": 135,
       "team_b_score": 250
     },
     {
       "mode": "Search & Destroy",
-      "map_name": "Den",
-      "team_a_score": 4,
+      "map_name": "Exposure",
+      "team_a_score": 3,
       "team_b_score": 6
     },
     {
@@ -33,77 +33,77 @@
     "team_a": [
       {
         "player": "Cellium",
-        "kills": 45,
-        "deaths": 53,
-        "kd": 0.85,
-        "plus_minus": "+2",
-        "damage": 6478,
-        "rating": 0.71
+        "kills": 47,
+        "deaths": 52,
+        "kd": 0.9,
+        "plus_minus": "+0",
+        "damage": 7706,
+        "rating": 0.77
       },
       {
         "player": "Exnid",
-        "kills": 38,
-        "deaths": 56,
-        "kd": 0.68,
-        "plus_minus": "-7",
-        "damage": 5285,
-        "rating": 0.54
+        "kills": 42,
+        "deaths": 55,
+        "kd": 0.76,
+        "plus_minus": "-5",
+        "damage": 5464,
+        "rating": 0.65
       },
       {
         "player": "KiSMET",
-        "kills": 40,
-        "deaths": 57,
-        "kd": 0.7,
-        "plus_minus": "-4",
-        "damage": 5931,
-        "rating": 0.62
+        "kills": 51,
+        "deaths": 55,
+        "kd": 0.93,
+        "plus_minus": "-1",
+        "damage": 7074,
+        "rating": 0.74
       },
       {
         "player": "Pred",
-        "kills": 51,
-        "deaths": 54,
-        "kd": 0.94,
-        "plus_minus": "-5",
-        "damage": 7235,
-        "rating": 0.75
+        "kills": 48,
+        "deaths": 52,
+        "kd": 0.92,
+        "plus_minus": "-2",
+        "damage": 6060,
+        "rating": 0.72
       }
     ],
     "team_b": [
       {
         "player": "Dashy",
-        "kills": 46,
-        "deaths": 43,
-        "kd": 1.07,
-        "plus_minus": "+6",
-        "damage": 7172,
-        "rating": 1.21
+        "kills": 52,
+        "deaths": 47,
+        "kd": 1.11,
+        "plus_minus": "-2",
+        "damage": 7280,
+        "rating": 1.3
       },
       {
         "player": "Huke",
-        "kills": 42,
-        "deaths": 50,
-        "kd": 0.84,
-        "plus_minus": "-3",
-        "damage": 6130,
-        "rating": 1.12
+        "kills": 47,
+        "deaths": 51,
+        "kd": 0.92,
+        "plus_minus": "-8",
+        "damage": 6219,
+        "rating": 1.09
       },
       {
         "player": "Mercules",
-        "kills": 63,
-        "deaths": 35,
-        "kd": 1.8,
-        "plus_minus": "+8",
-        "damage": 8087,
-        "rating": 1.56
+        "kills": 57,
+        "deaths": 44,
+        "kd": 1.3,
+        "plus_minus": "+10",
+        "damage": 7465,
+        "rating": 1.38
       },
       {
         "player": "Shotzzy",
-        "kills": 69,
-        "deaths": 46,
-        "kd": 1.5,
-        "plus_minus": "+3",
-        "damage": 7510,
-        "rating": 1.48
+        "kills": 58,
+        "deaths": 47,
+        "kd": 1.23,
+        "plus_minus": "+8",
+        "damage": 7040,
+        "rating": 1.35
       }
     ],
     "per_map": [
@@ -111,241 +111,241 @@
         "map_number": 1,
         "player_name": "Cellium",
         "team": "team_a",
-        "kills": 26,
-        "deaths": 24,
-        "kd": 1.08,
-        "damage": 3109,
-        "rating": 0.8
-      },
-      {
-        "map_number": 1,
-        "player_name": "Exnid",
-        "team": "team_a",
-        "kills": 17,
-        "deaths": 24,
-        "kd": 0.71,
-        "damage": 2143,
-        "rating": 0.55
-      },
-      {
-        "map_number": 1,
-        "player_name": "KiSMET",
-        "team": "team_a",
-        "kills": 20,
-        "deaths": 24,
-        "kd": 0.83,
-        "damage": 2861,
-        "rating": 0.63
-      },
-      {
-        "map_number": 1,
-        "player_name": "Pred",
-        "team": "team_a",
-        "kills": 18,
-        "deaths": 23,
-        "kd": 0.78,
-        "damage": 2865,
-        "rating": 0.62
-      },
-      {
-        "map_number": 1,
-        "player_name": "Dashy",
-        "team": "team_b",
-        "kills": 24,
-        "deaths": 18,
-        "kd": 1.33,
-        "damage": 3467,
-        "rating": 1.42
-      },
-      {
-        "map_number": 1,
-        "player_name": "Huke",
-        "team": "team_b",
-        "kills": 19,
-        "deaths": 22,
-        "kd": 0.86,
-        "damage": 2617,
-        "rating": 1.12
-      },
-      {
-        "map_number": 1,
-        "player_name": "Mercules",
-        "team": "team_b",
-        "kills": 26,
-        "deaths": 18,
-        "kd": 1.44,
-        "damage": 3059,
-        "rating": 1.5
-      },
-      {
-        "map_number": 1,
-        "player_name": "Shotzzy",
-        "team": "team_b",
-        "kills": 26,
-        "deaths": 23,
-        "kd": 1.13,
-        "damage": 3106,
-        "rating": 1.36
-      },
-      {
-        "map_number": 2,
-        "player_name": "Cellium",
-        "team": "team_a",
-        "kills": 5,
-        "deaths": 7,
-        "kd": 0.71,
-        "damage": 911,
-        "rating": 0.74
-      },
-      {
-        "map_number": 2,
-        "player_name": "Exnid",
-        "team": "team_a",
-        "kills": 2,
-        "deaths": 9,
-        "kd": 0.22,
-        "damage": 448,
-        "rating": 0.43
-      },
-      {
-        "map_number": 2,
-        "player_name": "KiSMET",
-        "team": "team_a",
-        "kills": 6,
-        "deaths": 8,
-        "kd": 0.75,
-        "damage": 951,
-        "rating": 0.72
-      },
-      {
-        "map_number": 2,
-        "player_name": "Pred",
-        "team": "team_a",
-        "kills": 10,
-        "deaths": 8,
-        "kd": 1.25,
-        "damage": 1188,
-        "rating": 0.94
-      },
-      {
-        "map_number": 2,
-        "player_name": "Dashy",
-        "team": "team_b",
-        "kills": 4,
-        "deaths": 6,
-        "kd": 0.67,
-        "damage": 845,
-        "rating": 0.98
-      },
-      {
-        "map_number": 2,
-        "player_name": "Huke",
-        "team": "team_b",
-        "kills": 6,
-        "deaths": 7,
-        "kd": 0.86,
-        "damage": 1015,
-        "rating": 1.07
-      },
-      {
-        "map_number": 2,
-        "player_name": "Mercules",
-        "team": "team_b",
-        "kills": 12,
-        "deaths": 4,
-        "kd": 3.0,
-        "damage": 1544,
-        "rating": 1.69
-      },
-      {
-        "map_number": 2,
-        "player_name": "Shotzzy",
-        "team": "team_b",
-        "kills": 10,
-        "deaths": 6,
-        "kd": 1.67,
-        "damage": 1086,
-        "rating": 1.43
-      },
-      {
-        "map_number": 3,
-        "player_name": "Cellium",
-        "team": "team_a",
-        "kills": 14,
-        "deaths": 22,
-        "kd": 0.64,
-        "damage": 2458,
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 4405,
         "rating": 0.6
       },
       {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 26,
+        "kd": 0.81,
+        "damage": 2420,
+        "rating": 0.52
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 25,
+        "kd": 0.96,
+        "damage": 3245,
+        "rating": 0.61
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 25,
+        "kd": 0.92,
+        "damage": 2753,
+        "rating": 0.59
+      },
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 25,
+        "kd": 0.92,
+        "damage": 3377,
+        "rating": 1.3
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 25,
+        "kd": 0.68,
+        "damage": 2299,
+        "rating": 1.08
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 22,
+        "kd": 1.45,
+        "damage": 3780,
+        "rating": 1.68
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 23,
+        "kd": 1.35,
+        "damage": 3725,
+        "rating": 1.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1100,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 622,
+        "rating": 0.65
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 841,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 589,
+        "rating": 0.7
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 4,
+        "kd": 2.0,
+        "damage": 968,
+        "rating": 1.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 854,
+        "rating": 0.88
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 1163,
+        "rating": 1.33
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 961,
+        "rating": 1.27
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 19,
+        "kd": 0.68,
+        "damage": 2201,
+        "rating": 0.75
+      },
+      {
         "map_number": 3,
         "player_name": "Exnid",
         "team": "team_a",
-        "kills": 19,
-        "deaths": 23,
-        "kd": 0.83,
-        "damage": 2694,
-        "rating": 0.64
+        "kills": 18,
+        "deaths": 22,
+        "kd": 0.82,
+        "damage": 2422,
+        "rating": 0.77
       },
       {
         "map_number": 3,
         "player_name": "KiSMET",
         "team": "team_a",
-        "kills": 14,
-        "deaths": 25,
-        "kd": 0.56,
-        "damage": 2119,
-        "rating": 0.52
+        "kills": 21,
+        "deaths": 23,
+        "kd": 0.91,
+        "damage": 2988,
+        "rating": 0.79
       },
       {
         "map_number": 3,
         "player_name": "Pred",
         "team": "team_a",
-        "kills": 23,
-        "deaths": 23,
-        "kd": 1.0,
-        "damage": 3182,
-        "rating": 0.69
+        "kills": 21,
+        "deaths": 20,
+        "kd": 1.05,
+        "damage": 2718,
+        "rating": 0.87
       },
       {
         "map_number": 3,
         "player_name": "Dashy",
         "team": "team_b",
-        "kills": 18,
-        "deaths": 19,
-        "kd": 0.95,
-        "damage": 2860,
-        "rating": 1.23
+        "kills": 21,
+        "deaths": 18,
+        "kd": 1.17,
+        "damage": 2935,
+        "rating": 1.21
       },
       {
         "map_number": 3,
         "player_name": "Huke",
         "team": "team_b",
-        "kills": 17,
-        "deaths": 21,
-        "kd": 0.81,
-        "damage": 2498,
-        "rating": 1.18
+        "kills": 27,
+        "deaths": 20,
+        "kd": 1.35,
+        "damage": 3066,
+        "rating": 1.32
       },
       {
         "map_number": 3,
         "player_name": "Mercules",
         "team": "team_b",
-        "kills": 25,
-        "deaths": 13,
-        "kd": 1.92,
-        "damage": 3484,
-        "rating": 1.49
+        "kills": 17,
+        "deaths": 17,
+        "kd": 1.0,
+        "damage": 2522,
+        "rating": 1.13
       },
       {
         "map_number": 3,
         "player_name": "Shotzzy",
         "team": "team_b",
-        "kills": 33,
-        "deaths": 17,
-        "kd": 1.94,
-        "damage": 3318,
-        "rating": 1.65
+        "kills": 19,
+        "deaths": 18,
+        "kd": 1.06,
+        "damage": 2354,
+        "rating": 1.16
       }
     ]
   }

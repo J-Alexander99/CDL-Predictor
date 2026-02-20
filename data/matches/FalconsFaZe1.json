@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214845",
+    "team_a": "Riyadh Falcons",
+    "team_b": "FaZe Vegas",
+    "tournament": "CDL Major 1 Tournament",
+    "date": "2026-31-01",
+    "url": "https://www.breakingpoint.gg/match/214845/Riyadh-Falcons-vs-FaZe-Vegas-at-CDL-Major-1-Tournament-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Blackheart",
+      "team_a_score": 233,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 215
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 6,
+      "team_b_score": 5
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Exposure",
+      "team_a_score": 2,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 3,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Cellium",
+        "kills": 82,
+        "deaths": 82,
+        "kd": 1.0,
+        "plus_minus": "-8",
+        "damage": 12344,
+        "rating": 1.04
+      },
+      {
+        "player": "Exnid",
+        "kills": 85,
+        "deaths": 103,
+        "kd": 0.83,
+        "plus_minus": "-2",
+        "damage": 11218,
+        "rating": 0.89
+      },
+      {
+        "player": "KiSMET",
+        "kills": 90,
+        "deaths": 103,
+        "kd": 0.87,
+        "plus_minus": "-5",
+        "damage": 11841,
+        "rating": 0.98
+      },
+      {
+        "player": "Pred",
+        "kills": 95,
+        "deaths": 96,
+        "kd": 0.99,
+        "plus_minus": "-4",
+        "damage": 11874,
+        "rating": 1.02
+      }
+    ],
+    "team_b": [
+      {
+        "player": "04",
+        "kills": 82,
+        "deaths": 99,
+        "kd": 0.83,
+        "plus_minus": "-10",
+        "damage": 10935,
+        "rating": 0.86
+      },
+      {
+        "player": "Abuzah",
+        "kills": 111,
+        "deaths": 80,
+        "kd": 1.39,
+        "plus_minus": "+18",
+        "damage": 13239,
+        "rating": 1.18
+      },
+      {
+        "player": "Drazah",
+        "kills": 85,
+        "deaths": 80,
+        "kd": 1.06,
+        "plus_minus": "+4",
+        "damage": 11751,
+        "rating": 0.99
+      },
+      {
+        "player": "Simp",
+        "kills": 104,
+        "deaths": 93,
+        "kd": 1.12,
+        "plus_minus": "+5",
+        "damage": 12530,
+        "rating": 1.04
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 28,
+        "kd": 0.71,
+        "damage": 3260,
+        "rating": 0.83
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 30,
+        "kd": 0.93,
+        "damage": 3508,
+        "rating": 1.02
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 36,
+        "kd": 0.86,
+        "damage": 3900,
+        "rating": 0.94
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 32,
+        "kd": 0.88,
+        "damage": 3556,
+        "rating": 0.96
+      },
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 33,
+        "kd": 0.7,
+        "damage": 2882,
+        "rating": 0.63
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 42,
+        "deaths": 24,
+        "kd": 1.75,
+        "damage": 4807,
+        "rating": 1.47
+      },
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 25,
+        "kd": 1.16,
+        "damage": 3750,
+        "rating": 1.06
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 25,
+        "kd": 1.2,
+        "damage": 3689,
+        "rating": 1.09
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 7,
+        "kd": 1.29,
+        "damage": 1449,
+        "rating": 1.19
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 10,
+        "kd": 0.7,
+        "damage": 1039,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 7,
+        "kd": 1.43,
+        "damage": 856,
+        "rating": 1.26
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 1177,
+        "rating": 1.18
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 10,
+        "kd": 0.5,
+        "damage": 1010,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1036,
+        "rating": 1.01
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1374,
+        "rating": 1.01
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 9,
+        "kd": 0.89,
+        "damage": 1041,
+        "rating": 0.87
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 15,
+        "kd": 1.07,
+        "damage": 2463,
+        "rating": 0.99
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 3004,
+        "rating": 0.97
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 2350,
+        "rating": 0.84
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 21,
+        "kd": 1.05,
+        "damage": 2708,
+        "rating": 0.98
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 22,
+        "kd": 0.73,
+        "damage": 2047,
+        "rating": 0.91
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 19,
+        "kd": 1.16,
+        "damage": 2832,
+        "rating": 1.1
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 19,
+        "kd": 1.32,
+        "damage": 2640,
+        "rating": 1.16
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 21,
+        "kd": 1.0,
+        "damage": 2775,
+        "rating": 1.04
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3687,
+        "rating": 1.36
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 32,
+        "kd": 0.63,
+        "damage": 3052,
+        "rating": 0.81
+      },
+      {
+        "map_number": 4,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 3752,
+        "rating": 1.02
+      },
+      {
+        "map_number": 4,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 31,
+        "kd": 1.13,
+        "damage": 3964,
+        "rating": 1.32
+      },
+      {
+        "map_number": 4,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 28,
+        "kd": 1.07,
+        "damage": 3739,
+        "rating": 0.88
+      },
+      {
+        "map_number": 4,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3909,
+        "rating": 1.0
+      },
+      {
+        "map_number": 4,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 25,
+        "kd": 0.8,
+        "damage": 3289,
+        "rating": 0.71
+      },
+      {
+        "map_number": 4,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 33,
+        "kd": 1.12,
+        "damage": 4362,
+        "rating": 0.9
+      },
+      {
+        "map_number": 5,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 1485,
+        "rating": 0.83
+      },
+      {
+        "map_number": 5,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 615,
+        "rating": 0.78
+      },
+      {
+        "map_number": 5,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 983,
+        "rating": 0.86
+      },
+      {
+        "map_number": 5,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 469,
+        "rating": 0.65
+      },
+      {
+        "map_number": 5,
+        "player_name": "04",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1257,
+        "rating": 1.26
+      },
+      {
+        "map_number": 5,
+        "player_name": "Abuzah",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 655,
+        "rating": 1.3
+      },
+      {
+        "map_number": 5,
+        "player_name": "Drazah",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 4,
+        "kd": 0.75,
+        "damage": 698,
+        "rating": 1.0
+      },
+      {
+        "map_number": 5,
+        "player_name": "Simp",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 663,
+        "rating": 1.32
+      }
+    ]
+  }
+}

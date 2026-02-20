@@ -1,121 +1,115 @@
 {
   "match_info": {
-    "match_id": "214831",
+    "match_id": "214842",
     "team_a": "Riyadh Falcons",
     "team_b": "Cloud9 New York",
-    "tournament": "CDL Major 1 Qualifier",
-    "date": "2026-24-01",
-    "url": "https://www.breakingpoint.gg/match/214831/Riyadh-Falcons-vs-Cloud9-New-York-at-CDL-Major-1-Qualifier-2026",
+    "tournament": "CDL Major 1 Tournament",
+    "date": "2026-30-01",
+    "url": "https://www.breakingpoint.gg/match/214842/Riyadh-Falcons-vs-Cloud9-New-York-at-CDL-Major-1-Tournament-2026",
     "team_a_score": 3,
-    "team_b_score": 2
+    "team_b_score": 1
   },
   "map_results": [
     {
       "mode": "Hardpoint",
-      "map_name": "Colossus",
+      "map_name": "Blackheart",
       "team_a_score": 250,
-      "team_b_score": 130
+      "team_b_score": 243
     },
     {
       "mode": "Hardpoint",
       "map_name": "Den",
-      "team_a_score": 244,
-      "team_b_score": 250
+      "team_a_score": 250,
+      "team_b_score": 185
     },
     {
       "mode": "Search & Destroy",
       "map_name": "Colossus",
-      "team_a_score": 5,
+      "team_a_score": 3,
       "team_b_score": 6
-    },
-    {
-      "mode": "Search & Destroy",
-      "map_name": "Raid",
-      "team_a_score": 6,
-      "team_b_score": 1
     },
     {
       "mode": "Overload",
       "map_name": "Exposure",
       "team_a_score": 4,
-      "team_b_score": 2
+      "team_b_score": 1
     }
   ],
   "player_stats": {
     "team_a": [
       {
         "player": "Cellium",
-        "kills": 90,
-        "deaths": 68,
-        "kd": 1.32,
-        "plus_minus": "+7",
-        "damage": 12073,
-        "rating": 1.24
+        "kills": 84,
+        "deaths": 71,
+        "kd": 1.18,
+        "plus_minus": "-7",
+        "damage": 11290,
+        "rating": 1.14
       },
       {
         "player": "Exnid",
-        "kills": 103,
+        "kills": 104,
         "deaths": 91,
-        "kd": 1.13,
-        "plus_minus": "+10",
-        "damage": 12367,
-        "rating": 1.21
+        "kd": 1.14,
+        "plus_minus": "+2",
+        "damage": 13505,
+        "rating": 1.12
       },
       {
         "player": "KiSMET",
-        "kills": 99,
-        "deaths": 83,
-        "kd": 1.19,
-        "plus_minus": "+13",
-        "damage": 12382,
-        "rating": 1.23
+        "kills": 85,
+        "deaths": 86,
+        "kd": 0.99,
+        "plus_minus": "+7",
+        "damage": 10473,
+        "rating": 1.03
       },
       {
         "player": "Pred",
-        "kills": 92,
-        "deaths": 82,
-        "kd": 1.12,
-        "plus_minus": "+0",
-        "damage": 10718,
+        "kills": 101,
+        "deaths": 80,
+        "kd": 1.26,
+        "plus_minus": "-2",
+        "damage": 11115,
         "rating": 1.19
       }
     ],
     "team_b": [
       {
         "player": "Afro",
-        "kills": 65,
-        "deaths": 96,
-        "kd": 0.68,
-        "plus_minus": "-8",
-        "damage": 7977,
-        "rating": 0.69
+        "kills": 88,
+        "deaths": 86,
+        "kd": 1.02,
+        "plus_minus": "-2",
+        "damage": 10554,
+        "rating": 1.0
       },
       {
         "player": "Beans",
-        "kills": 76,
-        "deaths": 99,
-        "kd": 0.77,
-        "plus_minus": "-14",
-        "damage": 11657,
-        "rating": 0.75
+        "kills": 74,
+        "deaths": 95,
+        "kd": 0.78,
+        "plus_minus": "-6",
+        "damage": 10196,
+        "rating": 0.81
       },
       {
         "player": "Mack",
-        "kills": 99,
+        "kills": 91,
         "deaths": 100,
-        "kd": 0.99,
-        "plus_minus": "+1",
-        "damage": 11275,
-        "rating": 0.85
+        "kd": 0.91,
+        "plus_minus": "+5",
+        "damage": 11881,
+        "rating": 0.84
       },
       {
         "player": "Vivid",
-        "kills": 84,
-        "deaths": 90,
-        "kd": 0.93,
-        "plus_minus": "-9",
-        "damage": 11505,
-        "rating": 0.84
+        "kills": 72,
+        "deaths": 93,
+        "kd": 0.77,
+        "plus_minus": "+0",
+        "damage": 10418,
+        "rating": 0.88
       }
     ],
     "per_map": [
@@ -123,401 +117,321 @@
         "map_number": 1,
         "player_name": "Cellium",
         "team": "team_a",
-        "kills": 27,
-        "deaths": 20,
-        "kd": 1.35,
-        "damage": 3287,
-        "rating": 1.41
-      },
-      {
-        "map_number": 1,
-        "player_name": "Exnid",
-        "team": "team_a",
-        "kills": 33,
-        "deaths": 23,
-        "kd": 1.43,
-        "damage": 3506,
-        "rating": 1.54
-      },
-      {
-        "map_number": 1,
-        "player_name": "KiSMET",
-        "team": "team_a",
-        "kills": 31,
-        "deaths": 18,
-        "kd": 1.72,
-        "damage": 3582,
-        "rating": 1.59
-      },
-      {
-        "map_number": 1,
-        "player_name": "Pred",
-        "team": "team_a",
-        "kills": 22,
-        "deaths": 22,
-        "kd": 1.0,
-        "damage": 2330,
-        "rating": 1.21
-      },
-      {
-        "map_number": 1,
-        "player_name": "Afro",
-        "team": "team_b",
-        "kills": 21,
-        "deaths": 29,
-        "kd": 0.72,
-        "damage": 2231,
-        "rating": 0.54
-      },
-      {
-        "map_number": 1,
-        "player_name": "Beans",
-        "team": "team_b",
-        "kills": 14,
-        "deaths": 28,
-        "kd": 0.5,
-        "damage": 2597,
-        "rating": 0.42
-      },
-      {
-        "map_number": 1,
-        "player_name": "Mack",
-        "team": "team_b",
-        "kills": 30,
-        "deaths": 29,
-        "kd": 1.03,
-        "damage": 3336,
-        "rating": 0.75
-      },
-      {
-        "map_number": 1,
-        "player_name": "Vivid",
-        "team": "team_b",
-        "kills": 18,
-        "deaths": 27,
-        "kd": 0.67,
-        "damage": 2813,
-        "rating": 0.54
-      },
-      {
-        "map_number": 2,
-        "player_name": "Cellium",
-        "team": "team_a",
-        "kills": 10,
-        "deaths": 8,
-        "kd": 1.25,
-        "damage": 1351,
-        "rating": 1.09
-      },
-      {
-        "map_number": 2,
-        "player_name": "Exnid",
-        "team": "team_a",
-        "kills": 6,
-        "deaths": 8,
-        "kd": 0.75,
-        "damage": 1110,
-        "rating": 0.84
-      },
-      {
-        "map_number": 2,
-        "player_name": "KiSMET",
-        "team": "team_a",
-        "kills": 7,
-        "deaths": 8,
-        "kd": 0.88,
-        "damage": 847,
-        "rating": 0.91
-      },
-      {
-        "map_number": 2,
-        "player_name": "Pred",
-        "team": "team_a",
-        "kills": 7,
-        "deaths": 8,
-        "kd": 0.88,
-        "damage": 1273,
-        "rating": 0.91
-      },
-      {
-        "map_number": 2,
-        "player_name": "Afro",
-        "team": "team_b",
-        "kills": 4,
-        "deaths": 6,
-        "kd": 0.67,
-        "damage": 651,
-        "rating": 0.89
-      },
-      {
-        "map_number": 2,
-        "player_name": "Beans",
-        "team": "team_b",
-        "kills": 9,
-        "deaths": 7,
-        "kd": 1.29,
-        "damage": 1064,
-        "rating": 1.16
-      },
-      {
-        "map_number": 2,
-        "player_name": "Mack",
-        "team": "team_b",
-        "kills": 8,
-        "deaths": 8,
-        "kd": 1.0,
-        "damage": 1603,
-        "rating": 1.03
-      },
-      {
-        "map_number": 2,
-        "player_name": "Vivid",
-        "team": "team_b",
-        "kills": 11,
-        "deaths": 9,
-        "kd": 1.22,
-        "damage": 1342,
-        "rating": 1.17
-      },
-      {
-        "map_number": 3,
-        "player_name": "Cellium",
-        "team": "team_a",
-        "kills": 21,
-        "deaths": 16,
-        "kd": 1.31,
-        "damage": 2802,
-        "rating": 1.19
-      },
-      {
-        "map_number": 3,
-        "player_name": "Exnid",
-        "team": "team_a",
-        "kills": 29,
-        "deaths": 22,
-        "kd": 1.32,
-        "damage": 3259,
-        "rating": 1.27
-      },
-      {
-        "map_number": 3,
-        "player_name": "KiSMET",
-        "team": "team_a",
-        "kills": 21,
-        "deaths": 25,
-        "kd": 0.84,
-        "damage": 3083,
-        "rating": 1.05
-      },
-      {
-        "map_number": 3,
-        "player_name": "Pred",
-        "team": "team_a",
-        "kills": 22,
-        "deaths": 20,
-        "kd": 1.1,
-        "damage": 2597,
-        "rating": 1.15
-      },
-      {
-        "map_number": 3,
-        "player_name": "Afro",
-        "team": "team_b",
-        "kills": 14,
-        "deaths": 25,
-        "kd": 0.56,
-        "damage": 1888,
-        "rating": 0.69
-      },
-      {
-        "map_number": 3,
-        "player_name": "Beans",
-        "team": "team_b",
-        "kills": 23,
-        "deaths": 23,
-        "kd": 1.0,
-        "damage": 3117,
-        "rating": 0.87
-      },
-      {
-        "map_number": 3,
-        "player_name": "Mack",
-        "team": "team_b",
-        "kills": 21,
-        "deaths": 24,
-        "kd": 0.88,
-        "damage": 2334,
-        "rating": 0.82
-      },
-      {
-        "map_number": 3,
-        "player_name": "Vivid",
-        "team": "team_b",
         "kills": 25,
-        "deaths": 21,
-        "kd": 1.19,
-        "damage": 3132,
-        "rating": 0.95
+        "deaths": 32,
+        "kd": 0.78,
+        "damage": 3792,
+        "rating": 0.83
       },
       {
-        "map_number": 4,
-        "player_name": "Cellium",
-        "team": "team_a",
-        "kills": 27,
-        "deaths": 23,
-        "kd": 1.17,
-        "damage": 3830,
-        "rating": 1.07
-      },
-      {
-        "map_number": 4,
+        "map_number": 1,
         "player_name": "Exnid",
         "team": "team_a",
-        "kills": 27,
+        "kills": 36,
         "deaths": 34,
-        "kd": 0.79,
-        "damage": 3728,
-        "rating": 0.73
+        "kd": 1.06,
+        "damage": 4577,
+        "rating": 1.08
       },
       {
-        "map_number": 4,
+        "map_number": 1,
         "player_name": "KiSMET",
         "team": "team_a",
-        "kills": 34,
-        "deaths": 28,
-        "kd": 1.21,
-        "damage": 4149,
-        "rating": 1.12
+        "kills": 37,
+        "deaths": 30,
+        "kd": 1.23,
+        "damage": 3977,
+        "rating": 1.22
       },
       {
-        "map_number": 4,
+        "map_number": 1,
         "player_name": "Pred",
         "team": "team_a",
         "kills": 33,
-        "deaths": 31,
-        "kd": 1.06,
-        "damage": 3689,
-        "rating": 1.0
+        "deaths": 35,
+        "kd": 0.94,
+        "damage": 3627,
+        "rating": 0.97
       },
       {
-        "map_number": 4,
+        "map_number": 1,
         "player_name": "Afro",
         "team": "team_b",
-        "kills": 25,
-        "deaths": 29,
-        "kd": 0.86,
-        "damage": 3023,
+        "kills": 29,
+        "deaths": 31,
+        "kd": 0.94,
+        "damage": 4163,
         "rating": 0.94
       },
       {
-        "map_number": 4,
+        "map_number": 1,
         "player_name": "Beans",
         "team": "team_b",
-        "kills": 26,
+        "kills": 29,
         "deaths": 35,
-        "kd": 0.74,
-        "damage": 4250,
-        "rating": 0.8
+        "kd": 0.83,
+        "damage": 3928,
+        "rating": 0.83
       },
       {
-        "map_number": 4,
+        "map_number": 1,
         "player_name": "Mack",
         "team": "team_b",
         "kills": 37,
         "deaths": 32,
         "kd": 1.16,
-        "damage": 3541,
+        "damage": 4201,
+        "rating": 1.13
+      },
+      {
+        "map_number": 1,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 33,
+        "kd": 1.0,
+        "damage": 3931,
+        "rating": 1.0
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1277,
+        "rating": 0.98
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 781,
+        "rating": 0.63
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 9,
+        "kd": 0.78,
+        "damage": 873,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1103,
+        "rating": 0.91
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 5,
+        "kd": 2.0,
+        "damage": 1186,
+        "rating": 1.4
+      },
+      {
+        "map_number": 2,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 971,
+        "rating": 1.08
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 937,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 4,
+        "kd": 2.5,
+        "damage": 1439,
+        "rating": 1.45
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 16,
+        "kd": 1.56,
+        "damage": 2666,
+        "rating": 1.42
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3536,
+        "rating": 1.4
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 20,
+        "kd": 0.95,
+        "damage": 2291,
         "rating": 1.23
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 17,
+        "kd": 1.71,
+        "damage": 3116,
+        "rating": 1.51
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 25,
+        "kd": 0.88,
+        "damage": 2600,
+        "rating": 0.65
+      },
+      {
+        "map_number": 3,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 24,
+        "kd": 0.75,
+        "damage": 2224,
+        "rating": 0.62
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 28,
+        "kd": 0.79,
+        "damage": 3045,
+        "rating": 0.57
+      },
+      {
+        "map_number": 3,
+        "player_name": "Vivid",
+        "team": "team_b",
+        "kills": 13,
+        "deaths": 23,
+        "kd": 0.57,
+        "damage": 2043,
+        "rating": 0.59
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 17,
+        "kd": 1.59,
+        "damage": 3555,
+        "rating": 1.33
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 38,
+        "deaths": 27,
+        "kd": 1.41,
+        "damage": 4611,
+        "rating": 1.37
+      },
+      {
+        "map_number": 4,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 27,
+        "kd": 0.81,
+        "damage": 3332,
+        "rating": 0.88
+      },
+      {
+        "map_number": 4,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 21,
+        "kd": 1.52,
+        "damage": 3269,
+        "rating": 1.36
+      },
+      {
+        "map_number": 4,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 25,
+        "kd": 1.08,
+        "damage": 2605,
+        "rating": 1.03
+      },
+      {
+        "map_number": 4,
+        "player_name": "Beans",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 30,
+        "kd": 0.7,
+        "damage": 3073,
+        "rating": 0.7
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mack",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 31,
+        "kd": 0.9,
+        "damage": 3698,
+        "rating": 0.87
       },
       {
         "map_number": 4,
         "player_name": "Vivid",
         "team": "team_b",
-        "kills": 28,
-        "deaths": 26,
-        "kd": 1.08,
-        "damage": 3602,
-        "rating": 1.12
-      },
-      {
-        "map_number": 5,
-        "player_name": "Cellium",
-        "team": "team_a",
-        "kills": 5,
-        "deaths": 1,
-        "kd": 5.0,
-        "damage": 803,
-        "rating": 1.43
-      },
-      {
-        "map_number": 5,
-        "player_name": "Exnid",
-        "team": "team_a",
-        "kills": 8,
-        "deaths": 4,
-        "kd": 2.0,
-        "damage": 764,
-        "rating": 1.66
-      },
-      {
-        "map_number": 5,
-        "player_name": "KiSMET",
-        "team": "team_a",
-        "kills": 6,
-        "deaths": 4,
-        "kd": 1.5,
-        "damage": 721,
-        "rating": 1.48
-      },
-      {
-        "map_number": 5,
-        "player_name": "Pred",
-        "team": "team_a",
-        "kills": 8,
-        "deaths": 1,
-        "kd": 8.0,
-        "damage": 829,
-        "rating": 1.7
-      },
-      {
-        "map_number": 5,
-        "player_name": "Afro",
-        "team": "team_b",
-        "kills": 1,
-        "deaths": 7,
-        "kd": 0.14,
-        "damage": 184,
-        "rating": 0.39
-      },
-      {
-        "map_number": 5,
-        "player_name": "Beans",
-        "team": "team_b",
-        "kills": 4,
-        "deaths": 6,
-        "kd": 0.67,
-        "damage": 629,
-        "rating": 0.52
-      },
-      {
-        "map_number": 5,
-        "player_name": "Mack",
-        "team": "team_b",
-        "kills": 3,
-        "deaths": 7,
-        "kd": 0.43,
-        "damage": 461,
-        "rating": 0.41
-      },
-      {
-        "map_number": 5,
-        "player_name": "Vivid",
-        "team": "team_b",
-        "kills": 2,
-        "deaths": 7,
-        "kd": 0.29,
-        "damage": 616,
-        "rating": 0.4
+        "kills": 16,
+        "deaths": 33,
+        "kd": 0.48,
+        "damage": 3005,
+        "rating": 0.46
       }
     ]
   }
