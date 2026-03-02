@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214874",
+    "team_a": "OpTic Texas",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-22-02",
+    "url": "https://www.breakingpoint.gg/match/214874/OpTic-Texas-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 133
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 3
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 6,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Dashy",
+        "kills": 51,
+        "deaths": 55,
+        "kd": 0.93,
+        "plus_minus": "-3",
+        "damage": 7482,
+        "rating": 1.06
+      },
+      {
+        "player": "Huke",
+        "kills": 55,
+        "deaths": 56,
+        "kd": 0.98,
+        "plus_minus": "+9",
+        "damage": 8356,
+        "rating": 1.07
+      },
+      {
+        "player": "Mercules",
+        "kills": 71,
+        "deaths": 45,
+        "kd": 1.58,
+        "plus_minus": "+12",
+        "damage": 7339,
+        "rating": 1.43
+      },
+      {
+        "player": "Shotzzy",
+        "kills": 68,
+        "deaths": 55,
+        "kd": 1.24,
+        "plus_minus": "+9",
+        "damage": 7670,
+        "rating": 1.16
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Encourage",
+        "kills": 48,
+        "deaths": 59,
+        "kd": 0.81,
+        "plus_minus": "-11",
+        "damage": 7290,
+        "rating": 0.76
+      },
+      {
+        "player": "Hide",
+        "kills": 55,
+        "deaths": 59,
+        "kd": 0.93,
+        "plus_minus": "-5",
+        "damage": 6959,
+        "rating": 0.87
+      },
+      {
+        "player": "Nejra",
+        "kills": 59,
+        "deaths": 65,
+        "kd": 0.91,
+        "plus_minus": "-8",
+        "damage": 7371,
+        "rating": 0.85
+      },
+      {
+        "player": "Okis",
+        "kills": 49,
+        "deaths": 62,
+        "kd": 0.79,
+        "plus_minus": "-3",
+        "damage": 6772,
+        "rating": 0.8
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 3711,
+        "rating": 1.17
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 33,
+        "deaths": 24,
+        "kd": 1.38,
+        "damage": 4282,
+        "rating": 1.48
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 23,
+        "kd": 1.52,
+        "damage": 3416,
+        "rating": 1.56
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 33,
+        "deaths": 24,
+        "kd": 1.38,
+        "damage": 3810,
+        "rating": 1.48
+      },
+      {
+        "map_number": 1,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 31,
+        "kd": 0.65,
+        "damage": 3427,
+        "rating": 0.5
+      },
+      {
+        "map_number": 1,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 3210,
+        "rating": 0.62
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 35,
+        "kd": 0.77,
+        "damage": 3384,
+        "rating": 0.52
+      },
+      {
+        "map_number": 1,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 30,
+        "kd": 0.9,
+        "damage": 3677,
+        "rating": 0.66
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 779,
+        "rating": 0.94
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 1069,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 4,
+        "kd": 3.25,
+        "damage": 1357,
+        "rating": 1.57
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 566,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 763,
+        "rating": 0.81
+      },
+      {
+        "map_number": 2,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1105,
+        "rating": 1.06
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 891,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 954,
+        "rating": 1.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 21,
+        "kd": 1.0,
+        "damage": 2992,
+        "rating": 1.08
+      },
+      {
+        "map_number": 3,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 24,
+        "kd": 0.75,
+        "damage": 3005,
+        "rating": 0.97
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 18,
+        "kd": 1.28,
+        "damage": 2566,
+        "rating": 1.17
+      },
+      {
+        "map_number": 3,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 23,
+        "kd": 1.35,
+        "damage": 3294,
+        "rating": 1.25
+      },
+      {
+        "map_number": 3,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3100,
+        "rating": 0.97
+      },
+      {
+        "map_number": 3,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 22,
+        "kd": 1.0,
+        "damage": 2644,
+        "rating": 0.92
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 24,
+        "kd": 1.0,
+        "damage": 3096,
+        "rating": 0.91
+      },
+      {
+        "map_number": 3,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 15,
+        "deaths": 25,
+        "kd": 0.6,
+        "damage": 2141,
+        "rating": 0.74
+      }
+    ]
+  }
+}

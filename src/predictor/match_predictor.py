@@ -2,6 +2,7 @@
 Match outcome predictor using roster-weighted statistics
 """
 import logging
+import math
 from typing import Dict, List, Tuple, Optional
 from datetime import datetime
 
@@ -44,10 +45,17 @@ class MatchPredictor:
         stats_a['roster_quality'] = quality_a
         stats_b['roster_quality'] = quality_b
         
+        # Calculate momentum (recent form)
+        momentum_a = self._calculate_momentum(team_a, roster_a)
+        momentum_b = self._calculate_momentum(team_b, roster_b)
+        
+        stats_a['momentum'] = momentum_a
+        stats_b['momentum'] = momentum_b
+        
         # Get head-to-head history
         h2h = self._get_head_to_head(team_a, team_b)
         
-        # Calculate win probabilities
+        # Calculate win probabilities (now includes momentum)
         prob_a, prob_b = self._calculate_win_probability(stats_a, stats_b, h2h)
         
         # Predict map count using mode-specific stats
@@ -116,6 +124,31 @@ class MatchPredictor:
         # 4/4 = 1.0, 3/4 = 0.75, 2/4 = 0.5, 1/4 = 0.25, 0/4 = 0.0
         return overlap / 4.0
     
+    def _calculate_time_weight(self, match_date: str) -> float:
+        """Weight recent matches more heavily using exponential decay
+        
+        Args:
+            match_date: Match date in YYYY-MM-DD format
+        
+        Returns:
+            Weight multiplier (0.0 to 1.0)
+            - Recent match (7 days): ~0.85
+            - 30 days ago: 0.5
+            - 90 days ago: ~0.13
+        """
+        try:
+            match_dt = datetime.strptime(match_date, '%Y-%m-%d')
+            today = datetime.now()
+            days_ago = (today - match_dt).days
+            
+            # Exponential decay with half-life of 30 days
+            decay_rate = 0.693 / 30  # ln(2) / half_life
+            weight = math.exp(-decay_rate * days_ago)
+            
+            return max(0.01, min(1.0, weight))  # Clamp between 0.01 and 1.0
+        except:
+            return 0.5  # Default if date parsing fails
+    
     def _calculate_weighted_stats(self, team: str, current_roster: List[str]) -> Dict:
         """Calculate team stats with roster overlap weighting"""
         conn = self.db.get_connection()
@@ -171,12 +204,16 @@ class MatchPredictor:
                 """, (match_id, team))
                 
                 match_roster = [row[0] for row in cursor.fetchall()]
-                weight = self._calculate_roster_overlap(current_roster, match_roster)
+                roster_weight = self._calculate_roster_overlap(current_roster, match_roster)
                 
-                if weight == 0:
+                if roster_weight == 0:
                     continue
                 
-                # Apply weight
+                # Apply time decay weighting
+                time_weight = self._calculate_time_weight(data['date'])
+                weight = roster_weight * time_weight
+                
+                # Apply combined weight
                 total_weight += weight
                 match_count += 1
                 
@@ -264,6 +301,72 @@ class MatchPredictor:
         finally:
             conn.close()
     
+    def _calculate_momentum(self, team: str, roster: List[str], last_n: int = 5) -> float:
+        """Calculate team momentum from recent matches
+        
+        Args:
+            team: Team name
+            roster: Current roster
+            last_n: Number of recent matches to consider
+        
+        Returns:
+            Momentum score from -1.0 (losing streak) to +1.0 (winning streak)
+        """
+        conn = self.db.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            # Get recent matches ordered by date descending
+            cursor.execute("""
+                SELECT m.match_id, m.winner, m.match_date, m.team_a, m.team_b
+                FROM matches m
+                WHERE m.team_a = ? OR m.team_b = ?
+                ORDER BY m.match_date DESC, m.id DESC
+                LIMIT ?
+            """, (team, team, last_n))
+            
+            matches = cursor.fetchall()
+            
+            if not matches:
+                return 0.0
+            
+            momentum = 0.0
+            total_weight = 0.0
+            
+            for i, (match_id, winner, match_date, team_a, team_b) in enumerate(matches):
+                # Get roster for this match
+                cursor.execute("""
+                    SELECT DISTINCT player_name
+                    FROM player_match_stats
+                    WHERE match_id = ? AND team = ?
+                """, (match_id, team))
+                
+                match_roster = [row[0] for row in cursor.fetchall()]
+                roster_weight = self._calculate_roster_overlap(roster, match_roster)
+                
+                if roster_weight == 0:
+                    continue
+                
+                # More recent matches have higher weight
+                recency_weight = (last_n - i) / last_n  # 1.0 for most recent, decreasing
+                time_weight = self._calculate_time_weight(match_date)
+                combined_weight = roster_weight * recency_weight * time_weight
+                
+                # Add to momentum (+1 for win, -1 for loss)
+                result = 1.0 if winner == team else -1.0
+                momentum += result * combined_weight
+                total_weight += combined_weight
+            
+            if total_weight == 0:
+                return 0.0
+            
+            # Normalize to -1.0 to +1.0 range
+            normalized_momentum = momentum / total_weight
+            return round(normalized_momentum, 3)
+            
+        finally:
+            conn.close()
+    
     def _get_head_to_head(self, team_a: str, team_b: str) -> Dict:
         """Get head-to-head record between teams"""
         conn = self.db.get_connection()
@@ -290,8 +393,45 @@ class MatchPredictor:
         finally:
             conn.close()
     
+    def _get_head_to_head_mode(self, team_a: str, team_b: str, mode: str) -> Dict:
+        """Get head-to-head record for a specific game mode
+        
+        Args:
+            team_a: First team name
+            team_b: Second team name
+            mode: Game mode (Hardpoint, Search & Destroy, etc.)
+        
+        Returns:
+            Dictionary with mode-specific H2H stats
+        """
+        conn = self.db.get_connection()
+        try:
+            cursor = conn.cursor()
+            
+            cursor.execute("""
+                SELECT 
+                    COUNT(*) as total_maps,
+                    SUM(CASE WHEN mr.winner = ? THEN 1 ELSE 0 END) as team_a_wins,
+                    SUM(CASE WHEN mr.winner = ? THEN 1 ELSE 0 END) as team_b_wins
+                FROM map_results mr
+                JOIN matches m ON mr.match_id = m.match_id
+                WHERE ((m.team_a = ? AND m.team_b = ?) OR (m.team_a = ? AND m.team_b = ?))
+                AND mr.mode = ?
+            """, (team_a, team_b, team_a, team_b, team_b, team_a, mode))
+            
+            row = cursor.fetchone()
+            
+            return {
+                'total_maps': row[0] or 0,
+                'team_a_wins': row[1] or 0,
+                'team_b_wins': row[2] or 0
+            }
+            
+        finally:
+            conn.close()
+    
     def _calculate_win_probability(self, stats_a: Dict, stats_b: Dict, h2h: Dict) -> Tuple[float, float]:
-        """Calculate win probability for each team"""
+        """Calculate win probability for each team (now includes momentum)"""
         
         # Component 1: Team Chemistry (weighted roster performance)
         wr_a = stats_a['win_rate']
@@ -369,8 +509,20 @@ class MatchPredictor:
             quality_weight = 0.7
         
         # Blend chemistry and quality
-        prob_a = chemistry_prob_a * chemistry_weight + quality_prob_a * quality_weight
-        prob_b = chemistry_prob_b * chemistry_weight + quality_prob_b * quality_weight
+        base_prob_a = chemistry_prob_a * chemistry_weight + quality_prob_a * quality_weight
+        base_prob_b = chemistry_prob_b * chemistry_weight + quality_prob_b * quality_weight
+        
+        # Factor in momentum (15% weight)
+        momentum_a = stats_a.get('momentum', 0.0)
+        momentum_b = stats_b.get('momentum', 0.0)
+        
+        # Convert momentum (-1 to +1) to probability adjustment
+        momentum_prob_a = 50 + (momentum_a * 25)  # Range: 25-75
+        momentum_prob_b = 50 + (momentum_b * 25)  # Range: 25-75
+        
+        # Blend base prediction (75%) with momentum (15%) 
+        prob_a = base_prob_a * 0.85 + momentum_prob_a * 0.15
+        prob_b = base_prob_b * 0.85 + momentum_prob_b * 0.15
         
         # Adjust for head-to-head (if they've played before)
         if h2h['total_matches'] > 0:
@@ -434,10 +586,18 @@ class MatchPredictor:
                 """, (match_id, team))
                 
                 match_roster = [row[0] for row in cursor.fetchall()]
-                weight = self._calculate_roster_overlap(roster, match_roster)
+                roster_weight = self._calculate_roster_overlap(roster, match_roster)
                 
-                if weight == 0:
+                if roster_weight == 0:
                     continue
+                
+                # Apply time decay
+                cursor.execute("""
+                    SELECT match_date FROM matches WHERE match_id = ?
+                """, (match_id,))
+                match_date = cursor.fetchone()[0]
+                time_weight = self._calculate_time_weight(match_date)
+                weight = roster_weight * time_weight
                 
                 # Calculate score differential
                 if team == match_team_a:
@@ -491,11 +651,14 @@ class MatchPredictor:
     def _predict_mode_winner(self, team_a: str, team_b: str, mode: str, 
                             roster_a: List[str], roster_b: List[str],
                             quality_a: Dict, quality_b: Dict, h2h: Dict) -> Dict:
-        """Predict winner for a specific mode using full logic with H2H adjustment"""
+        """Predict winner for a specific mode using full logic with mode-specific H2H"""
         
         # Get mode-specific chemistry
         mode_stats_a = self._get_mode_stats(team_a, mode, roster_a)
         mode_stats_b = self._get_mode_stats(team_b, mode, roster_b)
+        
+        # Get mode-specific head-to-head
+        mode_h2h = self._get_head_to_head_mode(team_a, team_b, mode)
         
         # Calculate chemistry probability for this mode
         wr_a = mode_stats_a['win_rate']
@@ -560,9 +723,18 @@ class MatchPredictor:
         prob_a = chemistry_prob_a * chemistry_weight + quality_prob_a * quality_weight
         prob_b = chemistry_prob_b * chemistry_weight + quality_prob_b * quality_weight
         
-        # Apply head-to-head adjustment to mode prediction
-        if h2h['total_matches'] > 0:
-            h2h_weight = min(h2h['total_matches'] * 0.05, 0.15)  # Max 15% influence
+        # Apply MODE-SPECIFIC head-to-head adjustment
+        if mode_h2h['total_maps'] > 0:
+            # Mode-specific H2H has higher weight since it's more relevant
+            h2h_weight = min(mode_h2h['total_maps'] * 0.08, 0.20)  # Max 20% influence
+            h2h_prob_a = (mode_h2h['team_a_wins'] / mode_h2h['total_maps']) * 100
+            h2h_prob_b = (mode_h2h['team_b_wins'] / mode_h2h['total_maps']) * 100
+            
+            prob_a = prob_a * (1 - h2h_weight) + h2h_prob_a * h2h_weight
+            prob_b = prob_b * (1 - h2h_weight) + h2h_prob_b * h2h_weight
+        elif h2h['total_matches'] > 0:
+            # Fallback to overall H2H if no mode-specific history
+            h2h_weight = min(h2h['total_matches'] * 0.05, 0.10)  # Lower weight for overall H2H
             h2h_prob_a = (h2h['team_a_wins'] / h2h['total_matches']) * 100
             h2h_prob_b = (h2h['team_b_wins'] / h2h['total_matches']) * 100
             

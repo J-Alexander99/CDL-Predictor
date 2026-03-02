@@ -72,10 +72,10 @@ class EnhancedMatchScraper(BaseScraper):
         event_link = soup.find("a", href=re.compile(r'/events/\d+'))
         tournament = event_link.get_text(strip=True) if event_link else "Unknown"
         
-        # Get date
+        # Get date (website uses DD/MM/YYYY format)
         date_match = re.search(r'(\d{1,2})/(\d{1,2})/(\d{4})', soup.get_text())
         if date_match:
-            month, day, year = date_match.groups()
+            day, month, year = date_match.groups()  # Fixed: website uses DD/MM/YYYY
             match_date = f"{year}-{month.zfill(2)}-{day.zfill(2)}"
         else:
             match_date = datetime.now().strftime("%Y-%m-%d")

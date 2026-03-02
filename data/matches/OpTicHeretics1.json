@@ -1,43 +1,37 @@
 {
   "match_info": {
-    "match_id": "214807",
+    "match_id": "214871",
     "team_a": "OpTic Texas",
     "team_b": "Miami Heretics",
-    "tournament": "CDL Major 1 Qualifier",
-    "date": "2025-13-12",
-    "url": "https://www.breakingpoint.gg/match/214807/OpTic-Texas-vs-Miami-Heretics-at-CDL-Major-1-Qualifier-2026",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-22-02",
+    "url": "https://www.breakingpoint.gg/match/214871/OpTic-Texas-vs-Miami-Heretics-at-CDL-Major-2-Qualifier-2026",
     "team_a_score": 3,
-    "team_b_score": 2
+    "team_b_score": 1
   },
   "map_results": [
     {
       "mode": "Hardpoint",
-      "map_name": "Exposure",
-      "team_a_score": 188,
+      "map_name": "Den",
+      "team_a_score": 200,
       "team_b_score": 250
     },
     {
       "mode": "Hardpoint",
-      "map_name": "Den",
-      "team_a_score": 249,
-      "team_b_score": 250
-    },
-    {
-      "mode": "Search & Destroy",
       "map_name": "Scar",
-      "team_a_score": 6,
-      "team_b_score": 4
+      "team_a_score": 250,
+      "team_b_score": 209
     },
     {
       "mode": "Search & Destroy",
-      "map_name": "Raid",
+      "map_name": "Den",
       "team_a_score": 6,
-      "team_b_score": 4
+      "team_b_score": 5
     },
     {
       "mode": "Overload",
-      "map_name": "Scar",
-      "team_a_score": 4,
+      "map_name": "Exposure",
+      "team_a_score": 5,
       "team_b_score": 3
     }
   ],
@@ -45,77 +39,77 @@
     "team_a": [
       {
         "player": "Dashy",
-        "kills": 92,
-        "deaths": 80,
-        "kd": 1.15,
+        "kills": 67,
+        "deaths": 77,
+        "kd": 0.87,
         "plus_minus": "-1",
-        "damage": 12146,
-        "rating": 1.11
+        "damage": 10772,
+        "rating": 0.96
       },
       {
         "player": "Huke",
-        "kills": 75,
-        "deaths": 89,
-        "kd": 0.84,
-        "plus_minus": "-8",
-        "damage": 10161,
-        "rating": 0.91
+        "kills": 87,
+        "deaths": 87,
+        "kd": 1.0,
+        "plus_minus": "-7",
+        "damage": 10735,
+        "rating": 1.03
       },
       {
         "player": "Mercules",
-        "kills": 104,
+        "kills": 84,
         "deaths": 80,
-        "kd": 1.3,
-        "plus_minus": "+0",
-        "damage": 13672,
-        "rating": 1.27
+        "kd": 1.05,
+        "plus_minus": "-8",
+        "damage": 10403,
+        "rating": 1.11
       },
       {
         "player": "Shotzzy",
-        "kills": 78,
-        "deaths": 101,
-        "kd": 0.77,
-        "plus_minus": "-11",
-        "damage": 10602,
-        "rating": 0.93
+        "kills": 91,
+        "deaths": 82,
+        "kd": 1.11,
+        "plus_minus": "-8",
+        "damage": 10918,
+        "rating": 1.23
       }
     ],
     "team_b": [
       {
         "player": "MettalZ",
-        "kills": 77,
-        "deaths": 91,
-        "kd": 0.85,
-        "plus_minus": "+2",
-        "damage": 10850,
-        "rating": 0.84
+        "kills": 86,
+        "deaths": 87,
+        "kd": 0.99,
+        "plus_minus": "+15",
+        "damage": 11070,
+        "rating": 0.91
       },
       {
         "player": "RenKoR",
-        "kills": 105,
-        "deaths": 81,
-        "kd": 1.3,
-        "plus_minus": "+17",
-        "damage": 12438,
-        "rating": 1.12
+        "kills": 78,
+        "deaths": 68,
+        "kd": 1.15,
+        "plus_minus": "+5",
+        "damage": 10178,
+        "rating": 0.98
       },
       {
         "player": "SupeR",
-        "kills": 88,
-        "deaths": 83,
-        "kd": 1.06,
-        "plus_minus": "+11",
-        "damage": 11713,
-        "rating": 0.96
+        "kills": 73,
+        "deaths": 81,
+        "kd": 0.9,
+        "plus_minus": "+3",
+        "damage": 10246,
+        "rating": 0.93
       },
       {
         "player": "Traixx",
-        "kills": 80,
-        "deaths": 94,
-        "kd": 0.85,
-        "plus_minus": "-10",
-        "damage": 10305,
-        "rating": 0.87
+        "kills": 88,
+        "deaths": 93,
+        "kd": 0.95,
+        "plus_minus": "+0",
+        "damage": 11332,
+        "rating": 0.86
       }
     ],
     "per_map": [
@@ -123,301 +117,301 @@
         "map_number": 1,
         "player_name": "Dashy",
         "team": "team_a",
-        "kills": 24,
-        "deaths": 25,
+        "kills": 27,
+        "deaths": 28,
         "kd": 0.96,
-        "damage": 3196,
-        "rating": 0.91
+        "damage": 3581,
+        "rating": 0.97
       },
       {
         "map_number": 1,
         "player_name": "Huke",
         "team": "team_a",
-        "kills": 19,
-        "deaths": 27,
-        "kd": 0.7,
-        "damage": 2691,
-        "rating": 0.67
+        "kills": 25,
+        "deaths": 32,
+        "kd": 0.78,
+        "damage": 3096,
+        "rating": 0.79
       },
       {
         "map_number": 1,
         "player_name": "Mercules",
         "team": "team_a",
-        "kills": 21,
-        "deaths": 21,
-        "kd": 1.0,
-        "damage": 2837,
-        "rating": 0.95
+        "kills": 23,
+        "deaths": 31,
+        "kd": 0.74,
+        "damage": 3124,
+        "rating": 0.76
       },
       {
         "map_number": 1,
         "player_name": "Shotzzy",
         "team": "team_a",
-        "kills": 20,
+        "kills": 23,
         "deaths": 31,
-        "kd": 0.65,
-        "damage": 2802,
-        "rating": 0.57
+        "kd": 0.74,
+        "damage": 2989,
+        "rating": 0.76
       },
       {
         "map_number": 1,
         "player_name": "MettalZ",
         "team": "team_b",
-        "kills": 23,
-        "deaths": 21,
-        "kd": 1.1,
-        "damage": 3119,
-        "rating": 1.12
+        "kills": 39,
+        "deaths": 24,
+        "kd": 1.63,
+        "damage": 4284,
+        "rating": 1.46
       },
       {
         "map_number": 1,
         "player_name": "RenKoR",
         "team": "team_b",
-        "kills": 36,
-        "deaths": 19,
-        "kd": 1.89,
-        "damage": 4112,
-        "rating": 1.64
+        "kills": 28,
+        "deaths": 23,
+        "kd": 1.22,
+        "damage": 3526,
+        "rating": 1.16
       },
       {
         "map_number": 1,
         "player_name": "SupeR",
         "team": "team_b",
-        "kills": 30,
-        "deaths": 19,
-        "kd": 1.58,
-        "damage": 3665,
-        "rating": 1.43
+        "kills": 27,
+        "deaths": 24,
+        "kd": 1.13,
+        "damage": 4252,
+        "rating": 1.1
       },
       {
         "map_number": 1,
         "player_name": "Traixx",
         "team": "team_b",
-        "kills": 15,
-        "deaths": 25,
-        "kd": 0.6,
-        "damage": 2403,
-        "rating": 0.71
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 3609,
+        "rating": 1.01
       },
       {
         "map_number": 2,
         "player_name": "Dashy",
         "team": "team_a",
         "kills": 5,
-        "deaths": 7,
-        "kd": 0.71,
-        "damage": 1027,
-        "rating": 0.92
+        "deaths": 8,
+        "kd": 0.63,
+        "damage": 748,
+        "rating": 0.83
       },
       {
         "map_number": 2,
         "player_name": "Huke",
         "team": "team_a",
-        "kills": 6,
-        "deaths": 6,
-        "kd": 1.0,
-        "damage": 867,
-        "rating": 1.05
+        "kills": 5,
+        "deaths": 11,
+        "kd": 0.45,
+        "damage": 1014,
+        "rating": 0.64
       },
       {
         "map_number": 2,
         "player_name": "Mercules",
         "team": "team_a",
-        "kills": 10,
+        "kills": 8,
         "deaths": 6,
-        "kd": 1.67,
-        "damage": 1607,
-        "rating": 1.33
+        "kd": 1.33,
+        "damage": 987,
+        "rating": 1.16
       },
       {
         "map_number": 2,
         "player_name": "Shotzzy",
         "team": "team_a",
-        "kills": 9,
-        "deaths": 7,
-        "kd": 1.29,
-        "damage": 1236,
-        "rating": 1.2
+        "kills": 14,
+        "deaths": 5,
+        "kd": 2.8,
+        "damage": 1784,
+        "rating": 1.62
       },
       {
         "map_number": 2,
         "player_name": "MettalZ",
         "team": "team_b",
-        "kills": 4,
-        "deaths": 8,
-        "kd": 0.5,
-        "damage": 734,
-        "rating": 0.69
+        "kills": 6,
+        "deaths": 9,
+        "kd": 0.67,
+        "damage": 1033,
+        "rating": 0.78
       },
       {
         "map_number": 2,
         "player_name": "RenKoR",
         "team": "team_b",
-        "kills": 8,
-        "deaths": 7,
-        "kd": 1.14,
-        "damage": 1051,
-        "rating": 1.0
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 928,
+        "rating": 0.85
       },
       {
         "map_number": 2,
         "player_name": "SupeR",
         "team": "team_b",
-        "kills": 6,
-        "deaths": 7,
-        "kd": 0.86,
-        "damage": 1117,
-        "rating": 0.88
+        "kills": 11,
+        "deaths": 8,
+        "kd": 1.38,
+        "damage": 1199,
+        "rating": 1.16
       },
       {
         "map_number": 2,
         "player_name": "Traixx",
         "team": "team_b",
-        "kills": 8,
-        "deaths": 8,
+        "kills": 9,
+        "deaths": 9,
         "kd": 1.0,
-        "damage": 1124,
-        "rating": 0.93
+        "damage": 1312,
+        "rating": 0.96
       },
       {
         "map_number": 3,
         "player_name": "Dashy",
         "team": "team_a",
-        "kills": 27,
-        "deaths": 20,
-        "kd": 1.35,
-        "damage": 3532,
-        "rating": 1.27
+        "kills": 18,
+        "deaths": 18,
+        "kd": 1.0,
+        "damage": 2877,
+        "rating": 1.18
       },
       {
         "map_number": 3,
         "player_name": "Huke",
         "team": "team_a",
         "kills": 26,
-        "deaths": 25,
-        "kd": 1.04,
-        "damage": 3367,
-        "rating": 1.19
-      },
-      {
-        "map_number": 3,
-        "player_name": "Mercules",
-        "team": "team_a",
-        "kills": 33,
-        "deaths": 23,
-        "kd": 1.43,
-        "damage": 4067,
+        "deaths": 20,
+        "kd": 1.3,
+        "damage": 2994,
         "rating": 1.35
       },
       {
         "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 17,
+        "kd": 1.53,
+        "damage": 3147,
+        "rating": 1.39
+      },
+      {
+        "map_number": 3,
         "player_name": "Shotzzy",
         "team": "team_a",
-        "kills": 24,
-        "deaths": 25,
-        "kd": 0.96,
-        "damage": 2894,
-        "rating": 1.15
+        "kills": 22,
+        "deaths": 20,
+        "kd": 1.1,
+        "damage": 2694,
+        "rating": 1.25
       },
       {
         "map_number": 3,
         "player_name": "MettalZ",
         "team": "team_b",
-        "kills": 19,
-        "deaths": 30,
-        "kd": 0.63,
-        "damage": 2687,
-        "rating": 0.65
+        "kills": 18,
+        "deaths": 26,
+        "kd": 0.69,
+        "damage": 2441,
+        "rating": 0.63
       },
       {
         "map_number": 3,
         "player_name": "RenKoR",
         "team": "team_b",
-        "kills": 28,
-        "deaths": 27,
-        "kd": 1.04,
-        "damage": 3144,
-        "rating": 0.83
+        "kills": 21,
+        "deaths": 17,
+        "kd": 1.24,
+        "damage": 2678,
+        "rating": 0.89
       },
       {
         "map_number": 3,
         "player_name": "SupeR",
         "team": "team_b",
-        "kills": 22,
+        "kills": 10,
         "deaths": 24,
-        "kd": 0.92,
-        "damage": 2968,
-        "rating": 0.81
+        "kd": 0.42,
+        "damage": 1599,
+        "rating": 0.56
       },
       {
         "map_number": 3,
         "player_name": "Traixx",
         "team": "team_b",
-        "kills": 24,
-        "deaths": 29,
-        "kd": 0.83,
-        "damage": 2832,
-        "rating": 0.74
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 2943,
+        "rating": 0.77
       },
       {
         "map_number": 4,
         "player_name": "Dashy",
         "team": "team_a",
-        "kills": 29,
-        "deaths": 22,
-        "kd": 1.32,
-        "damage": 3211,
-        "rating": 1.31
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 3566,
+        "rating": 0.87
       },
       {
         "map_number": 4,
         "player_name": "Huke",
         "team": "team_a",
-        "kills": 22,
-        "deaths": 22,
-        "kd": 1.0,
-        "damage": 2822,
-        "rating": 1.05
+        "kills": 31,
+        "deaths": 24,
+        "kd": 1.29,
+        "damage": 3631,
+        "rating": 1.32
       },
       {
         "map_number": 4,
         "player_name": "Mercules",
         "team": "team_a",
-        "kills": 28,
-        "deaths": 25,
-        "kd": 1.12,
-        "damage": 3627,
-        "rating": 1.17
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 3145,
+        "rating": 1.12
       },
       {
         "map_number": 4,
         "player_name": "Shotzzy",
         "team": "team_a",
-        "kills": 17,
-        "deaths": 33,
-        "kd": 0.52,
-        "damage": 2827,
-        "rating": 0.46
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3451,
+        "rating": 1.29
       },
       {
         "map_number": 4,
         "player_name": "MettalZ",
         "team": "team_b",
-        "kills": 27,
-        "deaths": 24,
-        "kd": 1.13,
-        "damage": 3582,
-        "rating": 1.06
+        "kills": 23,
+        "deaths": 28,
+        "kd": 0.82,
+        "damage": 3312,
+        "rating": 0.75
       },
       {
         "map_number": 4,
         "player_name": "RenKoR",
         "team": "team_b",
-        "kills": 26,
+        "kills": 25,
         "deaths": 22,
-        "kd": 1.18,
-        "damage": 3143,
-        "rating": 1.1
+        "kd": 1.14,
+        "damage": 3046,
+        "rating": 1.02
       },
       {
         "map_number": 4,
@@ -426,98 +420,18 @@
         "kills": 25,
         "deaths": 25,
         "kd": 1.0,
-        "damage": 3056,
-        "rating": 0.95
+        "damage": 3196,
+        "rating": 0.92
       },
       {
         "map_number": 4,
         "player_name": "Traixx",
         "team": "team_b",
-        "kills": 24,
-        "deaths": 25,
-        "kd": 0.96,
-        "damage": 2974,
-        "rating": 0.91
-      },
-      {
-        "map_number": 5,
-        "player_name": "Dashy",
-        "team": "team_a",
-        "kills": 7,
-        "deaths": 6,
-        "kd": 1.17,
-        "damage": 1180,
-        "rating": 1.13
-      },
-      {
-        "map_number": 5,
-        "player_name": "Huke",
-        "team": "team_a",
-        "kills": 2,
-        "deaths": 9,
-        "kd": 0.22,
-        "damage": 414,
-        "rating": 0.58
-      },
-      {
-        "map_number": 5,
-        "player_name": "Mercules",
-        "team": "team_a",
-        "kills": 12,
-        "deaths": 5,
-        "kd": 2.4,
-        "damage": 1534,
-        "rating": 1.55
-      },
-      {
-        "map_number": 5,
-        "player_name": "Shotzzy",
-        "team": "team_a",
-        "kills": 8,
-        "deaths": 5,
-        "kd": 1.6,
-        "damage": 843,
-        "rating": 1.26
-      },
-      {
-        "map_number": 5,
-        "player_name": "MettalZ",
-        "team": "team_b",
-        "kills": 4,
-        "deaths": 8,
-        "kd": 0.5,
-        "damage": 728,
-        "rating": 0.67
-      },
-      {
-        "map_number": 5,
-        "player_name": "RenKoR",
-        "team": "team_b",
-        "kills": 7,
-        "deaths": 6,
-        "kd": 1.17,
-        "damage": 988,
-        "rating": 1.01
-      },
-      {
-        "map_number": 5,
-        "player_name": "SupeR",
-        "team": "team_b",
-        "kills": 5,
-        "deaths": 8,
-        "kd": 0.63,
-        "damage": 907,
-        "rating": 0.74
-      },
-      {
-        "map_number": 5,
-        "player_name": "Traixx",
-        "team": "team_b",
-        "kills": 9,
-        "deaths": 7,
-        "kd": 1.29,
-        "damage": 972,
-        "rating": 1.06
+        "kills": 26,
+        "deaths": 32,
+        "kd": 0.81,
+        "damage": 3468,
+        "rating": 0.71
       }
     ]
   }
