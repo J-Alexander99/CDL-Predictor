@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214883",
+    "team_a": "Toronto KOI",
+    "team_b": "Paris Gentle Mates",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-01",
+    "url": "https://www.breakingpoint.gg/match/214883/Toronto-KOI-vs-Paris-Gentle-Mates-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 241
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 6,
+      "team_b_score": 5
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 2
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 61,
+        "deaths": 64,
+        "kd": 0.95,
+        "plus_minus": "-3",
+        "damage": 7651,
+        "rating": 1.0
+      },
+      {
+        "player": "Insight",
+        "kills": 54,
+        "deaths": 51,
+        "kd": 1.06,
+        "plus_minus": "+8",
+        "damage": 6857,
+        "rating": 1.13
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 67,
+        "deaths": 55,
+        "kd": 1.22,
+        "plus_minus": "-2",
+        "damage": 8359,
+        "rating": 1.14
+      },
+      {
+        "player": "Kips",
+        "kills": 68,
+        "deaths": 62,
+        "kd": 1.1,
+        "plus_minus": "-2",
+        "damage": 9341,
+        "rating": 1.24
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Envoy",
+        "kills": 47,
+        "deaths": 68,
+        "kd": 0.69,
+        "plus_minus": "+0",
+        "damage": 6678,
+        "rating": 0.72
+      },
+      {
+        "player": "Ghosty",
+        "kills": 57,
+        "deaths": 57,
+        "kd": 1.0,
+        "plus_minus": "+5",
+        "damage": 8052,
+        "rating": 0.9
+      },
+      {
+        "player": "Neptune",
+        "kills": 68,
+        "deaths": 59,
+        "kd": 1.15,
+        "plus_minus": "+0",
+        "damage": 8809,
+        "rating": 0.94
+      },
+      {
+        "player": "Sib",
+        "kills": 60,
+        "deaths": 67,
+        "kd": 0.9,
+        "plus_minus": "-6",
+        "damage": 7491,
+        "rating": 0.93
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 34,
+        "kd": 0.91,
+        "damage": 3518,
+        "rating": 0.94
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 23,
+        "kd": 1.35,
+        "damage": 3956,
+        "rating": 1.26
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 30,
+        "kd": 0.93,
+        "damage": 3720,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 33,
+        "kd": 0.94,
+        "damage": 4331,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 31,
+        "kd": 1.0,
+        "damage": 3420,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 26,
+        "kd": 1.19,
+        "damage": 4370,
+        "rating": 1.12
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 30,
+        "kd": 1.0,
+        "damage": 4175,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 34,
+        "kd": 0.82,
+        "damage": 3517,
+        "rating": 0.8
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.63,
+        "damage": 1033,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 758,
+        "rating": 1.14
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 1219,
+        "rating": 1.01
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 14,
+        "deaths": 6,
+        "kd": 2.33,
+        "damage": 1648,
+        "rating": 1.6
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 997,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 10,
+        "kd": 0.7,
+        "damage": 1246,
+        "rating": 0.73
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 8,
+        "kd": 0.75,
+        "damage": 917,
+        "rating": 0.81
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 7,
+        "kd": 1.71,
+        "damage": 1242,
+        "rating": 1.23
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3100,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 21,
+        "kd": 0.71,
+        "damage": 2143,
+        "rating": 1.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 17,
+        "kd": 1.88,
+        "damage": 3420,
+        "rating": 1.43
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 23,
+        "kd": 1.0,
+        "damage": 3362,
+        "rating": 1.15
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 28,
+        "kd": 0.43,
+        "damage": 2261,
+        "rating": 0.58
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 21,
+        "kd": 0.9,
+        "damage": 2436,
+        "rating": 0.84
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 21,
+        "kd": 1.52,
+        "damage": 3717,
+        "rating": 1.04
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 26,
+        "kd": 0.77,
+        "damage": 2732,
+        "rating": 0.75
+      }
+    ]
+  }
+}

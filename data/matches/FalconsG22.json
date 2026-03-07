@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214879",
+    "team_a": "Riyadh Falcons",
+    "team_b": "G2 Minnesota",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-02-28",
+    "url": "https://www.breakingpoint.gg/match/214879/Riyadh-Falcons-vs-G2-Minnesota-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 229
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 134,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 1,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 5,
+      "team_b_score": 0
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Cellium",
+        "kills": 87,
+        "deaths": 78,
+        "kd": 1.12,
+        "plus_minus": "+6",
+        "damage": 11831,
+        "rating": 0.9
+      },
+      {
+        "player": "Exnid",
+        "kills": 90,
+        "deaths": 100,
+        "kd": 0.9,
+        "plus_minus": "+1",
+        "damage": 11983,
+        "rating": 0.84
+      },
+      {
+        "player": "KiSMET",
+        "kills": 77,
+        "deaths": 100,
+        "kd": 0.77,
+        "plus_minus": "-5",
+        "damage": 11566,
+        "rating": 0.81
+      },
+      {
+        "player": "Pred",
+        "kills": 103,
+        "deaths": 88,
+        "kd": 1.17,
+        "plus_minus": "+7",
+        "damage": 13026,
+        "rating": 0.97
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Estreal",
+        "kills": 73,
+        "deaths": 87,
+        "kd": 0.84,
+        "plus_minus": "-2",
+        "damage": 10164,
+        "rating": 0.99
+      },
+      {
+        "player": "Kremp",
+        "kills": 107,
+        "deaths": 94,
+        "kd": 1.14,
+        "plus_minus": "-1",
+        "damage": 13567,
+        "rating": 1.22
+      },
+      {
+        "player": "Mamba",
+        "kills": 90,
+        "deaths": 100,
+        "kd": 0.9,
+        "plus_minus": "-4",
+        "damage": 12178,
+        "rating": 1.05
+      },
+      {
+        "player": "Skyz",
+        "kills": 96,
+        "deaths": 76,
+        "kd": 1.26,
+        "plus_minus": "-2",
+        "damage": 12371,
+        "rating": 1.21
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 24,
+        "kd": 1.25,
+        "damage": 3867,
+        "rating": 1.18
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 35,
+        "kd": 1.03,
+        "damage": 4381,
+        "rating": 1.04
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 31,
+        "kd": 0.84,
+        "damage": 3864,
+        "rating": 0.87
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 38,
+        "deaths": 31,
+        "kd": 1.23,
+        "damage": 5194,
+        "rating": 1.21
+      },
+      {
+        "map_number": 1,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 29,
+        "kd": 0.93,
+        "damage": 3461,
+        "rating": 0.93
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 34,
+        "kd": 0.97,
+        "damage": 4742,
+        "rating": 0.96
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 37,
+        "kd": 0.89,
+        "damage": 3951,
+        "rating": 0.87
+      },
+      {
+        "map_number": 1,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 30,
+        "kd": 0.93,
+        "damage": 4059,
+        "rating": 0.93
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 1,
+        "deaths": 7,
+        "kd": 0.14,
+        "damage": 538,
+        "rating": 0.44
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 2,
+        "deaths": 7,
+        "kd": 0.29,
+        "damage": 337,
+        "rating": 0.47
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 576,
+        "rating": 0.65
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 619,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 2,
+        "kd": 2.5,
+        "damage": 530,
+        "rating": 1.36
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 966,
+        "rating": 1.47
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 862,
+        "rating": 1.47
+      },
+      {
+        "map_number": 2,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 2,
+        "kd": 3.5,
+        "damage": 915,
+        "rating": 1.53
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 16,
+        "kd": 1.63,
+        "damage": 3053,
+        "rating": 1.4
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 20,
+        "kd": 1.15,
+        "damage": 3317,
+        "rating": 1.28
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 26,
+        "kd": 0.81,
+        "damage": 2992,
+        "rating": 1.16
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 17,
+        "kd": 1.76,
+        "damage": 3823,
+        "rating": 1.48
+      },
+      {
+        "map_number": 3,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 2405,
+        "rating": 0.68
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 24,
+        "kd": 0.92,
+        "damage": 2403,
+        "rating": 0.72
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 29,
+        "kd": 0.66,
+        "damage": 3005,
+        "rating": 0.57
+      },
+      {
+        "map_number": 3,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 24,
+        "kd": 0.88,
+        "damage": 3019,
+        "rating": 0.71
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 24,
+        "kd": 1.13,
+        "damage": 3521,
+        "rating": 0.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 31,
+        "kd": 0.68,
+        "damage": 3054,
+        "rating": 0.44
+      },
+      {
+        "map_number": 4,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 30,
+        "kd": 0.6,
+        "damage": 2948,
+        "rating": 0.41
+      },
+      {
+        "map_number": 4,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 27,
+        "kd": 0.93,
+        "damage": 2529,
+        "rating": 0.66
+      },
+      {
+        "map_number": 4,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 26,
+        "kd": 0.73,
+        "damage": 2882,
+        "rating": 1.06
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 26,
+        "kd": 1.27,
+        "damage": 3804,
+        "rating": 1.51
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 24,
+        "kd": 1.08,
+        "damage": 3253,
+        "rating": 1.33
+      },
+      {
+        "map_number": 4,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 15,
+        "kd": 2.27,
+        "damage": 3443,
+        "rating": 1.78
+      },
+      {
+        "map_number": 5,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 852,
+        "rating": 0.7
+      },
+      {
+        "map_number": 5,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 894,
+        "rating": 0.99
+      },
+      {
+        "map_number": 5,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1186,
+        "rating": 0.94
+      },
+      {
+        "map_number": 5,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 861,
+        "rating": 0.88
+      },
+      {
+        "map_number": 5,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 886,
+        "rating": 0.93
+      },
+      {
+        "map_number": 5,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 6,
+        "kd": 2.0,
+        "damage": 1652,
+        "rating": 1.46
+      },
+      {
+        "map_number": 5,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 1107,
+        "rating": 0.99
+      },
+      {
+        "map_number": 5,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 5,
+        "kd": 1.2,
+        "damage": 935,
+        "rating": 1.11
+      }
+    ]
+  }
+}

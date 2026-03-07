@@ -1,14 +1,14 @@
 # Add your match URLs here, one per line
 # Lines starting with # are ignored
 
-https://www.breakingpoint.gg/match/214865/Vancouver-Surge-vs-FaZe-Vegas-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214866/Riyadh-Falcons-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214867/Toronto-KOI-vs-Los-Angeles-Thieves-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214868/Toronto-KOI-vs-G2-Minnesota-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214869/Los-Angeles-Thieves-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214870/Paris-Gentle-Mates-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214871/OpTic-Texas-vs-Miami-Heretics-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214872/Riyadh-Falcons-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214873/Vancouver-Surge-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214874/OpTic-Texas-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026
-https://www.breakingpoint.gg/match/214875/G2-Minnesota-vs-FaZe-Vegas-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214876/Carolina-Royal-Ravens-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214877/Riyadh-Falcons-vs-FaZe-Vegas-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214878/Paris-Gentle-Mates-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214879/Riyadh-Falcons-vs-G2-Minnesota-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214880/Toronto-KOI-vs-Miami-Heretics-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214881/Vancouver-Surge-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214882/OpTic-Texas-vs-Los-Angeles-Thieves-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214883/Toronto-KOI-vs-Paris-Gentle-Mates-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214884/FaZe-Vegas-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214885/Miami-Heretics-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214886/Vancouver-Surge-vs-OpTic-Texas-at-CDL-Major-2-Qualifier-2026

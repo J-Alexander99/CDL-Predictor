@@ -1,115 +1,121 @@
 {
   "match_info": {
-    "match_id": "214795",
+    "match_id": "214876",
     "team_a": "Carolina Royal Ravens",
     "team_b": "Boston Breach",
-    "tournament": "CDL Major 1 Qualifier",
-    "date": "2025-05-12",
-    "url": "https://www.breakingpoint.gg/match/214795/Carolina-Royal-Ravens-vs-Boston-Breach-at-CDL-Major-1-Qualifier-2026",
-    "team_a_score": 1,
-    "team_b_score": 3
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-02-27",
+    "url": "https://www.breakingpoint.gg/match/214876/Carolina-Royal-Ravens-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 2
   },
   "map_results": [
     {
       "mode": "Hardpoint",
       "map_name": "Colossus",
-      "team_a_score": 153,
+      "team_a_score": 189,
       "team_b_score": 250
     },
     {
       "mode": "Hardpoint",
-      "map_name": "Exposure",
-      "team_a_score": 214,
-      "team_b_score": 250
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 109
     },
     {
       "mode": "Search & Destroy",
-      "map_name": "Scar",
+      "map_name": "Exposure",
       "team_a_score": 6,
       "team_b_score": 5
     },
     {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 2
+    },
+    {
       "mode": "Overload",
       "map_name": "Den",
-      "team_a_score": 2,
-      "team_b_score": 3
+      "team_a_score": 0,
+      "team_b_score": 4
     }
   ],
   "player_stats": {
     "team_a": [
       {
         "player": "Craze",
-        "kills": 81,
-        "deaths": 83,
-        "kd": 0.98,
-        "plus_minus": "+2",
-        "damage": 10265,
-        "rating": 0.83
+        "kills": 82,
+        "deaths": 82,
+        "kd": 1.0,
+        "plus_minus": "-3",
+        "damage": 10455,
+        "rating": 1.07
+      },
+      {
+        "player": "Exceed",
+        "kills": 71,
+        "deaths": 76,
+        "kd": 0.93,
+        "plus_minus": "-8",
+        "damage": 9762,
+        "rating": 1.12
       },
       {
         "player": "Lurqxx",
-        "kills": 88,
-        "deaths": 87,
-        "kd": 1.01,
-        "plus_minus": "+1",
-        "damage": 10951,
-        "rating": 0.85
+        "kills": 83,
+        "deaths": 78,
+        "kd": 1.06,
+        "plus_minus": "-11",
+        "damage": 9990,
+        "rating": 1.07
       },
       {
         "player": "Nero",
-        "kills": 78,
-        "deaths": 86,
-        "kd": 0.91,
-        "plus_minus": "-5",
-        "damage": 10162,
-        "rating": 0.79
-      },
-      {
-        "player": "SlasheR",
-        "kills": 60,
-        "deaths": 73,
-        "kd": 0.82,
-        "plus_minus": "-2",
-        "damage": 9198,
-        "rating": 0.77
+        "kills": 84,
+        "deaths": 79,
+        "kd": 1.06,
+        "plus_minus": "+7",
+        "damage": 10999,
+        "rating": 1.08
       }
     ],
     "team_b": [
       {
-        "player": "Cammy",
-        "kills": 84,
-        "deaths": 78,
-        "kd": 1.08,
-        "plus_minus": "+6",
-        "damage": 11478,
-        "rating": 1.21
-      },
-      {
         "player": "Nastie",
-        "kills": 88,
-        "deaths": 63,
-        "kd": 1.4,
-        "plus_minus": "+9",
-        "damage": 10698,
-        "rating": 1.33
+        "kills": 77,
+        "deaths": 80,
+        "kd": 0.96,
+        "plus_minus": "+6",
+        "damage": 10232,
+        "rating": 0.91
       },
       {
         "player": "Purj",
-        "kills": 69,
-        "deaths": 84,
-        "kd": 0.82,
-        "plus_minus": "-5",
-        "damage": 9681,
-        "rating": 1.04
+        "kills": 67,
+        "deaths": 81,
+        "kd": 0.83,
+        "plus_minus": "+3",
+        "damage": 9349,
+        "rating": 0.79
       },
       {
         "player": "Snoopy",
-        "kills": 87,
-        "deaths": 82,
-        "kd": 1.06,
-        "plus_minus": "-6",
-        "damage": 10403,
-        "rating": 1.19
+        "kills": 65,
+        "deaths": 85,
+        "kd": 0.76,
+        "plus_minus": "-11",
+        "damage": 9001,
+        "rating": 0.82
+      },
+      {
+        "player": "Spart",
+        "kills": 106,
+        "deaths": 74,
+        "kd": 1.43,
+        "plus_minus": "+17",
+        "damage": 13066,
+        "rating": 1.12
       }
     ],
     "per_map": [
@@ -117,321 +123,401 @@
         "map_number": 1,
         "player_name": "Craze",
         "team": "team_a",
-        "kills": 25,
-        "deaths": 23,
-        "kd": 1.09,
-        "damage": 3094,
-        "rating": 0.74
+        "kills": 27,
+        "deaths": 30,
+        "kd": 0.9,
+        "damage": 3871,
+        "rating": 0.8
       },
       {
         "map_number": 1,
-        "player_name": "Lurqxx",
-        "team": "team_a",
-        "kills": 26,
-        "deaths": 25,
-        "kd": 1.04,
-        "damage": 3198,
-        "rating": 0.69
-      },
-      {
-        "map_number": 1,
-        "player_name": "Nero",
-        "team": "team_a",
-        "kills": 21,
-        "deaths": 26,
-        "kd": 0.81,
-        "damage": 3046,
-        "rating": 0.53
-      },
-      {
-        "map_number": 1,
-        "player_name": "SlasheR",
-        "team": "team_a",
-        "kills": 22,
-        "deaths": 24,
-        "kd": 0.92,
-        "damage": 2961,
-        "rating": 0.63
-      },
-      {
-        "map_number": 1,
-        "player_name": "Cammy",
-        "team": "team_b",
-        "kills": 31,
-        "deaths": 25,
-        "kd": 1.24,
-        "damage": 3834,
-        "rating": 1.56
-      },
-      {
-        "map_number": 1,
-        "player_name": "Nastie",
-        "team": "team_b",
-        "kills": 28,
-        "deaths": 19,
-        "kd": 1.47,
-        "damage": 3405,
-        "rating": 1.59
-      },
-      {
-        "map_number": 1,
-        "player_name": "Purj",
-        "team": "team_b",
-        "kills": 18,
-        "deaths": 23,
-        "kd": 0.78,
-        "damage": 2881,
-        "rating": 1.12
-      },
-      {
-        "map_number": 1,
-        "player_name": "Snoopy",
-        "team": "team_b",
-        "kills": 21,
-        "deaths": 27,
-        "kd": 0.78,
-        "damage": 2526,
-        "rating": 1.14
-      },
-      {
-        "map_number": 2,
-        "player_name": "Craze",
-        "team": "team_a",
-        "kills": 7,
-        "deaths": 9,
-        "kd": 0.78,
-        "damage": 945,
-        "rating": 0.83
-      },
-      {
-        "map_number": 2,
-        "player_name": "Lurqxx",
-        "team": "team_a",
-        "kills": 8,
-        "deaths": 8,
-        "kd": 1.0,
-        "damage": 1165,
-        "rating": 0.97
-      },
-      {
-        "map_number": 2,
-        "player_name": "Nero",
-        "team": "team_a",
-        "kills": 8,
-        "deaths": 8,
-        "kd": 1.0,
-        "damage": 953,
-        "rating": 0.97
-      },
-      {
-        "map_number": 2,
-        "player_name": "SlasheR",
-        "team": "team_a",
-        "kills": 6,
-        "deaths": 6,
-        "kd": 1.0,
-        "damage": 1306,
-        "rating": 0.97
-      },
-      {
-        "map_number": 2,
-        "player_name": "Cammy",
-        "team": "team_b",
-        "kills": 6,
-        "deaths": 6,
-        "kd": 1.0,
-        "damage": 820,
-        "rating": 1.03
-      },
-      {
-        "map_number": 2,
-        "player_name": "Nastie",
-        "team": "team_b",
-        "kills": 8,
-        "deaths": 7,
-        "kd": 1.14,
-        "damage": 1269,
-        "rating": 1.1
-      },
-      {
-        "map_number": 2,
-        "player_name": "Purj",
-        "team": "team_b",
-        "kills": 7,
-        "deaths": 8,
-        "kd": 0.88,
-        "damage": 1115,
-        "rating": 0.96
-      },
-      {
-        "map_number": 2,
-        "player_name": "Snoopy",
-        "team": "team_b",
-        "kills": 10,
-        "deaths": 8,
-        "kd": 1.25,
-        "damage": 1366,
-        "rating": 1.17
-      },
-      {
-        "map_number": 3,
-        "player_name": "Craze",
-        "team": "team_a",
-        "kills": 20,
-        "deaths": 26,
-        "kd": 0.77,
-        "damage": 2458,
-        "rating": 0.74
-      },
-      {
-        "map_number": 3,
-        "player_name": "Lurqxx",
+        "player_name": "Exceed",
         "team": "team_a",
         "kills": 23,
-        "deaths": 26,
-        "kd": 0.88,
-        "damage": 3149,
-        "rating": 0.78
-      },
-      {
-        "map_number": 3,
-        "player_name": "Nero",
-        "team": "team_a",
-        "kills": 25,
-        "deaths": 27,
-        "kd": 0.93,
-        "damage": 3059,
-        "rating": 0.79
-      },
-      {
-        "map_number": 3,
-        "player_name": "SlasheR",
-        "team": "team_a",
-        "kills": 16,
-        "deaths": 20,
-        "kd": 0.8,
-        "damage": 2557,
-        "rating": 0.81
-      },
-      {
-        "map_number": 3,
-        "player_name": "Cammy",
-        "team": "team_b",
-        "kills": 24,
-        "deaths": 21,
-        "kd": 1.14,
-        "damage": 3166,
-        "rating": 1.21
-      },
-      {
-        "map_number": 3,
-        "player_name": "Nastie",
-        "team": "team_b",
-        "kills": 26,
-        "deaths": 18,
-        "kd": 1.44,
-        "damage": 2948,
-        "rating": 1.3
-      },
-      {
-        "map_number": 3,
-        "player_name": "Purj",
-        "team": "team_b",
-        "kills": 19,
-        "deaths": 25,
-        "kd": 0.76,
-        "damage": 2446,
-        "rating": 1.05
-      },
-      {
-        "map_number": 3,
-        "player_name": "Snoopy",
-        "team": "team_b",
-        "kills": 29,
-        "deaths": 20,
-        "kd": 1.45,
-        "damage": 3266,
-        "rating": 1.34
-      },
-      {
-        "map_number": 4,
-        "player_name": "Craze",
-        "team": "team_a",
-        "kills": 29,
-        "deaths": 25,
-        "kd": 1.16,
-        "damage": 3768,
-        "rating": 1.0
-      },
-      {
-        "map_number": 4,
-        "player_name": "Lurqxx",
-        "team": "team_a",
-        "kills": 31,
-        "deaths": 28,
-        "kd": 1.11,
-        "damage": 3439,
-        "rating": 0.96
-      },
-      {
-        "map_number": 4,
-        "player_name": "Nero",
-        "team": "team_a",
-        "kills": 24,
-        "deaths": 25,
-        "kd": 0.96,
-        "damage": 3104,
-        "rating": 0.85
-      },
-      {
-        "map_number": 4,
-        "player_name": "SlasheR",
-        "team": "team_a",
-        "kills": 16,
-        "deaths": 23,
-        "kd": 0.7,
-        "damage": 2374,
+        "deaths": 31,
+        "kd": 0.74,
+        "damage": 3335,
         "rating": 0.67
       },
       {
-        "map_number": 4,
-        "player_name": "Cammy",
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 33,
+        "kd": 0.67,
+        "damage": 2725,
+        "rating": 0.58
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nero",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 28,
+        "kd": 1.25,
+        "damage": 4108,
+        "rating": 1.06
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
         "team": "team_b",
-        "kills": 23,
-        "deaths": 26,
-        "kd": 0.88,
-        "damage": 3658,
-        "rating": 1.02
+        "kills": 34,
+        "deaths": 28,
+        "kd": 1.21,
+        "damage": 3633,
+        "rating": 1.29
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 27,
+        "kd": 1.11,
+        "damage": 3605,
+        "rating": 1.2
+      },
+      {
+        "map_number": 1,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 29,
+        "kd": 0.62,
+        "damage": 2688,
+        "rating": 0.79
+      },
+      {
+        "map_number": 1,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 40,
+        "deaths": 23,
+        "kd": 1.74,
+        "damage": 5128,
+        "rating": 1.6
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 9,
+        "kd": 0.56,
+        "damage": 438,
+        "rating": 0.79
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 6,
+        "kd": 2.17,
+        "damage": 1690,
+        "rating": 1.5
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 8,
+        "kd": 1.13,
+        "damage": 1197,
+        "rating": 1.11
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nero",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 1183,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 995,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 9,
+        "kd": 0.33,
+        "damage": 980,
+        "rating": 0.58
+      },
+      {
+        "map_number": 2,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 9,
+        "kd": 1.33,
+        "damage": 1588,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 1261,
+        "rating": 0.95
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 20,
+        "kd": 0.85,
+        "damage": 2275,
+        "rating": 0.65
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 22,
+        "kd": 0.36,
+        "damage": 1393,
+        "rating": 0.46
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 19,
+        "kd": 1.11,
+        "damage": 2723,
+        "rating": 0.73
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nero",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 22,
+        "kd": 0.73,
+        "damage": 2497,
+        "rating": 0.57
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 16,
+        "kd": 1.25,
+        "damage": 2527,
+        "rating": 1.37
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 14,
+        "kd": 1.14,
+        "damage": 1877,
+        "rating": 1.28
+      },
+      {
+        "map_number": 3,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 16,
+        "kd": 1.19,
+        "damage": 2462,
+        "rating": 1.34
+      },
+      {
+        "map_number": 3,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 16,
+        "kd": 1.75,
+        "damage": 3100,
+        "rating": 1.6
+      },
+      {
+        "map_number": 4,
+        "player_name": "Craze",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 19,
+        "kd": 1.26,
+        "damage": 2717,
+        "rating": 1.5
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exceed",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 15,
+        "kd": 1.33,
+        "damage": 2613,
+        "rating": 1.44
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lurqxx",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 14,
+        "kd": 1.93,
+        "damage": 2846,
+        "rating": 1.74
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nero",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 18,
+        "kd": 1.11,
+        "damage": 2532,
+        "rating": 1.37
       },
       {
         "map_number": 4,
         "player_name": "Nastie",
         "team": "team_b",
-        "kills": 26,
-        "deaths": 19,
-        "kd": 1.37,
-        "damage": 3076,
-        "rating": 1.34
+        "kills": 13,
+        "deaths": 22,
+        "kd": 0.59,
+        "damage": 2150,
+        "rating": 0.43
       },
       {
         "map_number": 4,
         "player_name": "Purj",
         "team": "team_b",
-        "kills": 25,
-        "deaths": 28,
-        "kd": 0.89,
-        "damage": 3239,
-        "rating": 1.03
+        "kills": 15,
+        "deaths": 24,
+        "kd": 0.63,
+        "damage": 2232,
+        "rating": 0.4
       },
       {
         "map_number": 4,
         "player_name": "Snoopy",
         "team": "team_b",
-        "kills": 27,
-        "deaths": 27,
+        "kills": 15,
+        "deaths": 24,
+        "kd": 0.63,
+        "damage": 2134,
+        "rating": 0.4
+      },
+      {
+        "map_number": 4,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 2528,
+        "rating": 0.71
+      },
+      {
+        "map_number": 5,
+        "player_name": "Craze",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 4,
+        "kd": 2.25,
+        "damage": 1154,
+        "rating": 1.63
+      },
+      {
+        "map_number": 5,
+        "player_name": "Exceed",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 2,
+        "kd": 3.5,
+        "damage": 731,
+        "rating": 1.53
+      },
+      {
+        "map_number": 5,
+        "player_name": "Lurqxx",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 4,
         "kd": 1.0,
-        "damage": 3245,
-        "rating": 1.13
+        "damage": 499,
+        "rating": 1.19
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nero",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 679,
+        "rating": 1.45
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 927,
+        "rating": 0.51
+      },
+      {
+        "map_number": 5,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 655,
+        "rating": 0.51
+      },
+      {
+        "map_number": 5,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 1,
+        "deaths": 7,
+        "kd": 0.14,
+        "damage": 129,
+        "rating": 0.43
+      },
+      {
+        "map_number": 5,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1049,
+        "rating": 0.76
       }
     ]
   }
