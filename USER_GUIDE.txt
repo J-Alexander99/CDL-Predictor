@@ -77,7 +77,7 @@ python main.py predict --team-a "Cloud9 New York" --team-b "Vancouver Surge"
 ### Detailed Model Breakdown
 To see all three models' predictions separately:
 ```bash
-python explain_prediction.py "Boston Breach" "Cloud9 New York"
+python explain_prediction.py "Paris Gentle Mates" "Vancouver Surge"
 ```
 Shows Statistical, Elo, ML, and Ensemble predictions with detailed reasoning.
 
