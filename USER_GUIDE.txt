@@ -71,6 +71,9 @@ python main.py predict --team-a "FaZe Vegas" --team-b "Vancouver Surge"
 ```bash
 python main.py predict --team-a "FaZe Vegas" --team-b "Vancouver Surge" -g
 ```
+
+### Another Prediction Example
+```bash
 python main.py predict --team-a "Cloud9 New York" --team-b "Vancouver Surge"
 ```
 
@@ -204,6 +207,13 @@ python main.py player-stats --player "Simp" --mode "Hardpoint" --map "Den"
 python main.py update-stats
 ```
 Recalculates all team and player statistics from scratch.
+
+**Train Machine Learning Model:**
+```bash
+python main.py train-ml
+python main.py train-ml --min-matches 5
+```
+Retrains the ML predictor using current database stats and saves the updated model.
 
 ================================================================================
 

@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214892",
+    "team_a": "Toronto KOI",
+    "team_b": "Riyadh Falcons",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-07",
+    "url": "https://www.breakingpoint.gg/match/214892/Toronto-KOI-vs-Riyadh-Falcons-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Blackheart",
+      "team_a_score": 160,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 5,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 2,
+      "team_b_score": 7
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 45,
+        "deaths": 60,
+        "kd": 0.75,
+        "plus_minus": "-3",
+        "damage": 5985,
+        "rating": 0.69
+      },
+      {
+        "player": "Insight",
+        "kills": 39,
+        "deaths": 53,
+        "kd": 0.74,
+        "plus_minus": "-7",
+        "damage": 6102,
+        "rating": 0.63
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 43,
+        "deaths": 61,
+        "kd": 0.7,
+        "plus_minus": "-5",
+        "damage": 5934,
+        "rating": 0.63
+      },
+      {
+        "player": "Kips",
+        "kills": 48,
+        "deaths": 58,
+        "kd": 0.83,
+        "plus_minus": "-4",
+        "damage": 6930,
+        "rating": 0.63
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Cellium",
+        "kills": 52,
+        "deaths": 35,
+        "kd": 1.49,
+        "plus_minus": "+10",
+        "damage": 6819,
+        "rating": 1.32
+      },
+      {
+        "player": "Exnid",
+        "kills": 63,
+        "deaths": 48,
+        "kd": 1.31,
+        "plus_minus": "+8",
+        "damage": 7367,
+        "rating": 1.39
+      },
+      {
+        "player": "KiSMET",
+        "kills": 56,
+        "deaths": 43,
+        "kd": 1.3,
+        "plus_minus": "-3",
+        "damage": 7821,
+        "rating": 1.35
+      },
+      {
+        "player": "Pred",
+        "kills": 61,
+        "deaths": 49,
+        "kd": 1.24,
+        "plus_minus": "+4",
+        "damage": 7802,
+        "rating": 1.35
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 2519,
+        "rating": 0.72
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 23,
+        "kd": 0.7,
+        "damage": 2512,
+        "rating": 0.63
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 28,
+        "kd": 0.82,
+        "damage": 3178,
+        "rating": 0.65
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 26,
+        "kd": 0.85,
+        "damage": 3144,
+        "rating": 0.69
+      },
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 15,
+        "kd": 1.67,
+        "damage": 2622,
+        "rating": 1.47
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 23,
+        "kd": 1.35,
+        "damage": 3405,
+        "rating": 1.46
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 22,
+        "kd": 0.86,
+        "damage": 2830,
+        "rating": 1.06
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 24,
+        "kd": 1.17,
+        "damage": 3695,
+        "rating": 1.32
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 8,
+        "kd": 1.13,
+        "damage": 1303,
+        "rating": 0.93
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 975,
+        "rating": 0.7
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 874,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 10,
+        "kd": 0.6,
+        "damage": 1175,
+        "rating": 0.59
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 1187,
+        "rating": 1.04
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 1021,
+        "rating": 1.24
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 7,
+        "kd": 1.57,
+        "damage": 1616,
+        "rating": 1.43
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1028,
+        "rating": 1.25
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 26,
+        "kd": 0.5,
+        "damage": 2163,
+        "rating": 0.42
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 23,
+        "kd": 0.83,
+        "damage": 2615,
+        "rating": 0.57
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 14,
+        "deaths": 26,
+        "kd": 0.54,
+        "damage": 1882,
+        "rating": 0.43
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 22,
+        "kd": 0.91,
+        "damage": 2611,
+        "rating": 0.6
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 13,
+        "kd": 1.62,
+        "damage": 3010,
+        "rating": 1.44
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 20,
+        "kd": 1.25,
+        "damage": 2941,
+        "rating": 1.48
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 14,
+        "kd": 1.86,
+        "damage": 3375,
+        "rating": 1.57
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 19,
+        "kd": 1.32,
+        "damage": 3079,
+        "rating": 1.49
+      }
+    ]
+  }
+}

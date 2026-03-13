@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214895",
+    "team_a": "Toronto KOI",
+    "team_b": "Boston Breach",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-08",
+    "url": "https://www.breakingpoint.gg/match/214895/Toronto-KOI-vs-Boston-Breach-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 144
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 3
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 8,
+      "team_b_score": 0
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 58,
+        "deaths": 50,
+        "kd": 1.16,
+        "plus_minus": "+0",
+        "damage": 7420,
+        "rating": 1.31
+      },
+      {
+        "player": "Insight",
+        "kills": 72,
+        "deaths": 35,
+        "kd": 2.06,
+        "plus_minus": "+16",
+        "damage": 8657,
+        "rating": 1.6
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 57,
+        "deaths": 52,
+        "kd": 1.1,
+        "plus_minus": "-7",
+        "damage": 7354,
+        "rating": 1.24
+      },
+      {
+        "player": "Kips",
+        "kills": 62,
+        "deaths": 51,
+        "kd": 1.22,
+        "plus_minus": "+2",
+        "damage": 7909,
+        "rating": 1.34
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Nastie",
+        "kills": 48,
+        "deaths": 60,
+        "kd": 0.8,
+        "plus_minus": "+3",
+        "damage": 6974,
+        "rating": 0.66
+      },
+      {
+        "player": "Purj",
+        "kills": 37,
+        "deaths": 65,
+        "kd": 0.57,
+        "plus_minus": "-11",
+        "damage": 5941,
+        "rating": 0.55
+      },
+      {
+        "player": "Snoopy",
+        "kills": 58,
+        "deaths": 63,
+        "kd": 0.92,
+        "plus_minus": "+4",
+        "damage": 7105,
+        "rating": 0.65
+      },
+      {
+        "player": "Spart",
+        "kills": 44,
+        "deaths": 61,
+        "kd": 0.72,
+        "plus_minus": "-7",
+        "damage": 6305,
+        "rating": 0.65
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 24,
+        "kd": 1.0,
+        "damage": 2929,
+        "rating": 1.3
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 33,
+        "deaths": 17,
+        "kd": 1.94,
+        "damage": 4044,
+        "rating": 1.76
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 28,
+        "kd": 0.75,
+        "damage": 3378,
+        "rating": 1.1
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 25,
+        "kd": 1.08,
+        "damage": 3852,
+        "rating": 1.38
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 25,
+        "kd": 1.12,
+        "damage": 3530,
+        "rating": 0.76
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 28,
+        "kd": 0.61,
+        "damage": 2918,
+        "rating": 0.41
+      },
+      {
+        "map_number": 1,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 26,
+        "kd": 1.15,
+        "damage": 3322,
+        "rating": 0.77
+      },
+      {
+        "map_number": 1,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 26,
+        "kd": 0.73,
+        "damage": 2945,
+        "rating": 0.52
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 1088,
+        "rating": 1.08
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 3,
+        "kd": 2.67,
+        "damage": 925,
+        "rating": 1.4
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 549,
+        "rating": 1.01
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1117,
+        "rating": 1.09
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 945,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 662,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 777,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 852,
+        "rating": 0.99
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 20,
+        "kd": 1.4,
+        "damage": 3403,
+        "rating": 1.54
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 15,
+        "kd": 2.07,
+        "damage": 3688,
+        "rating": 1.65
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 17,
+        "kd": 1.76,
+        "damage": 3427,
+        "rating": 1.61
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 19,
+        "kd": 1.47,
+        "damage": 2940,
+        "rating": 1.55
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 29,
+        "kd": 0.55,
+        "damage": 2499,
+        "rating": 0.41
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 30,
+        "kd": 0.47,
+        "damage": 2361,
+        "rating": 0.37
+      },
+      {
+        "map_number": 3,
+        "player_name": "Snoopy",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 30,
+        "kd": 0.8,
+        "damage": 3006,
+        "rating": 0.44
+      },
+      {
+        "map_number": 3,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 28,
+        "kd": 0.61,
+        "damage": 2508,
+        "rating": 0.44
+      }
+    ]
+  }
+}
