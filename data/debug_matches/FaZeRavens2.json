@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214908",
+    "team_a": "FaZe Vegas",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-15",
+    "url": "https://www.breakingpoint.gg/match/214908/FaZe-Vegas-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 137
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 4
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 5,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Drazah",
+        "kills": 72,
+        "deaths": 58,
+        "kd": 1.24,
+        "plus_minus": "+14",
+        "damage": 8343,
+        "rating": 1.28
+      },
+      {
+        "player": "Simp",
+        "kills": 76,
+        "deaths": 57,
+        "kd": 1.33,
+        "plus_minus": "+19",
+        "damage": 9312,
+        "rating": 1.32
+      },
+      {
+        "player": "04",
+        "kills": 70,
+        "deaths": 56,
+        "kd": 1.25,
+        "plus_minus": "+14",
+        "damage": 8115,
+        "rating": 1.33
+      },
+      {
+        "player": "Abuzah",
+        "kills": 59,
+        "deaths": 63,
+        "kd": 0.94,
+        "plus_minus": "-4",
+        "damage": 8142,
+        "rating": 1.16
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Craze",
+        "kills": 54,
+        "deaths": 72,
+        "kd": 0.75,
+        "plus_minus": "-18",
+        "damage": 7601,
+        "rating": 0.68
+      },
+      {
+        "player": "Exceed",
+        "kills": 50,
+        "deaths": 68,
+        "kd": 0.74,
+        "plus_minus": "-18",
+        "damage": 6642,
+        "rating": 0.69
+      },
+      {
+        "player": "Lurqxx",
+        "kills": 79,
+        "deaths": 66,
+        "kd": 1.2,
+        "plus_minus": "+13",
+        "damage": 8904,
+        "rating": 0.92
+      },
+      {
+        "player": "Nero",
+        "kills": 51,
+        "deaths": 71,
+        "kd": 0.72,
+        "plus_minus": "-20",
+        "damage": 7575,
+        "rating": 0.62
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 26,
+        "kd": 1.19,
+        "damage": 3765,
+        "rating": 1.42
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 39,
+        "deaths": 25,
+        "kd": 1.56,
+        "damage": 4323,
+        "rating": 1.67
+      },
+      {
+        "map_number": 1,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 3298,
+        "rating": 0.59
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 34,
+        "kd": 0.56,
+        "damage": 2875,
+        "rating": 0.36
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 39,
+        "deaths": 29,
+        "kd": 1.34,
+        "damage": 4156,
+        "rating": 0.88
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 32,
+        "kd": 0.78,
+        "damage": 3562,
+        "rating": 0.53
+      },
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 26,
+        "kd": 1.12,
+        "damage": 3478,
+        "rating": 1.36
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 31,
+        "kd": 0.84,
+        "damage": 3919,
+        "rating": 1.18
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 885,
+        "rating": 1.12
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 869,
+        "rating": 1.05
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 9,
+        "kd": 0.89,
+        "damage": 1105,
+        "rating": 1.0
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 9,
+        "kd": 0.78,
+        "damage": 1045,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 846,
+        "rating": 0.95
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 7,
+        "kd": 1.43,
+        "damage": 1219,
+        "rating": 1.12
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 1237,
+        "rating": 0.65
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 6,
+        "kd": 1.67,
+        "damage": 1176,
+        "rating": 1.3
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 33,
+        "kd": 0.67,
+        "damage": 3258,
+        "rating": 0.63
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 27,
+        "kd": 0.89,
+        "damage": 2921,
+        "rating": 0.76
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 30,
+        "kd": 1.0,
+        "damage": 3529,
+        "rating": 0.77
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 30,
+        "kd": 0.73,
+        "damage": 2776,
+        "rating": 0.68
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 24,
+        "kd": 1.29,
+        "damage": 3461,
+        "rating": 1.31
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 25,
+        "kd": 1.0,
+        "damage": 3338,
+        "rating": 1.19
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 23,
+        "kd": 1.26,
+        "damage": 3884,
+        "rating": 1.29
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 26,
+        "kd": 1.35,
+        "damage": 3709,
+        "rating": 1.36
+      }
+    ]
+  }
+}

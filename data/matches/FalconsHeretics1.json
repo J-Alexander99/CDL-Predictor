@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214899",
+    "team_a": "Riyadh Falcons",
+    "team_b": "Miami Heretics",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-13",
+    "url": "https://www.breakingpoint.gg/match/214899/Riyadh-Falcons-vs-Miami-Heretics-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 233,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 5,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 2,
+      "team_b_score": 6
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Cellium",
+        "kills": 51,
+        "deaths": 67,
+        "kd": 0.76,
+        "plus_minus": "-16",
+        "damage": 7721,
+        "rating": 0.76
+      },
+      {
+        "player": "Exnid",
+        "kills": 56,
+        "deaths": 60,
+        "kd": 0.93,
+        "plus_minus": "-4",
+        "damage": 6826,
+        "rating": 0.82
+      },
+      {
+        "player": "KiSMET",
+        "kills": 64,
+        "deaths": 74,
+        "kd": 0.86,
+        "plus_minus": "-10",
+        "damage": 8829,
+        "rating": 0.78
+      },
+      {
+        "player": "Pred",
+        "kills": 58,
+        "deaths": 66,
+        "kd": 0.88,
+        "plus_minus": "-8",
+        "damage": 7762,
+        "rating": 0.89
+      }
+    ],
+    "team_b": [
+      {
+        "player": "MettalZ",
+        "kills": 63,
+        "deaths": 59,
+        "kd": 1.07,
+        "plus_minus": "+4",
+        "damage": 8277,
+        "rating": 1.07
+      },
+      {
+        "player": "RenKoR",
+        "kills": 62,
+        "deaths": 57,
+        "kd": 1.09,
+        "plus_minus": "+5",
+        "damage": 7926,
+        "rating": 1.12
+      },
+      {
+        "player": "SupeR",
+        "kills": 60,
+        "deaths": 52,
+        "kd": 1.15,
+        "plus_minus": "+8",
+        "damage": 8176,
+        "rating": 1.22
+      },
+      {
+        "player": "Traixx",
+        "kills": 82,
+        "deaths": 62,
+        "kd": 1.32,
+        "plus_minus": "+20",
+        "damage": 9924,
+        "rating": 1.33
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 29,
+        "kd": 0.72,
+        "damage": 3472,
+        "rating": 0.72
+      },
+      {
+        "map_number": 1,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 25,
+        "kd": 1.4,
+        "damage": 4052,
+        "rating": 1.28
+      },
+      {
+        "map_number": 1,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 25,
+        "kd": 1.0,
+        "damage": 3705,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 36,
+        "deaths": 26,
+        "kd": 1.38,
+        "damage": 4248,
+        "rating": 1.28
+      },
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 3513,
+        "rating": 0.94
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 27,
+        "kd": 0.96,
+        "damage": 3635,
+        "rating": 1.0
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 33,
+        "kd": 0.94,
+        "damage": 4390,
+        "rating": 0.97
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 29,
+        "kd": 0.79,
+        "damage": 2828,
+        "rating": 0.84
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 11,
+        "kd": 0.64,
+        "damage": 1085,
+        "rating": 0.61
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 12,
+        "deaths": 8,
+        "kd": 1.5,
+        "damage": 1476,
+        "rating": 1.09
+      },
+      {
+        "map_number": 2,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1186,
+        "rating": 1.12
+      },
+      {
+        "map_number": 2,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 758,
+        "rating": 0.98
+      },
+      {
+        "map_number": 2,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 6,
+        "kd": 2.0,
+        "damage": 1503,
+        "rating": 1.53
+      },
+      {
+        "map_number": 2,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 8,
+        "kd": 1.5,
+        "damage": 1315,
+        "rating": 1.42
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 9,
+        "kd": 0.56,
+        "damage": 936,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 383,
+        "rating": 0.61
+      },
+      {
+        "map_number": 3,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 2968,
+        "rating": 1.17
+      },
+      {
+        "map_number": 3,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 28,
+        "kd": 1.21,
+        "damage": 4361,
+        "rating": 1.29
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 30,
+        "kd": 0.7,
+        "damage": 3272,
+        "rating": 0.7
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 25,
+        "kd": 1.08,
+        "damage": 2808,
+        "rating": 0.87
+      },
+      {
+        "map_number": 3,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 23,
+        "kd": 1.52,
+        "damage": 3619,
+        "rating": 1.37
+      },
+      {
+        "map_number": 3,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 25,
+        "kd": 0.88,
+        "damage": 3116,
+        "rating": 1.1
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 30,
+        "kd": 0.87,
+        "damage": 3354,
+        "rating": 0.76
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 29,
+        "kd": 0.79,
+        "damage": 3458,
+        "rating": 0.74
+      }
+    ]
+  }
+}

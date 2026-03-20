@@ -34,6 +34,15 @@ def scrape(url: str, save: str):
     try:
         scraper = EnhancedMatchScraper()
         data = scraper.scrape(url)
+
+        # Guard against site/selector changes that return empty player entities
+        team_a_players = len(data['player_stats'].get('team_a', []))
+        team_b_players = len(data['player_stats'].get('team_b', []))
+        if team_a_players < 4 or team_b_players < 4:
+            raise ValueError(
+                f"Incomplete player stats extracted ({team_a_players} vs {team_b_players}). "
+                f"Scrape aborted to avoid saving bad data."
+            )
         
         # Calculate final scores from map results
         team_a_wins = sum(1 for m in data['map_results'] if m['team_a_score'] > m['team_b_score'])
@@ -124,6 +133,15 @@ def scrape_bulk(url_file: str, save: str, delay: int):
         try:
             scraper = EnhancedMatchScraper()
             data = scraper.scrape(url)
+
+            # Guard against site/selector changes that return empty player entities
+            team_a_players = len(data['player_stats'].get('team_a', []))
+            team_b_players = len(data['player_stats'].get('team_b', []))
+            if team_a_players < 4 or team_b_players < 4:
+                raise ValueError(
+                    f"Incomplete player stats extracted ({team_a_players} vs {team_b_players}). "
+                    f"Scrape aborted to avoid saving bad data."
+                )
             
             # Calculate final scores
             team_a_wins = sum(1 for m in data['map_results'] if m['team_a_score'] > m['team_b_score'])

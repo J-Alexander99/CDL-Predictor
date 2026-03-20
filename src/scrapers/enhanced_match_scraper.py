@@ -5,6 +5,7 @@ from typing import Dict, List
 from datetime import datetime
 import re
 import time
+import json
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -197,6 +198,15 @@ class EnhancedMatchScraper(BaseScraper):
     def _extract_player_stats_enhanced(self, soup: BeautifulSoup) -> Dict[str, List[Dict]]:
         """Extract player statistics by summing individual map performances"""
         stats = {"team_a": [], "team_b": [], "per_map": []}
+
+        # Primary extraction path: __NEXT_DATA__ JSON payload (more stable than CSS classes)
+        next_data_stats = self._extract_player_stats_from_next_data(soup)
+        if next_data_stats['team_a'] and next_data_stats['team_b']:
+            self.logger.info(
+                f"Extracted stats from __NEXT_DATA__: "
+                f"{len(next_data_stats['team_a'])} team A and {len(next_data_stats['team_b'])} team B players"
+            )
+            return next_data_stats
         
         try:
             # Find all table rows with the GameOverview_tr class
@@ -334,3 +344,97 @@ class EnhancedMatchScraper(BaseScraper):
             self.logger.error(f"Error extracting player stats: {str(e)}")
         
         return stats
+
+    def _extract_player_stats_from_next_data(self, soup: BeautifulSoup) -> Dict[str, List[Dict]]:
+        """Extract player statistics from Next.js hydration payload."""
+        stats = {"team_a": [], "team_b": [], "per_map": []}
+
+        try:
+            next_data_node = soup.find('script', id='__NEXT_DATA__')
+            if not next_data_node or not next_data_node.string:
+                return stats
+
+            payload = json.loads(next_data_node.string)
+            initial_match = payload.get('props', {}).get('pageProps', {}).get('initialMatchState', {})
+            games = initial_match.get('games', [])
+
+            if not games:
+                return stats
+
+            team_1_id = initial_match.get('team_1_id')
+            team_2_id = initial_match.get('team_2_id')
+
+            player_totals = {}
+            team_assignment = {}
+
+            for fallback_map_number, game in enumerate(games, start=1):
+                map_number = game.get('game_num') or fallback_map_number
+                for player_stat in game.get('player_stats', []):
+                    player_name = (player_stat.get('player_tag') or '').strip()
+                    if not player_name:
+                        continue
+
+                    team_id = player_stat.get('team_id')
+                    if team_id == team_1_id:
+                        team_key = 'team_a'
+                    elif team_id == team_2_id:
+                        team_key = 'team_b'
+                    else:
+                        # Unknown team_id - skip instead of risking bad assignment
+                        continue
+
+                    kills = int(player_stat.get('kills') or 0)
+                    deaths = int(player_stat.get('deaths') or 0)
+                    damage = int(player_stat.get('damage') or 0)
+                    rating = float(player_stat.get('bp_rating') or 0.0)
+                    kd = round((kills / deaths) if deaths > 0 else float(kills), 2)
+
+                    team_assignment[player_name] = team_key
+
+                    if player_name not in player_totals:
+                        player_totals[player_name] = {
+                            'kills': 0,
+                            'deaths': 0,
+                            'damage': 0,
+                            'ratings': []
+                        }
+
+                    player_totals[player_name]['kills'] += kills
+                    player_totals[player_name]['deaths'] += deaths
+                    player_totals[player_name]['damage'] += damage
+                    player_totals[player_name]['ratings'].append(rating)
+
+                    stats['per_map'].append({
+                        'map_number': int(map_number),
+                        'player_name': player_name,
+                        'team': team_key,
+                        'kills': kills,
+                        'deaths': deaths,
+                        'kd': kd,
+                        'damage': damage,
+                        'rating': round(rating, 2)
+                    })
+
+            for player_name, total in player_totals.items():
+                deaths = total['deaths']
+                kills = total['kills']
+                plus_minus_value = kills - deaths
+                plus_minus = f"+{plus_minus_value}" if plus_minus_value > 0 else str(plus_minus_value)
+                avg_rating = sum(total['ratings']) / len(total['ratings']) if total['ratings'] else 0.0
+                series_kd = round((kills / deaths) if deaths > 0 else float(kills), 2)
+
+                stats[team_assignment[player_name]].append({
+                    'player': player_name,
+                    'kills': kills,
+                    'deaths': deaths,
+                    'kd': series_kd,
+                    'plus_minus': plus_minus,
+                    'damage': total['damage'],
+                    'rating': round(avg_rating, 2)
+                })
+
+            return stats
+
+        except Exception as e:
+            self.logger.debug(f"Failed to parse player stats from __NEXT_DATA__: {e}")
+            return {"team_a": [], "team_b": [], "per_map": []}

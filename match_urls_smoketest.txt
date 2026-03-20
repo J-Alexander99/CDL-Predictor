@@ -1,0 +1,4 @@
+# Smoke test URLs
+https://www.breakingpoint.gg/match/214906/Vancouver-Surge-vs-Miami-Heretics-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214907/Riyadh-Falcons-vs-Los-Angeles-Thieves-at-CDL-Major-2-Qualifier-2026
+https://www.breakingpoint.gg/match/214908/FaZe-Vegas-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026

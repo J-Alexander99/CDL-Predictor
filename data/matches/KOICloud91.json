@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214898",
+    "team_a": "Toronto KOI",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-13",
+    "url": "https://www.breakingpoint.gg/match/214898/Toronto-KOI-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 166
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 250,
+      "team_b_score": 154
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 4,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 86,
+        "deaths": 95,
+        "kd": 0.91,
+        "plus_minus": "-9",
+        "damage": 12010,
+        "rating": 1.04
+      },
+      {
+        "player": "Insight",
+        "kills": 73,
+        "deaths": 77,
+        "kd": 0.95,
+        "plus_minus": "-4",
+        "damage": 10462,
+        "rating": 1.03
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 106,
+        "deaths": 73,
+        "kd": 1.45,
+        "plus_minus": "+33",
+        "damage": 12079,
+        "rating": 1.23
+      },
+      {
+        "player": "Kips",
+        "kills": 89,
+        "deaths": 85,
+        "kd": 1.05,
+        "plus_minus": "+4",
+        "damage": 12136,
+        "rating": 1.16
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Encourage",
+        "kills": 87,
+        "deaths": 82,
+        "kd": 1.06,
+        "plus_minus": "+5",
+        "damage": 11682,
+        "rating": 0.97
+      },
+      {
+        "player": "Hide",
+        "kills": 82,
+        "deaths": 92,
+        "kd": 0.89,
+        "plus_minus": "-10",
+        "damage": 10690,
+        "rating": 0.81
+      },
+      {
+        "player": "Nejra",
+        "kills": 82,
+        "deaths": 90,
+        "kd": 0.91,
+        "plus_minus": "-8",
+        "damage": 10249,
+        "rating": 0.86
+      },
+      {
+        "player": "Okis",
+        "kills": 78,
+        "deaths": 90,
+        "kd": 0.87,
+        "plus_minus": "-12",
+        "damage": 11562,
+        "rating": 0.89
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 25,
+        "kd": 1.0,
+        "damage": 3659,
+        "rating": 1.17
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 21,
+        "kd": 1.29,
+        "damage": 2950,
+        "rating": 1.35
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 20,
+        "kd": 1.4,
+        "damage": 3522,
+        "rating": 1.41
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 23,
+        "kd": 1.17,
+        "damage": 3871,
+        "rating": 1.29
+      },
+      {
+        "map_number": 1,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 25,
+        "kd": 1.12,
+        "damage": 3564,
+        "rating": 0.91
+      },
+      {
+        "map_number": 1,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 29,
+        "kd": 0.72,
+        "damage": 2833,
+        "rating": 0.58
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 29,
+        "kd": 0.55,
+        "damage": 2464,
+        "rating": 0.45
+      },
+      {
+        "map_number": 1,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 24,
+        "kd": 1.0,
+        "damage": 3334,
+        "rating": 0.84
+      },
+      {
+        "map_number": 2,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 896,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 995,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1020,
+        "rating": 1.1
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1335,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 845,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 612,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 1149,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 912,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 2637,
+        "rating": 0.9
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 19,
+        "kd": 1.05,
+        "damage": 2857,
+        "rating": 1.05
+      },
+      {
+        "map_number": 3,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 26,
+        "kd": 0.62,
+        "damage": 2397,
+        "rating": 0.77
+      },
+      {
+        "map_number": 3,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3349,
+        "rating": 1.05
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 19,
+        "kd": 1.26,
+        "damage": 2825,
+        "rating": 1.06
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 18,
+        "kd": 1.72,
+        "damage": 3260,
+        "rating": 1.3
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 22,
+        "kd": 0.82,
+        "damage": 2310,
+        "rating": 0.96
+      },
+      {
+        "map_number": 3,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 20,
+        "kd": 0.85,
+        "damage": 2455,
+        "rating": 0.91
+      },
+      {
+        "map_number": 4,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 30,
+        "kd": 1.0,
+        "damage": 3610,
+        "rating": 1.34
+      },
+      {
+        "map_number": 4,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 25,
+        "kd": 0.68,
+        "damage": 2957,
+        "rating": 1.02
+      },
+      {
+        "map_number": 4,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 21,
+        "kd": 1.71,
+        "damage": 3749,
+        "rating": 1.73
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 28,
+        "kd": 1.0,
+        "damage": 3265,
+        "rating": 1.31
+      },
+      {
+        "map_number": 4,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 28,
+        "kd": 1.04,
+        "damage": 3484,
+        "rating": 0.71
+      },
+      {
+        "map_number": 4,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 2789,
+        "rating": 0.65
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 29,
+        "kd": 0.97,
+        "damage": 3137,
+        "rating": 0.66
+      },
+      {
+        "map_number": 4,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 28,
+        "kd": 0.82,
+        "damage": 3693,
+        "rating": 0.58
+      },
+      {
+        "map_number": 5,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 853,
+        "rating": 0.77
+      },
+      {
+        "map_number": 5,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 769,
+        "rating": 0.76
+      },
+      {
+        "map_number": 5,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 936,
+        "rating": 0.76
+      },
+      {
+        "map_number": 5,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 12,
+        "deaths": 5,
+        "kd": 2.4,
+        "damage": 1541,
+        "rating": 1.45
+      },
+      {
+        "map_number": 5,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 1267,
+        "rating": 1.24
+      },
+      {
+        "map_number": 5,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 9,
+        "kd": 0.56,
+        "damage": 823,
+        "rating": 0.75
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 828,
+        "rating": 1.1
+      },
+      {
+        "map_number": 5,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 1118,
+        "rating": 1.17
+      }
+    ]
+  }
+}

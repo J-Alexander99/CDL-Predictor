@@ -1,0 +1,37 @@
+{
+  "match_info": {
+    "match_id": "214908",
+    "team_a": "FaZe Vegas",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-15",
+    "url": "https://www.breakingpoint.gg/match/214908/FaZe-Vegas-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 137
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 4
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 5,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [],
+    "team_b": [],
+    "per_map": []
+  }
+}
