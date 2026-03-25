@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214919",
+    "team_a": "Toronto KOI",
+    "team_b": "OpTic Texas",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-22",
+    "url": "https://www.breakingpoint.gg/match/214919/Toronto-KOI-vs-OpTic-Texas-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 216,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 4,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 51,
+        "deaths": 65,
+        "kd": 0.78,
+        "plus_minus": "-14",
+        "damage": 6591,
+        "rating": 0.66
+      },
+      {
+        "player": "Insight",
+        "kills": 39,
+        "deaths": 58,
+        "kd": 0.67,
+        "plus_minus": "-19",
+        "damage": 6299,
+        "rating": 0.62
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 54,
+        "deaths": 58,
+        "kd": 0.93,
+        "plus_minus": "-4",
+        "damage": 6552,
+        "rating": 0.78
+      },
+      {
+        "player": "Kips",
+        "kills": 56,
+        "deaths": 67,
+        "kd": 0.84,
+        "plus_minus": "-11",
+        "damage": 7490,
+        "rating": 0.76
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Dashy",
+        "kills": 64,
+        "deaths": 46,
+        "kd": 1.39,
+        "plus_minus": "+18",
+        "damage": 9108,
+        "rating": 1.39
+      },
+      {
+        "player": "Huke",
+        "kills": 53,
+        "deaths": 50,
+        "kd": 1.06,
+        "plus_minus": "+3",
+        "damage": 7154,
+        "rating": 1.15
+      },
+      {
+        "player": "Mercules",
+        "kills": 66,
+        "deaths": 53,
+        "kd": 1.25,
+        "plus_minus": "+13",
+        "damage": 8261,
+        "rating": 1.34
+      },
+      {
+        "player": "Shotzzy",
+        "kills": 65,
+        "deaths": 52,
+        "kd": 1.25,
+        "plus_minus": "+13",
+        "damage": 7149,
+        "rating": 1.3
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 26,
+        "kd": 0.81,
+        "damage": 2708,
+        "rating": 0.78
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 23,
+        "kd": 0.39,
+        "damage": 2391,
+        "rating": 0.47
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 25,
+        "kd": 1.08,
+        "damage": 2710,
+        "rating": 1.02
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 34,
+        "deaths": 26,
+        "kd": 1.31,
+        "damage": 4322,
+        "rating": 1.23
+      },
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 21,
+        "kd": 1.24,
+        "damage": 4110,
+        "rating": 1.23
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 24,
+        "kd": 0.67,
+        "damage": 2661,
+        "rating": 0.76
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 25,
+        "kd": 1.2,
+        "damage": 3468,
+        "rating": 1.24
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 22,
+        "kd": 1.27,
+        "damage": 3201,
+        "rating": 1.27
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 649,
+        "rating": 1.27
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 568,
+        "rating": 0.56
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 1187,
+        "rating": 0.69
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 832,
+        "rating": 0.6
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 733,
+        "rating": 0.52
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 4,
+        "kd": 2.5,
+        "damage": 1527,
+        "rating": 1.59
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 4,
+        "kd": 1.5,
+        "damage": 727,
+        "rating": 1.29
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 5,
+        "kd": 1.8,
+        "damage": 1409,
+        "rating": 1.47
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 31,
+        "kd": 0.84,
+        "damage": 3315,
+        "rating": 0.64
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 27,
+        "kd": 0.85,
+        "damage": 2721,
+        "rating": 0.69
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 25,
+        "kd": 0.88,
+        "damage": 3010,
+        "rating": 0.72
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 33,
+        "kd": 0.58,
+        "damage": 2435,
+        "rating": 0.53
+      },
+      {
+        "map_number": 3,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 21,
+        "kd": 1.33,
+        "damage": 3471,
+        "rating": 1.35
+      },
+      {
+        "map_number": 3,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 22,
+        "kd": 1.41,
+        "damage": 3766,
+        "rating": 1.4
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 23,
+        "kd": 1.17,
+        "damage": 3384,
+        "rating": 1.31
+      },
+      {
+        "map_number": 3,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 24,
+        "kd": 1.25,
+        "damage": 3299,
+        "rating": 1.36
+      }
+    ]
+  }
+}

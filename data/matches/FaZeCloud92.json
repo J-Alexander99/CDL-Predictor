@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214913",
+    "team_a": "FaZe Vegas",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-21",
+    "url": "https://www.breakingpoint.gg/match/214913/FaZe-Vegas-vs-Cloud9-New-York-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Blackheart",
+      "team_a_score": 250,
+      "team_b_score": 219
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 5
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 7,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "04",
+        "kills": 48,
+        "deaths": 52,
+        "kd": 0.92,
+        "plus_minus": "-4",
+        "damage": 5839,
+        "rating": 1.12
+      },
+      {
+        "player": "Abuzah",
+        "kills": 51,
+        "deaths": 47,
+        "kd": 1.09,
+        "plus_minus": "+4",
+        "damage": 7296,
+        "rating": 1.18
+      },
+      {
+        "player": "Drazah",
+        "kills": 60,
+        "deaths": 43,
+        "kd": 1.4,
+        "plus_minus": "+17",
+        "damage": 7531,
+        "rating": 1.29
+      },
+      {
+        "player": "Simp",
+        "kills": 70,
+        "deaths": 51,
+        "kd": 1.37,
+        "plus_minus": "+19",
+        "damage": 8386,
+        "rating": 1.38
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Encourage",
+        "kills": 61,
+        "deaths": 55,
+        "kd": 1.11,
+        "plus_minus": "+6",
+        "damage": 7386,
+        "rating": 0.91
+      },
+      {
+        "player": "Hide",
+        "kills": 48,
+        "deaths": 61,
+        "kd": 0.79,
+        "plus_minus": "-13",
+        "damage": 6674,
+        "rating": 0.68
+      },
+      {
+        "player": "Nejra",
+        "kills": 43,
+        "deaths": 54,
+        "kd": 0.8,
+        "plus_minus": "-11",
+        "damage": 5573,
+        "rating": 0.75
+      },
+      {
+        "player": "Okis",
+        "kills": 41,
+        "deaths": 59,
+        "kd": 0.69,
+        "plus_minus": "-18",
+        "damage": 6153,
+        "rating": 0.68
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 30,
+        "kd": 0.7,
+        "damage": 2744,
+        "rating": 0.77
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 3470,
+        "rating": 0.95
+      },
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 23,
+        "kd": 1.39,
+        "damage": 3717,
+        "rating": 1.33
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 39,
+        "deaths": 28,
+        "kd": 1.39,
+        "damage": 4408,
+        "rating": 1.4
+      },
+      {
+        "map_number": 1,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 27,
+        "kd": 1.22,
+        "damage": 3597,
+        "rating": 1.13
+      },
+      {
+        "map_number": 1,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 30,
+        "kd": 0.9,
+        "damage": 3371,
+        "rating": 0.86
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 27,
+        "kd": 0.96,
+        "damage": 3236,
+        "rating": 0.92
+      },
+      {
+        "map_number": 1,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 31,
+        "kd": 0.68,
+        "damage": 3194,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 878,
+        "rating": 1.22
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1130,
+        "rating": 1.16
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1217,
+        "rating": 1.1
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 8,
+        "kd": 1.38,
+        "damage": 1392,
+        "rating": 1.34
+      },
+      {
+        "map_number": 2,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 9,
+        "kd": 1.11,
+        "damage": 1152,
+        "rating": 0.94
+      },
+      {
+        "map_number": 2,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 873,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 8,
+        "kd": 0.75,
+        "damage": 962,
+        "rating": 0.77
+      },
+      {
+        "map_number": 2,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 921,
+        "rating": 0.84
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 17,
+        "kd": 1.18,
+        "damage": 2217,
+        "rating": 1.38
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 15,
+        "kd": 1.4,
+        "damage": 2696,
+        "rating": 1.43
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 13,
+        "kd": 1.62,
+        "damage": 2597,
+        "rating": 1.46
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 15,
+        "kd": 1.33,
+        "damage": 2586,
+        "rating": 1.4
+      },
+      {
+        "map_number": 3,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 19,
+        "kd": 0.95,
+        "damage": 2637,
+        "rating": 0.67
+      },
+      {
+        "map_number": 3,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 2430,
+        "rating": 0.53
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 19,
+        "kd": 0.58,
+        "damage": 1375,
+        "rating": 0.57
+      },
+      {
+        "map_number": 3,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 21,
+        "kd": 0.67,
+        "damage": 2038,
+        "rating": 0.55
+      }
+    ]
+  }
+}

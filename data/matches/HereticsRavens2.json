@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214912",
+    "team_a": "Miami Heretics",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 2 Qualifier",
+    "date": "2026-03-21",
+    "url": "https://www.breakingpoint.gg/match/214912/Miami-Heretics-vs-Carolina-Royal-Ravens-at-CDL-Major-2-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Exposure",
+      "team_a_score": 199,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Blackheart",
+      "team_a_score": 250,
+      "team_b_score": 246
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Scar",
+      "team_a_score": 7,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "MettalZ",
+        "kills": 79,
+        "deaths": 100,
+        "kd": 0.79,
+        "plus_minus": "-21",
+        "damage": 10891,
+        "rating": 0.83
+      },
+      {
+        "player": "RenKoR",
+        "kills": 102,
+        "deaths": 84,
+        "kd": 1.21,
+        "plus_minus": "+18",
+        "damage": 13003,
+        "rating": 1.11
+      },
+      {
+        "player": "SupeR",
+        "kills": 90,
+        "deaths": 79,
+        "kd": 1.14,
+        "plus_minus": "+11",
+        "damage": 10663,
+        "rating": 1.04
+      },
+      {
+        "player": "Traixx",
+        "kills": 81,
+        "deaths": 92,
+        "kd": 0.88,
+        "plus_minus": "-11",
+        "damage": 11043,
+        "rating": 0.94
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Craze",
+        "kills": 89,
+        "deaths": 92,
+        "kd": 0.97,
+        "plus_minus": "-3",
+        "damage": 11117,
+        "rating": 0.94
+      },
+      {
+        "player": "Exceed",
+        "kills": 75,
+        "deaths": 84,
+        "kd": 0.89,
+        "plus_minus": "-9",
+        "damage": 9460,
+        "rating": 1.0
+      },
+      {
+        "player": "Lurqxx",
+        "kills": 95,
+        "deaths": 88,
+        "kd": 1.08,
+        "plus_minus": "+7",
+        "damage": 11653,
+        "rating": 1.01
+      },
+      {
+        "player": "Nero",
+        "kills": 95,
+        "deaths": 90,
+        "kd": 1.06,
+        "plus_minus": "+5",
+        "damage": 12506,
+        "rating": 1.12
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 23,
+        "kd": 1.04,
+        "damage": 3277,
+        "rating": 0.92
+      },
+      {
+        "map_number": 1,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 24,
+        "kd": 1.04,
+        "damage": 3444,
+        "rating": 0.91
+      },
+      {
+        "map_number": 1,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 24,
+        "kd": 0.67,
+        "damage": 2602,
+        "rating": 0.61
+      },
+      {
+        "map_number": 1,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 22,
+        "kd": 0.91,
+        "damage": 2769,
+        "rating": 0.82
+      },
+      {
+        "map_number": 1,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 21,
+        "kd": 1.29,
+        "damage": 3183,
+        "rating": 1.34
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 20,
+        "kd": 1.5,
+        "damage": 3670,
+        "rating": 1.49
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 24,
+        "kd": 0.88,
+        "damage": 2742,
+        "rating": 1.0
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 15,
+        "deaths": 20,
+        "kd": 0.75,
+        "damage": 2114,
+        "rating": 0.91
+      },
+      {
+        "map_number": 2,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 767,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 7,
+        "kd": 1.29,
+        "damage": 1224,
+        "rating": 1.02
+      },
+      {
+        "map_number": 2,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 536,
+        "rating": 0.71
+      },
+      {
+        "map_number": 2,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 820,
+        "rating": 0.71
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1178,
+        "rating": 1.1
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 650,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 486,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 5,
+        "kd": 2.8,
+        "damage": 1336,
+        "rating": 1.74
+      },
+      {
+        "map_number": 3,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 22,
+        "kd": 0.82,
+        "damage": 2262,
+        "rating": 1.18
+      },
+      {
+        "map_number": 3,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 17,
+        "kd": 1.71,
+        "damage": 3329,
+        "rating": 1.52
+      },
+      {
+        "map_number": 3,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 10,
+        "kd": 2.7,
+        "damage": 2613,
+        "rating": 1.56
+      },
+      {
+        "map_number": 3,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 23,
+        "kd": 0.87,
+        "damage": 2983,
+        "rating": 1.21
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 2533,
+        "rating": 0.76
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 22,
+        "kd": 0.36,
+        "damage": 1234,
+        "rating": 0.54
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 22,
+        "kd": 0.82,
+        "damage": 2599,
+        "rating": 0.67
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 28,
+        "kd": 0.75,
+        "damage": 2843,
+        "rating": 0.56
+      },
+      {
+        "map_number": 4,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 38,
+        "kd": 0.79,
+        "damage": 3920,
+        "rating": 0.85
+      },
+      {
+        "map_number": 4,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 29,
+        "kd": 1.1,
+        "damage": 3867,
+        "rating": 1.16
+      },
+      {
+        "map_number": 4,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 31,
+        "kd": 1.0,
+        "damage": 3869,
+        "rating": 1.07
+      },
+      {
+        "map_number": 4,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 32,
+        "kd": 0.91,
+        "damage": 3657,
+        "rating": 0.98
+      },
+      {
+        "map_number": 4,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 33,
+        "kd": 0.76,
+        "damage": 3675,
+        "rating": 0.73
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 32,
+        "kd": 0.81,
+        "damage": 3274,
+        "rating": 0.78
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 44,
+        "deaths": 28,
+        "kd": 1.57,
+        "damage": 4810,
+        "rating": 1.4
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 34,
+        "deaths": 31,
+        "kd": 1.1,
+        "damage": 4813,
+        "rating": 1.03
+      },
+      {
+        "map_number": 5,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 2,
+        "deaths": 10,
+        "kd": 0.2,
+        "damage": 665,
+        "rating": 0.45
+      },
+      {
+        "map_number": 5,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1139,
+        "rating": 0.96
+      },
+      {
+        "map_number": 5,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 6,
+        "kd": 1.83,
+        "damage": 1043,
+        "rating": 1.27
+      },
+      {
+        "map_number": 5,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 814,
+        "rating": 0.96
+      },
+      {
+        "map_number": 5,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 9,
+        "kd": 0.56,
+        "damage": 548,
+        "rating": 0.79
+      },
+      {
+        "map_number": 5,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 632,
+        "rating": 1.04
+      },
+      {
+        "map_number": 5,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1016,
+        "rating": 1.17
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 6,
+        "kd": 1.83,
+        "damage": 1400,
+        "rating": 1.37
+      }
+    ]
+  }
+}
