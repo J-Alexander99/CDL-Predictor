@@ -704,6 +704,11 @@ def train_ml(min_matches: int):
         click.echo(f"  Training samples: {results['training_samples']}")
         click.echo(f"  Skipped matches: {results['skipped_matches']}")
         click.echo(f"  Training accuracy: {results['training_accuracy']:.1%}")
+        click.echo(f"  Validation accuracy: {results['validation_accuracy']:.1%}")
+        click.echo(f"  Validation log loss: {results['validation_log_loss']:.4f}")
+        click.echo(f"  Calibrated log loss: {results['calibrated_log_loss']:.4f}")
+        click.echo(f"  Calibrated Brier score: {results['calibrated_brier_score']:.4f}")
+        click.echo(f"  Best params: {results['best_params']}")
         
         click.echo(f"\nFeature Importance (Model Coefficients):")
         click.echo("=" * 60)
@@ -715,6 +720,53 @@ def train_ml(min_matches: int):
         
     except Exception as e:
         logger.error(f"ML training failed: {str(e)}")
+        click.echo(f"[ERROR] {str(e)}", err=True)
+
+
+@cli.command()
+@click.option('--min-matches', default=2, help='Minimum matches required for evaluation data')
+def evaluate_ml(min_matches: int):
+    """Evaluate the Machine Learning model with chronological cross-validation"""
+    from src.predictor import MLPredictor
+
+    logger.info("Evaluating ML prediction model...")
+    click.echo("\nEvaluating Machine Learning model with chronological cross-validation...")
+
+    try:
+        ml = MLPredictor()
+        results = ml.evaluate(min_matches=min_matches)
+        cv = results['cv_results']
+        best = cv['best_candidate']
+
+        click.echo(f"\n{'='*80}")
+        click.echo("ML EVALUATION RESULTS")
+        click.echo(f"{'='*80}\n")
+        click.echo(f"Training samples: {results['training_samples']}")
+        click.echo(f"Skipped matches: {results['skipped_matches']}")
+        click.echo(f"CV folds: {cv['n_splits']}")
+        click.echo(f"Best params: {best['params']}")
+        click.echo(f"Mean validation accuracy: {best['mean_accuracy']:.1%}")
+        click.echo(f"Mean validation log loss: {best['mean_log_loss']:.4f}")
+        click.echo(f"Calibrated log loss: {results['calibrated_log_loss']:.4f}")
+        click.echo(f"Calibrated Brier score: {results['calibrated_brier_score']:.4f}")
+        click.echo("\nPer-candidate results:")
+        click.echo("-" * 80)
+
+        for candidate in sorted(
+            cv['candidates'],
+            key=lambda item: (-item['mean_accuracy'], item['mean_log_loss'])
+        ):
+            click.echo(
+                f"  {candidate['params']}: "
+                f"acc={candidate['mean_accuracy']:.1%}, "
+                f"log_loss={candidate['mean_log_loss']:.4f}, "
+                f"folds={candidate['fold_accuracies']}"
+            )
+
+        click.echo(f"\n{'='*80}\n")
+
+    except Exception as e:
+        logger.error(f"ML evaluation failed: {str(e)}")
         click.echo(f"[ERROR] {str(e)}", err=True)
 
 

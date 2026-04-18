@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "215046",
+    "team_a": "Los Angeles Thieves",
+    "team_b": "Toronto KOI",
+    "tournament": "CDL Major 2 Tournament",
+    "date": "2026-03-29",
+    "url": "https://breakingpoint.gg/match/215046/Los-Angeles-Thieves-vs-Toronto-KOI-at-CDL-Major-2-Tournament-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 188,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Colossus",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 3,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "aBeZy",
+        "kills": 59,
+        "deaths": 59,
+        "kd": 1.0,
+        "plus_minus": "0",
+        "damage": 6556,
+        "rating": 0.92
+      },
+      {
+        "player": "HyDra",
+        "kills": 53,
+        "deaths": 61,
+        "kd": 0.87,
+        "plus_minus": "-8",
+        "damage": 6792,
+        "rating": 0.89
+      },
+      {
+        "player": "Nium",
+        "kills": 53,
+        "deaths": 56,
+        "kd": 0.95,
+        "plus_minus": "-3",
+        "damage": 7008,
+        "rating": 0.86
+      },
+      {
+        "player": "Scrap",
+        "kills": 48,
+        "deaths": 63,
+        "kd": 0.76,
+        "plus_minus": "-15",
+        "damage": 7730,
+        "rating": 0.84
+      }
+    ],
+    "team_b": [
+      {
+        "player": "CleanX",
+        "kills": 53,
+        "deaths": 58,
+        "kd": 0.91,
+        "plus_minus": "-5",
+        "damage": 6503,
+        "rating": 1.01
+      },
+      {
+        "player": "Insight",
+        "kills": 61,
+        "deaths": 49,
+        "kd": 1.24,
+        "plus_minus": "+12",
+        "damage": 8210,
+        "rating": 1.16
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 53,
+        "deaths": 51,
+        "kd": 1.04,
+        "plus_minus": "+2",
+        "damage": 6505,
+        "rating": 1.09
+      },
+      {
+        "player": "Kips",
+        "kills": 70,
+        "deaths": 55,
+        "kd": 1.27,
+        "plus_minus": "+15",
+        "damage": 8396,
+        "rating": 1.22
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 25,
+        "kd": 1.0,
+        "damage": 3151,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 21,
+        "kd": 1.52,
+        "damage": 3998,
+        "rating": 1.44
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 22,
+        "kd": 1.09,
+        "damage": 2983,
+        "rating": 1.15
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 26,
+        "kd": 1.15,
+        "damage": 3818,
+        "rating": 1.23
+      },
+      {
+        "map_number": 1,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 27,
+        "kd": 0.93,
+        "damage": 2653,
+        "rating": 0.86
+      },
+      {
+        "map_number": 1,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 28,
+        "kd": 0.82,
+        "damage": 3080,
+        "rating": 0.77
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 26,
+        "kd": 0.92,
+        "damage": 2936,
+        "rating": 0.86
+      },
+      {
+        "map_number": 1,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 32,
+        "kd": 0.69,
+        "damage": 4089,
+        "rating": 0.61
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 620,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 872,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1112,
+        "rating": 1.1
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1190,
+        "rating": 1.22
+      },
+      {
+        "map_number": 2,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 878,
+        "rating": 0.9
+      },
+      {
+        "map_number": 2,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1027,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 664,
+        "rating": 0.72
+      },
+      {
+        "map_number": 2,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1262,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 26,
+        "kd": 0.85,
+        "damage": 2732,
+        "rating": 0.99
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 23,
+        "kd": 1.09,
+        "damage": 3340,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 22,
+        "kd": 0.95,
+        "damage": 2410,
+        "rating": 1.03
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 23,
+        "kd": 1.35,
+        "damage": 3388,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 24,
+        "kd": 1.12,
+        "damage": 3025,
+        "rating": 0.99
+      },
+      {
+        "map_number": 3,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 27,
+        "kd": 0.85,
+        "damage": 2685,
+        "rating": 0.87
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 23,
+        "kd": 1.13,
+        "damage": 3408,
+        "rating": 1.0
+      },
+      {
+        "map_number": 3,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 2379,
+        "rating": 0.83
+      }
+    ]
+  }
+}

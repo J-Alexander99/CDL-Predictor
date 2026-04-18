@@ -114,86 +114,33 @@ class EnsemblePredictor:
         Returns:
             Ensemble prediction
         """
-        # Weights tuned based on backtest accuracy (ML: 90.3%, Statistical: 79.0%, Elo: 69.4%)
-        if weights is None:
-            weights = {
-                'ml': 0.45,           # Best performer (90.3% backtest accuracy)
-                'statistical': 0.35,  # Strong performer (79.0% backtest accuracy)
-                'elo': 0.20           # Baseline performer (69.4% backtest accuracy)
-            }
-        
-        # Collect valid predictions
-        valid_predictions = []
-        used_models = []
-        team_a_name = None
-        team_b_name = None
-        
-        for model_name, pred in predictions.items():
-            if 'error' not in pred and 'team_a_probability' in pred:
-                valid_predictions.append({
-                    'name': model_name,
-                    'prob_a': pred['team_a_probability'],
-                    'prob_b': pred['team_b_probability'],
-                    'weight': weights.get(model_name, 1.0),
-                    'winner': pred['predicted_winner']
-                })
-                used_models.append(model_name)
-                
-                # Get team names from first valid prediction
-                if team_a_name is None and 'details' in pred:
-                    team_a_name = pred['details'].get('team_a')
-                    team_b_name = pred['details'].get('team_b')
-        
-        if not valid_predictions:
+        statistical = predictions.get('statistical', {})
+        if 'error' in statistical or 'team_a_probability' not in statistical:
             return {'error': 'No valid predictions available'}
-        
-        # Normalize weights
-        total_weight = sum(p['weight'] for p in valid_predictions)
-        for p in valid_predictions:
-            p['normalized_weight'] = p['weight'] / total_weight
-        
-        # Calculate weighted average
-        ensemble_prob_a = sum(p['prob_a'] * p['normalized_weight'] for p in valid_predictions)
-        ensemble_prob_b = sum(p['prob_b'] * p['normalized_weight'] for p in valid_predictions)
-        
-        # Normalize to 100%
-        total = ensemble_prob_a + ensemble_prob_b
-        ensemble_prob_a = (ensemble_prob_a / total) * 100
-        ensemble_prob_b = (ensemble_prob_b / total) * 100
-        
-        # Predict score
-        if ensemble_prob_a >= 75:
-            predicted_score = "3-0"
-        elif ensemble_prob_a >= 65:
-            predicted_score = "3-1"
-        elif ensemble_prob_a >= 55:
-            predicted_score = "3-2"
-        elif ensemble_prob_a >= 45:
-            predicted_score = "2-3"
-        elif ensemble_prob_a >= 35:
-            predicted_score = "1-3"
-        else:
-            predicted_score = "0-3"
-        
-        # Check agreement between models
-        winners = [p['winner'] for p in valid_predictions]
-        agreement = len(set(winners)) == 1  # All models agree
-        
-        # Determine ensemble winner
-        if ensemble_prob_a > ensemble_prob_b:
-            predicted_winner = team_a_name if team_a_name else winners[0]
-        else:
-            predicted_winner = team_b_name if team_b_name else winners[0]
+
+        used_models = [name for name, pred in predictions.items() if 'error' not in pred and 'team_a_probability' in pred]
+        predicted_winner = statistical['predicted_winner']
+        predicted_score = statistical.get('predicted_score', '')
+        ensemble_prob_a = statistical['team_a_probability']
+        ensemble_prob_b = statistical['team_b_probability']
+        agreement = all(
+            pred.get('predicted_winner') == predicted_winner
+            for name, pred in predictions.items()
+            if 'error' not in pred and 'predicted_winner' in pred
+        )
+
+        ensemble_prob_a = round(float(ensemble_prob_a), 1)
+        ensemble_prob_b = round(float(ensemble_prob_b), 1)
         
         return {
-            'method': 'Ensemble (Weighted Average)',
-            'team_a_probability': round(ensemble_prob_a, 1),
-            'team_b_probability': round(ensemble_prob_b, 1),
+            'method': 'Ensemble (Statistical Fallback)',
+            'team_a_probability': ensemble_prob_a,
+            'team_b_probability': ensemble_prob_b,
             'predicted_winner': predicted_winner,
             'predicted_score': predicted_score,
             'confidence': abs(ensemble_prob_a - ensemble_prob_b),
             'models_used': used_models,
-            'weights_used': {p['name']: round(p['normalized_weight'], 2) for p in valid_predictions},
+            'weights_used': {name: 1.0 for name in used_models},
             'models_agree': agreement
         }
     

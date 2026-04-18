@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "215035",
+    "team_a": "Toronto KOI",
+    "team_b": "Vancouver Surge",
+    "tournament": "CDL Major 2 Tournament",
+    "date": "2026-03-27",
+    "url": "https://breakingpoint.gg/match/215035/Toronto-KOI-vs-Vancouver-Surge-at-CDL-Major-2-Tournament-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 226,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 208
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 5
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 8,
+      "team_b_score": 0
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "CleanX",
+        "kills": 83,
+        "deaths": 77,
+        "kd": 1.08,
+        "plus_minus": "+6",
+        "damage": 10755,
+        "rating": 1.2
+      },
+      {
+        "player": "Insight",
+        "kills": 75,
+        "deaths": 66,
+        "kd": 1.14,
+        "plus_minus": "+9",
+        "damage": 10728,
+        "rating": 1.16
+      },
+      {
+        "player": "JoeDeceives",
+        "kills": 75,
+        "deaths": 72,
+        "kd": 1.04,
+        "plus_minus": "+3",
+        "damage": 9556,
+        "rating": 1.11
+      },
+      {
+        "player": "Kips",
+        "kills": 82,
+        "deaths": 78,
+        "kd": 1.05,
+        "plus_minus": "+4",
+        "damage": 10368,
+        "rating": 1.1
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Capsidal",
+        "kills": 71,
+        "deaths": 91,
+        "kd": 0.78,
+        "plus_minus": "-20",
+        "damage": 9299,
+        "rating": 0.74
+      },
+      {
+        "player": "Gwinn",
+        "kills": 78,
+        "deaths": 78,
+        "kd": 1.0,
+        "plus_minus": "0",
+        "damage": 10462,
+        "rating": 0.86
+      },
+      {
+        "player": "Lunarz",
+        "kills": 65,
+        "deaths": 66,
+        "kd": 0.98,
+        "plus_minus": "-1",
+        "damage": 9455,
+        "rating": 0.88
+      },
+      {
+        "player": "TJHaLy",
+        "kills": 79,
+        "deaths": 80,
+        "kd": 0.99,
+        "plus_minus": "-1",
+        "damage": 9530,
+        "rating": 0.94
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 24,
+        "kd": 1.08,
+        "damage": 3169,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 22,
+        "kd": 0.68,
+        "damage": 3308,
+        "rating": 0.75
+      },
+      {
+        "map_number": 1,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 25,
+        "kd": 0.6,
+        "damage": 2129,
+        "rating": 0.64
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 27,
+        "kd": 1.15,
+        "damage": 3682,
+        "rating": 1.17
+      },
+      {
+        "map_number": 1,
+        "player_name": "Capsidal",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 26,
+        "kd": 1.12,
+        "damage": 3610,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 22,
+        "kd": 1.05,
+        "damage": 3477,
+        "rating": 1.02
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 16,
+        "kd": 1.38,
+        "damage": 3066,
+        "rating": 1.21
+      },
+      {
+        "map_number": 1,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 23,
+        "kd": 1.04,
+        "damage": 3137,
+        "rating": 1.02
+      },
+      {
+        "map_number": 2,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 6,
+        "kd": 1.67,
+        "damage": 1253,
+        "rating": 1.26
+      },
+      {
+        "map_number": 2,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 936,
+        "rating": 1.0
+      },
+      {
+        "map_number": 2,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 8,
+        "kd": 1.12,
+        "damage": 1183,
+        "rating": 1.06
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 809,
+        "rating": 0.68
+      },
+      {
+        "map_number": 2,
+        "player_name": "Capsidal",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 10,
+        "kd": 0.8,
+        "damage": 1141,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 842,
+        "rating": 0.94
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 798,
+        "rating": 0.74
+      },
+      {
+        "map_number": 2,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 5,
+        "kd": 2.4,
+        "damage": 1338,
+        "rating": 1.45
+      },
+      {
+        "map_number": 3,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 17,
+        "kd": 1.24,
+        "damage": 2448,
+        "rating": 1.47
+      },
+      {
+        "map_number": 3,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 14,
+        "kd": 1.71,
+        "damage": 2733,
+        "rating": 1.6
+      },
+      {
+        "map_number": 3,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 12,
+        "kd": 2.08,
+        "damage": 2705,
+        "rating": 1.65
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 14,
+        "kd": 1.07,
+        "damage": 1808,
+        "rating": 1.31
+      },
+      {
+        "map_number": 3,
+        "player_name": "Capsidal",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 24,
+        "kd": 0.5,
+        "damage": 1509,
+        "rating": 0.38
+      },
+      {
+        "map_number": 3,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 22,
+        "kd": 0.86,
+        "damage": 2480,
+        "rating": 0.52
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 18,
+        "kd": 0.61,
+        "damage": 1662,
+        "rating": 0.56
+      },
+      {
+        "map_number": 3,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 15,
+        "deaths": 21,
+        "kd": 0.71,
+        "damage": 1768,
+        "rating": 0.51
+      },
+      {
+        "map_number": 4,
+        "player_name": "CleanX",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 30,
+        "kd": 0.87,
+        "damage": 3885,
+        "rating": 1.0
+      },
+      {
+        "map_number": 4,
+        "player_name": "Insight",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 22,
+        "kd": 1.27,
+        "damage": 3751,
+        "rating": 1.29
+      },
+      {
+        "map_number": 4,
+        "player_name": "JoeDeceives",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 27,
+        "kd": 0.96,
+        "damage": 3539,
+        "rating": 1.08
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kips",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 28,
+        "kd": 1.14,
+        "damage": 4069,
+        "rating": 1.25
+      },
+      {
+        "map_number": 4,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 26,
+        "kd": 1.12,
+        "damage": 3663,
+        "rating": 0.98
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 24,
+        "kd": 1.17,
+        "damage": 3929,
+        "rating": 1.01
+      },
+      {
+        "map_number": 4,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 31,
+        "kd": 0.9,
+        "damage": 3287,
+        "rating": 0.79
+      },
+      {
+        "map_number": 4,
+        "player_name": "Capsidal",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 31,
+        "kd": 0.71,
+        "damage": 3039,
+        "rating": 0.62
+      }
+    ]
+  }
+}

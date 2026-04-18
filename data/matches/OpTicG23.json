@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "215043",
+    "team_a": "OpTic Texas",
+    "team_b": "G2 Minnesota",
+    "tournament": "CDL Major 2 Tournament",
+    "date": "2026-03-28",
+    "url": "https://breakingpoint.gg/match/215043/OpTic-Texas-vs-G2-Minnesota-at-CDL-Major-2-Tournament-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 107
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 2
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 2
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Dashy",
+        "kills": 55,
+        "deaths": 39,
+        "kd": 1.41,
+        "plus_minus": "+16",
+        "damage": 7545,
+        "rating": 1.38
+      },
+      {
+        "player": "Huke",
+        "kills": 56,
+        "deaths": 48,
+        "kd": 1.17,
+        "plus_minus": "+8",
+        "damage": 7162,
+        "rating": 1.26
+      },
+      {
+        "player": "Mercules",
+        "kills": 60,
+        "deaths": 48,
+        "kd": 1.25,
+        "plus_minus": "+12",
+        "damage": 7236,
+        "rating": 1.37
+      },
+      {
+        "player": "Shotzzy",
+        "kills": 52,
+        "deaths": 49,
+        "kd": 1.06,
+        "plus_minus": "+3",
+        "damage": 6025,
+        "rating": 1.25
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Estreal",
+        "kills": 50,
+        "deaths": 57,
+        "kd": 0.88,
+        "plus_minus": "-7",
+        "damage": 6268,
+        "rating": 0.71
+      },
+      {
+        "player": "Kremp",
+        "kills": 43,
+        "deaths": 55,
+        "kd": 0.78,
+        "plus_minus": "-12",
+        "damage": 5622,
+        "rating": 0.66
+      },
+      {
+        "player": "Mamba",
+        "kills": 39,
+        "deaths": 55,
+        "kd": 0.71,
+        "plus_minus": "-16",
+        "damage": 5565,
+        "rating": 0.63
+      },
+      {
+        "player": "Skyz",
+        "kills": 52,
+        "deaths": 56,
+        "kd": 0.93,
+        "plus_minus": "-4",
+        "damage": 6376,
+        "rating": 0.74
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 2494,
+        "rating": 0.51
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 2681,
+        "rating": 0.44
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 25,
+        "kd": 0.76,
+        "damage": 2742,
+        "rating": 0.46
+      },
+      {
+        "map_number": 1,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 2359,
+        "rating": 0.51
+      },
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 18,
+        "kd": 1.28,
+        "damage": 3115,
+        "rating": 1.49
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3321,
+        "rating": 1.56
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 17,
+        "kd": 1.71,
+        "damage": 3260,
+        "rating": 1.73
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 20,
+        "kd": 0.95,
+        "damage": 2283,
+        "rating": 1.3
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 721,
+        "rating": 1.05
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 954,
+        "rating": 1.3
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 1048,
+        "rating": 1.33
+      },
+      {
+        "map_number": 2,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 811,
+        "rating": 0.77
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 523,
+        "rating": 0.67
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 498,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 666,
+        "rating": 0.8
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 3,
+        "kd": 2.67,
+        "damage": 887,
+        "rating": 1.45
+      },
+      {
+        "map_number": 3,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 26,
+        "kd": 0.92,
+        "damage": 2963,
+        "rating": 0.86
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 23,
+        "kd": 0.91,
+        "damage": 2418,
+        "rating": 0.87
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 2325,
+        "rating": 0.81
+      },
+      {
+        "map_number": 3,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 3351,
+        "rating": 0.9
+      },
+      {
+        "map_number": 3,
+        "player_name": "Dashy",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 18,
+        "kd": 1.33,
+        "damage": 3543,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Huke",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 21,
+        "kd": 1.19,
+        "damage": 3120,
+        "rating": 1.17
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 25,
+        "kd": 0.92,
+        "damage": 3022,
+        "rating": 1.07
+      },
+      {
+        "map_number": 3,
+        "player_name": "Shotzzy",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 2694,
+        "rating": 1.13
+      }
+    ]
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214920",
+    "team_a": "Paris Gentle Mates",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-04-17",
+    "url": "https://breakingpoint.gg/match/214920/Paris-Gentle-Mates-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Gridlock",
+      "team_a_score": 138,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Sake",
+      "team_a_score": 250,
+      "team_b_score": 188
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 3
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Envoy",
+        "kills": 73,
+        "deaths": 81,
+        "kd": 0.9,
+        "plus_minus": "-8",
+        "damage": 9373,
+        "rating": 0.92
+      },
+      {
+        "player": "Ghosty",
+        "kills": 80,
+        "deaths": 62,
+        "kd": 1.29,
+        "plus_minus": "+18",
+        "damage": 9668,
+        "rating": 1.13
+      },
+      {
+        "player": "Neptune",
+        "kills": 92,
+        "deaths": 70,
+        "kd": 1.31,
+        "plus_minus": "+22",
+        "damage": 11155,
+        "rating": 1.21
+      },
+      {
+        "player": "Sib",
+        "kills": 60,
+        "deaths": 80,
+        "kd": 0.75,
+        "plus_minus": "-20",
+        "damage": 9567,
+        "rating": 0.83
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Craze",
+        "kills": 75,
+        "deaths": 88,
+        "kd": 0.85,
+        "plus_minus": "-13",
+        "damage": 9816,
+        "rating": 0.9
+      },
+      {
+        "player": "Exceed",
+        "kills": 67,
+        "deaths": 74,
+        "kd": 0.91,
+        "plus_minus": "-7",
+        "damage": 9187,
+        "rating": 0.98
+      },
+      {
+        "player": "Fire",
+        "kills": 68,
+        "deaths": 66,
+        "kd": 1.03,
+        "plus_minus": "+2",
+        "damage": 9518,
+        "rating": 0.98
+      },
+      {
+        "player": "Lurqxx",
+        "kills": 79,
+        "deaths": 77,
+        "kd": 1.03,
+        "plus_minus": "+2",
+        "damage": 9568,
+        "rating": 1.06
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 23,
+        "kd": 1.0,
+        "damage": 2855,
+        "rating": 0.7
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 12,
+        "deaths": 23,
+        "kd": 0.52,
+        "damage": 2141,
+        "rating": 0.4
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 2793,
+        "rating": 0.78
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 23,
+        "kd": 0.65,
+        "damage": 2392,
+        "rating": 0.48
+      },
+      {
+        "map_number": 1,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 24,
+        "kd": 0.67,
+        "damage": 2373,
+        "rating": 1.01
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 17,
+        "kd": 1.41,
+        "damage": 2640,
+        "rating": 1.54
+      },
+      {
+        "map_number": 1,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 13,
+        "kd": 1.69,
+        "damage": 2777,
+        "rating": 1.56
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 19,
+        "kd": 1.32,
+        "damage": 2949,
+        "rating": 1.52
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 6,
+        "kd": 1.17,
+        "damage": 1113,
+        "rating": 1.17
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 3,
+        "kd": 1.67,
+        "damage": 729,
+        "rating": 1.2
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 6,
+        "kd": 1.83,
+        "damage": 1392,
+        "rating": 1.48
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 401,
+        "rating": 0.95
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 655,
+        "rating": 0.84
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 705,
+        "rating": 0.9
+      },
+      {
+        "map_number": 2,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 8,
+        "kd": 0.25,
+        "damage": 561,
+        "rating": 0.51
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 952,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 3138,
+        "rating": 1.06
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 20,
+        "kd": 1.4,
+        "damage": 3197,
+        "rating": 1.18
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 23,
+        "kd": 1.17,
+        "damage": 3382,
+        "rating": 1.12
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 29,
+        "kd": 0.76,
+        "damage": 3567,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 30,
+        "kd": 1.0,
+        "damage": 3499,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 26,
+        "kd": 0.85,
+        "damage": 2753,
+        "rating": 0.88
+      },
+      {
+        "map_number": 3,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 23,
+        "kd": 1.09,
+        "damage": 3461,
+        "rating": 0.98
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 25,
+        "kd": 0.88,
+        "damage": 3078,
+        "rating": 0.9
+      },
+      {
+        "map_number": 4,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 25,
+        "kd": 0.64,
+        "damage": 2267,
+        "rating": 0.75
+      },
+      {
+        "map_number": 4,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 16,
+        "kd": 2.19,
+        "damage": 3601,
+        "rating": 1.73
+      },
+      {
+        "map_number": 4,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 20,
+        "kd": 1.55,
+        "damage": 3588,
+        "rating": 1.46
+      },
+      {
+        "map_number": 4,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 22,
+        "kd": 0.86,
+        "damage": 3207,
+        "rating": 0.96
+      },
+      {
+        "map_number": 4,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 28,
+        "kd": 0.86,
+        "damage": 3289,
+        "rating": 0.79
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 15,
+        "deaths": 25,
+        "kd": 0.6,
+        "damage": 3089,
+        "rating": 0.6
+      },
+      {
+        "map_number": 4,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 22,
+        "kd": 0.86,
+        "damage": 2719,
+        "rating": 0.84
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 26,
+        "kd": 0.92,
+        "damage": 2589,
+        "rating": 0.86
+      }
+    ]
+  }
+}
