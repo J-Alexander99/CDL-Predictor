@@ -1,0 +1,51 @@
+PRE-INGESTION PREDICTION SNAPSHOT
+Date: 2026-04-24
+
+1. FaZe Vegas vs Boston Breach
+   Winner: FaZe Vegas
+   Score: 3-1
+   Probabilities: FaZe Vegas 64.4% | Boston Breach 35.6%
+   Confidence: 28.800000000000004
+   URL: https://breakingpoint.gg/match/214923/FaZe-Vegas-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
+
+2. Toronto KOI vs Riyadh Falcons
+   Winner: Toronto KOI
+   Score: 3-1
+   Probabilities: Toronto KOI 53.2% | Riyadh Falcons 46.8%
+   Confidence: 6.400000000000006
+   URL: https://breakingpoint.gg/match/214924/Toronto-KOI-vs-Riyadh-Falcons-at-CDL-Major-3-Qualifier-2026
+
+3. Paris Gentle Mates vs G2 Minnesota
+   Winner: Paris Gentle Mates
+   Score: 3-1
+   Probabilities: Paris Gentle Mates 52.1% | G2 Minnesota 47.9%
+   Confidence: 4.200000000000003
+   URL: https://breakingpoint.gg/match/214925/Paris-Gentle-Mates-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026
+
+4. Vancouver Surge vs Carolina Royal Ravens
+   Winner: Carolina Royal Ravens
+   Score: 3-1
+   Probabilities: Vancouver Surge 51.8% | Carolina Royal Ravens 48.2%
+   Confidence: 3.5999999999999943
+   URL: https://breakingpoint.gg/match/214926/Vancouver-Surge-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026
+
+5. Toronto KOI vs Boston Breach
+   Winner: Toronto KOI
+   Score: 3-0
+   Probabilities: Toronto KOI 64.3% | Boston Breach 35.7%
+   Confidence: 28.599999999999994
+   URL: https://breakingpoint.gg/match/214927/Toronto-KOI-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
+
+6. Riyadh Falcons vs FaZe Vegas
+   Winner: FaZe Vegas
+   Score: 3-2
+   Probabilities: Riyadh Falcons 43.0% | FaZe Vegas 57.0%
+   Confidence: 14.0
+   URL: https://breakingpoint.gg/match/214928/Riyadh-Falcons-vs-FaZe-Vegas-at-CDL-Major-3-Qualifier-2026
+
+7. OpTic Texas vs Cloud9 New York
+   Winner: OpTic Texas
+   Score: 3-0
+   Probabilities: OpTic Texas 72.3% | Cloud9 New York 27.7%
+   Confidence: 44.599999999999994
+   URL: https://breakingpoint.gg/match/214929/OpTic-Texas-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026

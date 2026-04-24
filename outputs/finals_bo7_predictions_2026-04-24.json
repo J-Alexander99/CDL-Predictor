@@ -1,0 +1,71 @@
+{
+  "generated_at": "2026-04-24T01:27:56.985158",
+  "match": "OpTic Texas vs FaZe Vegas",
+  "format": "BO7 converted from model BO5 probabilities",
+  "models": {
+    "statistical": {
+      "raw_method": "Statistical Model",
+      "raw_bo5_winner": "OpTic Texas",
+      "raw_bo5_score": "3-1",
+      "raw_bo5_probabilities": {
+        "OpTic Texas": 50.3,
+        "FaZe Vegas": 49.7
+      },
+      "implied_map_win_probability_team_a": 0.5016,
+      "converted_bo7_series_probability_team_a": 50.3,
+      "converted_bo7_series_probability_team_b": 49.7,
+      "bo7_predicted_winner": "OpTic Texas",
+      "bo7_predicted_score": "4-2",
+      "bo7_score_probability": 15.72,
+      "confidence_points_bo7": 0.7
+    },
+    "elo": {
+      "raw_method": "Elo Rating System",
+      "raw_bo5_winner": "OpTic Texas",
+      "raw_bo5_score": "2-3",
+      "raw_bo5_probabilities": {
+        "OpTic Texas": 54.4,
+        "FaZe Vegas": 45.6
+      },
+      "implied_map_win_probability_team_a": 0.5235,
+      "converted_bo7_series_probability_team_a": 55.1,
+      "converted_bo7_series_probability_team_b": 44.9,
+      "bo7_predicted_winner": "OpTic Texas",
+      "bo7_predicted_score": "4-2",
+      "bo7_score_probability": 17.05,
+      "confidence_points_bo7": 10.3
+    },
+    "ml": {
+      "raw_method": "Machine Learning",
+      "raw_bo5_winner": "OpTic Texas",
+      "raw_bo5_score": "3-2",
+      "raw_bo5_probabilities": {
+        "OpTic Texas": 55.5,
+        "FaZe Vegas": 44.5
+      },
+      "implied_map_win_probability_team_a": 0.5294,
+      "converted_bo7_series_probability_team_a": 56.4,
+      "converted_bo7_series_probability_team_b": 43.6,
+      "bo7_predicted_winner": "OpTic Texas",
+      "bo7_predicted_score": "4-2",
+      "bo7_score_probability": 17.4,
+      "confidence_points_bo7": 12.8
+    },
+    "ensemble": {
+      "raw_method": "Ensemble (Statistical Fallback)",
+      "raw_bo5_winner": "OpTic Texas",
+      "raw_bo5_score": "3-1",
+      "raw_bo5_probabilities": {
+        "OpTic Texas": 50.3,
+        "FaZe Vegas": 49.7
+      },
+      "implied_map_win_probability_team_a": 0.5016,
+      "converted_bo7_series_probability_team_a": 50.3,
+      "converted_bo7_series_probability_team_b": 49.7,
+      "bo7_predicted_winner": "OpTic Texas",
+      "bo7_predicted_score": "4-2",
+      "bo7_score_probability": 15.72,
+      "confidence_points_bo7": 0.7
+    }
+  }
+}
