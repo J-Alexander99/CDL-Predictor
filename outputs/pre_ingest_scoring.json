@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://breakingpoint.gg/match/214923/FaZe-Vegas-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214923",
+    "found": true,
+    "db_teams": [
+      "FaZe Vegas",
+      "Boston Breach"
+    ],
+    "predicted_winner": "FaZe Vegas",
+    "actual_winner": "FaZe Vegas",
+    "correct": true,
+    "score_actual": [
+      3,
+      0
+    ]
+  },
+  {
+    "url": "https://breakingpoint.gg/match/214924/Toronto-KOI-vs-Riyadh-Falcons-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214924",
+    "found": true,
+    "db_teams": [
+      "Toronto KOI",
+      "Riyadh Falcons"
+    ],
+    "predicted_winner": "Toronto KOI",
+    "actual_winner": "Toronto KOI",
+    "correct": true,
+    "score_actual": [
+      3,
+      1
+    ]
+  },
+  {
+    "url": "https://breakingpoint.gg/match/214925/Paris-Gentle-Mates-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214925",
+    "found": true,
+    "db_teams": [
+      "Paris Gentle Mates",
+      "G2 Minnesota"
+    ],
+    "predicted_winner": "Paris Gentle Mates",
+    "actual_winner": "Paris Gentle Mates",
+    "correct": true,
+    "score_actual": [
+      3,
+      1
+    ]
+  },
+  {
+    "url": "https://breakingpoint.gg/match/214926/Vancouver-Surge-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214926",
+    "found": true,
+    "db_teams": [
+      "Vancouver Surge",
+      "Carolina Royal Ravens"
+    ],
+    "predicted_winner": "Carolina Royal Ravens",
+    "actual_winner": "Vancouver Surge",
+    "correct": false,
+    "score_actual": [
+      3,
+      2
+    ]
+  },
+  {
+    "url": "https://breakingpoint.gg/match/214927/Toronto-KOI-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214927",
+    "found": true,
+    "db_teams": [
+      "Toronto KOI",
+      "Boston Breach"
+    ],
+    "predicted_winner": "Toronto KOI",
+    "actual_winner": "Toronto KOI",
+    "correct": true,
+    "score_actual": [
+      3,
+      1
+    ]
+  },
+  {
+    "url": "https://breakingpoint.gg/match/214928/Riyadh-Falcons-vs-FaZe-Vegas-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214928",
+    "found": true,
+    "db_teams": [
+      "Riyadh Falcons",
+      "FaZe Vegas"
+    ],
+    "predicted_winner": "FaZe Vegas",
+    "actual_winner": "FaZe Vegas",
+    "correct": true,
+    "score_actual": [
+      1,
+      3
+    ]
+  },
+  {
+    "url": "https://breakingpoint.gg/match/214929/OpTic-Texas-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026",
+    "match_id": "214929",
+    "found": true,
+    "db_teams": [
+      "OpTic Texas",
+      "Cloud9 New York"
+    ],
+    "predicted_winner": "OpTic Texas",
+    "actual_winner": "OpTic Texas",
+    "correct": true,
+    "score_actual": [
+      3,
+      1
+    ]
+  }
+]
