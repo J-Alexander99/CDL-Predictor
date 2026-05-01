@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214939",
+    "team_a": "FaZe Vegas",
+    "team_b": "Miami Heretics",
+    "tournament": "CDL Minor 1 Tournament",
+    "date": "2026-04-26",
+    "url": "https://breakingpoint.gg/match/214939/FaZe-Vegas-vs-Miami-Heretics-at-CDL-Minor-1-Tournament-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 224,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Fringe",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 3,
+      "team_b_score": 4
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Drazah",
+        "kills": 71,
+        "deaths": 81,
+        "kd": 0.88,
+        "plus_minus": "-10",
+        "damage": 9673,
+        "rating": 0.93
+      },
+      {
+        "player": "Simp",
+        "kills": 74,
+        "deaths": 77,
+        "kd": 0.96,
+        "plus_minus": "-3",
+        "damage": 9798,
+        "rating": 0.91
+      },
+      {
+        "player": "04",
+        "kills": 86,
+        "deaths": 84,
+        "kd": 1.02,
+        "plus_minus": "+2",
+        "damage": 10109,
+        "rating": 0.87
+      },
+      {
+        "player": "Abuzah",
+        "kills": 68,
+        "deaths": 73,
+        "kd": 0.93,
+        "plus_minus": "-5",
+        "damage": 10135,
+        "rating": 0.87
+      }
+    ],
+    "team_b": [
+      {
+        "player": "MettalZ",
+        "kills": 73,
+        "deaths": 83,
+        "kd": 0.88,
+        "plus_minus": "-10",
+        "damage": 9981,
+        "rating": 1.02
+      },
+      {
+        "player": "RenKoR",
+        "kills": 78,
+        "deaths": 67,
+        "kd": 1.16,
+        "plus_minus": "+11",
+        "damage": 10573,
+        "rating": 1.07
+      },
+      {
+        "player": "SupeR",
+        "kills": 86,
+        "deaths": 77,
+        "kd": 1.12,
+        "plus_minus": "+9",
+        "damage": 9881,
+        "rating": 1.25
+      },
+      {
+        "player": "Traixx",
+        "kills": 77,
+        "deaths": 74,
+        "kd": 1.04,
+        "plus_minus": "+3",
+        "damage": 10724,
+        "rating": 1.07
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 35,
+        "kd": 0.71,
+        "damage": 3911,
+        "rating": 0.71
+      },
+      {
+        "map_number": 1,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 38,
+        "deaths": 33,
+        "kd": 1.15,
+        "damage": 4573,
+        "rating": 1.11
+      },
+      {
+        "map_number": 1,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 35,
+        "kd": 0.86,
+        "damage": 3751,
+        "rating": 0.9
+      },
+      {
+        "map_number": 1,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 32,
+        "deaths": 28,
+        "kd": 1.14,
+        "damage": 4344,
+        "rating": 1.13
+      },
+      {
+        "map_number": 1,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 39,
+        "deaths": 38,
+        "kd": 1.03,
+        "damage": 3944,
+        "rating": 1.0
+      },
+      {
+        "map_number": 1,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 29,
+        "kd": 0.76,
+        "damage": 3571,
+        "rating": 0.8
+      },
+      {
+        "map_number": 1,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 38,
+        "deaths": 31,
+        "kd": 1.23,
+        "damage": 4205,
+        "rating": 1.22
+      },
+      {
+        "map_number": 1,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 31,
+        "kd": 1.13,
+        "damage": 4544,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 794,
+        "rating": 1.27
+      },
+      {
+        "map_number": 2,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 754,
+        "rating": 1.03
+      },
+      {
+        "map_number": 2,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 5,
+        "kd": 2.4,
+        "damage": 1184,
+        "rating": 1.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 5,
+        "kd": 1.0,
+        "damage": 1186,
+        "rating": 1.1
+      },
+      {
+        "map_number": 2,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 2,
+        "deaths": 8,
+        "kd": 0.25,
+        "damage": 569,
+        "rating": 0.51
+      },
+      {
+        "map_number": 2,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 661,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 6,
+        "kd": 1.67,
+        "damage": 1280,
+        "rating": 1.09
+      },
+      {
+        "map_number": 2,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 683,
+        "rating": 0.62
+      },
+      {
+        "map_number": 3,
+        "player_name": "MettalZ",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 42,
+        "kd": 0.83,
+        "damage": 5436,
+        "rating": 0.9
+      },
+      {
+        "map_number": 3,
+        "player_name": "RenKoR",
+        "team": "team_b",
+        "kills": 42,
+        "deaths": 34,
+        "kd": 1.24,
+        "damage": 5475,
+        "rating": 1.06
+      },
+      {
+        "map_number": 3,
+        "player_name": "SupeR",
+        "team": "team_b",
+        "kills": 36,
+        "deaths": 41,
+        "kd": 0.88,
+        "damage": 4492,
+        "rating": 0.92
+      },
+      {
+        "map_number": 3,
+        "player_name": "Traixx",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 38,
+        "kd": 0.97,
+        "damage": 4994,
+        "rating": 0.96
+      },
+      {
+        "map_number": 3,
+        "player_name": "04",
+        "team": "team_a",
+        "kills": 45,
+        "deaths": 38,
+        "kd": 1.18,
+        "damage": 5596,
+        "rating": 1.11
+      },
+      {
+        "map_number": 3,
+        "player_name": "Abuzah",
+        "team": "team_a",
+        "kills": 41,
+        "deaths": 37,
+        "kd": 1.11,
+        "damage": 5903,
+        "rating": 1.08
+      },
+      {
+        "map_number": 3,
+        "player_name": "Drazah",
+        "team": "team_a",
+        "kills": 36,
+        "deaths": 40,
+        "kd": 0.9,
+        "damage": 4482,
+        "rating": 0.99
+      },
+      {
+        "map_number": 3,
+        "player_name": "Simp",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 36,
+        "kd": 0.89,
+        "damage": 4542,
+        "rating": 0.98
+      }
+    ]
+  }
+}

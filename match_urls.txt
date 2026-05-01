@@ -1,10 +1,14 @@
 # Add your match URLs here, one per line
 # Lines starting with # are ignored
 
-https://breakingpoint.gg/match/214923/FaZe-Vegas-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214924/Toronto-KOI-vs-Riyadh-Falcons-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214925/Paris-Gentle-Mates-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214926/Vancouver-Surge-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214927/Toronto-KOI-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214928/Riyadh-Falcons-vs-FaZe-Vegas-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214929/OpTic-Texas-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214930/Riyadh-Falcons-vs-Vancouver-Surge-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214931/Miami-Heretics-vs-Boston-Breach-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214932/G2-Minnesota-vs-Cloud9-New-York-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214933/Toronto-KOI-vs-Carolina-Royal-Ravens-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214934/Paris-Gentle-Mates-vs-Miami-Heretics-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214935/FaZe-Vegas-vs-Riyadh-Falcons-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214936/OpTic-Texas-vs-Toronto-KOI-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214937/Los-Angeles-Thieves-vs-G2-Minnesota-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214939/FaZe-Vegas-vs-Miami-Heretics-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214938/OpTic-Texas-vs-Los-Angeles-Thieves-at-CDL-Minor-1-Tournament-2026
+https://breakingpoint.gg/match/214940/Los-Angeles-Thieves-vs-Miami-Heretics-at-CDL-Minor-1-Tournament-2026

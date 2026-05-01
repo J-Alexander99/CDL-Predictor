@@ -1,0 +1,3510 @@
+[
+  {
+    "team_a": "Boston Breach",
+    "team_b": "OpTic Texas",
+    "prediction": {
+      "team_a": "Boston Breach",
+      "team_b": "OpTic Texas",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 25.5,
+          "team_b_probability": 74.5,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "3-0",
+          "confidence": 49.0,
+          "details": {
+            "team_a": "Boston Breach",
+            "team_b": "OpTic Texas",
+            "team_a_roster": [
+              "Afro",
+              "Nastie",
+              "Purj",
+              "Spart"
+            ],
+            "team_b_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_a_win_probability": 25.5,
+            "team_b_win_probability": 74.5,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 23.6,
+                "team_b_probability": 76.4,
+                "team_a_mode_stats": {
+                  "win_rate": 15.1,
+                  "weighted_maps": 8.7,
+                  "avg_score_diff": -10.6,
+                  "maps_played": 38
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 74.8,
+                  "weighted_maps": 16.4,
+                  "avg_score_diff": 11.5,
+                  "maps_played": 46
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 39.3,
+                "team_b_probability": 60.7,
+                "team_a_mode_stats": {
+                  "win_rate": 36.6,
+                  "weighted_maps": 5.0,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 27
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 52.3,
+                  "weighted_maps": 10.2,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 36
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 25.8,
+                "team_b_probability": 74.2,
+                "team_a_mode_stats": {
+                  "win_rate": 17.8,
+                  "weighted_maps": 4.6,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 22
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 70.4,
+                  "weighted_maps": 8.2,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 30
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 43.8,
+                  "team_b_winrate": 78.6,
+                  "team_a_plays": 4.0,
+                  "team_b_plays": 14.0,
+                  "reasoning": "Most played map in pool (18.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Raid",
+                  "team_a_winrate": 20.0,
+                  "team_b_winrate": 72.7,
+                  "team_a_plays": 3.8,
+                  "team_b_plays": 11.0,
+                  "reasoning": "Most played map in pool (14.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 53.6,
+                  "team_b_winrate": 90.0,
+                  "team_a_plays": 7.0,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (17.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 46.7,
+                  "team_b_winrate": 80.0,
+                  "team_a_plays": 7.5,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (17.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 26.7,
+                  "team_b_winrate": 50.0,
+                  "team_a_plays": 3.8,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (11.8 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 49.0,
+            "team_a_stats": {
+              "matches_played": 22,
+              "weighted_matches": 4.6,
+              "win_rate": 12.1,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.7,
+              "weighted_maps_played": 16.46,
+              "roster_quality": {
+                "avg_kd": 0.96,
+                "avg_rating": 0.9,
+                "avg_damage": 9389.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "team_b_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.07,
+              "win_rate": 74.2,
+              "map_win_rate": 66.1,
+              "weighted_wins": 5.98,
+              "weighted_maps_won": 20.97,
+              "weighted_maps_played": 31.75,
+              "roster_quality": {
+                "avg_kd": 1.09,
+                "avg_rating": 1.13,
+                "avg_damage": 9727.0,
+                "player_count": 4
+              },
+              "momentum": 0.072
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 26.0,
+          "team_b_probability": 74.0,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "0-3",
+          "confidence": 48.03935870663132,
+          "team_a_rating": 1451.0,
+          "team_b_rating": 1632.9,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Boston Breach",
+            "team_b": "OpTic Texas",
+            "team_a_roster": [
+              "Afro",
+              "Nastie",
+              "Purj",
+              "Spart"
+            ],
+            "team_b_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_a_rating": 1451.0,
+            "team_b_rating": 1632.9,
+            "team_a_matches": 0,
+            "team_b_matches": 26,
+            "team_a_win_probability": 26.0,
+            "team_b_win_probability": 74.0,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "0-3",
+            "confidence": 48.03935870663132,
+            "rating_difference": 181.8810770584364
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 39.3,
+          "team_b_probability": 60.7,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "1-3",
+          "confidence": 21.403542244250005,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Boston Breach",
+            "team_b": "OpTic Texas",
+            "team_a_roster": [
+              "Afro",
+              "Nastie",
+              "Purj",
+              "Spart"
+            ],
+            "team_b_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_a_win_probability": 39.3,
+            "team_b_win_probability": 60.7,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "1-3",
+            "confidence": 21.403542244250005,
+            "team_a_stats": {
+              "matches_played": 22,
+              "weighted_matches": 4.6,
+              "win_rate": 12.1,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.7,
+              "weighted_maps_played": 16.46,
+              "roster_quality": {
+                "avg_kd": 0.96,
+                "avg_rating": 0.9,
+                "avg_damage": 9389.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "team_b_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.07,
+              "win_rate": 74.2,
+              "map_win_rate": 66.1,
+              "weighted_wins": 5.98,
+              "weighted_maps_won": 20.97,
+              "weighted_maps_played": 31.75,
+              "roster_quality": {
+                "avg_kd": 1.09,
+                "avg_rating": 1.13,
+                "avg_damage": 9727.0,
+                "player_count": 4
+              },
+              "momentum": 0.072
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 25.5,
+        "team_b_probability": 74.5,
+        "predicted_winner": "OpTic Texas",
+        "predicted_score": "3-0",
+        "confidence": 49.0,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "Cloud9 New York",
+    "team_b": "Los Angeles Thieves",
+    "prediction": {
+      "team_a": "Cloud9 New York",
+      "team_b": "Los Angeles Thieves",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 24.9,
+          "team_b_probability": 75.1,
+          "predicted_winner": "Los Angeles Thieves",
+          "predicted_score": "3-0",
+          "confidence": 50.199999999999996,
+          "details": {
+            "team_a": "Cloud9 New York",
+            "team_b": "Los Angeles Thieves",
+            "team_a_roster": [
+              "Encourage",
+              "Hide",
+              "Nejra",
+              "Okis"
+            ],
+            "team_b_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_a_win_probability": 24.9,
+            "team_b_win_probability": 75.1,
+            "predicted_winner": "Los Angeles Thieves",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 13.5,
+                "team_b_probability": 86.5,
+                "team_a_mode_stats": {
+                  "win_rate": 2.7,
+                  "weighted_maps": 9.6,
+                  "avg_score_diff": -30.7,
+                  "maps_played": 21
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 69.0,
+                  "weighted_maps": 15.4,
+                  "avg_score_diff": 10.6,
+                  "maps_played": 43
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 49.5,
+                "team_b_probability": 50.5,
+                "team_a_mode_stats": {
+                  "win_rate": 53.1,
+                  "weighted_maps": 5.3,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 15
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 64.0,
+                  "weighted_maps": 10.5,
+                  "avg_score_diff": 0.3,
+                  "maps_played": 35
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 30.3,
+                "team_b_probability": 69.7,
+                "team_a_mode_stats": {
+                  "win_rate": 18.9,
+                  "weighted_maps": 4.7,
+                  "avg_score_diff": -0.7,
+                  "maps_played": 13
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 49.0,
+                  "weighted_maps": 8.0,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 28
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 0.0,
+                  "team_b_winrate": 60.0,
+                  "team_a_plays": 3.0,
+                  "team_b_plays": 13.8,
+                  "reasoning": "Most played map in pool (16.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 60.0,
+                  "team_b_winrate": 72.4,
+                  "team_a_plays": 5.0,
+                  "team_b_plays": 7.2,
+                  "reasoning": "Most played map in pool (12.2 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 33.3,
+                  "team_b_winrate": 64.7,
+                  "team_a_plays": 6.0,
+                  "team_b_plays": 8.5,
+                  "reasoning": "Most played map in pool (14.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 0.0,
+                  "team_b_winrate": 61.5,
+                  "team_a_plays": 6.0,
+                  "team_b_plays": 9.8,
+                  "reasoning": "Most played map in pool (15.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 50.0,
+                  "team_b_winrate": 35.3,
+                  "team_a_plays": 2.0,
+                  "team_b_plays": 8.5,
+                  "reasoning": "Most played map in pool (10.5 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 50.199999999999996,
+            "team_a_stats": {
+              "matches_played": 13,
+              "weighted_matches": 4.65,
+              "win_rate": 11.9,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.89,
+              "weighted_maps_played": 17.3,
+              "roster_quality": {
+                "avg_kd": 0.87,
+                "avg_rating": 0.8,
+                "avg_damage": 8968.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "team_b_stats": {
+              "matches_played": 28,
+              "weighted_matches": 7.95,
+              "win_rate": 69.6,
+              "map_win_rate": 61.4,
+              "weighted_wins": 5.53,
+              "weighted_maps_won": 19.01,
+              "weighted_maps_played": 30.95,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.08,
+                "avg_damage": 9376.0,
+                "player_count": 4
+              },
+              "momentum": 0.839
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 35.2,
+          "team_b_probability": 64.8,
+          "predicted_winner": "Los Angeles Thieves",
+          "predicted_score": "1-3",
+          "confidence": 29.571657038853584,
+          "team_a_rating": 1434.2,
+          "team_b_rating": 1540.1,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Cloud9 New York",
+            "team_b": "Los Angeles Thieves",
+            "team_a_roster": [
+              "Encourage",
+              "Hide",
+              "Nejra",
+              "Okis"
+            ],
+            "team_b_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_a_rating": 1434.2,
+            "team_b_rating": 1540.1,
+            "team_a_matches": 11,
+            "team_b_matches": 16,
+            "team_a_win_probability": 35.2,
+            "team_b_win_probability": 64.8,
+            "predicted_winner": "Los Angeles Thieves",
+            "predicted_score": "1-3",
+            "confidence": 29.571657038853584,
+            "rating_difference": 105.90501695596095
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 37.2,
+          "team_b_probability": 62.8,
+          "predicted_winner": "Los Angeles Thieves",
+          "predicted_score": "1-3",
+          "confidence": 25.555027635034477,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Cloud9 New York",
+            "team_b": "Los Angeles Thieves",
+            "team_a_roster": [
+              "Encourage",
+              "Hide",
+              "Nejra",
+              "Okis"
+            ],
+            "team_b_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_a_win_probability": 37.2,
+            "team_b_win_probability": 62.8,
+            "predicted_winner": "Los Angeles Thieves",
+            "predicted_score": "1-3",
+            "confidence": 25.555027635034477,
+            "team_a_stats": {
+              "matches_played": 13,
+              "weighted_matches": 4.65,
+              "win_rate": 11.9,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.89,
+              "weighted_maps_played": 17.3,
+              "roster_quality": {
+                "avg_kd": 0.87,
+                "avg_rating": 0.8,
+                "avg_damage": 8968.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "team_b_stats": {
+              "matches_played": 28,
+              "weighted_matches": 7.95,
+              "win_rate": 69.6,
+              "map_win_rate": 61.4,
+              "weighted_wins": 5.53,
+              "weighted_maps_won": 19.01,
+              "weighted_maps_played": 30.95,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.08,
+                "avg_damage": 9376.0,
+                "player_count": 4
+              },
+              "momentum": 0.839
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 24.9,
+        "team_b_probability": 75.1,
+        "predicted_winner": "Los Angeles Thieves",
+        "predicted_score": "3-0",
+        "confidence": 50.199999999999996,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "Carolina Royal Ravens",
+    "team_b": "FaZe Vegas",
+    "prediction": {
+      "team_a": "Carolina Royal Ravens",
+      "team_b": "FaZe Vegas",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 34.4,
+          "team_b_probability": 65.6,
+          "predicted_winner": "FaZe Vegas",
+          "predicted_score": "3-0",
+          "confidence": 31.199999999999996,
+          "details": {
+            "team_a": "Carolina Royal Ravens",
+            "team_b": "FaZe Vegas",
+            "team_a_roster": [
+              "Craze",
+              "Exceed",
+              "Fire",
+              "Lurqxx"
+            ],
+            "team_b_roster": [
+              "Drazah",
+              "Simp",
+              "04",
+              "Abuzah"
+            ],
+            "team_a_win_probability": 34.4,
+            "team_b_win_probability": 65.6,
+            "predicted_winner": "FaZe Vegas",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "FaZe Vegas",
+                "team_a_probability": 39.7,
+                "team_b_probability": 60.3,
+                "team_a_mode_stats": {
+                  "win_rate": 47.8,
+                  "weighted_maps": 10.4,
+                  "avg_score_diff": 2.0,
+                  "maps_played": 39
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 69.2,
+                  "weighted_maps": 18.3,
+                  "avg_score_diff": 8.9,
+                  "maps_played": 51
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "FaZe Vegas",
+                "team_a_probability": 34.8,
+                "team_b_probability": 65.2,
+                "team_a_mode_stats": {
+                  "win_rate": 28.1,
+                  "weighted_maps": 6.9,
+                  "avg_score_diff": -0.4,
+                  "maps_played": 29
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 56.4,
+                  "weighted_maps": 11.8,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 43
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "FaZe Vegas",
+                "team_a_probability": 37.9,
+                "team_b_probability": 62.1,
+                "team_a_mode_stats": {
+                  "win_rate": 36.8,
+                  "weighted_maps": 5.5,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 24
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 59.8,
+                  "weighted_maps": 9.6,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 33
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Blackheart",
+                  "team_a_winrate": 62.5,
+                  "team_b_winrate": 70.0,
+                  "team_a_plays": 6.0,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (16.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 34.6,
+                  "team_b_winrate": 75.0,
+                  "team_a_plays": 6.5,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (14.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 25.0,
+                  "team_b_winrate": 57.1,
+                  "team_a_plays": 6.0,
+                  "team_b_plays": 14.0,
+                  "reasoning": "Most played map in pool (20.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Exposure",
+                  "team_a_winrate": 65.2,
+                  "team_b_winrate": 60.0,
+                  "team_a_plays": 5.8,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (15.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 50.0,
+                  "team_b_winrate": 45.5,
+                  "team_a_plays": 2.5,
+                  "team_b_plays": 11.0,
+                  "reasoning": "Most played map in pool (13.5 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 31.199999999999996,
+            "team_a_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.45,
+              "win_rate": 30.2,
+              "map_win_rate": 37.8,
+              "weighted_wins": 1.65,
+              "weighted_maps_won": 7.98,
+              "weighted_maps_played": 21.08,
+              "roster_quality": {
+                "avg_kd": 1.0,
+                "avg_rating": 0.97,
+                "avg_damage": 9395.0,
+                "player_count": 4
+              },
+              "momentum": -0.945
+            },
+            "team_b_stats": {
+              "matches_played": 33,
+              "weighted_matches": 9.56,
+              "win_rate": 71.5,
+              "map_win_rate": 62.3,
+              "weighted_wins": 6.83,
+              "weighted_maps_won": 22.55,
+              "weighted_maps_played": 36.21,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.06,
+                "avg_damage": 9651.0,
+                "player_count": 4
+              },
+              "momentum": 0.287
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 34.4,
+          "team_b_probability": 65.6,
+          "predicted_winner": "FaZe Vegas",
+          "predicted_score": "0-3",
+          "confidence": 31.177514196887874,
+          "team_a_rating": 1490.4,
+          "team_b_rating": 1602.4,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Carolina Royal Ravens",
+            "team_b": "FaZe Vegas",
+            "team_a_roster": [
+              "Craze",
+              "Exceed",
+              "Fire",
+              "Lurqxx"
+            ],
+            "team_b_roster": [
+              "Drazah",
+              "Simp",
+              "04",
+              "Abuzah"
+            ],
+            "team_a_rating": 1490.4,
+            "team_b_rating": 1602.4,
+            "team_a_matches": 1,
+            "team_b_matches": 29,
+            "team_a_win_probability": 34.4,
+            "team_b_win_probability": 65.6,
+            "predicted_winner": "FaZe Vegas",
+            "predicted_score": "0-3",
+            "confidence": 31.177514196887874,
+            "rating_difference": 112.05161677000478
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 44.8,
+          "team_b_probability": 55.2,
+          "predicted_winner": "FaZe Vegas",
+          "predicted_score": "1-3",
+          "confidence": 10.48029918341944,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Carolina Royal Ravens",
+            "team_b": "FaZe Vegas",
+            "team_a_roster": [
+              "Craze",
+              "Exceed",
+              "Fire",
+              "Lurqxx"
+            ],
+            "team_b_roster": [
+              "Drazah",
+              "Simp",
+              "04",
+              "Abuzah"
+            ],
+            "team_a_win_probability": 44.8,
+            "team_b_win_probability": 55.2,
+            "predicted_winner": "FaZe Vegas",
+            "predicted_score": "1-3",
+            "confidence": 10.48029918341944,
+            "team_a_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.45,
+              "win_rate": 30.2,
+              "map_win_rate": 37.8,
+              "weighted_wins": 1.65,
+              "weighted_maps_won": 7.98,
+              "weighted_maps_played": 21.08,
+              "roster_quality": {
+                "avg_kd": 1.0,
+                "avg_rating": 0.97,
+                "avg_damage": 9395.0,
+                "player_count": 4
+              },
+              "momentum": -0.945
+            },
+            "team_b_stats": {
+              "matches_played": 33,
+              "weighted_matches": 9.56,
+              "win_rate": 71.5,
+              "map_win_rate": 62.3,
+              "weighted_wins": 6.83,
+              "weighted_maps_won": 22.55,
+              "weighted_maps_played": 36.21,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.06,
+                "avg_damage": 9651.0,
+                "player_count": 4
+              },
+              "momentum": 0.287
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 34.4,
+        "team_b_probability": 65.6,
+        "predicted_winner": "FaZe Vegas",
+        "predicted_score": "3-0",
+        "confidence": 31.199999999999996,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "OpTic Texas",
+    "team_b": "Toronto KOI",
+    "prediction": {
+      "team_a": "OpTic Texas",
+      "team_b": "Toronto KOI",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 59.8,
+          "team_b_probability": 40.2,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "3-0",
+          "confidence": 19.599999999999994,
+          "details": {
+            "team_a": "OpTic Texas",
+            "team_b": "Toronto KOI",
+            "team_a_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_b_roster": [
+              "CleanX",
+              "Insight",
+              "JoeDeceives",
+              "Kips"
+            ],
+            "team_a_win_probability": 59.8,
+            "team_b_win_probability": 40.2,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 62.8,
+                "team_b_probability": 37.2,
+                "team_a_mode_stats": {
+                  "win_rate": 74.8,
+                  "weighted_maps": 16.4,
+                  "avg_score_diff": 11.5,
+                  "maps_played": 46
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 62.6,
+                  "weighted_maps": 17.1,
+                  "avg_score_diff": 4.8,
+                  "maps_played": 45
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 61.9,
+                "team_b_probability": 38.1,
+                "team_a_mode_stats": {
+                  "win_rate": 52.3,
+                  "weighted_maps": 10.2,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 36
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 46.9,
+                  "weighted_maps": 9.9,
+                  "avg_score_diff": -0.1,
+                  "maps_played": 35
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 54.8,
+                "team_b_probability": 45.2,
+                "team_a_mode_stats": {
+                  "win_rate": 70.4,
+                  "weighted_maps": 8.2,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 30
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 65.1,
+                  "weighted_maps": 9.3,
+                  "avg_score_diff": 0.4,
+                  "maps_played": 30
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 50.0,
+                  "team_b_winrate": 56.7,
+                  "team_a_plays": 12.0,
+                  "team_b_plays": 15.0,
+                  "reasoning": "Most played map in pool (27.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Raid",
+                  "team_a_winrate": 72.7,
+                  "team_b_winrate": 45.7,
+                  "team_a_plays": 11.0,
+                  "team_b_plays": 8.8,
+                  "reasoning": "Most played map in pool (19.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Exposure",
+                  "team_a_winrate": 71.4,
+                  "team_b_winrate": 50.8,
+                  "team_a_plays": 7.0,
+                  "team_b_plays": 14.8,
+                  "reasoning": "Most played map in pool (21.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 78.6,
+                  "team_b_winrate": 78.9,
+                  "team_a_plays": 14.0,
+                  "team_b_plays": 9.5,
+                  "reasoning": "Most played map in pool (23.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 50.0,
+                  "team_b_winrate": 20.0,
+                  "team_a_plays": 8.0,
+                  "team_b_plays": 5.0,
+                  "reasoning": "Most played map in pool (13.0 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 19.599999999999994,
+            "team_a_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.07,
+              "win_rate": 74.2,
+              "map_win_rate": 66.1,
+              "weighted_wins": 5.98,
+              "weighted_maps_won": 20.97,
+              "weighted_maps_played": 31.75,
+              "roster_quality": {
+                "avg_kd": 1.09,
+                "avg_rating": 1.13,
+                "avg_damage": 9727.0,
+                "player_count": 4
+              },
+              "momentum": 0.072
+            },
+            "team_b_stats": {
+              "matches_played": 30,
+              "weighted_matches": 9.26,
+              "win_rate": 60.3,
+              "map_win_rate": 58.6,
+              "weighted_wins": 5.58,
+              "weighted_maps_won": 19.49,
+              "weighted_maps_played": 33.26,
+              "roster_quality": {
+                "avg_kd": 1.04,
+                "avg_rating": 1.04,
+                "avg_damage": 9126.0,
+                "player_count": 4
+              },
+              "momentum": 0.201
+            },
+            "head_to_head": {
+              "total_matches": 3,
+              "team_a_wins": 3,
+              "team_b_wins": 0
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 67.0,
+          "team_b_probability": 33.0,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "3-1",
+          "confidence": 34.04760292502551,
+          "team_a_rating": 1632.9,
+          "team_b_rating": 1509.6,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "OpTic Texas",
+            "team_b": "Toronto KOI",
+            "team_a_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_b_roster": [
+              "CleanX",
+              "Insight",
+              "JoeDeceives",
+              "Kips"
+            ],
+            "team_a_rating": 1632.9,
+            "team_b_rating": 1509.6,
+            "team_a_matches": 26,
+            "team_b_matches": 15,
+            "team_a_win_probability": 67.0,
+            "team_b_win_probability": 33.0,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "3-1",
+            "confidence": 34.04760292502551,
+            "rating_difference": 123.21138695411355
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 73.4,
+          "team_b_probability": 26.6,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "3-1",
+          "confidence": 46.76097053514565,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "OpTic Texas",
+            "team_b": "Toronto KOI",
+            "team_a_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_b_roster": [
+              "CleanX",
+              "Insight",
+              "JoeDeceives",
+              "Kips"
+            ],
+            "team_a_win_probability": 73.4,
+            "team_b_win_probability": 26.6,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "3-1",
+            "confidence": 46.76097053514565,
+            "team_a_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.07,
+              "win_rate": 74.2,
+              "map_win_rate": 66.1,
+              "weighted_wins": 5.98,
+              "weighted_maps_won": 20.97,
+              "weighted_maps_played": 31.75,
+              "roster_quality": {
+                "avg_kd": 1.09,
+                "avg_rating": 1.13,
+                "avg_damage": 9727.0,
+                "player_count": 4
+              },
+              "momentum": 0.072
+            },
+            "team_b_stats": {
+              "matches_played": 30,
+              "weighted_matches": 9.26,
+              "win_rate": 60.3,
+              "map_win_rate": 58.6,
+              "weighted_wins": 5.58,
+              "weighted_maps_won": 19.49,
+              "weighted_maps_played": 33.26,
+              "roster_quality": {
+                "avg_kd": 1.04,
+                "avg_rating": 1.04,
+                "avg_damage": 9126.0,
+                "player_count": 4
+              },
+              "momentum": 0.201
+            },
+            "head_to_head": {
+              "total_matches": 3,
+              "team_a_wins": 3,
+              "team_b_wins": 0
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 59.8,
+        "team_b_probability": 40.2,
+        "predicted_winner": "OpTic Texas",
+        "predicted_score": "3-0",
+        "confidence": 19.599999999999994,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "Carolina Royal Ravens",
+    "team_b": "Cloud9 New York",
+    "prediction": {
+      "team_a": "Carolina Royal Ravens",
+      "team_b": "Cloud9 New York",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 65.3,
+          "team_b_probability": 34.7,
+          "predicted_winner": "Carolina Royal Ravens",
+          "predicted_score": "3-1",
+          "confidence": 30.599999999999994,
+          "details": {
+            "team_a": "Carolina Royal Ravens",
+            "team_b": "Cloud9 New York",
+            "team_a_roster": [
+              "Craze",
+              "Exceed",
+              "Fire",
+              "Lurqxx"
+            ],
+            "team_b_roster": [
+              "Encourage",
+              "Hide",
+              "Nejra",
+              "Okis"
+            ],
+            "team_a_win_probability": 65.3,
+            "team_b_win_probability": 34.7,
+            "predicted_winner": "Carolina Royal Ravens",
+            "predicted_score": "3-1",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Carolina Royal Ravens",
+                "team_a_probability": 85.2,
+                "team_b_probability": 14.8,
+                "team_a_mode_stats": {
+                  "win_rate": 47.8,
+                  "weighted_maps": 10.4,
+                  "avg_score_diff": 2.0,
+                  "maps_played": 39
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 2.7,
+                  "weighted_maps": 9.6,
+                  "avg_score_diff": -30.7,
+                  "maps_played": 21
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Cloud9 New York",
+                "team_a_probability": 37.1,
+                "team_b_probability": 62.9,
+                "team_a_mode_stats": {
+                  "win_rate": 28.1,
+                  "weighted_maps": 6.9,
+                  "avg_score_diff": -0.4,
+                  "maps_played": 29
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 53.1,
+                  "weighted_maps": 5.3,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 15
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Carolina Royal Ravens",
+                "team_a_probability": 65.4,
+                "team_b_probability": 34.6,
+                "team_a_mode_stats": {
+                  "win_rate": 36.8,
+                  "weighted_maps": 5.5,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 24
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 18.9,
+                  "weighted_maps": 4.7,
+                  "avg_score_diff": -0.7,
+                  "maps_played": 13
+                }
+              },
+              {
+                "map_number": 4,
+                "mode": "Hardpoint",
+                "predicted_winner": "Carolina Royal Ravens",
+                "team_a_probability": 85.2,
+                "team_b_probability": 14.8,
+                "team_a_mode_stats": {
+                  "win_rate": 47.8,
+                  "weighted_maps": 10.4,
+                  "avg_score_diff": 2.0,
+                  "maps_played": 39
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 2.7,
+                  "weighted_maps": 9.6,
+                  "avg_score_diff": -30.7,
+                  "maps_played": 21
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 0.0,
+                  "team_b_winrate": 0.0,
+                  "team_a_plays": 6.2,
+                  "team_b_plays": 6.0,
+                  "reasoning": "Most played map in pool (12.2 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 34.6,
+                  "team_b_winrate": 0.0,
+                  "team_a_plays": 6.5,
+                  "team_b_plays": 2.0,
+                  "reasoning": "Most played map in pool (8.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 44.8,
+                  "team_b_winrate": 33.3,
+                  "team_a_plays": 7.2,
+                  "team_b_plays": 6.0,
+                  "reasoning": "Most played map in pool (13.2 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 56.2,
+                  "team_b_winrate": 0.0,
+                  "team_a_plays": 4.0,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (12.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Exposure",
+                  "team_a_winrate": 66.7,
+                  "team_b_winrate": 66.7,
+                  "team_a_plays": 4.5,
+                  "team_b_plays": 3.0,
+                  "reasoning": "Most played map in pool (7.5 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 30.599999999999994,
+            "team_a_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.45,
+              "win_rate": 30.2,
+              "map_win_rate": 37.8,
+              "weighted_wins": 1.65,
+              "weighted_maps_won": 7.98,
+              "weighted_maps_played": 21.08,
+              "roster_quality": {
+                "avg_kd": 1.0,
+                "avg_rating": 0.97,
+                "avg_damage": 9395.0,
+                "player_count": 4
+              },
+              "momentum": -0.945
+            },
+            "team_b_stats": {
+              "matches_played": 13,
+              "weighted_matches": 4.65,
+              "win_rate": 11.9,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.89,
+              "weighted_maps_played": 17.3,
+              "roster_quality": {
+                "avg_kd": 0.87,
+                "avg_rating": 0.8,
+                "avg_damage": 8968.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 1,
+              "team_b_wins": 0
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 58.0,
+          "team_b_probability": 42.0,
+          "predicted_winner": "Carolina Royal Ravens",
+          "predicted_score": "3-2",
+          "confidence": 16.020095834978854,
+          "team_a_rating": 1490.4,
+          "team_b_rating": 1434.2,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Carolina Royal Ravens",
+            "team_b": "Cloud9 New York",
+            "team_a_roster": [
+              "Craze",
+              "Exceed",
+              "Fire",
+              "Lurqxx"
+            ],
+            "team_b_roster": [
+              "Encourage",
+              "Hide",
+              "Nejra",
+              "Okis"
+            ],
+            "team_a_rating": 1490.4,
+            "team_b_rating": 1434.2,
+            "team_a_matches": 1,
+            "team_b_matches": 11,
+            "team_a_win_probability": 58.0,
+            "team_b_win_probability": 42.0,
+            "predicted_winner": "Carolina Royal Ravens",
+            "predicted_score": "3-2",
+            "confidence": 16.020095834978854,
+            "rating_difference": 56.14313806704058
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 66.3,
+          "team_b_probability": 33.7,
+          "predicted_winner": "Carolina Royal Ravens",
+          "predicted_score": "3-1",
+          "confidence": 32.56021474724389,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Carolina Royal Ravens",
+            "team_b": "Cloud9 New York",
+            "team_a_roster": [
+              "Craze",
+              "Exceed",
+              "Fire",
+              "Lurqxx"
+            ],
+            "team_b_roster": [
+              "Encourage",
+              "Hide",
+              "Nejra",
+              "Okis"
+            ],
+            "team_a_win_probability": 66.3,
+            "team_b_win_probability": 33.7,
+            "predicted_winner": "Carolina Royal Ravens",
+            "predicted_score": "3-1",
+            "confidence": 32.56021474724389,
+            "team_a_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.45,
+              "win_rate": 30.2,
+              "map_win_rate": 37.8,
+              "weighted_wins": 1.65,
+              "weighted_maps_won": 7.98,
+              "weighted_maps_played": 21.08,
+              "roster_quality": {
+                "avg_kd": 1.0,
+                "avg_rating": 0.97,
+                "avg_damage": 9395.0,
+                "player_count": 4
+              },
+              "momentum": -0.945
+            },
+            "team_b_stats": {
+              "matches_played": 13,
+              "weighted_matches": 4.65,
+              "win_rate": 11.9,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.89,
+              "weighted_maps_played": 17.3,
+              "roster_quality": {
+                "avg_kd": 0.87,
+                "avg_rating": 0.8,
+                "avg_damage": 8968.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 1,
+              "team_b_wins": 0
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 65.3,
+        "team_b_probability": 34.7,
+        "predicted_winner": "Carolina Royal Ravens",
+        "predicted_score": "3-1",
+        "confidence": 30.599999999999994,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "FaZe Vegas",
+    "team_b": "Miami Heretics",
+    "prediction": {
+      "team_a": "FaZe Vegas",
+      "team_b": "Miami Heretics",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 45.5,
+          "team_b_probability": 54.5,
+          "predicted_winner": "Miami Heretics",
+          "predicted_score": "3-0",
+          "confidence": 9.0,
+          "details": {
+            "team_a": "FaZe Vegas",
+            "team_b": "Miami Heretics",
+            "team_a_roster": [
+              "Drazah",
+              "Simp",
+              "04",
+              "Abuzah"
+            ],
+            "team_b_roster": [
+              "MettalZ",
+              "RenKoR",
+              "SupeR",
+              "Traixx"
+            ],
+            "team_a_win_probability": 45.5,
+            "team_b_win_probability": 54.5,
+            "predicted_winner": "Miami Heretics",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Miami Heretics",
+                "team_a_probability": 46.8,
+                "team_b_probability": 53.2,
+                "team_a_mode_stats": {
+                  "win_rate": 69.2,
+                  "weighted_maps": 18.3,
+                  "avg_score_diff": 8.9,
+                  "maps_played": 51
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 49.6,
+                  "weighted_maps": 13.6,
+                  "avg_score_diff": -1.2,
+                  "maps_played": 41
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Miami Heretics",
+                "team_a_probability": 39.0,
+                "team_b_probability": 61.0,
+                "team_a_mode_stats": {
+                  "win_rate": 56.4,
+                  "weighted_maps": 11.8,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 43
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 69.2,
+                  "weighted_maps": 9.0,
+                  "avg_score_diff": 0.4,
+                  "maps_played": 33
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Miami Heretics",
+                "team_a_probability": 38.9,
+                "team_b_probability": 61.1,
+                "team_a_mode_stats": {
+                  "win_rate": 59.8,
+                  "weighted_maps": 9.6,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 33
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 73.9,
+                  "weighted_maps": 8.1,
+                  "avg_score_diff": 0.4,
+                  "maps_played": 27
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 60.0,
+                  "team_b_winrate": 45.5,
+                  "team_a_plays": 10.0,
+                  "team_b_plays": 11.0,
+                  "reasoning": "Most played map in pool (21.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 45.5,
+                  "team_b_winrate": 62.5,
+                  "team_a_plays": 11.0,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (19.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 57.1,
+                  "team_b_winrate": 83.3,
+                  "team_a_plays": 14.0,
+                  "team_b_plays": 6.0,
+                  "reasoning": "Most played map in pool (20.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 40.0,
+                  "team_b_winrate": 50.0,
+                  "team_a_plays": 10.0,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (20.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 75.0,
+                  "team_b_winrate": 37.5,
+                  "team_a_plays": 8.0,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (16.0 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 9.0,
+            "team_a_stats": {
+              "matches_played": 33,
+              "weighted_matches": 9.56,
+              "win_rate": 71.5,
+              "map_win_rate": 62.3,
+              "weighted_wins": 6.83,
+              "weighted_maps_won": 22.55,
+              "weighted_maps_played": 36.21,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.06,
+                "avg_damage": 9651.0,
+                "player_count": 4
+              },
+              "momentum": 0.287
+            },
+            "team_b_stats": {
+              "matches_played": 27,
+              "weighted_matches": 8.04,
+              "win_rate": 63.6,
+              "map_win_rate": 62.8,
+              "weighted_wins": 5.11,
+              "weighted_maps_won": 17.95,
+              "weighted_maps_played": 28.58,
+              "roster_quality": {
+                "avg_kd": 1.08,
+                "avg_rating": 1.04,
+                "avg_damage": 9409.0,
+                "player_count": 4
+              },
+              "momentum": 0.694
+            },
+            "head_to_head": {
+              "total_matches": 2,
+              "team_a_wins": 0,
+              "team_b_wins": 2
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 63.9,
+          "team_b_probability": 36.1,
+          "predicted_winner": "FaZe Vegas",
+          "predicted_score": "3-2",
+          "confidence": 27.763644204238403,
+          "team_a_rating": 1602.4,
+          "team_b_rating": 1503.4,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "FaZe Vegas",
+            "team_b": "Miami Heretics",
+            "team_a_roster": [
+              "Drazah",
+              "Simp",
+              "04",
+              "Abuzah"
+            ],
+            "team_b_roster": [
+              "MettalZ",
+              "RenKoR",
+              "SupeR",
+              "Traixx"
+            ],
+            "team_a_rating": 1602.4,
+            "team_b_rating": 1503.4,
+            "team_a_matches": 29,
+            "team_b_matches": 24,
+            "team_a_win_probability": 63.9,
+            "team_b_win_probability": 36.1,
+            "predicted_winner": "FaZe Vegas",
+            "predicted_score": "3-2",
+            "confidence": 27.763644204238403,
+            "rating_difference": 99.06058490895157
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 59.8,
+          "team_b_probability": 40.2,
+          "predicted_winner": "FaZe Vegas",
+          "predicted_score": "3-2",
+          "confidence": 19.5770446952374,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "FaZe Vegas",
+            "team_b": "Miami Heretics",
+            "team_a_roster": [
+              "Drazah",
+              "Simp",
+              "04",
+              "Abuzah"
+            ],
+            "team_b_roster": [
+              "MettalZ",
+              "RenKoR",
+              "SupeR",
+              "Traixx"
+            ],
+            "team_a_win_probability": 59.8,
+            "team_b_win_probability": 40.2,
+            "predicted_winner": "FaZe Vegas",
+            "predicted_score": "3-2",
+            "confidence": 19.5770446952374,
+            "team_a_stats": {
+              "matches_played": 33,
+              "weighted_matches": 9.56,
+              "win_rate": 71.5,
+              "map_win_rate": 62.3,
+              "weighted_wins": 6.83,
+              "weighted_maps_won": 22.55,
+              "weighted_maps_played": 36.21,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.06,
+                "avg_damage": 9651.0,
+                "player_count": 4
+              },
+              "momentum": 0.287
+            },
+            "team_b_stats": {
+              "matches_played": 27,
+              "weighted_matches": 8.04,
+              "win_rate": 63.6,
+              "map_win_rate": 62.8,
+              "weighted_wins": 5.11,
+              "weighted_maps_won": 17.95,
+              "weighted_maps_played": 28.58,
+              "roster_quality": {
+                "avg_kd": 1.08,
+                "avg_rating": 1.04,
+                "avg_damage": 9409.0,
+                "player_count": 4
+              },
+              "momentum": 0.694
+            },
+            "head_to_head": {
+              "total_matches": 2,
+              "team_a_wins": 0,
+              "team_b_wins": 2
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 45.5,
+        "team_b_probability": 54.5,
+        "predicted_winner": "Miami Heretics",
+        "predicted_score": "3-0",
+        "confidence": 9.0,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": false
+      }
+    }
+  },
+  {
+    "team_a": "Riyadh Falcons",
+    "team_b": "Vancouver Surge",
+    "prediction": {
+      "team_a": "Riyadh Falcons",
+      "team_b": "Vancouver Surge",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 47.4,
+          "team_b_probability": 52.6,
+          "predicted_winner": "Vancouver Surge",
+          "predicted_score": "3-1",
+          "confidence": 5.200000000000003,
+          "details": {
+            "team_a": "Riyadh Falcons",
+            "team_b": "Vancouver Surge",
+            "team_a_roster": [
+              "Cellium",
+              "Exnid",
+              "KiSMET",
+              "Pred"
+            ],
+            "team_b_roster": [
+              "Lunarz",
+              "Nero",
+              "TJHaLy",
+              "Gwinn"
+            ],
+            "team_a_win_probability": 47.4,
+            "team_b_win_probability": 52.6,
+            "predicted_winner": "Vancouver Surge",
+            "predicted_score": "3-1",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Vancouver Surge",
+                "team_a_probability": 46.5,
+                "team_b_probability": 53.5,
+                "team_a_mode_stats": {
+                  "win_rate": 34.5,
+                  "weighted_maps": 16.5,
+                  "avg_score_diff": -4.2,
+                  "maps_played": 45
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 45.8,
+                  "weighted_maps": 10.3,
+                  "avg_score_diff": -4.7,
+                  "maps_played": 36
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Vancouver Surge",
+                "team_a_probability": 41.8,
+                "team_b_probability": 58.2,
+                "team_a_mode_stats": {
+                  "win_rate": 39.3,
+                  "weighted_maps": 9.0,
+                  "avg_score_diff": -0.2,
+                  "maps_played": 32
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 57.5,
+                  "weighted_maps": 6.7,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 27
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Riyadh Falcons",
+                "team_a_probability": 74.2,
+                "team_b_probability": 25.8,
+                "team_a_mode_stats": {
+                  "win_rate": 65.9,
+                  "weighted_maps": 8.0,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 27
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 19.9,
+                  "weighted_maps": 5.5,
+                  "avg_score_diff": -0.4,
+                  "maps_played": 24
+                }
+              },
+              {
+                "map_number": 4,
+                "mode": "Hardpoint",
+                "predicted_winner": "Vancouver Surge",
+                "team_a_probability": 46.5,
+                "team_b_probability": 53.5,
+                "team_a_mode_stats": {
+                  "win_rate": 34.5,
+                  "weighted_maps": 16.5,
+                  "avg_score_diff": -4.2,
+                  "maps_played": 45
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 45.8,
+                  "weighted_maps": 10.3,
+                  "avg_score_diff": -4.7,
+                  "maps_played": 36
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 36.4,
+                  "team_b_winrate": 84.2,
+                  "team_a_plays": 11.0,
+                  "team_b_plays": 4.8,
+                  "reasoning": "Most played map in pool (15.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 22.2,
+                  "team_b_winrate": 60.0,
+                  "team_a_plays": 9.0,
+                  "team_b_plays": 3.8,
+                  "reasoning": "Most played map in pool (12.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Exposure",
+                  "team_a_winrate": 75.0,
+                  "team_b_winrate": 20.0,
+                  "team_a_plays": 12.0,
+                  "team_b_plays": 3.8,
+                  "reasoning": "Most played map in pool (15.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 54.5,
+                  "team_b_winrate": 37.5,
+                  "team_a_plays": 11.0,
+                  "team_b_plays": 4.0,
+                  "reasoning": "Most played map in pool (15.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Raid",
+                  "team_a_winrate": 57.1,
+                  "team_b_winrate": 47.6,
+                  "team_a_plays": 7.0,
+                  "team_b_plays": 5.2,
+                  "reasoning": "Most played map in pool (12.2 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 5.200000000000003,
+            "team_a_stats": {
+              "matches_played": 27,
+              "weighted_matches": 7.91,
+              "win_rate": 37.5,
+              "map_win_rate": 43.7,
+              "weighted_wins": 2.97,
+              "weighted_maps_won": 13.27,
+              "weighted_maps_played": 30.39,
+              "roster_quality": {
+                "avg_kd": 1.04,
+                "avg_rating": 1.0,
+                "avg_damage": 9717.0,
+                "player_count": 4
+              },
+              "momentum": -0.585
+            },
+            "team_b_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.47,
+              "win_rate": 45.8,
+              "map_win_rate": 43.7,
+              "weighted_wins": 2.51,
+              "weighted_maps_won": 9.14,
+              "weighted_maps_played": 20.93,
+              "roster_quality": {
+                "avg_kd": 0.97,
+                "avg_rating": 0.92,
+                "avg_damage": 9270.0,
+                "player_count": 4
+              },
+              "momentum": 0.056
+            },
+            "head_to_head": {
+              "total_matches": 2,
+              "team_a_wins": 1,
+              "team_b_wins": 1
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 53.5,
+          "team_b_probability": 46.5,
+          "predicted_winner": "Riyadh Falcons",
+          "predicted_score": "2-3",
+          "confidence": 6.993902794922113,
+          "team_a_rating": 1498.1,
+          "team_b_rating": 1473.8,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Riyadh Falcons",
+            "team_b": "Vancouver Surge",
+            "team_a_roster": [
+              "Cellium",
+              "Exnid",
+              "KiSMET",
+              "Pred"
+            ],
+            "team_b_roster": [
+              "Lunarz",
+              "Nero",
+              "TJHaLy",
+              "Gwinn"
+            ],
+            "team_a_rating": 1498.1,
+            "team_b_rating": 1473.8,
+            "team_a_matches": 23,
+            "team_b_matches": 1,
+            "team_a_win_probability": 53.5,
+            "team_b_win_probability": 46.5,
+            "predicted_winner": "Riyadh Falcons",
+            "predicted_score": "2-3",
+            "confidence": 6.993902794922113,
+            "rating_difference": 24.33904357158235
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 60.1,
+          "team_b_probability": 39.9,
+          "predicted_winner": "Riyadh Falcons",
+          "predicted_score": "3-2",
+          "confidence": 20.194392203590116,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Riyadh Falcons",
+            "team_b": "Vancouver Surge",
+            "team_a_roster": [
+              "Cellium",
+              "Exnid",
+              "KiSMET",
+              "Pred"
+            ],
+            "team_b_roster": [
+              "Lunarz",
+              "Nero",
+              "TJHaLy",
+              "Gwinn"
+            ],
+            "team_a_win_probability": 60.1,
+            "team_b_win_probability": 39.9,
+            "predicted_winner": "Riyadh Falcons",
+            "predicted_score": "3-2",
+            "confidence": 20.194392203590116,
+            "team_a_stats": {
+              "matches_played": 27,
+              "weighted_matches": 7.91,
+              "win_rate": 37.5,
+              "map_win_rate": 43.7,
+              "weighted_wins": 2.97,
+              "weighted_maps_won": 13.27,
+              "weighted_maps_played": 30.39,
+              "roster_quality": {
+                "avg_kd": 1.04,
+                "avg_rating": 1.0,
+                "avg_damage": 9717.0,
+                "player_count": 4
+              },
+              "momentum": -0.585
+            },
+            "team_b_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.47,
+              "win_rate": 45.8,
+              "map_win_rate": 43.7,
+              "weighted_wins": 2.51,
+              "weighted_maps_won": 9.14,
+              "weighted_maps_played": 20.93,
+              "roster_quality": {
+                "avg_kd": 0.97,
+                "avg_rating": 0.92,
+                "avg_damage": 9270.0,
+                "player_count": 4
+              },
+              "momentum": 0.056
+            },
+            "head_to_head": {
+              "total_matches": 2,
+              "team_a_wins": 1,
+              "team_b_wins": 1
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 47.4,
+        "team_b_probability": 52.6,
+        "predicted_winner": "Vancouver Surge",
+        "predicted_score": "3-1",
+        "confidence": 5.200000000000003,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": false
+      }
+    }
+  },
+  {
+    "team_a": "OpTic Texas",
+    "team_b": "Los Angeles Thieves",
+    "prediction": {
+      "team_a": "OpTic Texas",
+      "team_b": "Los Angeles Thieves",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 47.4,
+          "team_b_probability": 52.6,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "3-1",
+          "confidence": 5.200000000000003,
+          "details": {
+            "team_a": "OpTic Texas",
+            "team_b": "Los Angeles Thieves",
+            "team_a_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_b_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_a_win_probability": 47.4,
+            "team_b_win_probability": 52.6,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "3-1",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 51.3,
+                "team_b_probability": 48.7,
+                "team_a_mode_stats": {
+                  "win_rate": 74.8,
+                  "weighted_maps": 16.4,
+                  "avg_score_diff": 11.5,
+                  "maps_played": 46
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 69.0,
+                  "weighted_maps": 15.4,
+                  "avg_score_diff": 10.6,
+                  "maps_played": 43
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 42.4,
+                "team_b_probability": 57.6,
+                "team_a_mode_stats": {
+                  "win_rate": 52.3,
+                  "weighted_maps": 10.2,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 36
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 64.0,
+                  "weighted_maps": 10.5,
+                  "avg_score_diff": 0.3,
+                  "maps_played": 35
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 58.6,
+                "team_b_probability": 41.4,
+                "team_a_mode_stats": {
+                  "win_rate": 70.4,
+                  "weighted_maps": 8.2,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 30
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 49.0,
+                  "weighted_maps": 8.0,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 28
+                }
+              },
+              {
+                "map_number": 4,
+                "mode": "Hardpoint",
+                "predicted_winner": "OpTic Texas",
+                "team_a_probability": 51.3,
+                "team_b_probability": 48.7,
+                "team_a_mode_stats": {
+                  "win_rate": 74.8,
+                  "weighted_maps": 16.4,
+                  "avg_score_diff": 11.5,
+                  "maps_played": 46
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 69.0,
+                  "weighted_maps": 15.4,
+                  "avg_score_diff": 10.6,
+                  "maps_played": 43
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 50.0,
+                  "team_b_winrate": 60.0,
+                  "team_a_plays": 12.0,
+                  "team_b_plays": 13.8,
+                  "reasoning": "Most played map in pool (25.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 50.0,
+                  "team_b_winrate": 72.4,
+                  "team_a_plays": 8.0,
+                  "team_b_plays": 7.2,
+                  "reasoning": "Most played map in pool (15.2 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 61.5,
+                  "team_b_winrate": 64.7,
+                  "team_a_plays": 13.0,
+                  "team_b_plays": 8.5,
+                  "reasoning": "Most played map in pool (21.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 78.6,
+                  "team_b_winrate": 53.6,
+                  "team_a_plays": 14.0,
+                  "team_b_plays": 7.0,
+                  "reasoning": "Most played map in pool (21.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Raid",
+                  "team_a_winrate": 72.7,
+                  "team_b_winrate": 28.6,
+                  "team_a_plays": 11.0,
+                  "team_b_plays": 3.5,
+                  "reasoning": "Most played map in pool (14.5 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 5.200000000000003,
+            "team_a_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.07,
+              "win_rate": 74.2,
+              "map_win_rate": 66.1,
+              "weighted_wins": 5.98,
+              "weighted_maps_won": 20.97,
+              "weighted_maps_played": 31.75,
+              "roster_quality": {
+                "avg_kd": 1.09,
+                "avg_rating": 1.13,
+                "avg_damage": 9727.0,
+                "player_count": 4
+              },
+              "momentum": 0.072
+            },
+            "team_b_stats": {
+              "matches_played": 28,
+              "weighted_matches": 7.95,
+              "win_rate": 69.6,
+              "map_win_rate": 61.4,
+              "weighted_wins": 5.53,
+              "weighted_maps_won": 19.01,
+              "weighted_maps_played": 30.95,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.08,
+                "avg_damage": 9376.0,
+                "player_count": 4
+              },
+              "momentum": 0.839
+            },
+            "head_to_head": {
+              "total_matches": 3,
+              "team_a_wins": 1,
+              "team_b_wins": 2
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 63.0,
+          "team_b_probability": 37.0,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "3-2",
+          "confidence": 26.07170337027709,
+          "team_a_rating": 1632.9,
+          "team_b_rating": 1540.1,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "OpTic Texas",
+            "team_b": "Los Angeles Thieves",
+            "team_a_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_b_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_a_rating": 1632.9,
+            "team_b_rating": 1540.1,
+            "team_a_matches": 26,
+            "team_b_matches": 16,
+            "team_a_win_probability": 63.0,
+            "team_b_win_probability": 37.0,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "3-2",
+            "confidence": 26.07170337027709,
+            "rating_difference": 92.72276835109255
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 51.8,
+          "team_b_probability": 48.2,
+          "predicted_winner": "OpTic Texas",
+          "predicted_score": "2-3",
+          "confidence": 3.5837135502710504,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "OpTic Texas",
+            "team_b": "Los Angeles Thieves",
+            "team_a_roster": [
+              "Dashy",
+              "Huke",
+              "Mercules",
+              "Shotzzy"
+            ],
+            "team_b_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_a_win_probability": 51.8,
+            "team_b_win_probability": 48.2,
+            "predicted_winner": "OpTic Texas",
+            "predicted_score": "2-3",
+            "confidence": 3.5837135502710504,
+            "team_a_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.07,
+              "win_rate": 74.2,
+              "map_win_rate": 66.1,
+              "weighted_wins": 5.98,
+              "weighted_maps_won": 20.97,
+              "weighted_maps_played": 31.75,
+              "roster_quality": {
+                "avg_kd": 1.09,
+                "avg_rating": 1.13,
+                "avg_damage": 9727.0,
+                "player_count": 4
+              },
+              "momentum": 0.072
+            },
+            "team_b_stats": {
+              "matches_played": 28,
+              "weighted_matches": 7.95,
+              "win_rate": 69.6,
+              "map_win_rate": 61.4,
+              "weighted_wins": 5.53,
+              "weighted_maps_won": 19.01,
+              "weighted_maps_played": 30.95,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.08,
+                "avg_damage": 9376.0,
+                "player_count": 4
+              },
+              "momentum": 0.839
+            },
+            "head_to_head": {
+              "total_matches": 3,
+              "team_a_wins": 1,
+              "team_b_wins": 2
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 47.4,
+        "team_b_probability": 52.6,
+        "predicted_winner": "OpTic Texas",
+        "predicted_score": "3-1",
+        "confidence": 5.200000000000003,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "Los Angeles Thieves",
+    "team_b": "Vancouver Surge",
+    "prediction": {
+      "team_a": "Los Angeles Thieves",
+      "team_b": "Vancouver Surge",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 59.7,
+          "team_b_probability": 40.3,
+          "predicted_winner": "Los Angeles Thieves",
+          "predicted_score": "3-1",
+          "confidence": 19.400000000000006,
+          "details": {
+            "team_a": "Los Angeles Thieves",
+            "team_b": "Vancouver Surge",
+            "team_a_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_b_roster": [
+              "Lunarz",
+              "Nero",
+              "TJHaLy",
+              "Gwinn"
+            ],
+            "team_a_win_probability": 59.7,
+            "team_b_win_probability": 40.3,
+            "predicted_winner": "Los Angeles Thieves",
+            "predicted_score": "3-1",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 64.6,
+                "team_b_probability": 35.4,
+                "team_a_mode_stats": {
+                  "win_rate": 69.0,
+                  "weighted_maps": 15.4,
+                  "avg_score_diff": 10.6,
+                  "maps_played": 43
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 45.8,
+                  "weighted_maps": 10.3,
+                  "avg_score_diff": -4.7,
+                  "maps_played": 36
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Vancouver Surge",
+                "team_a_probability": 48.4,
+                "team_b_probability": 51.6,
+                "team_a_mode_stats": {
+                  "win_rate": 64.0,
+                  "weighted_maps": 10.5,
+                  "avg_score_diff": 0.3,
+                  "maps_played": 35
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 57.5,
+                  "weighted_maps": 6.7,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 27
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 68.3,
+                "team_b_probability": 31.7,
+                "team_a_mode_stats": {
+                  "win_rate": 49.0,
+                  "weighted_maps": 8.0,
+                  "avg_score_diff": 0.2,
+                  "maps_played": 28
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 19.9,
+                  "weighted_maps": 5.5,
+                  "avg_score_diff": -0.4,
+                  "maps_played": 24
+                }
+              },
+              {
+                "map_number": 4,
+                "mode": "Hardpoint",
+                "predicted_winner": "Los Angeles Thieves",
+                "team_a_probability": 64.6,
+                "team_b_probability": 35.4,
+                "team_a_mode_stats": {
+                  "win_rate": 69.0,
+                  "weighted_maps": 15.4,
+                  "avg_score_diff": 10.6,
+                  "maps_played": 43
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 45.8,
+                  "weighted_maps": 10.3,
+                  "avg_score_diff": -4.7,
+                  "maps_played": 36
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 60.0,
+                  "team_b_winrate": 84.2,
+                  "team_a_plays": 13.8,
+                  "team_b_plays": 4.8,
+                  "reasoning": "Most played map in pool (18.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 70.8,
+                  "team_b_winrate": 34.5,
+                  "team_a_plays": 6.0,
+                  "team_b_plays": 7.2,
+                  "reasoning": "Most played map in pool (13.2 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 47.5,
+                  "team_b_winrate": 21.4,
+                  "team_a_plays": 10.0,
+                  "team_b_plays": 7.0,
+                  "reasoning": "Most played map in pool (17.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 53.6,
+                  "team_b_winrate": 31.0,
+                  "team_a_plays": 7.0,
+                  "team_b_plays": 7.2,
+                  "reasoning": "Most played map in pool (14.2 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 35.3,
+                  "team_b_winrate": 60.0,
+                  "team_a_plays": 8.5,
+                  "team_b_plays": 3.8,
+                  "reasoning": "Most played map in pool (12.2 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 19.400000000000006,
+            "team_a_stats": {
+              "matches_played": 28,
+              "weighted_matches": 7.95,
+              "win_rate": 69.6,
+              "map_win_rate": 61.4,
+              "weighted_wins": 5.53,
+              "weighted_maps_won": 19.01,
+              "weighted_maps_played": 30.95,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.08,
+                "avg_damage": 9376.0,
+                "player_count": 4
+              },
+              "momentum": 0.839
+            },
+            "team_b_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.47,
+              "win_rate": 45.8,
+              "map_win_rate": 43.7,
+              "weighted_wins": 2.51,
+              "weighted_maps_won": 9.14,
+              "weighted_maps_played": 20.93,
+              "roster_quality": {
+                "avg_kd": 0.97,
+                "avg_rating": 0.92,
+                "avg_damage": 9270.0,
+                "player_count": 4
+              },
+              "momentum": 0.056
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 1,
+              "team_b_wins": 0
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 59.4,
+          "team_b_probability": 40.6,
+          "predicted_winner": "Los Angeles Thieves",
+          "predicted_score": "3-2",
+          "confidence": 18.868024818314844,
+          "team_a_rating": 1540.1,
+          "team_b_rating": 1473.8,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Los Angeles Thieves",
+            "team_b": "Vancouver Surge",
+            "team_a_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_b_roster": [
+              "Lunarz",
+              "Nero",
+              "TJHaLy",
+              "Gwinn"
+            ],
+            "team_a_rating": 1540.1,
+            "team_b_rating": 1473.8,
+            "team_a_matches": 16,
+            "team_b_matches": 1,
+            "team_a_win_probability": 59.4,
+            "team_b_win_probability": 40.6,
+            "predicted_winner": "Los Angeles Thieves",
+            "predicted_score": "3-2",
+            "confidence": 18.868024818314844,
+            "rating_difference": 66.34919885529143
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 64.9,
+          "team_b_probability": 35.1,
+          "predicted_winner": "Los Angeles Thieves",
+          "predicted_score": "3-2",
+          "confidence": 29.701081914473736,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Los Angeles Thieves",
+            "team_b": "Vancouver Surge",
+            "team_a_roster": [
+              "aBeZy",
+              "HyDra",
+              "Nium",
+              "Scrap"
+            ],
+            "team_b_roster": [
+              "Lunarz",
+              "Nero",
+              "TJHaLy",
+              "Gwinn"
+            ],
+            "team_a_win_probability": 64.9,
+            "team_b_win_probability": 35.1,
+            "predicted_winner": "Los Angeles Thieves",
+            "predicted_score": "3-2",
+            "confidence": 29.701081914473736,
+            "team_a_stats": {
+              "matches_played": 28,
+              "weighted_matches": 7.95,
+              "win_rate": 69.6,
+              "map_win_rate": 61.4,
+              "weighted_wins": 5.53,
+              "weighted_maps_won": 19.01,
+              "weighted_maps_played": 30.95,
+              "roster_quality": {
+                "avg_kd": 1.06,
+                "avg_rating": 1.08,
+                "avg_damage": 9376.0,
+                "player_count": 4
+              },
+              "momentum": 0.839
+            },
+            "team_b_stats": {
+              "matches_played": 24,
+              "weighted_matches": 5.47,
+              "win_rate": 45.8,
+              "map_win_rate": 43.7,
+              "weighted_wins": 2.51,
+              "weighted_maps_won": 9.14,
+              "weighted_maps_played": 20.93,
+              "roster_quality": {
+                "avg_kd": 0.97,
+                "avg_rating": 0.92,
+                "avg_damage": 9270.0,
+                "player_count": 4
+              },
+              "momentum": 0.056
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 1,
+              "team_b_wins": 0
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 59.7,
+        "team_b_probability": 40.3,
+        "predicted_winner": "Los Angeles Thieves",
+        "predicted_score": "3-1",
+        "confidence": 19.400000000000006,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "G2 Minnesota",
+    "team_b": "Miami Heretics",
+    "prediction": {
+      "team_a": "G2 Minnesota",
+      "team_b": "Miami Heretics",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 41.7,
+          "team_b_probability": 58.3,
+          "predicted_winner": "Miami Heretics",
+          "predicted_score": "3-0",
+          "confidence": 16.599999999999994,
+          "details": {
+            "team_a": "G2 Minnesota",
+            "team_b": "Miami Heretics",
+            "team_a_roster": [
+              "Skyz",
+              "Estreal",
+              "Kremp",
+              "Mamba"
+            ],
+            "team_b_roster": [
+              "MettalZ",
+              "RenKoR",
+              "SupeR",
+              "Traixx"
+            ],
+            "team_a_win_probability": 41.7,
+            "team_b_win_probability": 58.3,
+            "predicted_winner": "Miami Heretics",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Miami Heretics",
+                "team_a_probability": 45.5,
+                "team_b_probability": 54.5,
+                "team_a_mode_stats": {
+                  "win_rate": 37.8,
+                  "weighted_maps": 13.3,
+                  "avg_score_diff": -2.0,
+                  "maps_played": 42
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 49.6,
+                  "weighted_maps": 13.6,
+                  "avg_score_diff": -1.2,
+                  "maps_played": 41
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Miami Heretics",
+                "team_a_probability": 45.6,
+                "team_b_probability": 54.4,
+                "team_a_mode_stats": {
+                  "win_rate": 53.1,
+                  "weighted_maps": 9.3,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 37
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 69.2,
+                  "weighted_maps": 9.0,
+                  "avg_score_diff": 0.4,
+                  "maps_played": 33
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Miami Heretics",
+                "team_a_probability": 39.5,
+                "team_b_probability": 60.5,
+                "team_a_mode_stats": {
+                  "win_rate": 36.4,
+                  "weighted_maps": 8.4,
+                  "avg_score_diff": -0.4,
+                  "maps_played": 29
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 73.9,
+                  "weighted_maps": 8.1,
+                  "avg_score_diff": 0.4,
+                  "maps_played": 27
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 40.0,
+                  "team_b_winrate": 45.5,
+                  "team_a_plays": 10.0,
+                  "team_b_plays": 11.0,
+                  "reasoning": "Most played map in pool (21.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Raid",
+                  "team_a_winrate": 45.5,
+                  "team_b_winrate": 75.0,
+                  "team_a_plays": 11.0,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (19.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 22.2,
+                  "team_b_winrate": 58.3,
+                  "team_a_plays": 9.0,
+                  "team_b_plays": 12.0,
+                  "reasoning": "Most played map in pool (21.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 66.7,
+                  "team_b_winrate": 50.0,
+                  "team_a_plays": 9.0,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (19.0 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 77.8,
+                  "team_b_winrate": 62.5,
+                  "team_a_plays": 9.0,
+                  "team_b_plays": 8.0,
+                  "reasoning": "Most played map in pool (17.0 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 16.599999999999994,
+            "team_a_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.29,
+              "win_rate": 39.4,
+              "map_win_rate": 41.9,
+              "weighted_wins": 3.26,
+              "weighted_maps_won": 11.86,
+              "weighted_maps_played": 28.29,
+              "roster_quality": {
+                "avg_kd": 0.99,
+                "avg_rating": 0.97,
+                "avg_damage": 9050.0,
+                "player_count": 4
+              },
+              "momentum": -0.432
+            },
+            "team_b_stats": {
+              "matches_played": 27,
+              "weighted_matches": 8.04,
+              "win_rate": 63.6,
+              "map_win_rate": 62.8,
+              "weighted_wins": 5.11,
+              "weighted_maps_won": 17.95,
+              "weighted_maps_played": 28.58,
+              "roster_quality": {
+                "avg_kd": 1.08,
+                "avg_rating": 1.04,
+                "avg_damage": 9409.0,
+                "player_count": 4
+              },
+              "momentum": 0.694
+            },
+            "head_to_head": {
+              "total_matches": 2,
+              "team_a_wins": 1,
+              "team_b_wins": 1
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 47.2,
+          "team_b_probability": 52.8,
+          "predicted_winner": "Miami Heretics",
+          "predicted_score": "2-3",
+          "confidence": 5.507126327876838,
+          "team_a_rating": 1484.2,
+          "team_b_rating": 1503.4,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "G2 Minnesota",
+            "team_b": "Miami Heretics",
+            "team_a_roster": [
+              "Skyz",
+              "Estreal",
+              "Kremp",
+              "Mamba"
+            ],
+            "team_b_roster": [
+              "MettalZ",
+              "RenKoR",
+              "SupeR",
+              "Traixx"
+            ],
+            "team_a_rating": 1484.2,
+            "team_b_rating": 1503.4,
+            "team_a_matches": 26,
+            "team_b_matches": 24,
+            "team_a_win_probability": 47.2,
+            "team_b_win_probability": 52.8,
+            "predicted_winner": "Miami Heretics",
+            "predicted_score": "2-3",
+            "confidence": 5.507126327876838,
+            "rating_difference": 19.153095070874315
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 49.2,
+          "team_b_probability": 50.8,
+          "predicted_winner": "Miami Heretics",
+          "predicted_score": "2-3",
+          "confidence": 1.6874303525853396,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "G2 Minnesota",
+            "team_b": "Miami Heretics",
+            "team_a_roster": [
+              "Skyz",
+              "Estreal",
+              "Kremp",
+              "Mamba"
+            ],
+            "team_b_roster": [
+              "MettalZ",
+              "RenKoR",
+              "SupeR",
+              "Traixx"
+            ],
+            "team_a_win_probability": 49.2,
+            "team_b_win_probability": 50.8,
+            "predicted_winner": "Miami Heretics",
+            "predicted_score": "2-3",
+            "confidence": 1.6874303525853396,
+            "team_a_stats": {
+              "matches_played": 29,
+              "weighted_matches": 8.29,
+              "win_rate": 39.4,
+              "map_win_rate": 41.9,
+              "weighted_wins": 3.26,
+              "weighted_maps_won": 11.86,
+              "weighted_maps_played": 28.29,
+              "roster_quality": {
+                "avg_kd": 0.99,
+                "avg_rating": 0.97,
+                "avg_damage": 9050.0,
+                "player_count": 4
+              },
+              "momentum": -0.432
+            },
+            "team_b_stats": {
+              "matches_played": 27,
+              "weighted_matches": 8.04,
+              "win_rate": 63.6,
+              "map_win_rate": 62.8,
+              "weighted_wins": 5.11,
+              "weighted_maps_won": 17.95,
+              "weighted_maps_played": 28.58,
+              "roster_quality": {
+                "avg_kd": 1.08,
+                "avg_rating": 1.04,
+                "avg_damage": 9409.0,
+                "player_count": 4
+              },
+              "momentum": 0.694
+            },
+            "head_to_head": {
+              "total_matches": 2,
+              "team_a_wins": 1,
+              "team_b_wins": 1
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 41.7,
+        "team_b_probability": 58.3,
+        "predicted_winner": "Miami Heretics",
+        "predicted_score": "3-0",
+        "confidence": 16.599999999999994,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  },
+  {
+    "team_a": "Boston Breach",
+    "team_b": "Paris Gentle Mates",
+    "prediction": {
+      "team_a": "Boston Breach",
+      "team_b": "Paris Gentle Mates",
+      "predictions": {
+        "statistical": {
+          "method": "Statistical Model",
+          "team_a_probability": 29.4,
+          "team_b_probability": 70.6,
+          "predicted_winner": "Paris Gentle Mates",
+          "predicted_score": "3-0",
+          "confidence": 41.199999999999996,
+          "details": {
+            "team_a": "Boston Breach",
+            "team_b": "Paris Gentle Mates",
+            "team_a_roster": [
+              "Afro",
+              "Nastie",
+              "Purj",
+              "Spart"
+            ],
+            "team_b_roster": [
+              "Envoy",
+              "Ghosty",
+              "Neptune",
+              "Sib"
+            ],
+            "team_a_win_probability": 29.4,
+            "team_b_win_probability": 70.6,
+            "predicted_winner": "Paris Gentle Mates",
+            "predicted_score": "3-0",
+            "map_predictions": [
+              {
+                "map_number": 1,
+                "mode": "Hardpoint",
+                "predicted_winner": "Paris Gentle Mates",
+                "team_a_probability": 24.6,
+                "team_b_probability": 75.4,
+                "team_a_mode_stats": {
+                  "win_rate": 15.1,
+                  "weighted_maps": 8.7,
+                  "avg_score_diff": -10.6,
+                  "maps_played": 38
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 55.9,
+                  "weighted_maps": 17.6,
+                  "avg_score_diff": -0.5,
+                  "maps_played": 53
+                }
+              },
+              {
+                "map_number": 2,
+                "mode": "Search & Destroy",
+                "predicted_winner": "Paris Gentle Mates",
+                "team_a_probability": 46.1,
+                "team_b_probability": 53.9,
+                "team_a_mode_stats": {
+                  "win_rate": 36.6,
+                  "weighted_maps": 5.0,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 27
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 35.2,
+                  "weighted_maps": 9.9,
+                  "avg_score_diff": -0.2,
+                  "maps_played": 40
+                }
+              },
+              {
+                "map_number": 3,
+                "mode": "Overload",
+                "predicted_winner": "Paris Gentle Mates",
+                "team_a_probability": 37.3,
+                "team_b_probability": 62.7,
+                "team_a_mode_stats": {
+                  "win_rate": 17.8,
+                  "weighted_maps": 4.6,
+                  "avg_score_diff": -0.3,
+                  "maps_played": 22
+                },
+                "team_b_mode_stats": {
+                  "win_rate": 53.7,
+                  "weighted_maps": 8.2,
+                  "avg_score_diff": 0.1,
+                  "maps_played": 31
+                }
+              }
+            ],
+            "pick_ban_prediction": {
+              "predicted_maps": [
+                {
+                  "map_number": 1,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Colossus",
+                  "team_a_winrate": 46.7,
+                  "team_b_winrate": 76.9,
+                  "team_a_plays": 7.5,
+                  "team_b_plays": 13.0,
+                  "reasoning": "Most played map in pool (20.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 2,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Scar",
+                  "team_a_winrate": 26.7,
+                  "team_b_winrate": 33.3,
+                  "team_a_plays": 3.8,
+                  "team_b_plays": 12.0,
+                  "reasoning": "Most played map in pool (15.8 combined weighted plays)"
+                },
+                {
+                  "map_number": 3,
+                  "mode": "Overload",
+                  "predicted_map": "Exposure",
+                  "team_a_winrate": 0.0,
+                  "team_b_winrate": 40.0,
+                  "team_a_plays": 4.5,
+                  "team_b_plays": 15.0,
+                  "reasoning": "Most played map in pool (19.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 4,
+                  "mode": "Hardpoint",
+                  "predicted_map": "Den",
+                  "team_a_winrate": 0.0,
+                  "team_b_winrate": 71.4,
+                  "team_a_plays": 5.5,
+                  "team_b_plays": 14.0,
+                  "reasoning": "Most played map in pool (19.5 combined weighted plays)"
+                },
+                {
+                  "map_number": 5,
+                  "mode": "Search & Destroy",
+                  "predicted_map": "Raid",
+                  "team_a_winrate": 20.0,
+                  "team_b_winrate": 40.0,
+                  "team_a_plays": 3.8,
+                  "team_b_plays": 10.0,
+                  "reasoning": "Most played map in pool (13.8 combined weighted plays)"
+                }
+              ]
+            },
+            "confidence": 41.199999999999996,
+            "team_a_stats": {
+              "matches_played": 22,
+              "weighted_matches": 4.6,
+              "win_rate": 12.1,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.7,
+              "weighted_maps_played": 16.46,
+              "roster_quality": {
+                "avg_kd": 0.96,
+                "avg_rating": 0.9,
+                "avg_damage": 9389.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "team_b_stats": {
+              "matches_played": 30,
+              "weighted_matches": 8.04,
+              "win_rate": 49.1,
+              "map_win_rate": 49.8,
+              "weighted_wins": 3.95,
+              "weighted_maps_won": 16.3,
+              "weighted_maps_played": 32.72,
+              "roster_quality": {
+                "avg_kd": 1.02,
+                "avg_rating": 1.01,
+                "avg_damage": 10460.0,
+                "player_count": 4
+              },
+              "momentum": -0.054
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        },
+        "elo": {
+          "method": "Elo Rating System",
+          "team_a_probability": 40.2,
+          "team_b_probability": 59.8,
+          "predicted_winner": "Paris Gentle Mates",
+          "predicted_score": "1-3",
+          "confidence": 19.643316119208926,
+          "team_a_rating": 1451.0,
+          "team_b_rating": 1520.1,
+          "details": {
+            "method": "Elo Rating System",
+            "team_a": "Boston Breach",
+            "team_b": "Paris Gentle Mates",
+            "team_a_roster": [
+              "Afro",
+              "Nastie",
+              "Purj",
+              "Spart"
+            ],
+            "team_b_roster": [
+              "Envoy",
+              "Ghosty",
+              "Neptune",
+              "Sib"
+            ],
+            "team_a_rating": 1451.0,
+            "team_b_rating": 1520.1,
+            "team_a_matches": 0,
+            "team_b_matches": 28,
+            "team_a_win_probability": 40.2,
+            "team_b_win_probability": 59.8,
+            "predicted_winner": "Paris Gentle Mates",
+            "predicted_score": "1-3",
+            "confidence": 19.643316119208926,
+            "rating_difference": 69.14657421637253
+          }
+        },
+        "ml": {
+          "method": "Machine Learning",
+          "team_a_probability": 43.7,
+          "team_b_probability": 56.3,
+          "predicted_winner": "Paris Gentle Mates",
+          "predicted_score": "1-3",
+          "confidence": 12.616794480411459,
+          "details": {
+            "method": "Machine Learning (Logistic Regression)",
+            "team_a": "Boston Breach",
+            "team_b": "Paris Gentle Mates",
+            "team_a_roster": [
+              "Afro",
+              "Nastie",
+              "Purj",
+              "Spart"
+            ],
+            "team_b_roster": [
+              "Envoy",
+              "Ghosty",
+              "Neptune",
+              "Sib"
+            ],
+            "team_a_win_probability": 43.7,
+            "team_b_win_probability": 56.3,
+            "predicted_winner": "Paris Gentle Mates",
+            "predicted_score": "1-3",
+            "confidence": 12.616794480411459,
+            "team_a_stats": {
+              "matches_played": 22,
+              "weighted_matches": 4.6,
+              "win_rate": 12.1,
+              "map_win_rate": 22.5,
+              "weighted_wins": 0.56,
+              "weighted_maps_won": 3.7,
+              "weighted_maps_played": 16.46,
+              "roster_quality": {
+                "avg_kd": 0.96,
+                "avg_rating": 0.9,
+                "avg_damage": 9389.0,
+                "player_count": 4
+              },
+              "momentum": -1.0
+            },
+            "team_b_stats": {
+              "matches_played": 30,
+              "weighted_matches": 8.04,
+              "win_rate": 49.1,
+              "map_win_rate": 49.8,
+              "weighted_wins": 3.95,
+              "weighted_maps_won": 16.3,
+              "weighted_maps_played": 32.72,
+              "roster_quality": {
+                "avg_kd": 1.02,
+                "avg_rating": 1.01,
+                "avg_damage": 10460.0,
+                "player_count": 4
+              },
+              "momentum": -0.054
+            },
+            "head_to_head": {
+              "total_matches": 1,
+              "team_a_wins": 0,
+              "team_b_wins": 1
+            }
+          }
+        }
+      },
+      "ensemble": {
+        "method": "Ensemble (Statistical Fallback)",
+        "team_a_probability": 29.4,
+        "team_b_probability": 70.6,
+        "predicted_winner": "Paris Gentle Mates",
+        "predicted_score": "3-0",
+        "confidence": 41.199999999999996,
+        "models_used": [
+          "statistical",
+          "elo",
+          "ml"
+        ],
+        "weights_used": {
+          "statistical": 1.0,
+          "elo": 1.0,
+          "ml": 1.0
+        },
+        "models_agree": true
+      }
+    }
+  }
+]
