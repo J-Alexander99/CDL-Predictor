@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214942",
+    "team_a": "Los Angeles Thieves",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-01",
+    "url": "https://breakingpoint.gg/match/214942/Los-Angeles-Thieves-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 0
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 250,
+      "team_b_score": 140
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Gridlock",
+      "team_a_score": 6,
+      "team_b_score": 1
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 4,
+      "team_b_score": 3
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "HyDra",
+        "kills": 66,
+        "deaths": 52,
+        "kd": 1.27,
+        "plus_minus": "+14",
+        "damage": 7934,
+        "rating": 1.4
+      },
+      {
+        "player": "Nium",
+        "kills": 53,
+        "deaths": 44,
+        "kd": 1.2,
+        "plus_minus": "+9",
+        "damage": 6655,
+        "rating": 1.29
+      },
+      {
+        "player": "Scrap",
+        "kills": 58,
+        "deaths": 59,
+        "kd": 0.98,
+        "plus_minus": "-1",
+        "damage": 8152,
+        "rating": 1.34
+      },
+      {
+        "player": "aBeZy",
+        "kills": 60,
+        "deaths": 58,
+        "kd": 1.03,
+        "plus_minus": "+2",
+        "damage": 7771,
+        "rating": 1.22
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Encourage",
+        "kills": 46,
+        "deaths": 56,
+        "kd": 0.82,
+        "plus_minus": "-10",
+        "damage": 7130,
+        "rating": 0.7
+      },
+      {
+        "player": "Hide",
+        "kills": 55,
+        "deaths": 62,
+        "kd": 0.89,
+        "plus_minus": "-7",
+        "damage": 7413,
+        "rating": 0.67
+      },
+      {
+        "player": "Nejra",
+        "kills": 65,
+        "deaths": 56,
+        "kd": 1.16,
+        "plus_minus": "+9",
+        "damage": 7304,
+        "rating": 0.75
+      },
+      {
+        "player": "Okis",
+        "kills": 47,
+        "deaths": 63,
+        "kd": 0.75,
+        "plus_minus": "-16",
+        "damage": 5919,
+        "rating": 0.62
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 3561,
+        "rating": 0.72
+      },
+      {
+        "map_number": 1,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 3456,
+        "rating": 0.54
+      },
+      {
+        "map_number": 1,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 26,
+        "kd": 1.08,
+        "damage": 3529,
+        "rating": 1.37
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 20,
+        "kd": 1.35,
+        "damage": 3012,
+        "rating": 1.46
+      },
+      {
+        "map_number": 1,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 27,
+        "kd": 0.96,
+        "damage": 3399,
+        "rating": 1.29
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 29,
+        "kd": 1.21,
+        "damage": 3761,
+        "rating": 0.78
+      },
+      {
+        "map_number": 1,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 29,
+        "kd": 0.48,
+        "damage": 2071,
+        "rating": 0.35
+      },
+      {
+        "map_number": 1,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 27,
+        "kd": 1.19,
+        "damage": 4291,
+        "rating": 1.48
+      },
+      {
+        "map_number": 2,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 0,
+        "deaths": 6,
+        "kd": 0.0,
+        "damage": 432,
+        "rating": 0.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 525,
+        "rating": 0.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 7,
+        "kd": 0.29,
+        "damage": 352,
+        "rating": 0.28
+      },
+      {
+        "map_number": 2,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 6,
+        "kd": 0.33,
+        "damage": 511,
+        "rating": 0.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 3,
+        "kd": 1.0,
+        "damage": 417,
+        "rating": 1.31
+      },
+      {
+        "map_number": 2,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 2,
+        "kd": 4.0,
+        "damage": 835,
+        "rating": 1.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 0,
+        "kd": 5.0,
+        "damage": 590,
+        "rating": 1.51
+      },
+      {
+        "map_number": 2,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 2,
+        "kd": 4.5,
+        "damage": 1129,
+        "rating": 1.92
+      },
+      {
+        "map_number": 3,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 3432,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 24,
+        "kd": 0.88,
+        "damage": 3053,
+        "rating": 0.89
+      },
+      {
+        "map_number": 3,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 30,
+        "kd": 0.77,
+        "damage": 3624,
+        "rating": 0.81
+      },
+      {
+        "map_number": 3,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 25,
+        "kd": 0.8,
+        "damage": 3137,
+        "rating": 0.98
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 20,
+        "kd": 1.4,
+        "damage": 3191,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 28,
+        "kd": 1.11,
+        "damage": 3337,
+        "rating": 1.13
+      },
+      {
+        "map_number": 3,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 3063,
+        "rating": 0.88
+      },
+      {
+        "map_number": 3,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 24,
+        "kd": 1.25,
+        "damage": 3570,
+        "rating": 1.02
+      }
+    ]
+  }
+}

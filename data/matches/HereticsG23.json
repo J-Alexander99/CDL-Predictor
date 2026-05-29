@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214949",
+    "team_a": "Miami Heretics",
+    "team_b": "G2 Minnesota",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-03",
+    "url": "https://breakingpoint.gg/match/214949/Miami-Heretics-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 193,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 5,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 2,
+      "team_b_score": 3
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "MettalZ",
+        "kills": 46,
+        "deaths": 60,
+        "kd": 0.77,
+        "plus_minus": "-14",
+        "damage": 7172,
+        "rating": 0.83
+      },
+      {
+        "player": "RenKoR",
+        "kills": 66,
+        "deaths": 54,
+        "kd": 1.22,
+        "plus_minus": "+12",
+        "damage": 8502,
+        "rating": 1.08
+      },
+      {
+        "player": "SupeR",
+        "kills": 56,
+        "deaths": 60,
+        "kd": 0.93,
+        "plus_minus": "-4",
+        "damage": 6433,
+        "rating": 0.93
+      },
+      {
+        "player": "Traixx",
+        "kills": 46,
+        "deaths": 64,
+        "kd": 0.72,
+        "plus_minus": "-18",
+        "damage": 7675,
+        "rating": 0.76
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Estreal",
+        "kills": 65,
+        "deaths": 47,
+        "kd": 1.38,
+        "plus_minus": "+18",
+        "damage": 8131,
+        "rating": 1.25
+      },
+      {
+        "player": "Kremp",
+        "kills": 70,
+        "deaths": 60,
+        "kd": 1.17,
+        "plus_minus": "+10",
+        "damage": 9111,
+        "rating": 1.12
+      },
+      {
+        "player": "Mamba",
+        "kills": 57,
+        "deaths": 54,
+        "kd": 1.06,
+        "plus_minus": "+3",
+        "damage": 6789,
+        "rating": 1.1
+      },
+      {
+        "player": "Skyz",
+        "kills": 46,
+        "deaths": 53,
+        "kd": 0.87,
+        "plus_minus": "-7",
+        "damage": 7296,
+        "rating": 0.93
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 26,
+        "kd": 0.77,
+        "damage": 3269,
+        "rating": 0.74
+      },
+      {
+        "map_number": 1,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 29,
+        "kd": 1.0,
+        "damage": 4166,
+        "rating": 0.9
+      },
+      {
+        "map_number": 1,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 29,
+        "kd": 0.86,
+        "damage": 2562,
+        "rating": 0.78
+      },
+      {
+        "map_number": 1,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 30,
+        "kd": 0.83,
+        "damage": 4124,
+        "rating": 0.75
+      },
+      {
+        "map_number": 1,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 21,
+        "kd": 1.29,
+        "damage": 3377,
+        "rating": 1.27
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 27,
+        "kd": 1.3,
+        "damage": 4888,
+        "rating": 1.35
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 31,
+        "deaths": 26,
+        "kd": 1.19,
+        "damage": 3420,
+        "rating": 1.25
+      },
+      {
+        "map_number": 1,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 25,
+        "kd": 0.84,
+        "damage": 3211,
+        "rating": 0.96
+      },
+      {
+        "map_number": 2,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 1211,
+        "rating": 1.06
+      },
+      {
+        "map_number": 2,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 11,
+        "deaths": 6,
+        "kd": 1.83,
+        "damage": 1177,
+        "rating": 1.38
+      },
+      {
+        "map_number": 2,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 8,
+        "kd": 1.25,
+        "damage": 982,
+        "rating": 1.19
+      },
+      {
+        "map_number": 2,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 1306,
+        "rating": 0.86
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 11,
+        "kd": 0.73,
+        "damage": 1202,
+        "rating": 0.74
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 905,
+        "rating": 0.95
+      },
+      {
+        "map_number": 2,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 978,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 11,
+        "deaths": 7,
+        "kd": 1.57,
+        "damage": 1311,
+        "rating": 1.18
+      },
+      {
+        "map_number": 3,
+        "player_name": "MettalZ",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 26,
+        "kd": 0.69,
+        "damage": 2692,
+        "rating": 0.69
+      },
+      {
+        "map_number": 3,
+        "player_name": "RenKoR",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 19,
+        "kd": 1.37,
+        "damage": 3159,
+        "rating": 0.97
+      },
+      {
+        "map_number": 3,
+        "player_name": "SupeR",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 23,
+        "kd": 0.91,
+        "damage": 2889,
+        "rating": 0.81
+      },
+      {
+        "map_number": 3,
+        "player_name": "Traixx",
+        "team": "team_a",
+        "kills": 16,
+        "deaths": 26,
+        "kd": 0.62,
+        "damage": 2245,
+        "rating": 0.66
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kremp",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3021,
+        "rating": 1.27
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mamba",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 21,
+        "kd": 0.9,
+        "damage": 2464,
+        "rating": 1.1
+      },
+      {
+        "map_number": 3,
+        "player_name": "Skyz",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 19,
+        "kd": 1.11,
+        "damage": 3107,
+        "rating": 1.18
+      },
+      {
+        "map_number": 3,
+        "player_name": "Estreal",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 19,
+        "kd": 1.42,
+        "damage": 3443,
+        "rating": 1.31
+      }
+    ]
+  }
+}

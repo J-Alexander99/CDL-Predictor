@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214944",
+    "team_a": "Cloud9 New York",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-02",
+    "url": "https://breakingpoint.gg/match/214944/Cloud9-New-York-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 1,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 138,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 247,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 4
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 0,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Okis",
+        "kills": 77,
+        "deaths": 99,
+        "kd": 0.78,
+        "plus_minus": "-22",
+        "damage": 10777,
+        "rating": 0.82
+      },
+      {
+        "player": "Encourage",
+        "kills": 78,
+        "deaths": 95,
+        "kd": 0.82,
+        "plus_minus": "-17",
+        "damage": 10673,
+        "rating": 0.93
+      },
+      {
+        "player": "Hide",
+        "kills": 77,
+        "deaths": 95,
+        "kd": 0.81,
+        "plus_minus": "-18",
+        "damage": 10869,
+        "rating": 0.89
+      },
+      {
+        "player": "Nejra",
+        "kills": 88,
+        "deaths": 93,
+        "kd": 0.95,
+        "plus_minus": "-5",
+        "damage": 10589,
+        "rating": 0.92
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Craze",
+        "kills": 109,
+        "deaths": 88,
+        "kd": 1.24,
+        "plus_minus": "+21",
+        "damage": 12819,
+        "rating": 1.18
+      },
+      {
+        "player": "Exceed",
+        "kills": 75,
+        "deaths": 76,
+        "kd": 0.99,
+        "plus_minus": "-1",
+        "damage": 10480,
+        "rating": 0.99
+      },
+      {
+        "player": "Fire",
+        "kills": 91,
+        "deaths": 74,
+        "kd": 1.23,
+        "plus_minus": "+17",
+        "damage": 10928,
+        "rating": 1.14
+      },
+      {
+        "player": "Lurqxx",
+        "kills": 104,
+        "deaths": 82,
+        "kd": 1.27,
+        "plus_minus": "+22",
+        "damage": 12964,
+        "rating": 1.12
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Okis",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 32,
+        "kd": 0.78,
+        "damage": 3017,
+        "rating": 0.63
+      },
+      {
+        "map_number": 1,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 36,
+        "deaths": 25,
+        "kd": 1.44,
+        "damage": 3855,
+        "rating": 1.49
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 22,
+        "kd": 1.09,
+        "damage": 3726,
+        "rating": 1.21
+      },
+      {
+        "map_number": 1,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 21,
+        "kd": 1.43,
+        "damage": 3237,
+        "rating": 1.41
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 36,
+        "deaths": 24,
+        "kd": 1.5,
+        "damage": 4078,
+        "rating": 1.52
+      },
+      {
+        "map_number": 1,
+        "player_name": "Encourage",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 34,
+        "kd": 0.76,
+        "damage": 3229,
+        "rating": 0.59
+      },
+      {
+        "map_number": 1,
+        "player_name": "Hide",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 29,
+        "kd": 0.72,
+        "damage": 3177,
+        "rating": 0.63
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nejra",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 32,
+        "kd": 0.62,
+        "damage": 3091,
+        "rating": 0.52
+      },
+      {
+        "map_number": 2,
+        "player_name": "Encourage",
+        "team": "team_a",
+        "kills": 12,
+        "deaths": 6,
+        "kd": 2.0,
+        "damage": 1411,
+        "rating": 1.57
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 7,
+        "kd": 1.43,
+        "damage": 1055,
+        "rating": 1.05
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 602,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1301,
+        "rating": 0.88
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 2,
+        "deaths": 9,
+        "kd": 0.22,
+        "damage": 652,
+        "rating": 0.45
+      },
+      {
+        "map_number": 2,
+        "player_name": "Hide",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 7,
+        "kd": 1.43,
+        "damage": 1384,
+        "rating": 1.36
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nejra",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 776,
+        "rating": 1.11
+      },
+      {
+        "map_number": 2,
+        "player_name": "Okis",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 5,
+        "kd": 0.6,
+        "damage": 656,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 25,
+        "kd": 1.4,
+        "damage": 4387,
+        "rating": 1.39
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 21,
+        "kd": 0.9,
+        "damage": 2312,
+        "rating": 1.12
+      },
+      {
+        "map_number": 3,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 2893,
+        "rating": 1.23
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 22,
+        "kd": 1.32,
+        "damage": 3901,
+        "rating": 1.31
+      },
+      {
+        "map_number": 3,
+        "player_name": "Encourage",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 22,
+        "kd": 0.77,
+        "damage": 2613,
+        "rating": 0.77
+      },
+      {
+        "map_number": 3,
+        "player_name": "Hide",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 29,
+        "kd": 0.79,
+        "damage": 3256,
+        "rating": 0.7
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nejra",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3366,
+        "rating": 0.88
+      },
+      {
+        "map_number": 3,
+        "player_name": "Okis",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 31,
+        "kd": 0.58,
+        "damage": 2975,
+        "rating": 0.6
+      },
+      {
+        "map_number": 4,
+        "player_name": "Encourage",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 33,
+        "kd": 0.7,
+        "damage": 3420,
+        "rating": 0.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 31,
+        "kd": 0.9,
+        "damage": 3522,
+        "rating": 0.79
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 25,
+        "kd": 1.12,
+        "damage": 3840,
+        "rating": 1.0
+      },
+      {
+        "map_number": 4,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 24,
+        "kd": 1.21,
+        "damage": 3497,
+        "rating": 1.06
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 27,
+        "kd": 1.37,
+        "damage": 4333,
+        "rating": 1.2
+      },
+      {
+        "map_number": 4,
+        "player_name": "Hide",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 30,
+        "kd": 0.77,
+        "damage": 3052,
+        "rating": 0.89
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nejra",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 29,
+        "kd": 1.03,
+        "damage": 3356,
+        "rating": 1.15
+      },
+      {
+        "map_number": 4,
+        "player_name": "Okis",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 31,
+        "kd": 1.0,
+        "damage": 4129,
+        "rating": 1.12
+      }
+    ]
+  }
+}
