@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214956",
+    "team_a": "G2 Minnesota",
+    "team_b": "Boston Breach",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-09",
+    "url": "https://breakingpoint.gg/match/214956/G2-Minnesota-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 247,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 157
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Fringe",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Scar",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 5,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Estreal",
+        "kills": 95,
+        "deaths": 82,
+        "kd": 1.16,
+        "plus_minus": "+13",
+        "damage": 11167,
+        "rating": 1.05
+      },
+      {
+        "player": "Kremp",
+        "kills": 100,
+        "deaths": 100,
+        "kd": 1.0,
+        "plus_minus": "0",
+        "damage": 13514,
+        "rating": 1.12
+      },
+      {
+        "player": "Mamba",
+        "kills": 89,
+        "deaths": 89,
+        "kd": 1.0,
+        "plus_minus": "0",
+        "damage": 12338,
+        "rating": 0.99
+      },
+      {
+        "player": "Skyz",
+        "kills": 87,
+        "deaths": 86,
+        "kd": 1.01,
+        "plus_minus": "+1",
+        "damage": 11781,
+        "rating": 1.03
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Afro",
+        "kills": 84,
+        "deaths": 103,
+        "kd": 0.82,
+        "plus_minus": "-19",
+        "damage": 11349,
+        "rating": 0.83
+      },
+      {
+        "player": "Spart",
+        "kills": 87,
+        "deaths": 86,
+        "kd": 1.01,
+        "plus_minus": "+1",
+        "damage": 11460,
+        "rating": 0.94
+      },
+      {
+        "player": "Nastie",
+        "kills": 97,
+        "deaths": 85,
+        "kd": 1.14,
+        "plus_minus": "+12",
+        "damage": 14145,
+        "rating": 1.06
+      },
+      {
+        "player": "Purj",
+        "kills": 89,
+        "deaths": 97,
+        "kd": 0.92,
+        "plus_minus": "-8",
+        "damage": 12001,
+        "rating": 0.97
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 30,
+        "kd": 1.0,
+        "damage": 3707,
+        "rating": 1.04
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 30,
+        "deaths": 36,
+        "kd": 0.83,
+        "damage": 3742,
+        "rating": 0.88
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 33,
+        "kd": 0.94,
+        "damage": 3917,
+        "rating": 0.99
+      },
+      {
+        "map_number": 1,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 31,
+        "kd": 1.0,
+        "damage": 4518,
+        "rating": 1.05
+      },
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 37,
+        "kd": 0.76,
+        "damage": 3464,
+        "rating": 0.69
+      },
+      {
+        "map_number": 1,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 36,
+        "deaths": 26,
+        "kd": 1.38,
+        "damage": 3741,
+        "rating": 1.24
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 24,
+        "kd": 1.54,
+        "damage": 4955,
+        "rating": 1.33
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 35,
+        "kd": 0.83,
+        "damage": 4197,
+        "rating": 0.78
+      },
+      {
+        "map_number": 2,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 721,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 7,
+        "kd": 1.86,
+        "damage": 1534,
+        "rating": 1.21
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 517,
+        "rating": 0.56
+      },
+      {
+        "map_number": 2,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 692,
+        "rating": 0.56
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1039,
+        "rating": 1.21
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 6,
+        "kd": 2.0,
+        "damage": 1555,
+        "rating": 1.57
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 1121,
+        "rating": 1.12
+      },
+      {
+        "map_number": 2,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 4,
+        "kd": 1.25,
+        "damage": 913,
+        "rating": 1.15
+      },
+      {
+        "map_number": 3,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 33,
+        "deaths": 21,
+        "kd": 1.57,
+        "damage": 3612,
+        "rating": 1.4
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 25,
+        "kd": 0.96,
+        "damage": 3299,
+        "rating": 1.16
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 23,
+        "deaths": 20,
+        "kd": 1.15,
+        "damage": 3083,
+        "rating": 1.21
+      },
+      {
+        "map_number": 3,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 22,
+        "kd": 1.09,
+        "damage": 2970,
+        "rating": 1.2
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 24,
+        "kd": 1.04,
+        "damage": 3121,
+        "rating": 0.84
+      },
+      {
+        "map_number": 3,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 2892,
+        "rating": 0.77
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 27,
+        "kd": 0.85,
+        "damage": 3504,
+        "rating": 0.75
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 27,
+        "kd": 0.63,
+        "damage": 2432,
+        "rating": 0.67
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 25,
+        "kd": 0.8,
+        "damage": 3250,
+        "rating": 1.04
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 19,
+        "kd": 1.47,
+        "damage": 3538,
+        "rating": 1.53
+      },
+      {
+        "map_number": 4,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 18,
+        "kd": 1.06,
+        "damage": 2455,
+        "rating": 1.21
+      },
+      {
+        "map_number": 4,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 15,
+        "deaths": 27,
+        "kd": 0.56,
+        "damage": 2573,
+        "rating": 0.39
+      },
+      {
+        "map_number": 4,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 16,
+        "kd": 1.69,
+        "damage": 2650,
+        "rating": 1.58
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 21,
+        "kd": 0.95,
+        "damage": 3235,
+        "rating": 0.77
+      },
+      {
+        "map_number": 4,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 24,
+        "kd": 1.04,
+        "damage": 2763,
+        "rating": 0.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 22,
+        "kd": 0.82,
+        "damage": 2731,
+        "rating": 0.68
+      },
+      {
+        "map_number": 5,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 1,
+        "deaths": 7,
+        "kd": 0.14,
+        "damage": 477,
+        "rating": 0.61
+      },
+      {
+        "map_number": 5,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 13,
+        "deaths": 7,
+        "kd": 1.86,
+        "damage": 1689,
+        "rating": 1.34
+      },
+      {
+        "map_number": 5,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 1283,
+        "rating": 0.66
+      },
+      {
+        "map_number": 5,
+        "player_name": "Spart",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 1183,
+        "rating": 0.84
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nastie",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 7,
+        "kd": 0.71,
+        "damage": 896,
+        "rating": 0.9
+      },
+      {
+        "map_number": 5,
+        "player_name": "Purj",
+        "team": "team_b",
+        "kills": 12,
+        "deaths": 5,
+        "kd": 2.4,
+        "damage": 1488,
+        "rating": 1.48
+      },
+      {
+        "map_number": 5,
+        "player_name": "Afro",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 1152,
+        "rating": 1.03
+      },
+      {
+        "map_number": 5,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 7,
+        "kd": 1.43,
+        "damage": 1146,
+        "rating": 1.15
+      }
+    ]
+  }
+}

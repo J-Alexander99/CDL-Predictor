@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "214957",
+    "team_a": "Riyadh Falcons",
+    "team_b": "Cloud9 New York",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-15",
+    "url": "https://breakingpoint.gg/match/214957/Riyadh-Falcons-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Gridlock",
+      "team_a_score": 197,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 250,
+      "team_b_score": 197
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 6,
+      "team_b_score": 4
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 6,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Cellium",
+        "kills": 72,
+        "deaths": 64,
+        "kd": 1.12,
+        "plus_minus": "+8",
+        "damage": 10116,
+        "rating": 1.08
+      },
+      {
+        "player": "Exnid",
+        "kills": 90,
+        "deaths": 73,
+        "kd": 1.23,
+        "plus_minus": "+17",
+        "damage": 11165,
+        "rating": 1.17
+      },
+      {
+        "player": "KiSMET",
+        "kills": 82,
+        "deaths": 80,
+        "kd": 1.02,
+        "plus_minus": "+2",
+        "damage": 10590,
+        "rating": 0.99
+      },
+      {
+        "player": "Pred",
+        "kills": 87,
+        "deaths": 70,
+        "kd": 1.24,
+        "plus_minus": "+17",
+        "damage": 11434,
+        "rating": 1.26
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Okis",
+        "kills": 69,
+        "deaths": 81,
+        "kd": 0.85,
+        "plus_minus": "-12",
+        "damage": 9290,
+        "rating": 0.89
+      },
+      {
+        "player": "Encourage",
+        "kills": 67,
+        "deaths": 79,
+        "kd": 0.85,
+        "plus_minus": "-12",
+        "damage": 9266,
+        "rating": 0.82
+      },
+      {
+        "player": "Hide",
+        "kills": 78,
+        "deaths": 86,
+        "kd": 0.91,
+        "plus_minus": "-8",
+        "damage": 9752,
+        "rating": 0.9
+      },
+      {
+        "player": "Nejra",
+        "kills": 73,
+        "deaths": 85,
+        "kd": 0.86,
+        "plus_minus": "-12",
+        "damage": 9214,
+        "rating": 0.88
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 20,
+        "kd": 1.1,
+        "damage": 2912,
+        "rating": 0.88
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 21,
+        "kd": 1.0,
+        "damage": 2746,
+        "rating": 0.81
+      },
+      {
+        "map_number": 1,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 28,
+        "kd": 0.79,
+        "damage": 3120,
+        "rating": 0.55
+      },
+      {
+        "map_number": 1,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 21,
+        "kd": 1.29,
+        "damage": 3596,
+        "rating": 0.99
+      },
+      {
+        "map_number": 1,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 20,
+        "kd": 1.0,
+        "damage": 2820,
+        "rating": 1.19
+      },
+      {
+        "map_number": 1,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 22,
+        "kd": 0.91,
+        "damage": 3118,
+        "rating": 1.12
+      },
+      {
+        "map_number": 1,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 25,
+        "kd": 0.96,
+        "damage": 2697,
+        "rating": 1.19
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 25,
+        "kd": 1.04,
+        "damage": 2880,
+        "rating": 1.27
+      },
+      {
+        "map_number": 2,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 14,
+        "deaths": 6,
+        "kd": 2.33,
+        "damage": 1552,
+        "rating": 1.61
+      },
+      {
+        "map_number": 2,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 855,
+        "rating": 0.69
+      },
+      {
+        "map_number": 2,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 901,
+        "rating": 0.87
+      },
+      {
+        "map_number": 2,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 950,
+        "rating": 0.97
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 8,
+        "deaths": 7,
+        "kd": 1.14,
+        "damage": 1011,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 8,
+        "kd": 0.5,
+        "damage": 636,
+        "rating": 0.79
+      },
+      {
+        "map_number": 2,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1187,
+        "rating": 1.13
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 8,
+        "kd": 0.75,
+        "damage": 713,
+        "rating": 0.81
+      },
+      {
+        "map_number": 3,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 17,
+        "kd": 1.24,
+        "damage": 2632,
+        "rating": 1.3
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 19,
+        "kd": 1.68,
+        "damage": 3893,
+        "rating": 1.55
+      },
+      {
+        "map_number": 3,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 19,
+        "kd": 1.47,
+        "damage": 3262,
+        "rating": 1.45
+      },
+      {
+        "map_number": 3,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 19,
+        "deaths": 21,
+        "kd": 0.9,
+        "damage": 2586,
+        "rating": 1.21
+      },
+      {
+        "map_number": 3,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 23,
+        "kd": 0.96,
+        "damage": 2237,
+        "rating": 0.71
+      },
+      {
+        "map_number": 3,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 27,
+        "kd": 0.74,
+        "damage": 3012,
+        "rating": 0.59
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 23,
+        "kd": 0.61,
+        "damage": 2256,
+        "rating": 0.61
+      },
+      {
+        "map_number": 3,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 27,
+        "kd": 0.74,
+        "damage": 2549,
+        "rating": 0.59
+      },
+      {
+        "map_number": 4,
+        "player_name": "Cellium",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3622,
+        "rating": 1.17
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exnid",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 26,
+        "kd": 1.12,
+        "damage": 3515,
+        "rating": 1.18
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nejra",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 29,
+        "kd": 0.93,
+        "damage": 3365,
+        "rating": 0.85
+      },
+      {
+        "map_number": 4,
+        "player_name": "Okis",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 28,
+        "kd": 0.71,
+        "damage": 2734,
+        "rating": 0.67
+      },
+      {
+        "map_number": 4,
+        "player_name": "Pred",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3700,
+        "rating": 1.24
+      },
+      {
+        "map_number": 4,
+        "player_name": "Encourage",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 26,
+        "kd": 0.81,
+        "damage": 3056,
+        "rating": 0.77
+      },
+      {
+        "map_number": 4,
+        "player_name": "KiSMET",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 25,
+        "kd": 1.12,
+        "damage": 3572,
+        "rating": 1.18
+      },
+      {
+        "map_number": 4,
+        "player_name": "Hide",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 3142,
+        "rating": 0.95
+      }
+    ]
+  }
+}

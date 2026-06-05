@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "332892",
+    "team_a": "Boston Breach",
+    "team_b": "Paris Gentle Mates",
+    "tournament": "CDL Major 3 Tournament",
+    "date": "2026-05-16",
+    "url": "https://breakingpoint.gg/match/332892/Boston-Breach-vs-Paris-Gentle-Mates-at-CDL-Major-3-Tournament-2026",
+    "team_a_score": 1,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Gridlock",
+      "team_a_score": 250,
+      "team_b_score": 107
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Den",
+      "team_a_score": 181,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Gridlock",
+      "team_a_score": 3,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 2,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Afro",
+        "kills": 97,
+        "deaths": 71,
+        "kd": 1.37,
+        "plus_minus": "+26",
+        "damage": 10964,
+        "rating": 1.1
+      },
+      {
+        "player": "Nastie",
+        "kills": 69,
+        "deaths": 67,
+        "kd": 1.03,
+        "plus_minus": "+2",
+        "damage": 8991,
+        "rating": 0.98
+      },
+      {
+        "player": "Purj",
+        "kills": 66,
+        "deaths": 81,
+        "kd": 0.81,
+        "plus_minus": "-15",
+        "damage": 8252,
+        "rating": 0.84
+      },
+      {
+        "player": "Spart",
+        "kills": 59,
+        "deaths": 70,
+        "kd": 0.84,
+        "plus_minus": "-11",
+        "damage": 8832,
+        "rating": 0.93
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Envoy",
+        "kills": 76,
+        "deaths": 81,
+        "kd": 0.94,
+        "plus_minus": "-5",
+        "damage": 9102,
+        "rating": 1.04
+      },
+      {
+        "player": "Ghosty",
+        "kills": 66,
+        "deaths": 63,
+        "kd": 1.05,
+        "plus_minus": "+3",
+        "damage": 9614,
+        "rating": 1.06
+      },
+      {
+        "player": "Neptune",
+        "kills": 68,
+        "deaths": 74,
+        "kd": 0.92,
+        "plus_minus": "-6",
+        "damage": 9141,
+        "rating": 0.98
+      },
+      {
+        "player": "Sib",
+        "kills": 78,
+        "deaths": 75,
+        "kd": 1.04,
+        "plus_minus": "+3",
+        "damage": 9843,
+        "rating": 1.07
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 13,
+        "kd": 2.23,
+        "damage": 3255,
+        "rating": 1.78
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nastie",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 15,
+        "kd": 1.4,
+        "damage": 2460,
+        "rating": 1.43
+      },
+      {
+        "map_number": 1,
+        "player_name": "Purj",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 19,
+        "kd": 1.32,
+        "damage": 2644,
+        "rating": 1.49
+      },
+      {
+        "map_number": 1,
+        "player_name": "Spart",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 17,
+        "kd": 1.24,
+        "damage": 2794,
+        "rating": 1.38
+      },
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 14,
+        "deaths": 26,
+        "kd": 0.54,
+        "damage": 1694,
+        "rating": 0.38
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 13,
+        "deaths": 21,
+        "kd": 0.62,
+        "damage": 1982,
+        "rating": 0.54
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 23,
+        "kd": 0.74,
+        "damage": 2204,
+        "rating": 0.56
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 28,
+        "kd": 0.71,
+        "damage": 3348,
+        "rating": 0.45
+      },
+      {
+        "map_number": 2,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 8,
+        "kd": 0.88,
+        "damage": 1108,
+        "rating": 0.82
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nastie",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 6,
+        "kd": 0.67,
+        "damage": 495,
+        "rating": 0.8
+      },
+      {
+        "map_number": 2,
+        "player_name": "Purj",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 9,
+        "kd": 0.44,
+        "damage": 918,
+        "rating": 0.58
+      },
+      {
+        "map_number": 2,
+        "player_name": "Spart",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 5,
+        "kd": 1.4,
+        "damage": 1069,
+        "rating": 1.04
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1300,
+        "rating": 1.31
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 5,
+        "kd": 1.2,
+        "damage": 1143,
+        "rating": 1.15
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 727,
+        "rating": 1.02
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 780,
+        "rating": 1.29
+      },
+      {
+        "map_number": 3,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 33,
+        "deaths": 22,
+        "kd": 1.5,
+        "damage": 3240,
+        "rating": 0.99
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nastie",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 24,
+        "kd": 0.71,
+        "damage": 2735,
+        "rating": 0.71
+      },
+      {
+        "map_number": 3,
+        "player_name": "Purj",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 24,
+        "kd": 0.62,
+        "damage": 1955,
+        "rating": 0.68
+      },
+      {
+        "map_number": 3,
+        "player_name": "Spart",
+        "team": "team_a",
+        "kills": 14,
+        "deaths": 23,
+        "kd": 0.61,
+        "damage": 2372,
+        "rating": 0.68
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 17,
+        "kd": 1.35,
+        "damage": 3074,
+        "rating": 1.27
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 3520,
+        "rating": 1.21
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 20,
+        "kd": 1.2,
+        "damage": 2302,
+        "rating": 1.25
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 21,
+        "kd": 1.1,
+        "damage": 2658,
+        "rating": 1.21
+      },
+      {
+        "map_number": 4,
+        "player_name": "Afro",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 28,
+        "kd": 1.0,
+        "damage": 3361,
+        "rating": 0.81
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nastie",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 22,
+        "kd": 1.23,
+        "damage": 3301,
+        "rating": 0.99
+      },
+      {
+        "map_number": 4,
+        "player_name": "Purj",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 29,
+        "kd": 0.76,
+        "damage": 2735,
+        "rating": 0.6
+      },
+      {
+        "map_number": 4,
+        "player_name": "Spart",
+        "team": "team_a",
+        "kills": 17,
+        "deaths": 25,
+        "kd": 0.68,
+        "damage": 2597,
+        "rating": 0.6
+      },
+      {
+        "map_number": 4,
+        "player_name": "Envoy",
+        "team": "team_b",
+        "kills": 30,
+        "deaths": 28,
+        "kd": 1.07,
+        "damage": 3450,
+        "rating": 1.28
+      },
+      {
+        "map_number": 4,
+        "player_name": "Ghosty",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 20,
+        "kd": 1.2,
+        "damage": 3415,
+        "rating": 1.29
+      },
+      {
+        "map_number": 4,
+        "player_name": "Neptune",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 24,
+        "kd": 0.96,
+        "damage": 2690,
+        "rating": 1.14
+      },
+      {
+        "map_number": 4,
+        "player_name": "Sib",
+        "team": "team_b",
+        "kills": 26,
+        "deaths": 22,
+        "kd": 1.18,
+        "damage": 3413,
+        "rating": 1.3
+      }
+    ]
+  }
+}

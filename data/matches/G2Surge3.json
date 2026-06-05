@@ -1,0 +1,438 @@
+{
+  "match_info": {
+    "match_id": "332875",
+    "team_a": "G2 Minnesota",
+    "team_b": "Vancouver Surge",
+    "tournament": "CDL Major 3 Tournament",
+    "date": "2026-05-15",
+    "url": "https://breakingpoint.gg/match/332875/G2-Minnesota-vs-Vancouver-Surge-at-CDL-Major-3-Tournament-2026",
+    "team_a_score": 3,
+    "team_b_score": 1
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Scar",
+      "team_a_score": 250,
+      "team_b_score": 123
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Gridlock",
+      "team_a_score": 250,
+      "team_b_score": 107
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Gridlock",
+      "team_a_score": 2,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 6,
+      "team_b_score": 1
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Estreal",
+        "kills": 87,
+        "deaths": 71,
+        "kd": 1.23,
+        "plus_minus": "+16",
+        "damage": 10073,
+        "rating": 1.28
+      },
+      {
+        "player": "Kremp",
+        "kills": 81,
+        "deaths": 76,
+        "kd": 1.07,
+        "plus_minus": "+5",
+        "damage": 10009,
+        "rating": 1.31
+      },
+      {
+        "player": "Mamba",
+        "kills": 71,
+        "deaths": 57,
+        "kd": 1.25,
+        "plus_minus": "+14",
+        "damage": 8911,
+        "rating": 1.31
+      },
+      {
+        "player": "Skyz",
+        "kills": 60,
+        "deaths": 62,
+        "kd": 0.97,
+        "plus_minus": "-2",
+        "damage": 8605,
+        "rating": 1.14
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Gwinn",
+        "kills": 52,
+        "deaths": 73,
+        "kd": 0.71,
+        "plus_minus": "-21",
+        "damage": 7542,
+        "rating": 0.71
+      },
+      {
+        "player": "Lunarz",
+        "kills": 75,
+        "deaths": 68,
+        "kd": 1.1,
+        "plus_minus": "+7",
+        "damage": 10085,
+        "rating": 0.81
+      },
+      {
+        "player": "Nero",
+        "kills": 69,
+        "deaths": 75,
+        "kd": 0.92,
+        "plus_minus": "-6",
+        "damage": 10075,
+        "rating": 0.78
+      },
+      {
+        "player": "TJHaLy",
+        "kills": 70,
+        "deaths": 83,
+        "kd": 0.84,
+        "plus_minus": "-13",
+        "damage": 9068,
+        "rating": 0.66
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 31,
+        "deaths": 21,
+        "kd": 1.48,
+        "damage": 3326,
+        "rating": 1.71
+      },
+      {
+        "map_number": 1,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 26,
+        "kd": 1.04,
+        "damage": 2832,
+        "rating": 1.46
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 20,
+        "kd": 1.05,
+        "damage": 2805,
+        "rating": 1.36
+      },
+      {
+        "map_number": 1,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 21,
+        "kd": 0.95,
+        "damage": 3020,
+        "rating": 1.31
+      },
+      {
+        "map_number": 1,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 1989,
+        "rating": 0.45
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3130,
+        "rating": 0.7
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 23,
+        "kd": 1.04,
+        "damage": 3613,
+        "rating": 0.64
+      },
+      {
+        "map_number": 1,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 29,
+        "kd": 0.72,
+        "damage": 3163,
+        "rating": 0.36
+      },
+      {
+        "map_number": 2,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 8,
+        "kd": 0.38,
+        "damage": 715,
+        "rating": 0.62
+      },
+      {
+        "map_number": 2,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 10,
+        "deaths": 6,
+        "kd": 1.67,
+        "damage": 1280,
+        "rating": 1.15
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 5,
+        "kd": 0.8,
+        "damage": 697,
+        "rating": 0.88
+      },
+      {
+        "map_number": 2,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 512,
+        "rating": 0.75
+      },
+      {
+        "map_number": 2,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 4,
+        "kd": 2.0,
+        "damage": 775,
+        "rating": 1.32
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 5,
+        "kd": 1.0,
+        "damage": 1171,
+        "rating": 1.06
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 6,
+        "kd": 1.33,
+        "damage": 1249,
+        "rating": 1.21
+      },
+      {
+        "map_number": 2,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 737,
+        "rating": 1.01
+      },
+      {
+        "map_number": 3,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 35,
+        "deaths": 24,
+        "kd": 1.46,
+        "damage": 3328,
+        "rating": 1.35
+      },
+      {
+        "map_number": 3,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 26,
+        "deaths": 28,
+        "kd": 0.93,
+        "damage": 3560,
+        "rating": 1.13
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 2960,
+        "rating": 1.19
+      },
+      {
+        "map_number": 3,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 19,
+        "kd": 1.11,
+        "damage": 3268,
+        "rating": 1.15
+      },
+      {
+        "map_number": 3,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 27,
+        "kd": 0.63,
+        "damage": 2895,
+        "rating": 0.71
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 29,
+        "deaths": 23,
+        "kd": 1.26,
+        "damage": 3469,
+        "rating": 0.95
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 29,
+        "kd": 0.76,
+        "damage": 2859,
+        "rating": 0.74
+      },
+      {
+        "map_number": 3,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 25,
+        "deaths": 28,
+        "kd": 0.89,
+        "damage": 3160,
+        "rating": 0.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Estreal",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 18,
+        "kd": 1.0,
+        "damage": 2704,
+        "rating": 1.43
+      },
+      {
+        "map_number": 4,
+        "player_name": "Kremp",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 16,
+        "kd": 1.12,
+        "damage": 2337,
+        "rating": 1.49
+      },
+      {
+        "map_number": 4,
+        "player_name": "Mamba",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 10,
+        "kd": 2.1,
+        "damage": 2449,
+        "rating": 1.8
+      },
+      {
+        "map_number": 4,
+        "player_name": "Skyz",
+        "team": "team_a",
+        "kills": 15,
+        "deaths": 15,
+        "kd": 1.0,
+        "damage": 1805,
+        "rating": 1.36
+      },
+      {
+        "map_number": 4,
+        "player_name": "Gwinn",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 17,
+        "kd": 0.53,
+        "damage": 1883,
+        "rating": 0.38
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lunarz",
+        "team": "team_b",
+        "kills": 16,
+        "deaths": 18,
+        "kd": 0.89,
+        "damage": 2315,
+        "rating": 0.51
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nero",
+        "team": "team_b",
+        "kills": 15,
+        "deaths": 17,
+        "kd": 0.88,
+        "damage": 2354,
+        "rating": 0.54
+      },
+      {
+        "map_number": 4,
+        "player_name": "TJHaLy",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 20,
+        "kd": 0.95,
+        "damage": 2008,
+        "rating": 0.49
+      }
+    ]
+  }
+}

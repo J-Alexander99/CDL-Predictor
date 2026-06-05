@@ -4,6 +4,7 @@ Base scraper class with common functionality
 from abc import ABC, abstractmethod
 from typing import Optional
 import time
+from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.firefox.service import Service
@@ -39,8 +40,12 @@ class BaseScraper(ABC):
             options.add_argument("--headless")
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
-        
-        service = Service(GeckoDriverManager().install())
+
+        local_driver_root = Path.home() / ".wdm" / "drivers" / "geckodriver" / "win64"
+        local_drivers = sorted(local_driver_root.rglob("geckodriver.exe"), reverse=True)
+        driver_path = str(local_drivers[0]) if local_drivers else GeckoDriverManager().install()
+
+        service = Service(driver_path)
         self.driver = webdriver.Firefox(service=service, options=options)
         self.driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
         self.logger.info("WebDriver initialized")

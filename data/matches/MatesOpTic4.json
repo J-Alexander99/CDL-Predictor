@@ -1,0 +1,352 @@
+{
+  "match_info": {
+    "match_id": "214952",
+    "team_a": "Paris Gentle Mates",
+    "team_b": "OpTic Texas",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-08",
+    "url": "https://breakingpoint.gg/match/214952/Paris-Gentle-Mates-vs-OpTic-Texas-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 0,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Gridlock",
+      "team_a_score": 236,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Plaza",
+      "team_a_score": 1,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Den",
+      "team_a_score": 2,
+      "team_b_score": 5
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "Envoy",
+        "kills": 53,
+        "deaths": 58,
+        "kd": 0.91,
+        "plus_minus": "-5",
+        "damage": 7148,
+        "rating": 0.75
+      },
+      {
+        "player": "Ghosty",
+        "kills": 40,
+        "deaths": 56,
+        "kd": 0.71,
+        "plus_minus": "-16",
+        "damage": 6370,
+        "rating": 0.78
+      },
+      {
+        "player": "Neptune",
+        "kills": 50,
+        "deaths": 55,
+        "kd": 0.91,
+        "plus_minus": "-5",
+        "damage": 6726,
+        "rating": 0.79
+      },
+      {
+        "player": "Sib",
+        "kills": 51,
+        "deaths": 53,
+        "kd": 0.96,
+        "plus_minus": "-2",
+        "damage": 7028,
+        "rating": 0.84
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Dashy",
+        "kills": 51,
+        "deaths": 45,
+        "kd": 1.13,
+        "plus_minus": "+6",
+        "damage": 7168,
+        "rating": 1.13
+      },
+      {
+        "player": "Huke",
+        "kills": 68,
+        "deaths": 50,
+        "kd": 1.36,
+        "plus_minus": "+18",
+        "damage": 7269,
+        "rating": 1.29
+      },
+      {
+        "player": "Shotzzy",
+        "kills": 52,
+        "deaths": 51,
+        "kd": 1.02,
+        "plus_minus": "+1",
+        "damage": 7106,
+        "rating": 1.19
+      },
+      {
+        "player": "Mercules",
+        "kills": 51,
+        "deaths": 48,
+        "kd": 1.06,
+        "plus_minus": "+3",
+        "damage": 6215,
+        "rating": 1.23
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 25,
+        "kd": 0.8,
+        "damage": 2749,
+        "rating": 0.75
+      },
+      {
+        "map_number": 1,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 19,
+        "deaths": 24,
+        "kd": 0.79,
+        "damage": 3101,
+        "rating": 0.85
+      },
+      {
+        "map_number": 1,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 22,
+        "kd": 1.14,
+        "damage": 3516,
+        "rating": 1.07
+      },
+      {
+        "map_number": 1,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 21,
+        "kd": 1.05,
+        "damage": 3027,
+        "rating": 0.99
+      },
+      {
+        "map_number": 1,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 21,
+        "kd": 1.05,
+        "damage": 2745,
+        "rating": 0.99
+      },
+      {
+        "map_number": 1,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 24,
+        "kd": 1.0,
+        "damage": 2775,
+        "rating": 1.05
+      },
+      {
+        "map_number": 1,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 22,
+        "kd": 1.05,
+        "damage": 3081,
+        "rating": 1.09
+      },
+      {
+        "map_number": 1,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 19,
+        "kd": 1.21,
+        "damage": 2545,
+        "rating": 1.21
+      },
+      {
+        "map_number": 2,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 499,
+        "rating": 0.6
+      },
+      {
+        "map_number": 2,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 6,
+        "kd": 0.83,
+        "damage": 930,
+        "rating": 0.76
+      },
+      {
+        "map_number": 2,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 4,
+        "deaths": 2,
+        "kd": 2.0,
+        "damage": 518,
+        "rating": 1.22
+      },
+      {
+        "map_number": 2,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 707,
+        "rating": 1.36
+      },
+      {
+        "map_number": 2,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 768,
+        "rating": 1.36
+      },
+      {
+        "map_number": 2,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 941,
+        "rating": 1.39
+      },
+      {
+        "map_number": 2,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 4,
+        "deaths": 7,
+        "kd": 0.57,
+        "damage": 587,
+        "rating": 0.64
+      },
+      {
+        "map_number": 2,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 6,
+        "kd": 0.5,
+        "damage": 614,
+        "rating": 0.67
+      },
+      {
+        "map_number": 3,
+        "player_name": "Envoy",
+        "team": "team_a",
+        "kills": 29,
+        "deaths": 26,
+        "kd": 1.12,
+        "damage": 3812,
+        "rating": 0.85
+      },
+      {
+        "map_number": 3,
+        "player_name": "Ghosty",
+        "team": "team_a",
+        "kills": 12,
+        "deaths": 28,
+        "kd": 0.43,
+        "damage": 2240,
+        "rating": 0.59
+      },
+      {
+        "map_number": 3,
+        "player_name": "Neptune",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 27,
+        "kd": 0.93,
+        "damage": 3200,
+        "rating": 0.78
+      },
+      {
+        "map_number": 3,
+        "player_name": "Sib",
+        "team": "team_a",
+        "kills": 24,
+        "deaths": 26,
+        "kd": 0.92,
+        "damage": 3353,
+        "rating": 0.79
+      },
+      {
+        "map_number": 3,
+        "player_name": "Dashy",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 19,
+        "kd": 1.47,
+        "damage": 3549,
+        "rating": 1.32
+      },
+      {
+        "map_number": 3,
+        "player_name": "Huke",
+        "team": "team_b",
+        "kills": 37,
+        "deaths": 22,
+        "kd": 1.68,
+        "damage": 3787,
+        "rating": 1.46
+      },
+      {
+        "map_number": 3,
+        "player_name": "Mercules",
+        "team": "team_b",
+        "kills": 20,
+        "deaths": 24,
+        "kd": 0.83,
+        "damage": 2729,
+        "rating": 1.09
+      },
+      {
+        "map_number": 3,
+        "player_name": "Shotzzy",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 25,
+        "kd": 0.88,
+        "damage": 3257,
+        "rating": 1.12
+      }
+    ]
+  }
+}

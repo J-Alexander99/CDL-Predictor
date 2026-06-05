@@ -1,0 +1,524 @@
+{
+  "match_info": {
+    "match_id": "214954",
+    "team_a": "Los Angeles Thieves",
+    "team_b": "Carolina Royal Ravens",
+    "tournament": "CDL Major 3 Qualifier",
+    "date": "2026-05-09",
+    "url": "https://breakingpoint.gg/match/214954/Los-Angeles-Thieves-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026",
+    "team_a_score": 2,
+    "team_b_score": 3
+  },
+  "map_results": [
+    {
+      "mode": "Hardpoint",
+      "map_name": "Gridlock",
+      "team_a_score": 250,
+      "team_b_score": 197
+    },
+    {
+      "mode": "Hardpoint",
+      "map_name": "Colossus",
+      "team_a_score": 210,
+      "team_b_score": 250
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Raid",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Search & Destroy",
+      "map_name": "Fringe",
+      "team_a_score": 4,
+      "team_b_score": 6
+    },
+    {
+      "mode": "Overload",
+      "map_name": "Exposure",
+      "team_a_score": 5,
+      "team_b_score": 3
+    }
+  ],
+  "player_stats": {
+    "team_a": [
+      {
+        "player": "aBeZy",
+        "kills": 93,
+        "deaths": 93,
+        "kd": 1.0,
+        "plus_minus": "0",
+        "damage": 12165,
+        "rating": 0.96
+      },
+      {
+        "player": "HyDra",
+        "kills": 81,
+        "deaths": 84,
+        "kd": 0.96,
+        "plus_minus": "-3",
+        "damage": 10121,
+        "rating": 0.94
+      },
+      {
+        "player": "Nium",
+        "kills": 77,
+        "deaths": 83,
+        "kd": 0.93,
+        "plus_minus": "-6",
+        "damage": 10443,
+        "rating": 0.97
+      },
+      {
+        "player": "Scrap",
+        "kills": 99,
+        "deaths": 86,
+        "kd": 1.15,
+        "plus_minus": "+13",
+        "damage": 13417,
+        "rating": 1.06
+      }
+    ],
+    "team_b": [
+      {
+        "player": "Craze",
+        "kills": 80,
+        "deaths": 98,
+        "kd": 0.82,
+        "plus_minus": "-18",
+        "damage": 11098,
+        "rating": 0.91
+      },
+      {
+        "player": "Fire",
+        "kills": 83,
+        "deaths": 75,
+        "kd": 1.11,
+        "plus_minus": "+8",
+        "damage": 11575,
+        "rating": 1.13
+      },
+      {
+        "player": "Lurqxx",
+        "kills": 95,
+        "deaths": 88,
+        "kd": 1.08,
+        "plus_minus": "+7",
+        "damage": 12699,
+        "rating": 1.03
+      },
+      {
+        "player": "Exceed",
+        "kills": 88,
+        "deaths": 90,
+        "kd": 0.98,
+        "plus_minus": "-2",
+        "damage": 11092,
+        "rating": 0.99
+      }
+    ],
+    "per_map": [
+      {
+        "map_number": 1,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 17,
+        "kd": 1.29,
+        "damage": 2991,
+        "rating": 1.26
+      },
+      {
+        "map_number": 1,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 21,
+        "deaths": 20,
+        "kd": 1.05,
+        "damage": 2353,
+        "rating": 1.11
+      },
+      {
+        "map_number": 1,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 20,
+        "deaths": 17,
+        "kd": 1.18,
+        "damage": 2617,
+        "rating": 1.18
+      },
+      {
+        "map_number": 1,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 24,
+        "kd": 1.12,
+        "damage": 3555,
+        "rating": 1.21
+      },
+      {
+        "map_number": 1,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 17,
+        "deaths": 25,
+        "kd": 0.68,
+        "damage": 2676,
+        "rating": 0.61
+      },
+      {
+        "map_number": 1,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 21,
+        "deaths": 15,
+        "kd": 1.4,
+        "damage": 2894,
+        "rating": 1.17
+      },
+      {
+        "map_number": 1,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 24,
+        "kd": 0.92,
+        "damage": 2965,
+        "rating": 0.84
+      },
+      {
+        "map_number": 1,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 26,
+        "kd": 0.69,
+        "damage": 1973,
+        "rating": 0.61
+      },
+      {
+        "map_number": 2,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1187,
+        "rating": 1.31
+      },
+      {
+        "map_number": 2,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 4,
+        "kd": 1.75,
+        "damage": 1168,
+        "rating": 1.28
+      },
+      {
+        "map_number": 2,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 8,
+        "kd": 0.75,
+        "damage": 1340,
+        "rating": 0.77
+      },
+      {
+        "map_number": 2,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 729,
+        "rating": 1.09
+      },
+      {
+        "map_number": 2,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 8,
+        "kd": 1.0,
+        "damage": 1070,
+        "rating": 1.11
+      },
+      {
+        "map_number": 2,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 5,
+        "deaths": 8,
+        "kd": 0.62,
+        "damage": 755,
+        "rating": 0.71
+      },
+      {
+        "map_number": 2,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 1166,
+        "rating": 0.9
+      },
+      {
+        "map_number": 2,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 7,
+        "kd": 0.86,
+        "damage": 1030,
+        "rating": 0.84
+      },
+      {
+        "map_number": 3,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 22,
+        "deaths": 22,
+        "kd": 1.0,
+        "damage": 2821,
+        "rating": 1.06
+      },
+      {
+        "map_number": 3,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 18,
+        "deaths": 25,
+        "kd": 0.72,
+        "damage": 2458,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 18,
+        "kd": 1.39,
+        "damage": 3111,
+        "rating": 1.19
+      },
+      {
+        "map_number": 3,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 23,
+        "deaths": 26,
+        "kd": 0.88,
+        "damage": 2669,
+        "rating": 0.88
+      },
+      {
+        "map_number": 3,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 26,
+        "kd": 1.23,
+        "damage": 3231,
+        "rating": 1.19
+      },
+      {
+        "map_number": 3,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 28,
+        "deaths": 27,
+        "kd": 1.04,
+        "damage": 3626,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 22,
+        "deaths": 22,
+        "kd": 1.0,
+        "damage": 2707,
+        "rating": 0.94
+      },
+      {
+        "map_number": 3,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 18,
+        "deaths": 22,
+        "kd": 0.82,
+        "damage": 2515,
+        "rating": 0.87
+      },
+      {
+        "map_number": 4,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 33,
+        "deaths": 27,
+        "kd": 1.22,
+        "damage": 4492,
+        "rating": 1.28
+      },
+      {
+        "map_number": 4,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 27,
+        "deaths": 27,
+        "kd": 1.0,
+        "damage": 3350,
+        "rating": 1.1
+      },
+      {
+        "map_number": 4,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 35,
+        "deaths": 26,
+        "kd": 1.35,
+        "damage": 4135,
+        "rating": 1.37
+      },
+      {
+        "map_number": 4,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 25,
+        "deaths": 33,
+        "kd": 0.76,
+        "damage": 3788,
+        "rating": 0.67
+      },
+      {
+        "map_number": 4,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 28,
+        "deaths": 28,
+        "kd": 1.0,
+        "damage": 3156,
+        "rating": 0.91
+      },
+      {
+        "map_number": 4,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 27,
+        "deaths": 28,
+        "kd": 0.96,
+        "damage": 3133,
+        "rating": 0.88
+      },
+      {
+        "map_number": 4,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 24,
+        "deaths": 33,
+        "kd": 0.73,
+        "damage": 3864,
+        "rating": 0.84
+      },
+      {
+        "map_number": 4,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 32,
+        "deaths": 30,
+        "kd": 1.07,
+        "damage": 4219,
+        "rating": 0.96
+      },
+      {
+        "map_number": 5,
+        "player_name": "aBeZy",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 9,
+        "kd": 1.0,
+        "damage": 1400,
+        "rating": 0.98
+      },
+      {
+        "map_number": 5,
+        "player_name": "HyDra",
+        "team": "team_a",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 625,
+        "rating": 0.72
+      },
+      {
+        "map_number": 5,
+        "player_name": "Nium",
+        "team": "team_a",
+        "kills": 6,
+        "deaths": 6,
+        "kd": 1.0,
+        "damage": 1205,
+        "rating": 0.99
+      },
+      {
+        "map_number": 5,
+        "player_name": "Craze",
+        "team": "team_b",
+        "kills": 10,
+        "deaths": 8,
+        "kd": 1.25,
+        "damage": 1160,
+        "rating": 1.15
+      },
+      {
+        "map_number": 5,
+        "player_name": "Exceed",
+        "team": "team_b",
+        "kills": 7,
+        "deaths": 7,
+        "kd": 1.0,
+        "damage": 850,
+        "rating": 1.02
+      },
+      {
+        "map_number": 5,
+        "player_name": "Fire",
+        "team": "team_b",
+        "kills": 8,
+        "deaths": 5,
+        "kd": 1.6,
+        "damage": 1629,
+        "rating": 1.21
+      },
+      {
+        "map_number": 5,
+        "player_name": "Lurqxx",
+        "team": "team_b",
+        "kills": 3,
+        "deaths": 7,
+        "kd": 0.43,
+        "damage": 805,
+        "rating": 0.75
+      },
+      {
+        "map_number": 5,
+        "player_name": "Scrap",
+        "team": "team_a",
+        "kills": 9,
+        "deaths": 6,
+        "kd": 1.5,
+        "damage": 1192,
+        "rating": 1.18
+      }
+    ]
+  }
+}

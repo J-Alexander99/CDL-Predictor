@@ -1,13 +1,37 @@
 # Add your match URLs here, one per line
 # Lines starting with # are ignored
 
-https://breakingpoint.gg/match/214941/OpTic-Texas-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214942/Los-Angeles-Thieves-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214943/FaZe-Vegas-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214944/Cloud9-New-York-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214945/Miami-Heretics-vs-FaZe-Vegas-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214946/Vancouver-Surge-vs-Riyadh-Falcons-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214947/Toronto-KOI-vs-OpTic-Texas-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214948/Vancouver-Surge-vs-Los-Angeles-Thieves-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214949/Miami-Heretics-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026
-https://breakingpoint.gg/match/214950/Paris-Gentle-Mates-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214951/Riyadh-Falcons-vs-Miami-Heretics-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214952/Paris-Gentle-Mates-vs-OpTic-Texas-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214953/Vancouver-Surge-vs-Toronto-KOI-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214954/Los-Angeles-Thieves-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214955/OpTic-Texas-vs-FaZe-Vegas-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214956/G2-Minnesota-vs-Boston-Breach-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214957/Riyadh-Falcons-vs-Cloud9-New-York-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214958/Paris-Gentle-Mates-vs-Miami-Heretics-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214959/Los-Angeles-Thieves-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/214959/Los-Angeles-Thieves-vs-G2-Minnesota-at-CDL-Major-3-Qualifier-2026
+https://breakingpoint.gg/match/332875/G2-Minnesota-vs-Vancouver-Surge-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332881/Riyadh-Falcons-vs-Cloud9-New-York-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332877/Carolina-Royal-Ravens-vs-Miami-Heretics-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332879/Paris-Gentle-Mates-vs-Boston-Breach-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332882/OpTic-Texas-vs-G2-Minnesota-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332888/FaZe-Vegas-vs-Riyadh-Falcons-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332884/Toronto-KOI-vs-Miami-Heretics-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332886/Los-Angeles-Thieves-vs-Boston-Breach-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332891/Miami-Heretics-vs-Carolina-Royal-Ravens-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332892/Boston-Breach-vs-Paris-Gentle-Mates-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332893/FaZe-Vegas-vs-Cloud9-New-York-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332922/Toronto-KOI-vs-G2-Minnesota-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332923/Los-Angeles-Thieves-vs-FaZe-Vegas-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332920/OpTic-Texas-vs-Miami-Heretics-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332921/Riyadh-Falcons-vs-Paris-Gentle-Mates-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332921/Riyadh-Falcons-vs-Paris-Gentle-Mates-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332927/G2-Minnesota-vs-Los-Angeles-Thieves-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332924/OpTic-Texas-vs-Riyadh-Falcons-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332925/Miami-Heretics-vs-Paris-Gentle-Mates-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332928/FaZe-Vegas-vs-Paris-Gentle-Mates-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332929/Riyadh-Falcons-vs-Los-Angeles-Thieves-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332930/FaZe-Vegas-vs-Los-Angeles-Thieves-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332932/Toronto-KOI-vs-Los-Angeles-Thieves-at-CDL-Major-3-Tournament-2026
+https://breakingpoint.gg/match/332931/OpTic-Texas-vs-Toronto-KOI-at-CDL-Major-3-Tournament-2026
