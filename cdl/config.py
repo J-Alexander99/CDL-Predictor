@@ -4,7 +4,12 @@ from __future__ import annotations
 import os
 from pathlib import Path
 
-ROOT = Path(os.environ.get("CDL_ROOT", Path(__file__).resolve().parent.parent))
+# Project root: $CDL_ROOT, else the source checkout this package lives in. A non-editable install
+# (site-packages) has no data/ next to it, so fall back to the working directory.
+_PKG_ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(os.environ["CDL_ROOT"]) if os.environ.get("CDL_ROOT") else (
+    _PKG_ROOT if (_PKG_ROOT / "pyproject.toml").exists() else Path.cwd()
+)
 
 # Committed state (git is the database of record)
 DATA_DIR = ROOT / "data"

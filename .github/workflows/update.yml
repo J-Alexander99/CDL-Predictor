@@ -15,6 +15,9 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  CDL_ROOT: ${{ github.workspace }}
+
 concurrency:
   group: cdl-update
   cancel-in-progress: false
@@ -32,7 +35,7 @@ jobs:
           cache: pip
 
       - name: Install
-        run: pip install .
+        run: pip install -e .
 
       - name: Backfill
         if: ${{ github.event.inputs.backfill != '' }}
