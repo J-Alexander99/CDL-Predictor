@@ -39,16 +39,28 @@ def load(path: Path | None = None) -> list[dict]:
 
 
 def latest_by_match(entries: Iterable[dict], before: dict[int, str] | None = None) -> dict[int, dict]:
-    """Latest snapshot per match; with ``before``, only snapshots made before that time."""
+    """Latest snapshot per match.
+
+    With ``before``: the latest snapshot made before that time; if none exists
+    (a delayed match first predicted after its scheduled time, while the site
+    still listed it as upcoming) the *first* snapshot is used.
+    """
+    entries = list(entries)
     out: dict[int, dict] = {}
+    first: dict[int, dict] = {}
     for e in entries:
         mid = e["match_id"]
+        if mid not in first or e["made_at"] < first[mid]["made_at"]:
+            first[mid] = e
         if before is not None:
             cutoff = before.get(mid, e["datetime"])
             if _ts(e["made_at"]) >= _ts(cutoff):
                 continue
         if mid not in out or e["made_at"] >= out[mid]["made_at"]:
             out[mid] = e
+    if before is not None:
+        for mid, e in first.items():
+            out.setdefault(mid, e)
     return out
 
 
@@ -60,9 +72,11 @@ def record(predictions: list[dict], now: datetime, path: Path | None = None) -> 
     written = []
     lines = []
     for p in predictions:
-        if _ts(p["datetime"]) <= now:
-            continue  # already started: too late, never overwrite history
         prev = latest.get(p["match_id"])
+        if _ts(p["datetime"]) <= now and prev is not None:
+            # Past the scheduled time: only a delayed, still-upcoming match without
+            # any prediction may get one (callers pass only status == "upcoming").
+            continue
         if prev and abs(prev["p_team1"] - p["p_team1"]) < _MIN_CHANGE and prev.get("team2", {}).get("id") == p["team2"]["id"]:
             continue
         entry = {**p, "made_at": now.replace(microsecond=0).isoformat(), "first": prev is None}

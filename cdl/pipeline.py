@@ -160,7 +160,7 @@ def upcoming_in_horizon(now: datetime, hours: int = config.PREDICTION_HORIZON_H)
         if m["status"] != "upcoming" or not m["datetime"]:
             continue
         dt = datetime.fromisoformat(m["datetime"].replace("Z", "+00:00"))
-        if now < dt <= end:
+        if now - timedelta(hours=6) < dt <= end:  # still "upcoming" after its slot = delayed
             out.append(m)
     return out
 

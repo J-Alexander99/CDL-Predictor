@@ -47,3 +47,16 @@ def test_grade_handles_flipped_team_order(tmp_path):
                    "datetime": "2027-01-10T18:00:00+00:00"}}
     [g] = ledger.grade(results, path=path)
     assert g.score == "0-3" and g.correct
+
+
+def test_delayed_match_gets_one_first_prediction(tmp_path):
+    path = tmp_path / "ledger.jsonl"
+    # scheduled 18:00, still listed as upcoming at 18:20 and never predicted before
+    w = ledger.record([pred(p=0.55)], t("2027-01-10T18:20:00"), path)
+    assert len(w) == 1
+    # but no further updates once past the scheduled time
+    assert ledger.record([pred(p=0.80)], t("2027-01-10T18:40:00"), path) == []
+    results = {1: {"winner_id": 10, "team_1_id": 10, "team_1_score": 3, "team_2_score": 2,
+                   "datetime": "2027-01-10T18:00:00+00:00"}}
+    [g] = ledger.grade(results, path=path)
+    assert g.entry["p_team1"] == 0.55

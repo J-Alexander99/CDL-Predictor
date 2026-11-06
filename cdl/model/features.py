@@ -122,7 +122,7 @@ class Engine:
         self, season: int, t1: int, t2: int, roster1: list[int], roster2: list[int], mode: str, map_name: str | None
     ) -> dict[str, float]:
         R = self.ratings
-        team_diff = (R.team(t1, mode) - R.team(t2, mode)) / 100.0
+        team_diff = (R.team_seeded(t1, roster1, mode) - R.team_seeded(t2, roster2, mode)) / 100.0
         r1, r2 = R.roster(roster1, mode), R.roster(roster2, mode)
         roster_diff = team_diff if r1 is None or r2 is None else (r1 - r2) / 100.0
         return {

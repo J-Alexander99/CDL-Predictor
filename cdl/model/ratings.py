@@ -100,8 +100,16 @@ class RatingSystem:
         return t if r is None else 0.5 * t + 0.5 * r
 
     # ---- writes ------------------------------------------------------------
+    def team_seeded(self, team_id: int, roster: list[int], mode: str | None = None) -> float:
+        """Team rating; a brand-new org (new id) starts from its roster's rating, not a newcomer default."""
+        if self.teams.known(team_id) or not roster:
+            return self.team(team_id, mode)
+        return self.roster(roster, None)
+
     def start_match(self, season: int, team_ids: list[int], rosters: list[list[int]]) -> None:
-        for t in team_ids:
+        for t, roster in zip(team_ids, rosters, strict=True):
+            if not self.teams.known(t) and roster:
+                self.teams.overall[t] = self.roster(roster, None)
             self.teams.touch_season(t, season, self.p.season_carry, self.p.season_mode_carry)
         for roster in rosters:
             for pid in roster:
