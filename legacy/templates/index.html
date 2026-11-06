@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDL Predictor - Database Interface</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #2a2a3e 100%);
+            color: #eee;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        header {
+            text-align: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #FFD93D;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #FFD93D;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #444;
+        }
+        
+        .tab {
+            padding: 15px 30px;
+            background: #2a2a3e;
+            border: none;
+            color: #eee;
+            cursor: pointer;
+            font-size: 1em;
+            transition: all 0.3s;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+        
+        .tab:hover {
+            background: #3a3a4e;
+        }
+        
+        .tab.active {
+            background: #FFD93D;
+            color: #1a1a2e;
+            font-weight: bold;
+        }
+        
+        .tab-content {
+            display: none;
+            background: #2a2a3e;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+        }
+        
+        .tab-content.active {
+            display: block;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #FFD93D;
+            font-weight: bold;
+        }
+        
+        select, input, textarea {
+            width: 100%;
+            padding: 12px;
+            background: #1a1a2e;
+            border: 2px solid #444;
+            color: #eee;
+            border-radius: 4px;
+            font-size: 1em;
+        }
+        
+        select:focus, input:focus, textarea:focus {
+            outline: none;
+            border-color: #FFD93D;
+        }
+        
+        button {
+            padding: 12px 30px;
+            background: #FFD93D;
+            color: #1a1a2e;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+        
+        button:hover {
+            background: #FFC107;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(255, 217, 61, 0.3);
+        }
+        
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .card {
+            background: #1a1a2e;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #444;
+        }
+        
+        .card h3 {
+            color: #FFD93D;
+            margin-bottom: 15px;
+        }
+        
+        .stat-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            border-bottom: 1px solid #444;
+        }
+        
+        .stat-row:last-child {
+            border-bottom: none;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #444;
+        }
+        
+        th {
+            background: #1a1a2e;
+            color: #FFD93D;
+            font-weight: bold;
+        }
+        
+        tr:hover {
+            background: #3a3a4e;
+        }
+        
+        .result {
+            margin-top: 20px;
+            padding: 20px;
+            background: #1a1a2e;
+            border-radius: 8px;
+            border: 2px solid #444;
+        }
+        
+        .prediction-result {
+            text-align: center;
+        }
+        
+        .winner {
+            font-size: 2em;
+            color: #4CAF50;
+            margin: 20px 0;
+        }
+        
+        .probability {
+            font-size: 1.5em;
+            margin: 10px 0;
+        }
+        
+        .error {
+            background: #ff4444;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        
+        .success {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        
+        .loading {
+            text-align: center;
+            padding: 40px;
+            font-size: 1.2em;
+            color: #FFD93D;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CDL PREDICTOR</h1>
+            <p>Database Interface & Prediction Tool</p>
+        </header>
+        
+        <div class="tabs">
+            <button class="tab active" onclick="showTab('prediction')">Predictions</button>
+            <button class="tab" onclick="showTab('teams')">Team Stats</button>
+            <button class="tab" onclick="showTab('matches')">Match History</button>
+            <button class="tab" onclick="showTab('query')">Custom Query</button>
+        </div>
+        
+        <!-- Predictions Tab -->
+        <div id="prediction" class="tab-content active">
+            <h2>Generate Prediction</h2>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="team-a-select">Team A</label>
+                    <select id="team-a-select">
+                        <option value="">Loading teams...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="team-b-select">Team B</label>
+                    <select id="team-b-select">
+                        <option value="">Loading teams...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" id="generate-graphic"> Generate Graphic
+                </label>
+            </div>
+            <button onclick="generatePrediction()">Predict Match</button>
+            <div id="prediction-result"></div>
+        </div>
+        
+        <!-- Team Stats Tab -->
+        <div id="teams" class="tab-content">
+            <h2>Team Statistics</h2>
+            <div class="form-group">
+                <label for="team-select">Select Team</label>
+                <select id="team-select" onchange="loadTeamStats()">
+                    <option value="">Choose a team...</option>
+                </select>
+            </div>
+            <div id="team-stats-result"></div>
+        </div>
+        
+        <!-- Match History Tab -->
+        <div id="matches" class="tab-content">
+            <h2>Match History</h2>
+            <div class="grid">
+                <div class="form-group">
+                    <label for="match-team-filter">Filter by Team (optional)</label>
+                    <select id="match-team-filter">
+                        <option value="">All Teams</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="match-limit">Number of Matches</label>
+                    <input type="number" id="match-limit" value="20" min="1" max="100">
+                </div>
+            </div>
+            <button onclick="loadMatches()">Load Matches</button>
+            <div id="matches-result"></div>
+        </div>
+        
+        <!-- Custom Query Tab -->
+        <div id="query" class="tab-content">
+            <h2>Custom SQL Query</h2>
+            <div class="form-group">
+                <label for="sql-query">SQL Query (SELECT only)</label>
+                <textarea id="sql-query" rows="6" placeholder="SELECT * FROM matches LIMIT 10"></textarea>
+            </div>
+            <button onclick="executeQuery()">Execute Query</button>
+            <div id="query-result"></div>
+        </div>
+    </div>
+    
+    <script>
+        // Load teams on page load
+        window.onload = function() {
+            loadTeams();
+        };
+        
+        function showTab(tabName) {
+            // Hide all tabs
+            document.querySelectorAll('.tab-content').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            event.target.classList.add('active');
+        }
+        
+        async function loadTeams() {
+            const response = await fetch('/api/teams');
+            const teams = await response.json();
+            
+            const selects = ['team-a-select', 'team-b-select', 'team-select', 'match-team-filter'];
+            selects.forEach(selectId => {
+                const select = document.getElementById(selectId);
+                select.innerHTML = selectId === 'match-team-filter' ? '<option value="">All Teams</option>' : '<option value="">Choose a team...</option>';
+                teams.forEach(team => {
+                    const option = document.createElement('option');
+                    option.value = team;
+                    option.textContent = team;
+                    select.appendChild(option);
+                });
+            });
+        }
+        
+        async function generatePrediction() {
+            const teamA = document.getElementById('team-a-select').value;
+            const teamB = document.getElementById('team-b-select').value;
+            const generateGraphic = document.getElementById('generate-graphic').checked;
+            
+            if (!teamA || !teamB) {
+                alert('Please select both teams');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('prediction-result');
+            resultDiv.innerHTML = '<div class="loading">Generating prediction...</div>';
+            
+            try {
+                const response = await fetch('/api/predict', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({team_a: teamA, team_b: teamB, generate_graphic: generateGraphic})
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    resultDiv.innerHTML = `<div class="error">Error: ${data.error}</div>`;
+                    return;
+                }
+                
+                resultDiv.innerHTML = `
+                    <div class="result prediction-result">
+                        <h3>Match Prediction</h3>
+                        <div class="winner">🏆 ${data.predicted_winner}</div>
+                        <div class="probability">${data.team_a}: ${data.team_a_probability.toFixed(1)}% | ${data.team_b}: ${data.team_b_probability.toFixed(1)}%</div>
+                        <p>Predicted Score: ${data.predicted_score}</p>
+                        <p>Confidence: ${data.confidence.toFixed(1)}%</p>
+                        ${data.graphic ? `<p class="success">Graphic saved: ${data.graphic}</p>` : ''}
+                        <hr style="margin: 20px 0; border-color: #444;">
+                        <div class="grid">
+                            <div class="card">
+                                <h4>${data.team_a} Stats</h4>
+                                <div class="stat-row"><span>Win Rate:</span><span>${data.team_a_stats.win_rate}%</span></div>
+                                <div class="stat-row"><span>Map Win Rate:</span><span>${data.team_a_stats.map_win_rate}%</span></div>
+                                <div class="stat-row"><span>Avg K/D:</span><span>${data.team_a_stats.avg_kd}</span></div>
+                            </div>
+                            <div class="card">
+                                <h4>${data.team_b} Stats</h4>
+                                <div class="stat-row"><span>Win Rate:</span><span>${data.team_b_stats.win_rate}%</span></div>
+                                <div class="stat-row"><span>Map Win Rate:</span><span>${data.team_b_stats.map_win_rate}%</span></div>
+                                <div class="stat-row"><span>Avg K/D:</span><span>${data.team_b_stats.avg_kd}</span></div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+        
+        async function loadTeamStats() {
+            const team = document.getElementById('team-select').value;
+            if (!team) return;
+            
+            const resultDiv = document.getElementById('team-stats-result');
+            resultDiv.innerHTML = '<div class="loading">Loading stats...</div>';
+            
+            const response = await fetch(`/api/team-stats/${encodeURIComponent(team)}`);
+            const data = await response.json();
+            
+            let modesHtml = data.modes.map(mode => `
+                <div class="stat-row">
+                    <span>${mode.mode}</span>
+                    <span>${mode.wins}/${mode.maps} (${mode.win_rate}%)</span>
+                </div>
+            `).join('');
+            
+            resultDiv.innerHTML = `
+                <div class="result">
+                    <div class="card">
+                        <h3>${data.team} - Overall Stats</h3>
+                        <div class="stat-row"><span>Matches Played:</span><span>${data.matches}</span></div>
+                        <div class="stat-row"><span>Wins:</span><span>${data.wins}</span></div>
+                        <div class="stat-row"><span>Win Rate:</span><span>${data.win_rate}%</span></div>
+                    </div>
+                    <div class="card" style="margin-top: 20px;">
+                        <h3>Mode Performance</h3>
+                        ${modesHtml}
+                    </div>
+                </div>
+            `;
+        }
+        
+        async function loadMatches() {
+            const team = document.getElementById('match-team-filter').value;
+            const limit = document.getElementById('match-limit').value;
+            
+            const resultDiv = document.getElementById('matches-result');
+            resultDiv.innerHTML = '<div class="loading">Loading matches...</div>';
+            
+            const url = team ? `/api/matches?team=${encodeURIComponent(team)}&limit=${limit}` : `/api/matches?limit=${limit}`;
+            const response = await fetch(url);
+            const matches = await response.json();
+            
+            let tableHtml = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Team A</th>
+                            <th>Score</th>
+                            <th>Team B</th>
+                            <th>Winner</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            matches.forEach(match => {
+                tableHtml += `
+                    <tr>
+                        <td>${match.date}</td>
+                        <td>${match.team_a}</td>
+                        <td>${match.score_a} - ${match.score_b}</td>
+                        <td>${match.team_b}</td>
+                        <td>${match.winner}</td>
+                    </tr>
+                `;
+            });
+            
+            tableHtml += '</tbody></table>';
+            resultDiv.innerHTML = tableHtml;
+        }
+        
+        async function executeQuery() {
+            const query = document.getElementById('sql-query').value;
+            if (!query.trim()) {
+                alert('Please enter a SQL query');
+                return;
+            }
+            
+            const resultDiv = document.getElementById('query-result');
+            resultDiv.innerHTML = '<div class="loading">Executing query...</div>';
+            
+            try {
+                const response = await fetch('/api/query', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({query: query})
+                });
+                
+                const data = await response.json();
+                
+                if (data.error) {
+                    resultDiv.innerHTML = `<div class="error">Error: ${data.error}</div>`;
+                    return;
+                }
+                
+                let tableHtml = '<table><thead><tr>';
+                data.columns.forEach(col => {
+                    tableHtml += `<th>${col}</th>`;
+                });
+                tableHtml += '</tr></thead><tbody>';
+                
+                data.results.forEach(row => {
+                    tableHtml += '<tr>';
+                    data.columns.forEach(col => {
+                        tableHtml += `<td>${row[col] !== null ? row[col] : 'NULL'}</td>`;
+                    });
+                    tableHtml += '</tr>';
+                });
+                
+                tableHtml += '</tbody></table>';
+                resultDiv.innerHTML = tableHtml;
+            } catch (error) {
+                resultDiv.innerHTML = `<div class="error">Error: ${error.message}</div>`;
+            }
+        }
+    </script>
+</body>
+</html>

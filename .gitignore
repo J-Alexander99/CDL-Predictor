@@ -1,33 +1,27 @@
 # Python
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.Python
+*.egg-info/
+.venv/
 venv/
-env/
-ENV/
-.venv
+.pytest_cache/
+.ruff_cache/
 
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
+# Rebuilt every run (database, caches, rendered site)
+build/
+site/
 
-# Data
+# Old local artifacts from v2
 data/*.db
-data/*.json
-data/*.csv
-*.html
-
-# Logs
+data/*.html
+legacy/**/*.db
 logs/
 *.log
 
-# Environment
+# IDE / OS / secrets
+.vscode/
+.idea/
 .env
-
-# OS
 .DS_Store
 Thumbs.db
+legacy/old_code/cdl_stats.html

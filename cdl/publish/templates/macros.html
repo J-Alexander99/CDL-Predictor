@@ -1,0 +1,35 @@
+{% macro logo(t) %}{% if t.logo %}<img src="{{ t.logo }}" alt="" loading="lazy">{% endif %}{% endmacro %}
+
+{% macro split(p, t1, t2, thin=False) %}
+<div class="split{{ ' thin' if thin }}" data-tip="{{ t1 }} {{ '%.0f'|format(p*100) }}% · {{ t2 }} {{ '%.0f'|format((1-p)*100) }}%">
+  <span class="a" style="width: {{ '%.1f'|format(p*100) }}%"></span>
+  <span class="b" style="width: {{ '%.1f'|format((1-p)*100) }}%"></span>
+</div>
+{% endmacro %}
+
+{% macro prediction_card(p, root) %}
+<article class="card">
+  <div class="meta">{{ p.when }} · {{ p.event_name or '' }}{% if p.round %} · {{ p.round }}{% endif %}</div>
+  <div class="teams">
+    <span class="t1">{{ logo(p.team1) }}<a href="{{ root }}teams/{{ p.team1.id }}.html">{{ p.team1.name }}</a></span>
+    <span class="t2"><a href="{{ root }}teams/{{ p.team2.id }}.html">{{ p.team2.name }}</a>{{ logo(p.team2) }}</span>
+  </div>
+  {{ split(p.p_team1, p.team1.name, p.team2.name) }}
+  <div class="split-labels">
+    <span><span class="swatch a"></span><b>{{ '%.0f'|format(p.p_team1*100) }}%</b></span>
+    <span class="muted">most likely {{ p.likely_score_label }}</span>
+    <span><b>{{ '%.0f'|format((1-p.p_team1)*100) }}%</b><span class="swatch b" style="margin:0 0 0 5px"></span></span>
+  </div>
+  <details class="slots">
+    <summary>Map by map{% if p.graphic %} · <a href="{{ root }}{{ p.graphic }}">graphic</a>{% endif %}</summary>
+    {% for s in p.slots %}
+    <div class="slot">
+      <div class="label"><span>Map {{ s.game_num }} · {{ s.mode }}{% if s.likely_map %} · {{ s.likely_map }}{% endif %}</span>
+        <span>{{ '%.0f'|format(s.p_team1*100) }}–{{ '%.0f'|format((1-s.p_team1)*100) }}</span></div>
+      {{ split(s.p_team1, p.team1.name, p.team2.name, thin=True) }}
+    </div>
+    {% endfor %}
+    <div class="muted small">Rosters: {{ p.rosters.team1|join(', ') }} vs {{ p.rosters.team2|join(', ') }}</div>
+  </details>
+</article>
+{% endmacro %}

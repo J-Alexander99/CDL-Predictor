@@ -1,0 +1,2976 @@
+{
+ "events": [
+  {
+   "end_date": "2022-08-07",
+   "id": 1,
+   "name": "CDL Championship",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-02-20",
+   "id": 3,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-03-06",
+   "id": 4,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-01-23",
+   "id": 5,
+   "name": "CDL Kick-Off Classic 2022",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-03-27",
+   "id": 6,
+   "name": "CDL Major 2 Qualifier",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-04-03",
+   "id": 7,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-05-08",
+   "id": 8,
+   "name": "CDL Pro-AM Classic",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-08-06",
+   "id": 9,
+   "name": "CDL Challengers Finals 2022",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-05-29",
+   "id": 10,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-06-05",
+   "id": 11,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-06-05",
+   "id": 12,
+   "name": "CDC Toronto Open 2022",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-07-10",
+   "id": 13,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-07-17",
+   "id": 14,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-07-10",
+   "id": 15,
+   "name": "CDC Boston Open 2022",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-04-03",
+   "id": 16,
+   "name": "CDC Minnesota Open 2022",
+   "season_id": 2022
+  },
+  {
+   "end_date": "2022-12-11",
+   "id": 17,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2022-12-18",
+   "id": 18,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-01-29",
+   "id": 19,
+   "name": "CDL Major 2 Qualifier",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-02-05",
+   "id": 20,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-03-05",
+   "id": 21,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-04-16",
+   "id": 22,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-03-12",
+   "id": 23,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-04-23",
+   "id": 24,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-05-28",
+   "id": 25,
+   "name": "CDL Major 5 Tournament",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-05-21",
+   "id": 26,
+   "name": "CDL Major 5 Qualifier",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2023-06-18",
+   "id": 27,
+   "name": "CDL Championship",
+   "season_id": 2023
+  },
+  {
+   "end_date": "2021-03-05",
+   "id": 28,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-02-28",
+   "id": 29,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-04-04",
+   "id": 30,
+   "name": "CDL Major 2 Qualifier",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-04-11",
+   "id": 31,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-05-09",
+   "id": 32,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-05-16",
+   "id": 33,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-06-13",
+   "id": 34,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-06-20",
+   "id": 35,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-07-25",
+   "id": 36,
+   "name": "CDL Major 5 Qualifier",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-08-01",
+   "id": 37,
+   "name": "CDL Major 5 Tournament",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2021-08-22",
+   "id": 38,
+   "name": "CDL Championship",
+   "season_id": 2021
+  },
+  {
+   "end_date": "2024-01-21",
+   "id": 39,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-01-28",
+   "id": 40,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-03-17",
+   "id": 41,
+   "name": "CDL Major 2 Qualifier",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-03-24",
+   "id": 42,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-05-12",
+   "id": 43,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-05-19",
+   "id": 44,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-06-23",
+   "id": 45,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-06-30",
+   "id": 46,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-06-20",
+   "id": 47,
+   "name": "Challengers NA Elite Stage 3",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-06-20",
+   "id": 48,
+   "name": "Challengers EU Elite Stage 3",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-07-21",
+   "id": 49,
+   "name": "CDL League Championship",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-07-21",
+   "id": 50,
+   "name": "Challengers Champs",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-08-18",
+   "id": 51,
+   "name": "Esports World Cup",
+   "season_id": 2024
+  },
+  {
+   "end_date": "2024-11-06",
+   "id": 52,
+   "name": "Flank Black Ops 6 Invitational",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2024-11-09",
+   "id": 53,
+   "name": "Kaysan's Showdown V",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-01-26",
+   "id": 54,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-01-12",
+   "id": 55,
+   "name": "CDL Minor 1 Tournament",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-02-02",
+   "id": 56,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-16",
+   "id": 57,
+   "name": "CDL Major 2 Qualifier",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-02",
+   "id": 58,
+   "name": "CDL Minor 2 Tournament",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-23",
+   "id": 59,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-04-20",
+   "id": 60,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-04-27",
+   "id": 61,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-05-18",
+   "id": 62,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-05-25",
+   "id": 63,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-05",
+   "id": 64,
+   "name": "Challengers NA 2025 Elite Stage 2",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-05",
+   "id": 65,
+   "name": "Challengers EU 2025 Elite Stage 2",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-13",
+   "id": 66,
+   "name": "Challengers NA 2025 Elite Stage 2 Playoffs",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-03-13",
+   "id": 67,
+   "name": "Challengers EU 2025 Elite Stage 2 Playoffs",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-04-09",
+   "id": 68,
+   "name": "Challengers NA 2025 Elite Stage 3",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-04-09",
+   "id": 69,
+   "name": "Challengers EU 2025 Elite Stage 3",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-04-17",
+   "id": 70,
+   "name": "Challengers NA 2025 Elite Stage 3 Playoffs",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-04-17",
+   "id": 71,
+   "name": "Challengers EU 2025 Elite Stage 3 Playoffs",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-06-29",
+   "id": 72,
+   "name": "CDL League Championship",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-07-27",
+   "id": 73,
+   "name": "Esports World Cup",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-06-01",
+   "id": 74,
+   "name": "Challengers EU 2025 Last Chance Qualifier",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-06-01",
+   "id": 75,
+   "name": "Challengers NA 2025 Last Chance Qualifier",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-06-22",
+   "id": 76,
+   "name": "AMDGaming Overclocked",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2025-06-29",
+   "id": 77,
+   "name": "Challenger Champs",
+   "season_id": 2025
+  },
+  {
+   "end_date": "2020-01-26",
+   "id": 78,
+   "name": "CDL Launch Weekend",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-02-09",
+   "id": 79,
+   "name": "CDL Week 2: London",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-02-23",
+   "id": 80,
+   "name": "CDL Week 3: Atlanta",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-03-08",
+   "id": 81,
+   "name": "CDL Week 4: LA",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-04-12",
+   "id": 82,
+   "name": "CDL Week 5: Dallas",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-04-26",
+   "id": 83,
+   "name": "CDL Week 6: Chicago",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-05-10",
+   "id": 84,
+   "name": "CDL Week 7: Florida",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-05-24",
+   "id": 85,
+   "name": "CDL Week 8: Seattle",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-06-14",
+   "id": 86,
+   "name": "CDL Week 9: Minnesota",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-06-21",
+   "id": 87,
+   "name": "CDL Week 10: Paris",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-07-12",
+   "id": 88,
+   "name": "CDL Week 11: New York",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-07-19",
+   "id": 89,
+   "name": "CDL Week 12: London",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-07-26",
+   "id": 90,
+   "name": "CDL Week 13: Toronto",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2020-08-30",
+   "id": 91,
+   "name": "CDL League Championship",
+   "season_id": 2020
+  },
+  {
+   "end_date": "2018-12-09",
+   "id": 92,
+   "name": "CWL Las Vegas Open",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-03-17",
+   "id": 93,
+   "name": "CWL Fort Worth",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-05-05",
+   "id": 94,
+   "name": "CWL London",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-06-16",
+   "id": 95,
+   "name": "CWL Anaheim",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-07-05",
+   "id": 96,
+   "name": "CWL Pro League",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-07-19",
+   "id": 97,
+   "name": "CWL Pro League Playoffs Play-In",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-07-21",
+   "id": 98,
+   "name": "CWL Pro League Playoffs",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2019-08-18",
+   "id": 99,
+   "name": "Call of Duty World League Championship",
+   "season_id": 2019
+  },
+  {
+   "end_date": "2026-01-25",
+   "id": 100,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-02-01",
+   "id": 101,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-22",
+   "id": 102,
+   "name": "CDL Major 2 Qualifier",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-29",
+   "id": 103,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-10",
+   "id": 104,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-26",
+   "id": 105,
+   "name": "CDL Minor 1 Tournament",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-17",
+   "id": 106,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-21",
+   "id": 107,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-07",
+   "id": 108,
+   "name": "CDL Minor 2 Tournament",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-28",
+   "id": 109,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-07-19",
+   "id": 110,
+   "name": "CDL League Championship",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2017-12-10",
+   "id": 111,
+   "name": "CWL Dallas Open",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-01-14",
+   "id": 112,
+   "name": "CWL New Orleans Open",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-03-22",
+   "id": 113,
+   "name": "CWL Pro League Stage 1",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-03-11",
+   "id": 114,
+   "name": "CWL Atlanta Open",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-04-01",
+   "id": 115,
+   "name": "CWL Birmingham Open",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-04-08",
+   "id": 116,
+   "name": "CWL Pro League Stage 1 Playoffs",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-04-19",
+   "id": 117,
+   "name": "CWL Pro League Relegation",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-04-22",
+   "id": 118,
+   "name": "CWL Seattle Open",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-07-19",
+   "id": 119,
+   "name": "CWL Pro League Stage 2",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-06-17",
+   "id": 120,
+   "name": "CWL Anaheim Open",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-07-29",
+   "id": 121,
+   "name": "CWL Pro League Stage 2 Playoffs",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2018-08-19",
+   "id": 122,
+   "name": "Call of Duty World League Championship",
+   "season_id": 2018
+  },
+  {
+   "end_date": "2025-11-19",
+   "id": 123,
+   "name": "The Flank Invitational IV",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-11-23",
+   "id": 124,
+   "name": "The Launch Invitational",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-11-26",
+   "id": 125,
+   "name": "Challengers Showcase Kickoff",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-01",
+   "id": 126,
+   "name": "Kaysan's Showdown VIII",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-07",
+   "id": 127,
+   "name": "CDC North America Cup #1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-07",
+   "id": 128,
+   "name": "CDC EMEA Cup #1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-07",
+   "id": 129,
+   "name": "CDC Asia Pacific Cup #1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-07",
+   "id": 130,
+   "name": "CDC Latin America Cup #1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-14",
+   "id": 131,
+   "name": "CDC North America Cup #2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-14",
+   "id": 132,
+   "name": "CDC EMEA Cup #2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-14",
+   "id": 133,
+   "name": "CDC Asia Pacific Cup #2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-14",
+   "id": 134,
+   "name": "CDC Latin America Cup #2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-21",
+   "id": 135,
+   "name": "CDC North America Cup #3",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-21",
+   "id": 136,
+   "name": "CDC EMEA Cup #3",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-21",
+   "id": 137,
+   "name": "CDC Asia Pacific Cup #3",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2025-12-21",
+   "id": 138,
+   "name": "CDC Latin America Cup #3",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-04",
+   "id": 139,
+   "name": "CDC North America Elite Stage 1 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-04",
+   "id": 140,
+   "name": "CDC EMEA Elite Stage 1 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-11",
+   "id": 141,
+   "name": "CDC North America Cup #4",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-11",
+   "id": 142,
+   "name": "CDC EMEA Cup #4",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-11",
+   "id": 143,
+   "name": "CDC Asia Pacific Cup #4",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-11",
+   "id": 144,
+   "name": "CDC Latin America Cup #4",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-25",
+   "id": 145,
+   "name": "CDC North America Cup #5",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-25",
+   "id": 146,
+   "name": "CDC EMEA Cup #5",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-25",
+   "id": 147,
+   "name": "CDC Asia Pacific Cup #5",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-25",
+   "id": 148,
+   "name": "CDC Latin America Cup #5",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-02-22",
+   "id": 149,
+   "name": "CDC North America Cup #6",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-02-22",
+   "id": 150,
+   "name": "CDC EMEA Cup #6",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-02-22",
+   "id": 151,
+   "name": "CDC Asia Pacific Cup #6",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-02-22",
+   "id": 152,
+   "name": "CDC Latin America Cup #6",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-08",
+   "id": 153,
+   "name": "CDC North America Cup #7",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-08",
+   "id": 154,
+   "name": "CDC EMEA Cup #7",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-08",
+   "id": 155,
+   "name": "CDC Asia Pacific Cup #7",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-08",
+   "id": 156,
+   "name": "CDC Latin America Cup #7",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-22",
+   "id": 157,
+   "name": "CDC North America Cup #8",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-22",
+   "id": 158,
+   "name": "CDC EMEA Cup #8",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-22",
+   "id": 159,
+   "name": "CDC Asia Pacific Cup #8",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-22",
+   "id": 160,
+   "name": "CDC Latin America Cup #8",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-12",
+   "id": 161,
+   "name": "CDC North America Cup #9",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-12",
+   "id": 162,
+   "name": "CDC EMEA Cup #9",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-12",
+   "id": 163,
+   "name": "CDC Asia Pacific Cup #9",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-12",
+   "id": 164,
+   "name": "CDC Latin America Cup #9",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-26",
+   "id": 165,
+   "name": "CDC North America Cup #10",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-26",
+   "id": 166,
+   "name": "CDC EMEA Cup #10",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-26",
+   "id": 167,
+   "name": "CDC Asia Pacific Cup #10",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-26",
+   "id": 168,
+   "name": "CDC Latin America Cup #10",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-10",
+   "id": 169,
+   "name": "CDC North America Cup #11",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-10",
+   "id": 170,
+   "name": "CDC EMEA Cup #11",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-10",
+   "id": 171,
+   "name": "CDC Asia Pacific Cup #11",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-10",
+   "id": 172,
+   "name": "CDC Latin America Cup #11",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-07",
+   "id": 173,
+   "name": "CDC North America Cup #12",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-07",
+   "id": 174,
+   "name": "CDC EMEA Cup #12",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-07",
+   "id": 175,
+   "name": "CDC Asia Pacific Cup #12",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-07",
+   "id": 176,
+   "name": "CDC Latin America Cup #12",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-21",
+   "id": 177,
+   "name": "CDC North America Cup #13",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-21",
+   "id": 178,
+   "name": "CDC EMEA Cup #13",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-21",
+   "id": 179,
+   "name": "CDC Asia Pacific Cup #13",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-21",
+   "id": 180,
+   "name": "CDC Latin America Cup #13",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-02-01",
+   "id": 181,
+   "name": "CDC Dallas Open",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-29",
+   "id": 182,
+   "name": "CDC Birmingham Open",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-17",
+   "id": 183,
+   "name": "CDC Atlanta Open",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-28",
+   "id": 184,
+   "name": "CDC Paris Open",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-07-19",
+   "id": 185,
+   "name": "CDC Finals",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-14",
+   "id": 186,
+   "name": "CDC North America Elite Stage 1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-14",
+   "id": 187,
+   "name": "CDC EMEA Elite Stage 1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-22",
+   "id": 188,
+   "name": "CDC North America Elite Stage 1 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-22",
+   "id": 189,
+   "name": "CDC EMEA Elite Stage 1 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-01",
+   "id": 190,
+   "name": "CDC North America Elite Stage 2 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-01",
+   "id": 191,
+   "name": "CDC EMEA Elite Stage 2 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-11",
+   "id": 192,
+   "name": "CDC North America Elite Stage 2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-11",
+   "id": 193,
+   "name": "CDC EMEA Elite Stage 2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-19",
+   "id": 194,
+   "name": "CDC North America Elite Stage 2 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-19",
+   "id": 195,
+   "name": "CDC EMEA Elite Stage 2 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-19",
+   "id": 196,
+   "name": "CDC North America Elite Stage 3 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-19",
+   "id": 197,
+   "name": "CDC EMEA Elite Stage 3 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-29",
+   "id": 198,
+   "name": "CDC North America Elite Stage 3",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-04-29",
+   "id": 199,
+   "name": "CDC EMEA Elite Stage 3",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-07",
+   "id": 200,
+   "name": "CDC North America Elite Stage 3 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-07",
+   "id": 201,
+   "name": "CDC EMEA Elite Stage 3 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-31",
+   "id": 202,
+   "name": "CDC North America Elite Stage 4 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-05-31",
+   "id": 203,
+   "name": "CDC EMEA Elite Stage 4 Qualifer",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-10",
+   "id": 204,
+   "name": "CDC North America Elite Stage 4",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-10",
+   "id": 205,
+   "name": "CDC EMEA Elite Stage 4",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-18",
+   "id": 206,
+   "name": "CDC North America Elite Stage 4 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-06-18",
+   "id": 207,
+   "name": "CDC EMEA Elite Stage 4 Playoffs",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-01-26",
+   "id": 208,
+   "name": "COD CLASH 1",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-15",
+   "id": 209,
+   "name": "Misfits Elite Circuit Season 0",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-03-22",
+   "id": 210,
+   "name": "COD CLASH 2",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2026-08-09",
+   "id": 211,
+   "name": "Esports World Cup",
+   "season_id": 2026
+  },
+  {
+   "end_date": "2012-12-30",
+   "id": 1000,
+   "name": "UMG Chicago 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-03-17",
+   "id": 1001,
+   "name": "MLG Winter Championship 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-03-15",
+   "id": 1002,
+   "name": "Call of Duty Championship 2013 Australia-New Zealand Regional Final",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-03-17",
+   "id": 1003,
+   "name": "Call of Duty Championship 2013 Europe Regional Final",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-02-17",
+   "id": 1004,
+   "name": "Reflex GT 9",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-03-24",
+   "id": 1005,
+   "name": "Insomnia48",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-03-31",
+   "id": 1006,
+   "name": "EGL 9 Blackpool",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-04-02",
+   "id": 1007,
+   "name": "Svenska e-Sportcupen Norrköping",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-04-07",
+   "id": 1008,
+   "name": "Call of Duty Championship 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-04-21",
+   "id": 1009,
+   "name": "UMG St. Louis 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-04-28",
+   "id": 1010,
+   "name": "SLE 13",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-05-05",
+   "id": 1011,
+   "name": "LVP Season 4 Final Cup",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-05-05",
+   "id": 1012,
+   "name": "UGC Niagara 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-05-19",
+   "id": 1013,
+   "name": "SkyLAN 1",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-05-25",
+   "id": 1014,
+   "name": "Svenska e-Sportcupen Västerås",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-06-30",
+   "id": 1015,
+   "name": "MLG Spring Championship 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-06-30",
+   "id": 1016,
+   "name": "Reflex GT 10",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-07-14",
+   "id": 1017,
+   "name": "Gfinity G1",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-07-20",
+   "id": 1018,
+   "name": "Dreamhack Valencia 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-08-11",
+   "id": 1019,
+   "name": "UMG Atlanta 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-08-11",
+   "id": 1020,
+   "name": "EGL 10 Sheffield",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-08-25",
+   "id": 1021,
+   "name": "Insomnia49",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-09-02",
+   "id": 1022,
+   "name": "MLG PAX Prime Invitational 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-09-22",
+   "id": 1023,
+   "name": "Reflex GT 11",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-10-12",
+   "id": 1024,
+   "name": "Svenska e-Sportcupen Jönköping",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-10-13",
+   "id": 1025,
+   "name": "LVP Season 5 Final Cup",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-10-13",
+   "id": 1026,
+   "name": "Gfinity 2",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-10-19",
+   "id": 1027,
+   "name": "MLG Fall Invitational 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-10-20",
+   "id": 1028,
+   "name": "UMG Dallas 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-10-27",
+   "id": 1029,
+   "name": "EGL 11 London",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-11-03",
+   "id": 1030,
+   "name": "ESWC 2013",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-12-14",
+   "id": 1031,
+   "name": "Svenska e-Sportcupen Göteborg",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-01-27",
+   "id": 1032,
+   "name": "4win Arena #2",
+   "season_id": 2013
+  },
+  {
+   "end_date": "2013-11-17",
+   "id": 1033,
+   "name": "eBash Ghosts November Tournament",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2013-11-24",
+   "id": 1034,
+   "name": "MLG Fall Championship 2013",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2013-12-01",
+   "id": 1035,
+   "name": "Astro Call of Duty: Ghosts Cup",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2013-12-22",
+   "id": 1036,
+   "name": "ETG 4",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-01-05",
+   "id": 1037,
+   "name": "UMG Philadelphia 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-01-19",
+   "id": 1038,
+   "name": "eBash Ghosts January Tournament",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-01-25",
+   "id": 1039,
+   "name": "BSOG Opening LAN 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-01-26",
+   "id": 1040,
+   "name": "SkyLAN 2",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-02-15",
+   "id": 1041,
+   "name": "Call of Duty Championship 2014 Europe Regional Final",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-02-15",
+   "id": 1042,
+   "name": "ETG 5",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-02-22",
+   "id": 1043,
+   "name": "Gamers For Giving 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2013-02-22",
+   "id": 1044,
+   "name": "Call of Duty Championship 2014 Australia-New Zealand Regional Final",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-02-22",
+   "id": 1045,
+   "name": "MES Detroit 2.5K",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-02-23",
+   "id": 1046,
+   "name": "FCO 6",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-03-09",
+   "id": 1047,
+   "name": "Call of Duty Championship 2014 US Regional Final",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-03-30",
+   "id": 1048,
+   "name": "Call of Duty Championship 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-03-26",
+   "id": 1049,
+   "name": "MLG CoD League 2014 Season 1 Regular Season",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-04-13",
+   "id": 1050,
+   "name": "MLG CoD League 2014 Season 1 Playoffs",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-04-05",
+   "id": 1051,
+   "name": "MLG CoD League 2014 Season 2 Play-In",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-14",
+   "id": 1052,
+   "name": "MLG CoD League 2014 Season 2 Regular Season",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-22",
+   "id": 1053,
+   "name": "MLG Anaheim 2014 International Playoffs",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-22",
+   "id": 1054,
+   "name": "MLG CoD League 2014 Season 3 Play-In",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-08",
+   "id": 1055,
+   "name": "MLG CoD League 2014 Season 3 Regular Season",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-26",
+   "id": 1056,
+   "name": "MLG CoD League 2014 Season 3 Playoffs",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-22",
+   "id": 1057,
+   "name": "Gfinity Pro League Ghosts Season 1",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-04-20",
+   "id": 1058,
+   "name": "Insomnia 51",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-04-21",
+   "id": 1059,
+   "name": "Gamers Assembly 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-05-04",
+   "id": 1060,
+   "name": "EGL 12 Sheffield",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-05-04",
+   "id": 1061,
+   "name": "UGC Niagara 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-05-11",
+   "id": 1062,
+   "name": "FCO One #1",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-05-11",
+   "id": 1063,
+   "name": "CAP'Arena 3",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-05-14",
+   "id": 1064,
+   "name": "ACL Sydney 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-01",
+   "id": 1065,
+   "name": "ACL Brisbane 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-08",
+   "id": 1066,
+   "name": "MLG X Games Invitational 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-15",
+   "id": 1067,
+   "name": "Reflex GT 12",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-22",
+   "id": 1068,
+   "name": "MLG Anaheim 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-28",
+   "id": 1069,
+   "name": "LVP Season 6 Final Cup",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-06-29",
+   "id": 1070,
+   "name": "LVP EuroMasters Cup 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-07-19",
+   "id": 1071,
+   "name": "ESWC 2014 NA Qualifier",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-07-27",
+   "id": 1072,
+   "name": "EGL 13 Blackpool",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-07-27",
+   "id": 1073,
+   "name": "AEL Dallas 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-07-27",
+   "id": 1074,
+   "name": "SFCO One #2",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-08-03",
+   "id": 1075,
+   "name": "Gfinity 3",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-08-23",
+   "id": 1076,
+   "name": "Insomnia52",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-08-24",
+   "id": 1077,
+   "name": "UMG Dallas 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-09-12",
+   "id": 1078,
+   "name": "MYCG Malaysian Championship 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-09-21",
+   "id": 1079,
+   "name": "Ultimate Arena",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-09-28",
+   "id": 1080,
+   "name": "FCO 9",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-05",
+   "id": 1081,
+   "name": "SLE 14",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-12",
+   "id": 1082,
+   "name": "FCO One #3",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-12",
+   "id": 1083,
+   "name": "UMG Nashville 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-12",
+   "id": 1084,
+   "name": "2014 Telkom DGL PC Championship",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-12",
+   "id": 1085,
+   "name": "2014 Telkom DGL Xbox Championship",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-20",
+   "id": 1086,
+   "name": "ESWC ES Qualifier",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-10-30",
+   "id": 1087,
+   "name": "ESWC 2014 FR Qualifier",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-11-02",
+   "id": 1088,
+   "name": "ESWC 2014",
+   "season_id": 2014
+  },
+  {
+   "end_date": "2014-11-16",
+   "id": 1089,
+   "name": "eBash AW November Tournament",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2014-11-23",
+   "id": 1090,
+   "name": "FCO AW #1",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2014-11-23",
+   "id": 1091,
+   "name": "Insomnia53",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2014-11-30",
+   "id": 1092,
+   "name": "MLG Columbus Open 2014",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2014-12-07",
+   "id": 1093,
+   "name": "Ultimate Arena AW",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2014-12-07",
+   "id": 1094,
+   "name": "LVP Season 7 Final Cup",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2014-12-21",
+   "id": 1095,
+   "name": "EGO AW #1",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-01-04",
+   "id": 1096,
+   "name": "UMG Orlando 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-01-18",
+   "id": 1097,
+   "name": "FCO AW #2",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-01-25",
+   "id": 1098,
+   "name": "eBash AW January Tournament",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-01",
+   "id": 1099,
+   "name": "MES Detroit 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-08",
+   "id": 1100,
+   "name": "Am 2 Pro 1",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-14",
+   "id": 1101,
+   "name": "Call of Duty Championship 2015 Asia Pacific Regional Final",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-15",
+   "id": 1102,
+   "name": "CAP'Arena 4",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-15",
+   "id": 1103,
+   "name": "Call of Duty Championship 2015 Brazil Regional Final",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-22",
+   "id": 1104,
+   "name": "Gamers For Giving 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-06",
+   "id": 1105,
+   "name": "MLG Pro League 2015 Season 1 Regular Season",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-22",
+   "id": 1106,
+   "name": "MLG Pro League 2015 Season 1 Playoffs",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-02-26",
+   "id": 1107,
+   "name": "MLG Pro League 2015 Season 2 Relegation",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-22",
+   "id": 1108,
+   "name": "MLG Pro League 2015 Season 2 Regular Season",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-07",
+   "id": 1109,
+   "name": "MLG Pro League 2015 Season 2 Playoffs",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-21",
+   "id": 1110,
+   "name": "MLG Pro League 2015 Season 3 Relegation",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-09-14",
+   "id": 1111,
+   "name": "MLG Pro League 2015 Season 3 Regular Season",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-09-20",
+   "id": 1112,
+   "name": "MLG Pro League 2015 Season 3 Playoffs",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-01",
+   "id": 1113,
+   "name": "EGO AW #2",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-01",
+   "id": 1114,
+   "name": "Call of Duty Championship 2015 Europe Regional Final",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-08",
+   "id": 1115,
+   "name": "Call of Duty Championship 2015 NA Regional Final",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-08",
+   "id": 1116,
+   "name": "SLE 15",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-15",
+   "id": 1117,
+   "name": "Doesplay Gold Coast 1",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-15",
+   "id": 1118,
+   "name": "EGO AW #3",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-03-29",
+   "id": 1119,
+   "name": "Call of Duty Championship 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-04-05",
+   "id": 1120,
+   "name": "Gfinity London Open 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-04-05",
+   "id": 1121,
+   "name": "Gamers Assembly 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-04-11",
+   "id": 1122,
+   "name": "Anicend 1",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-04-19",
+   "id": 1123,
+   "name": "Meltdown Paris 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-04-26",
+   "id": 1124,
+   "name": "UGC Niagara 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-03",
+   "id": 1125,
+   "name": "ESWC 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-10",
+   "id": 1126,
+   "name": "Gfinity Spring Masters 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-17",
+   "id": 1127,
+   "name": "UMG California 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-24",
+   "id": 1128,
+   "name": "DreamHack Swedish Championship",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-24",
+   "id": 1129,
+   "name": "WhatYouPlay Season Cup",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-24",
+   "id": 1130,
+   "name": "SFCO AW 3",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-24",
+   "id": 1131,
+   "name": "MES Detroit 20K 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-31",
+   "id": 1132,
+   "name": "ACL Brisbane 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-31",
+   "id": 1133,
+   "name": "EGE South Africa 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-05-31",
+   "id": 1134,
+   "name": "ETG 10",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-07",
+   "id": 1135,
+   "name": "DreamHack Nordic Championship",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-13",
+   "id": 1136,
+   "name": "eBash AW June Tournament",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-16",
+   "id": 1137,
+   "name": "DreamHack Summer 2015 Invitational",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-20",
+   "id": 1138,
+   "name": "oR LAN",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-28",
+   "id": 1139,
+   "name": "LVP Season 8 Final Cup",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-28",
+   "id": 1140,
+   "name": "EGO Championship Series Qualifier",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-06-29",
+   "id": 1141,
+   "name": "ACL Sydney 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-07-05",
+   "id": 1142,
+   "name": "Am 2 Pro Omnia",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-07-12",
+   "id": 1143,
+   "name": "UMG Dallas 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-07-26",
+   "id": 1144,
+   "name": "Doesplay Gold Coast 10K Pro Series",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-07-26",
+   "id": 1145,
+   "name": "SFCO AW 4",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-08-02",
+   "id": 1146,
+   "name": "Gfinity Summer Championship 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-08-09",
+   "id": 1147,
+   "name": "EGL Dallas 10K",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-08-23",
+   "id": 1148,
+   "name": "MES Detroit 25K 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-08-30",
+   "id": 1149,
+   "name": "Insomnia55",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-09-06",
+   "id": 1150,
+   "name": "UMG Washington DC 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-09-06",
+   "id": 1151,
+   "name": "ACL Melbourne 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-09-20",
+   "id": 1152,
+   "name": "DreamHack London Championship 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-04",
+   "id": 1153,
+   "name": "SocialNAT AW Master League 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-04",
+   "id": 1154,
+   "name": "SFCO AW 5",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-04",
+   "id": 1155,
+   "name": "MWEB GameZone Masters Series Grand Final",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-10",
+   "id": 1156,
+   "name": "2015 Telkom DGL Xbox Championship",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-11",
+   "id": 1157,
+   "name": "2015 Telkom DGL PC Championship",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-18",
+   "id": 1158,
+   "name": "MLG World Finals 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-25",
+   "id": 1159,
+   "name": "EGL 14 Blackpool",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-10-31",
+   "id": 1160,
+   "name": "Iron Games Daytona 2015",
+   "season_id": 2015
+  },
+  {
+   "end_date": "2015-11-14",
+   "id": 1161,
+   "name": "Totino's Invitational 2015",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-11-21",
+   "id": 1162,
+   "name": "eBash BO3 November Tournament",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-11-29",
+   "id": 1163,
+   "name": "Am 2 Pro Peterborough",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-12-06",
+   "id": 1164,
+   "name": "CWL Pro Division 2016 ANZ Invitational Qualifier",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-12-06",
+   "id": 1165,
+   "name": "CWL Pro Division 2016 EU Invitational Qualifier",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-12-06",
+   "id": 1166,
+   "name": "LVP Season 9 Final Cup",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-12-06",
+   "id": 1167,
+   "name": "CWL Pro Division 2016 NA Invitational Qualifier",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-12-13",
+   "id": 1168,
+   "name": "Insomnia56",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2015-12-20",
+   "id": 1169,
+   "name": "SFCO BO3 1",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-01-09",
+   "id": 1170,
+   "name": "AGN Indianapolis 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-01-17",
+   "id": 1171,
+   "name": "ETG 11",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-01-24",
+   "id": 1172,
+   "name": "MES Detroit 10K 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-01-31",
+   "id": 1173,
+   "name": "AvT Auckland 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-02-01",
+   "id": 1174,
+   "name": "Asia Championship 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-02-13",
+   "id": 1175,
+   "name": "UMG South Carolina 2016 Open Bracket",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-02-14",
+   "id": 1176,
+   "name": "UMG South Carolina 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-02-21",
+   "id": 1177,
+   "name": "SFCO BO3 2",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-02-22",
+   "id": 1178,
+   "name": "MES 20K 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-04",
+   "id": 1179,
+   "name": "ASTRO Gaming Cup Cape Town 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-06",
+   "id": 1180,
+   "name": "EGL Open London 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-12",
+   "id": 1181,
+   "name": "SLE Meltdown 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-13",
+   "id": 1182,
+   "name": "Gamers For Giving 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-13",
+   "id": 1183,
+   "name": "Am 2 Pro Blackpool",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-19",
+   "id": 1184,
+   "name": "CWL Pro Division 2016 ANZ Relegation",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-20",
+   "id": 1185,
+   "name": "CWL Pro Division 2016 ANZ Stage 1 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-02",
+   "id": 1186,
+   "name": "CWL Pro Division 2016 ANZ Stage 1 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-06-01",
+   "id": 1187,
+   "name": "CWL Pro Division 2016 ANZ Stage 2 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-16",
+   "id": 1188,
+   "name": "CWL Pro Division 2016 ANZ Stage 2 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-23",
+   "id": 1189,
+   "name": "CWL Pro Division 2016 NA Stage 1 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-01",
+   "id": 1190,
+   "name": "CWL Pro Division 2016 NA Relegation",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-03",
+   "id": 1191,
+   "name": "CWL Pro Division 2016 NA Stage 1 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-07",
+   "id": 1192,
+   "name": "CWL Pro Division 2016 NA Stage 2 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-17",
+   "id": 1193,
+   "name": "CWL Pro Division 2016 NA Stage 2 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-09",
+   "id": 1194,
+   "name": "CWL Pro Division 2016 EU Stage 1 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-25",
+   "id": 1195,
+   "name": "CWL Pro Division 2016 EU Relegation",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-27",
+   "id": 1196,
+   "name": "CWL Pro Division 2016 EU Stage 1 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-06-23",
+   "id": 1197,
+   "name": "CWL Pro Division 2016 EU Stage 2 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-17",
+   "id": 1198,
+   "name": "CWL Pro Division 2016 EU Stage 2 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-20",
+   "id": 1199,
+   "name": "AGN Indianapolis 2016 2.0",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-27",
+   "id": 1200,
+   "name": "Gamers Assembly 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-27",
+   "id": 1201,
+   "name": "Gamers Assembly 2016 ESWC Qualifier",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-19",
+   "id": 1202,
+   "name": "BSOG Pro League 2016 Season 1 Qualifiers",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-03",
+   "id": 1203,
+   "name": "BSOG Pro League 2016 Season 1 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-02",
+   "id": 1204,
+   "name": "BSOG Pro League 2016 Season 2 Regular Season",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-16",
+   "id": 1205,
+   "name": "BSOG Pro League 2016 Season 2 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-26",
+   "id": 1206,
+   "name": "BSOG Pro League 2016 Season 2 Relegation",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-03",
+   "id": 1207,
+   "name": "MES GameFest 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-03-24",
+   "id": 1208,
+   "name": "Crown Melbourne Invitational Stage 1 Open Qualifier",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-04",
+   "id": 1209,
+   "name": "Crown Melbourne Invitational Stage 2 Group Stage",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-09",
+   "id": 1210,
+   "name": "Crown Melbourne Invitational 2016 Stage 3 Qual.",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-10",
+   "id": 1211,
+   "name": "Crown Melbourne Invitational 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-10",
+   "id": 1212,
+   "name": "EGO ESWC 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-10",
+   "id": 1213,
+   "name": "SFCO ESWC 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-12",
+   "id": 1214,
+   "name": "MYCG MMU Invitational 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-16",
+   "id": 1215,
+   "name": "Mwave CGPL Autumn 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-24",
+   "id": 1216,
+   "name": "ETG 12 Xbox",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-04-24",
+   "id": 1217,
+   "name": "ETG 12 PS4",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-05-01",
+   "id": 1218,
+   "name": "EGLX 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-05-01",
+   "id": 1219,
+   "name": "Esports Arena BO3 1K+ Open",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-05-08",
+   "id": 1220,
+   "name": "ESWC 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-05-15",
+   "id": 1221,
+   "name": "SFCO AM League Season 1 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-05-29",
+   "id": 1222,
+   "name": "SFCO BOIII 3",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-06-12",
+   "id": 1223,
+   "name": "MLG Anaheim Open 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-06-25",
+   "id": 1224,
+   "name": "LVP Season 10 Final Cup",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-03",
+   "id": 1225,
+   "name": "Gfinity Summer Masters 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-10",
+   "id": 1226,
+   "name": "SFCO AM League Season 2 Playoffs",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-23",
+   "id": 1227,
+   "name": "ETG 13 PS4",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-23",
+   "id": 1228,
+   "name": "ETG 13 Xbox",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2016-07-31",
+   "id": 1229,
+   "name": "EGE South Africa 2016",
+   "season_id": 2016
+  },
+  {
+   "end_date": "2026-11-08",
+   "id": 1244,
+   "name": "Monster Energy Launch Invitational",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2026-12-13",
+   "id": 1245,
+   "name": "CDL Kickoff Pro-AM Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-01-10",
+   "id": 1246,
+   "name": "CDL Minor 1 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-02-07",
+   "id": 1247,
+   "name": "CDL Major 1 Qualifier",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-02-14",
+   "id": 1248,
+   "name": "CDL Major 1 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-02-28",
+   "id": 1249,
+   "name": "CDL Minor 2 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-03-14",
+   "id": 1250,
+   "name": "CDL Qualifier Tournament 1",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-03-28",
+   "id": 1251,
+   "name": "CDL Qualifier Tournament 2",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-04-04",
+   "id": 1252,
+   "name": "CDL Major 2 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-04-18",
+   "id": 1253,
+   "name": "CDL Minor 3 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-05-16",
+   "id": 1254,
+   "name": "CDL Major 3 Qualifier",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-05-23",
+   "id": 1255,
+   "name": "CDL Major 3 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-06-13",
+   "id": 1256,
+   "name": "CDL Major 4 Qualifier",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-06-20",
+   "id": 1257,
+   "name": "CDL Major 4 Tournament",
+   "season_id": 2027
+  },
+  {
+   "end_date": "2027-07-11",
+   "id": 1258,
+   "name": "CDL League Championship",
+   "season_id": 2027
+  }
+ ],
+ "seasons": [
+  {
+   "end_date": null,
+   "id": 2013,
+   "modes": [],
+   "start_date": "2012-11-13",
+   "title": "Call of Duty: Black Ops 2",
+   "title_short": "BO2",
+   "year": 2013
+  },
+  {
+   "end_date": null,
+   "id": 2014,
+   "modes": [],
+   "start_date": "2013-11-05",
+   "title": "Call of Duty: Ghosts",
+   "title_short": "Ghosts",
+   "year": 2014
+  },
+  {
+   "end_date": null,
+   "id": 2015,
+   "modes": [],
+   "start_date": "2014-11-04",
+   "title": "Call of Duty: Advanced Warfare",
+   "title_short": "AW",
+   "year": 2015
+  },
+  {
+   "end_date": null,
+   "id": 2016,
+   "modes": [],
+   "start_date": "2015-11-06",
+   "title": "Call of Duty: Black Ops III",
+   "title_short": "BO3",
+   "year": 2016
+  },
+  {
+   "end_date": "2018-10-11",
+   "id": 2018,
+   "modes": [
+    "Capture the Flag",
+    "Hardpoint",
+    "Search & Destroy"
+   ],
+   "start_date": "2017-11-03",
+   "title": "Call of Duty: WWII",
+   "title_short": "WW2",
+   "year": 2018
+  },
+  {
+   "end_date": "2019-10-25",
+   "id": 2019,
+   "modes": [
+    "Control",
+    "Hardpoint",
+    "Search & Destroy"
+   ],
+   "start_date": "2018-10-12",
+   "title": "Call of Duty: Black Ops 4",
+   "title_short": "BO4",
+   "year": 2019
+  },
+  {
+   "end_date": "2020-11-13",
+   "id": 2020,
+   "modes": [
+    "Domination",
+    "Hardpoint",
+    "Search & Destroy"
+   ],
+   "start_date": "2019-10-25",
+   "title": "Call of Duty: Modern Warfare",
+   "title_short": "MW",
+   "year": 2020
+  },
+  {
+   "end_date": "2021-08-22",
+   "id": 2021,
+   "modes": [],
+   "start_date": "2021-01-23",
+   "title": "Call of Duty: Black Ops Cold War",
+   "title_short": "CW",
+   "year": 2021
+  },
+  {
+   "end_date": "2022-08-07",
+   "id": 2022,
+   "modes": [],
+   "start_date": "2022-01-21",
+   "title": "Call of Duty: Vanguard",
+   "title_short": "VG",
+   "year": 2022
+  },
+  {
+   "end_date": "2023-06-18",
+   "id": 2023,
+   "modes": [],
+   "start_date": "2022-12-02",
+   "title": "Call of Duty: Modern Warfare II",
+   "title_short": "MWII",
+   "year": 2023
+  },
+  {
+   "end_date": "2024-05-24",
+   "id": 2024,
+   "modes": [
+    "Control",
+    "Hardpoint",
+    "Search & Destroy"
+   ],
+   "start_date": "2023-11-24",
+   "title": "Call of Duty: Modern Warfare III",
+   "title_short": "MWIII",
+   "year": 2024
+  },
+  {
+   "end_date": "2025-10-22",
+   "id": 2025,
+   "modes": [
+    "Control",
+    "Hardpoint",
+    "Search & Destroy"
+   ],
+   "start_date": "2024-10-25",
+   "title": "Call of Duty: Black Ops 6",
+   "title_short": "BO6",
+   "year": 2025
+  },
+  {
+   "end_date": "2026-10-29",
+   "id": 2026,
+   "modes": [
+    "Hardpoint",
+    "Overload",
+    "Search & Destroy"
+   ],
+   "start_date": "2025-10-28",
+   "title": "Call of Duty: Black Ops 7",
+   "title_short": "BO7",
+   "year": 2026
+  },
+  {
+   "end_date": "2027-10-28",
+   "id": 2027,
+   "modes": [
+    "Hardpoint",
+    "Hijack",
+    "Search & Destroy"
+   ],
+   "start_date": "2026-10-30",
+   "title": "Call of Duty: Modern Warfare IV",
+   "title_short": "MW4",
+   "year": 2027
+  }
+ ],
+ "teams": [
+  {
+   "color_hex": "#db1de6",
+   "id": 1,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/FaZe_Vegaslogo_square.webp",
+   "name": "FaZe Vegas",
+   "name_short": "FV"
+  },
+  {
+   "color_hex": "#cb0200",
+   "id": 2,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/Los-Angeles-Thieves-Logo.webp",
+   "name": "Los Angeles Thieves",
+   "name_short": "LAT"
+  },
+  {
+   "color_hex": "#1d67a3",
+   "id": 3,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/Seattle-Surge-Logo.webp",
+   "name": "Vancouver Surge",
+   "name_short": "VAN"
+  },
+  {
+   "color_hex": "#93C852",
+   "id": 4,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/OpTic-Texas-Logo-167x94.webp",
+   "name": "OpTic Texas",
+   "name_short": "TX"
+  },
+  {
+   "color_hex": "#734FD0",
+   "id": 11,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/Minnesota_ROKKR_RED.webp?t=2024-12-13T22%3A20%3A15.391Z",
+   "name": "G2 Minnesota",
+   "name_short": "MIN"
+  },
+  {
+   "color_hex": "#b966ff",
+   "id": 12,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/Toronto_KOIlogo_square.webp",
+   "name": "Toronto KOI",
+   "name_short": "TOR"
+  },
+  {
+   "color_hex": "#0083c1",
+   "id": 26,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/CAR_ROYAL_RAVENS_ALLMODE.webp",
+   "name": "Carolina Royal Ravens",
+   "name_short": "CAR"
+  },
+  {
+   "color_hex": "#ff6d17",
+   "id": 27,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/MIA_HERETICS_ALLMODE.webp",
+   "name": "Miami Heretics",
+   "name_short": "MIA"
+  },
+  {
+   "color_hex": "#00be6e",
+   "id": 62,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/Riaydh_Falcons.webp",
+   "name": "Riyadh Falcons",
+   "name_short": "RYD"
+  },
+  {
+   "color_hex": "#b1e1ff",
+   "id": 63,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Cloud9_New_York_darkmodee.webp",
+   "name": "Cloud9 New York",
+   "name_short": "C9NY"
+  },
+  {
+   "color_hex": "#edb0e5",
+   "id": 743,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/Paris_Gentle_Mates.webp",
+   "name": "Paris Gentle Mates",
+   "name_short": "M8"
+  },
+  {
+   "color_hex": "#d6ff01",
+   "id": 1176,
+   "logo_main": "https://dfpiiufxcciujugzjvgx.supabase.co/storage/v1/object/public/teams/Team%20Logos/M80Boston.webp",
+   "name": "M80 Boston",
+   "name_short": "M80"
+  }
+ ]
+}

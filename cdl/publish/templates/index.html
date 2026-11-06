@@ -1,0 +1,26 @@
+{% extends "base.html" %}{% from "macros.html" import prediction_card %}
+{% block body %}
+<h1>Upcoming CDL matches</h1>
+<p class="lede">Win probabilities for matches in the next {{ horizon }} hours. Each prediction is locked when the match starts and graded afterwards.</p>
+{% if upcoming %}
+<div class="cards">{% for p in upcoming %}{{ prediction_card(p, root) }}{% endfor %}</div>
+{% else %}<p class="muted">No CDL matches scheduled in the next {{ horizon }} hours.</p>{% endif %}
+
+<h2>Recent results</h2>
+{% if graded %}
+<table>
+  <thead><tr><th>Date</th><th>Match</th><th class="num">Predicted</th><th class="num">Result</th><th>Call</th></tr></thead>
+  <tbody>
+  {% for g in graded %}
+  <tr>
+    <td class="muted">{{ g.when }}</td>
+    <td>{{ g.team1 }} vs {{ g.team2 }}</td>
+    <td class="num">{{ g.fav }} {{ '%.0f'|format(g.fav_p*100) }}%</td>
+    <td class="num">{{ g.score }}</td>
+    <td>{% if g.correct %}<span class="ok">✓ correct</span>{% else %}<span class="miss">✗ missed</span>{% endif %}{% if g.exact %} <span class="muted small">· exact score</span>{% endif %}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}<p class="muted">No graded predictions yet. They appear here once a predicted match finishes.</p>{% endif %}
+{% endblock %}

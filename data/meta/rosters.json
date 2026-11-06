@@ -1,0 +1,264 @@
+{
+ "fetched_at": "2026-11-06T20:17:24+00:00",
+ "teams": {
+  "1": [
+   {
+    "id": 15,
+    "role": "player",
+    "tag": "HyDra"
+   },
+   {
+    "id": 29,
+    "role": "player",
+    "tag": "Simp"
+   },
+   {
+    "id": 58,
+    "role": "player",
+    "tag": "Scrap"
+   },
+   {
+    "id": 399,
+    "role": "player",
+    "tag": "Alluka"
+   }
+  ],
+  "11": [
+   {
+    "id": 178,
+    "role": "player",
+    "tag": "Abe"
+   },
+   {
+    "id": 84,
+    "role": "player",
+    "tag": "Prolute"
+   },
+   {
+    "id": 89,
+    "role": "player",
+    "tag": "Spart"
+   },
+   {
+    "id": 30,
+    "role": "player",
+    "tag": "TJHaLy"
+   }
+  ],
+  "1176": [
+   {
+    "id": 192,
+    "role": "player",
+    "tag": "Nium"
+   },
+   {
+    "id": 107,
+    "role": "player",
+    "tag": "Estreal"
+   },
+   {
+    "id": 81,
+    "role": "player",
+    "tag": "Neptune"
+   },
+   {
+    "id": 22,
+    "role": "player",
+    "tag": "Nastie"
+   }
+  ],
+  "12": [
+   {
+    "id": 9,
+    "role": "player",
+    "tag": "CleanX"
+   },
+   {
+    "id": 134,
+    "role": "player",
+    "tag": "RenKoR"
+   },
+   {
+    "id": 235,
+    "role": "player",
+    "tag": "Kips"
+   },
+   {
+    "id": 758,
+    "role": "player",
+    "tag": "Ethan"
+   }
+  ],
+  "2": [
+   {
+    "id": 2,
+    "role": "player",
+    "tag": "aBeZy"
+   },
+   {
+    "id": 40,
+    "role": "player",
+    "tag": "Ghosty"
+   },
+   {
+    "id": 735,
+    "role": "player",
+    "tag": "DK"
+   },
+   {
+    "id": 13,
+    "role": "player",
+    "tag": "Envoy"
+   }
+  ],
+  "26": [
+   {
+    "id": 37,
+    "role": "player",
+    "tag": "Owakening"
+   },
+   {
+    "id": 41,
+    "role": "player",
+    "tag": "Skyz"
+   },
+   {
+    "id": 414,
+    "role": "player",
+    "tag": "Nejra"
+   },
+   {
+    "id": 308,
+    "role": "player",
+    "tag": "Renegade"
+   }
+  ],
+  "27": [
+   {
+    "id": 135,
+    "role": "player",
+    "tag": "SupeR"
+   },
+   {
+    "id": 94,
+    "role": "player",
+    "tag": "MettalZ"
+   },
+   {
+    "id": 106,
+    "role": "player",
+    "tag": "Snoopy"
+   },
+   {
+    "id": 104,
+    "role": "player",
+    "tag": "ReeaL"
+   }
+  ],
+  "3": [
+   {
+    "id": 189,
+    "role": "player",
+    "tag": "Mamba"
+   },
+   {
+    "id": 762,
+    "role": "player",
+    "tag": "Wevy"
+   },
+   {
+    "id": 246,
+    "role": "player",
+    "tag": "Nemensions"
+   },
+   {
+    "id": 428,
+    "role": "player",
+    "tag": "zvik"
+   }
+  ],
+  "4": [
+   {
+    "id": 11,
+    "role": "player",
+    "tag": "Dashy"
+   },
+   {
+    "id": 27,
+    "role": "player",
+    "tag": "Shotzzy"
+   },
+   {
+    "id": 39,
+    "role": "player",
+    "tag": "Huke"
+   },
+   {
+    "id": 172,
+    "role": "player",
+    "tag": "Mercules"
+   }
+  ],
+  "62": [
+   {
+    "id": 28,
+    "role": "player",
+    "tag": "Sib"
+   },
+   {
+    "id": 43,
+    "role": "player",
+    "tag": "Kremp"
+   },
+   {
+    "id": 8,
+    "role": "player",
+    "tag": "Cellium"
+   },
+   {
+    "id": 19,
+    "role": "player",
+    "tag": "KiSMET"
+   }
+  ],
+  "63": [
+   {
+    "id": 17,
+    "role": "player",
+    "tag": "Insight"
+   },
+   {
+    "id": 190,
+    "role": "player",
+    "tag": "Lurqxx"
+   },
+   {
+    "id": 7,
+    "role": "player",
+    "tag": "Cammy"
+   }
+  ],
+  "743": [
+   {
+    "id": 114,
+    "role": "player",
+    "tag": "04"
+   },
+   {
+    "id": 97,
+    "role": "player",
+    "tag": "Abuzah"
+   },
+   {
+    "id": 12,
+    "role": "player",
+    "tag": "Drazah"
+   },
+   {
+    "id": 55,
+    "role": "player",
+    "tag": "JoeDeceives"
+   }
+  ]
+ }
+}

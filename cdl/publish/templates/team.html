@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}{{ team.name }} · CDL Predictor{% endblock %}
+{% block body %}
+<h1>{% if team.logo %}<img src="{{ team.logo }}" alt="" style="width:34px;height:34px;object-fit:contain;vertical-align:middle;margin-right:8px">{% endif %}{{ team.name }}</h1>
+<p class="lede">{% if rank %}#{{ rank.rank }} · rating {{ '%.0f'|format(rank.rating) }} · {{ rank.record }} this season · {% endif %}Roster: {{ roster|join(', ') or 'unknown' }}</p>
+{% if rank %}
+<div class="tiles">{% for m, v in rank.modes.items() %}<div class="tile"><div class="label">{{ m }} rating</div><div class="value">{{ '%.0f'|format(v) }}</div></div>{% endfor %}</div>
+{% endif %}
+<h2>Recent matches</h2>
+{% if recent %}
+<table>
+  <thead><tr><th>Date</th><th>Event</th><th>Opponent</th><th class="num">Score</th><th>Result</th></tr></thead>
+  <tbody>
+  {% for m in recent %}
+  <tr><td class="muted">{{ m.when }}</td><td class="small">{{ m.event }}</td><td>{{ m.opponent }}</td><td class="num">{{ m.score }}</td>
+  <td>{% if m.won %}<span class="ok">Win</span>{% else %}<span class="miss">Loss</span>{% endif %}</td></tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% else %}<p class="muted">No matches recorded.</p>{% endif %}
+{% endblock %}

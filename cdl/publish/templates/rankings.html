@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Power rankings · CDL Predictor{% endblock %}
+{% block body %}
+<h1>Power rankings · {{ season_title }}</h1>
+<p class="lede">Ratings blend team and player Elo (1500 = average). Mode columns include each roster's mode-specific strength.</p>
+<table>
+  <thead><tr><th class="num">#</th><th>Team</th><th class="num">Rating</th>{% for m in modes %}<th class="num">{{ m }}</th>{% endfor %}<th class="num">Series</th><th>Roster</th></tr></thead>
+  <tbody>
+  {% for r in rankings %}
+  <tr>
+    <td class="num">{{ r.rank }}</td>
+    <td>{% if r.logo %}<img src="{{ r.logo }}" alt="" loading="lazy">{% endif %}<a href="teams/{{ r.id }}.html">{{ r.name }}</a></td>
+    <td class="num"><b>{{ '%.0f'|format(r.rating) }}</b></td>
+    {% for m in modes %}<td class="num">{{ '%.0f'|format(r.modes[m]) }}</td>{% endfor %}
+    <td class="num">{{ r.record }}</td>
+    <td class="muted small">{{ r.roster|join(', ') }}</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+{% endblock %}

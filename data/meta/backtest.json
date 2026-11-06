@@ -1,0 +1,152 @@
+{
+ "calibration": [
+  {
+   "actual": 0.5449,
+   "hi": 0.6,
+   "lo": 0.5,
+   "n": 178,
+   "predicted": 0.5514
+  },
+  {
+   "actual": 0.6358,
+   "hi": 0.7,
+   "lo": 0.6,
+   "n": 162,
+   "predicted": 0.6501
+  },
+  {
+   "actual": 0.7926,
+   "hi": 0.8,
+   "lo": 0.7,
+   "n": 135,
+   "predicted": 0.746
+  },
+  {
+   "actual": 0.8182,
+   "hi": 0.9,
+   "lo": 0.8,
+   "n": 77,
+   "predicted": 0.8475
+  },
+  {
+   "actual": 0.8462,
+   "hi": 1.0,
+   "lo": 0.9,
+   "n": 26,
+   "predicted": 0.9225
+  }
+ ],
+ "eval_from": "2025-01-01",
+ "generated": "2026-11-06T20:23:04+00:00",
+ "model_version": "3.0",
+ "seasons": {
+  "2025": {
+   "exact_score": 0.3008,
+   "maps_model": {
+    "accuracy": 0.6096,
+    "brier": 0.2321,
+    "log_loss": 0.6566,
+    "n": 1109
+   },
+   "series_coinflip": {
+    "accuracy": 0.5,
+    "brier": 0.25,
+    "log_loss": 0.6931,
+    "n": 256
+   },
+   "series_elo": {
+    "accuracy": 0.6914,
+    "brier": 0.2045,
+    "log_loss": 0.6114,
+    "n": 256
+   },
+   "series_model": {
+    "accuracy": 0.6836,
+    "brier": 0.2021,
+    "log_loss": 0.5949,
+    "n": 256
+   }
+  },
+  "2026": {
+   "exact_score": 0.3019,
+   "maps_model": {
+    "accuracy": 0.5959,
+    "brier": 0.2332,
+    "log_loss": 0.6581,
+    "n": 1257
+   },
+   "series_coinflip": {
+    "accuracy": 0.5,
+    "brier": 0.25,
+    "log_loss": 0.6931,
+    "n": 318
+   },
+   "series_elo": {
+    "accuracy": 0.6478,
+    "brier": 0.2234,
+    "log_loss": 0.6437,
+    "n": 318
+   },
+   "series_model": {
+    "accuracy": 0.6792,
+    "brier": 0.2066,
+    "log_loss": 0.5987,
+    "n": 318
+   }
+  },
+  "2027": {
+   "exact_score": 0.0,
+   "maps_model": {
+    "accuracy": 0.3889,
+    "brier": 0.2982,
+    "log_loss": 0.8027,
+    "n": 18
+   },
+   "series_coinflip": {
+    "accuracy": 0.5,
+    "brier": 0.25,
+    "log_loss": 0.6931,
+    "n": 4
+   },
+   "series_elo": {
+    "accuracy": 0.75,
+    "brier": 0.2853,
+    "log_loss": 1.0186,
+    "n": 4
+   },
+   "series_model": {
+    "accuracy": 0.25,
+    "brier": 0.3654,
+    "log_loss": 0.9682,
+    "n": 4
+   }
+  },
+  "all": {
+   "exact_score": 0.2993,
+   "maps_model": {
+    "accuracy": 0.6007,
+    "brier": 0.2332,
+    "log_loss": 0.6585,
+    "n": 2384
+   },
+   "series_coinflip": {
+    "accuracy": 0.5,
+    "brier": 0.25,
+    "log_loss": 0.6931,
+    "n": 578
+   },
+   "series_elo": {
+    "accuracy": 0.6678,
+    "brier": 0.2155,
+    "log_loss": 0.632,
+    "n": 578
+   },
+   "series_model": {
+    "accuracy": 0.6782,
+    "brier": 0.2057,
+    "log_loss": 0.5996,
+    "n": 578
+   }
+  }
+ }
+}

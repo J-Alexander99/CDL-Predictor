@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Track record · CDL Predictor{% endblock %}
+{% block body %}
+<h1>Track record</h1>
+<p class="lede">Live: predictions recorded before each match started. Backtest: the same model replayed over past seasons, refit before every event and blind to the maps played.</p>
+
+<h2>Live predictions</h2>
+{% if live.n %}
+<div class="tiles">
+  <div class="tile"><div class="label">Matches graded</div><div class="value">{{ live.n }}</div></div>
+  <div class="tile"><div class="label">Winner correct</div><div class="value">{{ '%.1f'|format(live.accuracy*100) }}%</div></div>
+  <div class="tile"><div class="label">Exact score</div><div class="value">{{ '%.1f'|format(live.exact_score*100) }}%</div></div>
+  <div class="tile"><div class="label">Log loss</div><div class="value">{{ '%.3f'|format(live.log_loss) }}</div><div class="note">coin flip = 0.693, lower is better</div></div>
+</div>
+{% else %}<p class="muted">No live predictions have been graded yet.</p>{% endif %}
+
+{% if backtest.seasons %}
+<h2>Backtest vs baselines</h2>
+<table>
+  <thead><tr><th>Season</th><th class="num">Series</th><th class="num">Model accuracy</th><th class="num">Model log loss</th><th class="num">Elo-only log loss</th><th class="num">Coin flip</th><th class="num">Exact score</th></tr></thead>
+  <tbody>
+  {% for name, s in backtest.seasons.items() %}
+  <tr>
+    <td>{{ 'All' if name == 'all' else name }}</td>
+    <td class="num">{{ s.series_model.n }}</td>
+    <td class="num">{{ '%.1f'|format(s.series_model.accuracy*100) }}%</td>
+    <td class="num"><b>{{ '%.3f'|format(s.series_model.log_loss) }}</b></td>
+    <td class="num">{{ '%.3f'|format(s.series_elo.log_loss) }}</td>
+    <td class="num">0.693</td>
+    <td class="num">{{ '%.1f'|format(s.exact_score*100) }}%</td>
+  </tr>
+  {% endfor %}
+  </tbody>
+</table>
+
+<h2>Calibration (backtest)</h2>
+<p class="lede">When the model makes a team the favourite at X%, how often does that team actually win? Points on the dashed line are perfectly calibrated.</p>
+<div class="chart">
+  <div class="legend"><span><span class="line"></span>Model</span><span><span class="line dash"></span>Perfect calibration</span></div>
+  {{ calibration_svg|safe }}
+</div>
+<h2 class="small muted">Calibration table</h2>
+<table>
+  <thead><tr><th>Favourite's probability</th><th class="num">Series</th><th class="num">Predicted</th><th class="num">Actual win rate</th></tr></thead>
+  <tbody>{% for b in backtest.calibration %}<tr><td>{{ '%.0f'|format(b.lo*100) }}–{{ '%.0f'|format(b.hi*100) }}%</td><td class="num">{{ b.n }}</td><td class="num">{{ '%.1f'|format(b.predicted*100) }}%</td><td class="num">{{ '%.1f'|format(b.actual*100) }}%</td></tr>{% endfor %}</tbody>
+</table>
+{% endif %}
+{% endblock %}
