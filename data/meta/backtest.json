@@ -15,11 +15,11 @@
    "predicted": 0.6505
   },
   {
-   "actual": 0.8,
+   "actual": 0.8043,
    "hi": 0.8,
    "lo": 0.7,
-   "n": 135,
-   "predicted": 0.7455
+   "n": 138,
+   "predicted": 0.7457
   },
   {
    "actual": 0.7792,
@@ -37,7 +37,7 @@
   }
  ],
  "eval_from": "2025-01-01",
- "generated": "2026-11-06T20:42:13+00:00",
+ "generated": "2026-11-06T21:26:57+00:00",
  "model_version": "3.0",
  "seasons": {
   "2025": {
@@ -95,57 +95,57 @@
    }
   },
   "2027": {
-   "exact_score": 0.2,
+   "exact_score": 0.25,
    "maps_model": {
-    "accuracy": 0.5455,
-    "brier": 0.2815,
-    "log_loss": 0.7671,
-    "n": 22
+    "accuracy": 0.6562,
+    "brier": 0.2392,
+    "log_loss": 0.6768,
+    "n": 32
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 5
+    "n": 8
    },
    "series_elo": {
-    "accuracy": 0.8,
-    "brier": 0.2486,
-    "log_loss": 0.9128,
-    "n": 5
+    "accuracy": 0.875,
+    "brier": 0.1658,
+    "log_loss": 0.6278,
+    "n": 8
    },
    "series_model": {
-    "accuracy": 0.4,
-    "brier": 0.3158,
-    "log_loss": 0.8635,
-    "n": 5
+    "accuracy": 0.625,
+    "brier": 0.2196,
+    "log_loss": 0.6439,
+    "n": 8
    }
   },
   "all": {
-   "exact_score": 0.2988,
+   "exact_score": 0.299,
    "maps_model": {
-    "accuracy": 0.6039,
-    "brier": 0.2334,
-    "log_loss": 0.659,
-    "n": 2388
+    "accuracy": 0.6051,
+    "brier": 0.233,
+    "log_loss": 0.6582,
+    "n": 2398
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 579
+    "n": 582
    },
    "series_elo": {
-    "accuracy": 0.6736,
-    "brier": 0.2135,
-    "log_loss": 0.6278,
-    "n": 579
+    "accuracy": 0.6753,
+    "brier": 0.2125,
+    "log_loss": 0.6253,
+    "n": 582
    },
    "series_model": {
-    "accuracy": 0.6839,
-    "brier": 0.206,
-    "log_loss": 0.6007,
-    "n": 579
+    "accuracy": 0.6856,
+    "brier": 0.2052,
+    "log_loss": 0.599,
+    "n": 582
    }
   }
  }
