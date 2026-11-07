@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-06T20:17:24+00:00",
+ "fetched_at": "2026-11-07T16:27:32+00:00",
  "teams": {
   "1": [
    {
@@ -233,6 +233,11 @@
     "tag": "Lurqxx"
    },
    {
+    "id": 26,
+    "role": "player",
+    "tag": "Pred"
+   },
+   {
     "id": 7,
     "role": "player",
     "tag": "Cammy"
@@ -240,14 +245,14 @@
   ],
   "743": [
    {
-    "id": 114,
-    "role": "player",
-    "tag": "04"
-   },
-   {
     "id": 97,
     "role": "player",
     "tag": "Abuzah"
+   },
+   {
+    "id": 114,
+    "role": "player",
+    "tag": "04"
    },
    {
     "id": 12,
