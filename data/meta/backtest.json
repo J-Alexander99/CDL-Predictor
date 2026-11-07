@@ -1,25 +1,25 @@
 {
  "calibration": [
   {
-   "actual": 0.541,
+   "actual": 0.5459,
    "hi": 0.6,
    "lo": 0.5,
-   "n": 183,
-   "predicted": 0.5504
+   "n": 185,
+   "predicted": 0.5503
   },
   {
-   "actual": 0.6647,
+   "actual": 0.6686,
    "hi": 0.7,
    "lo": 0.6,
-   "n": 173,
-   "predicted": 0.6504
+   "n": 175,
+   "predicted": 0.6503
   },
   {
-   "actual": 0.8058,
+   "actual": 0.8085,
    "hi": 0.8,
    "lo": 0.7,
-   "n": 139,
-   "predicted": 0.7458
+   "n": 141,
+   "predicted": 0.7464
   },
   {
    "actual": 0.7821,
@@ -37,7 +37,7 @@
   }
  ],
  "eval_from": "2025-01-01",
- "generated": "2026-11-07T08:49:17+00:00",
+ "generated": "2026-11-07T21:53:26+00:00",
  "model_version": "3.0",
  "seasons": {
   "2025": {
@@ -95,57 +95,57 @@
    }
   },
   "2027": {
-   "exact_score": 0.2,
+   "exact_score": 0.3077,
    "maps_model": {
-    "accuracy": 0.6071,
-    "brier": 0.2398,
-    "log_loss": 0.6747,
-    "n": 84
+    "accuracy": 0.6635,
+    "brier": 0.2278,
+    "log_loss": 0.6494,
+    "n": 104
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 20
+    "n": 26
    },
    "series_elo": {
-    "accuracy": 0.7,
-    "brier": 0.2222,
-    "log_loss": 0.7015,
-    "n": 20
+    "accuracy": 0.7692,
+    "brier": 0.1997,
+    "log_loss": 0.6345,
+    "n": 26
    },
    "series_model": {
-    "accuracy": 0.6,
-    "brier": 0.2027,
-    "log_loss": 0.5966,
-    "n": 20
+    "accuracy": 0.6923,
+    "brier": 0.185,
+    "log_loss": 0.5576,
+    "n": 26
    }
   },
   "all": {
-   "exact_score": 0.2963,
+   "exact_score": 0.3,
    "maps_model": {
-    "accuracy": 0.6045,
-    "brier": 0.2332,
-    "log_loss": 0.6585,
-    "n": 2450
+    "accuracy": 0.6069,
+    "brier": 0.2327,
+    "log_loss": 0.6576,
+    "n": 2470
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 594
+    "n": 600
    },
    "series_elo": {
-    "accuracy": 0.6734,
-    "brier": 0.2135,
-    "log_loss": 0.6278,
-    "n": 594
+    "accuracy": 0.6767,
+    "brier": 0.2126,
+    "log_loss": 0.6257,
+    "n": 600
    },
    "series_model": {
-    "accuracy": 0.6835,
-    "brier": 0.2049,
-    "log_loss": 0.5984,
-    "n": 594
+    "accuracy": 0.6867,
+    "brier": 0.2041,
+    "log_loss": 0.5967,
+    "n": 600
    }
   }
  }
