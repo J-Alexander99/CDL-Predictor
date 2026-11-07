@@ -23,6 +23,18 @@ log = logging.getLogger(__name__)
 
 # Event-name prefixes that are never CDL league events (saves ~80 requests/season)
 _NON_CDL_PREFIXES = ("CDC ", "Challengers", "Challenger ")
+
+
+def _collects_challengers(season_id: int | None) -> bool:
+    return season_id is not None and season_id >= config.CHALLENGERS_FROM_SEASON
+
+
+def _collected(ev: dict) -> bool:
+    """Events whose matches we track: all CDL events, plus Challengers from the cutoff season."""
+    div = ev.get("division_id")
+    return div == config.CDL_DIVISION_ID or (
+        div == config.CHALLENGERS_DIVISION_ID and _collects_challengers(ev.get("season_id"))
+    )
 _EVENT_WINDOW_BEFORE = timedelta(days=10)
 _EVENT_WINDOW_AFTER = timedelta(days=3)
 
@@ -134,7 +146,7 @@ def parse_event(next_data: dict, event_id: int) -> dict:
 
 # --------------------------------------------------------------------------
 def _is_final(ev: dict, today: date) -> bool:
-    if ev.get("division_id") != config.CDL_DIVISION_ID:
+    if not _collected(ev):
         return True  # we only needed its division
     end = ev.get("end_date")
     if not end or date.fromisoformat(end[:10]) + _EVENT_WINDOW_AFTER > today:
@@ -167,7 +179,8 @@ def refresh(client: BreakingPointClient, seasons: list[int], force: bool = False
     candidates = [
         e
         for e in catalog["events"]
-        if e["season_id"] in seasons and not e["name"].startswith(_NON_CDL_PREFIXES)
+        if e["season_id"] in seasons
+        and (_collects_challengers(e["season_id"]) or not e["name"].startswith(_NON_CDL_PREFIXES))
     ]
     fetched = 0
     for e in candidates:
@@ -182,7 +195,7 @@ def refresh(client: BreakingPointClient, seasons: list[int], force: bool = False
             log.warning("event %s (%s): %s", e["id"], e["name"], exc)
             continue
         fetched += 1
-        if ev["division_id"] != config.CDL_DIVISION_ID:
+        if not _collected(ev):
             index[key] = {"id": ev["id"], "name": ev["name"], "season_id": ev["season_id"],
                           "division_id": ev["division_id"], "final": True}
             continue
@@ -201,9 +214,16 @@ def cdl_events(index: dict, seasons: list[int] | None = None) -> list[dict]:
     return sorted(evs, key=lambda e: (e.get("start_date") or "", e["id"]))
 
 
-def completed_matches(index: dict, seasons: list[int] | None = None) -> list[dict]:
+def collected_events(index: dict, seasons: list[int] | None = None) -> list[dict]:
+    """CDL events plus the Challengers events we collect."""
+    evs = [e for e in index.values() if _collected(e) and (seasons is None or e.get("season_id") in seasons)]
+    return sorted(evs, key=lambda e: (e.get("start_date") or "", e["id"]))
+
+
+def completed_matches(index: dict, seasons: list[int] | None = None, challengers: bool = False) -> list[dict]:
     out = []
-    for ev in cdl_events(index, seasons):
+    events = collected_events(index, seasons) if challengers else cdl_events(index, seasons)
+    for ev in events:
         for m in ev.get("matches", []):
             if m["status"] == "complete":
                 out.append({**m, "event_id": ev["id"], "season_id": ev["season_id"]})

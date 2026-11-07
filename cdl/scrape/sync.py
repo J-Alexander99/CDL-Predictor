@@ -33,7 +33,10 @@ def sync(
     result = SyncResult()
     index = discover.refresh(client, seasons, force=force_events)
     have = raw.stored_ids()
+    # CDL matches first so a long Challengers backlog never delays the model's own data
     todo = [m for m in discover.completed_matches(index, seasons) if m["id"] not in have]
+    seen = {m["id"] for m in todo} | have
+    todo += [m for m in discover.completed_matches(index, seasons, challengers=True) if m["id"] not in seen]
     if limit:
         todo = todo[:limit]
     log.info("sync: %d completed matches to scrape", len(todo))

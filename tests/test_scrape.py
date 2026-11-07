@@ -105,3 +105,29 @@ def test_team_roster_excludes_non_players():
     assert len(roster) == 4
     assert {"Dashy", "Shotzzy"} <= tags
     assert "Scump" not in tags and "Crimsix" not in tags  # streamer / content creator
+
+
+def test_challengers_collected_from_cutoff_season_only():
+    cdc = lambda season: {"division_id": 1, "season_id": season}  # noqa: E731
+    assert not discover._collected(cdc(2026))
+    assert discover._collected(cdc(2027))
+    assert discover._collected({"division_id": 3, "season_id": 2024})
+    assert not discover._collected({"division_id": 2, "season_id": 2027})
+
+    m = {"status": "complete", "id": 1}
+    index = {
+        "1": {"id": 1, "division_id": 3, "season_id": 2027, "matches": [{**m, "id": 10}]},
+        "2": {"id": 2, "division_id": 1, "season_id": 2027, "matches": [{**m, "id": 20}]},
+        "3": {"id": 3, "division_id": 1, "season_id": 2026, "matches": [{**m, "id": 30}]},
+    }
+    assert [x["id"] for x in discover.completed_matches(index)] == [10]
+    assert sorted(x["id"] for x in discover.completed_matches(index, challengers=True)) == [10, 20]
+    assert discover.upcoming_matches(index) == []  # predictions stay CDL-only
+
+
+def test_trim_match_skips_unplayed_games():
+    nd = load("match_358722.html.gz")
+    games = nd["props"]["pageProps"]["initialMatchState"]["games"]
+    games.append({**games[-1], "game_num": 99, "mode_id": None, "modes": None, "player_stats": []})
+    r = trim_match(nd)
+    assert [g["mode"] for g in r["games"]] == ["Hardpoint", "Search & Destroy", "Hijack"]

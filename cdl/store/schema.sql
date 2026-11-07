@@ -44,7 +44,8 @@ CREATE TABLE matches (
     team_2_score INTEGER,
     round        TEXT,
     round_stage  TEXT,
-    lan          INTEGER
+    lan          INTEGER,
+    division_id  INTEGER                  -- 3 = CDL, 1 = Challengers
 );
 CREATE INDEX ix_matches_dt ON matches(datetime);
 

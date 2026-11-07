@@ -35,6 +35,11 @@ REQUEST_TIMEOUT_S = 30.0
 
 # Breaking Point division id for the Call of Duty League (CDC/Challengers use other ids)
 CDL_DIVISION_ID = 3
+# Challengers / amateur events (CDC cups, Opens, third-party invitationals). Collected from
+# this season onwards only: older seasons are a different game with fast-churning rosters.
+# Stored in data/raw but not used by the model yet (see db.load(divisions=...)).
+CHALLENGERS_DIVISION_ID = 1
+CHALLENGERS_FROM_SEASON = 2027
 # Seasons we model. Earlier seasons exist on the site but are different games/rosters.
 DEFAULT_SEASONS = (2024, 2025, 2026, 2027)
 

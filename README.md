@@ -17,7 +17,7 @@ Every two hours a GitHub Action:
 |---|---|---|
 | Fetch | `cdl/scrape/client.py` | Plain HTTP (no Selenium). Every page embeds its data as JSON in `<script id="__NEXT_DATA__">`. Requests are throttled to 1 per second, with retries. |
 | Parse | `cdl/scrape/next_data.py` | Validated with pydantic. If the site changes shape, the run fails loudly and Discord gets an alert. |
-| Discover | `cdl/scrape/discover.py` | `/matches` lists every season and event. Event pages list their matches. CDL events have `division_id == 3`. Finished events are never fetched again. |
+| Discover | `cdl/scrape/discover.py` | `/matches` lists every season and event. Event pages list their matches. CDL events have `division_id == 3`. Challengers events (`division_id == 1`) are also collected from the 2027 season on, but the model doesn't use them yet: `db.load()` returns CDL matches only. Finished events are never fetched again. |
 | Store | `data/raw/{season}/{match}.json.gz` | Committed, append-only, deterministic. Everything else is rebuilt from it. |
 | Database | `cdl/store/db.py` → `build/cdl.db` | SQLite keyed by Breaking Point ids. Rebrands like Breach → M80 don't split history. |
 | Ratings | `cdl/model/ratings.py` | Map-level Elo for teams and players, with per-mode offsets and carry-over between seasons. |

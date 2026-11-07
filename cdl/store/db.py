@@ -61,11 +61,12 @@ def build(db_path: Path | None = None, raw_root: Path | None = None) -> dict:
         )
         for t in r["teams"]:  # later records overwrite earlier ones -> latest branding wins
             teams[t["id"]] = (t["id"], t["name"], t.get("name_short"), t.get("logo_main"), t.get("color_hex"))
+        division = ev.get("division_id") or meta.get("division_id") or config.CDL_DIVISION_ID
         con.execute(
-            "INSERT INTO matches VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?)",
+            "INSERT INTO matches VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
             (r["id"], ev["id"], ev["season_id"], r["datetime"], r.get("best_of"), r["team_1_id"],
              r["team_2_id"], r.get("winner_id"), r.get("team_1_score"), r.get("team_2_score"),
-             r.get("round"), r.get("round_stage"), None if lan is None else int(lan)),
+             r.get("round"), r.get("round_stage"), None if lan is None else int(lan), division),
         )
         for g in r["games"]:
             if not g.get("mode"):
@@ -129,24 +130,28 @@ class Frames:
         return row.name.iloc[0] if len(row) else f"Team {team_id}"
 
 
-def load(db_path: Path | None = None) -> Frames:
+def load(db_path: Path | None = None, divisions: tuple[int, ...] = (config.CDL_DIVISION_ID,)) -> Frames:
+    """Load the modelling frames. Defaults to CDL matches only; Challengers data is
+    stored but excluded until there is enough of it to be useful."""
     con = sqlite3.connect(db_path or config.DB_PATH)
+    div = f"m.division_id IN ({','.join(str(int(d)) for d in divisions)})"
     try:
         q = lambda sql: pd.read_sql_query(sql, con)  # noqa: E731
-        matches = q("SELECT * FROM matches ORDER BY datetime, id")
+        matches = q(f"SELECT m.* FROM matches m WHERE {div} ORDER BY m.datetime, m.id")
         games = q(
             "SELECT g.*, m.datetime, m.season_id, m.event_id, m.lan, m.best_of FROM games g "
-            "JOIN matches m ON m.id = g.match_id ORDER BY m.datetime, g.match_id, g.game_num"
+            f"JOIN matches m ON m.id = g.match_id WHERE {div} ORDER BY m.datetime, g.match_id, g.game_num"
         )
         players = q(
             "SELECT s.*, m.datetime, m.season_id, g.mode, g.map FROM player_game_stats s "
-            "JOIN matches m ON m.id = s.match_id JOIN games g ON g.match_id = s.match_id AND g.game_num = s.game_num"
+            "JOIN matches m ON m.id = s.match_id JOIN games g ON g.match_id = s.match_id AND g.game_num = s.game_num "
+            f"WHERE {div}"
         )
         frames = Frames(
             matches=matches,
             games=games,
             players=players,
-            vetoes=q("SELECT v.*, m.datetime, m.season_id FROM vetoes v JOIN matches m ON m.id = v.match_id"),
+            vetoes=q(f"SELECT v.*, m.datetime, m.season_id FROM vetoes v JOIN matches m ON m.id = v.match_id WHERE {div}"),
             teams=q("SELECT * FROM teams"),
             events=q("SELECT * FROM events"),
             seasons=q("SELECT * FROM seasons"),

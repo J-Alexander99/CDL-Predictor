@@ -167,6 +167,8 @@ def trim_match(next_data: dict, source: str = "?") -> dict:
 
     games = []
     for g in sorted(games_raw, key=lambda x: x.get("game_num") or 0):
+        if g.get("mode_id") is None:
+            continue  # placeholder for a map that was never played (e.g. forfeits)
         players = []
         for ps in g.get("player_stats") or []:
             if ps.get("deleted_at"):
