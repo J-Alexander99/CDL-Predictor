@@ -8,7 +8,7 @@
 {% endmacro %}
 
 {% macro prediction_card(p, root) %}
-<article class="card">
+<article class="card" id="m{{ p.match_id }}">
   <div class="meta">{{ p.when }} · {{ p.event_name or '' }}{% if p.round %} · {{ p.round }}{% endif %}</div>
   <div class="teams">
     <span class="t1">{{ logo(p.team1) }}<a href="{{ root }}teams/{{ p.team1.id }}.html">{{ p.team1.name }}</a></span>

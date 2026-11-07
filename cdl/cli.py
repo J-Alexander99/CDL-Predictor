@@ -264,6 +264,14 @@ def _update(scrape: bool, notify: bool, record: bool) -> None:
     graded = ledger.grade(pipeline.results_by_match(bundle))
     live = ledger.summarize(graded)
     site_mod.render(bundle, preds, graded, live, backtest_summary, pipeline.current_season(bundle))
+    from cdl.publish import feed
+    from cdl.scrape import discover as discover_mod
+
+    pipeline.write_json(
+        config.SITE_DIR / "api" / "predictions.json",
+        feed.build_feed(ledger.load(), feed.schedule_from_index(discover_mod.load_event_index()), live, now,
+                        config.SITE_URL),
+    )
     log.info("site rendered to %s", config.SITE_DIR)
 
     if notify and config.DISCORD_WEBHOOK_URL:
