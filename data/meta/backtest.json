@@ -1,32 +1,32 @@
 {
  "calibration": [
   {
-   "actual": 0.5531,
+   "actual": 0.544,
    "hi": 0.6,
    "lo": 0.5,
-   "n": 179,
-   "predicted": 0.5504
+   "n": 182,
+   "predicted": 0.5505
   },
   {
-   "actual": 0.6587,
+   "actual": 0.6628,
    "hi": 0.7,
    "lo": 0.6,
-   "n": 167,
-   "predicted": 0.6505
+   "n": 172,
+   "predicted": 0.6502
   },
   {
-   "actual": 0.8043,
+   "actual": 0.8058,
    "hi": 0.8,
    "lo": 0.7,
-   "n": 138,
-   "predicted": 0.7457
+   "n": 139,
+   "predicted": 0.7458
   },
   {
-   "actual": 0.7792,
+   "actual": 0.7821,
    "hi": 0.9,
    "lo": 0.8,
-   "n": 77,
-   "predicted": 0.8475
+   "n": 78,
+   "predicted": 0.8474
   },
   {
    "actual": 0.9048,
@@ -37,7 +37,7 @@
   }
  ],
  "eval_from": "2025-01-01",
- "generated": "2026-11-06T21:26:57+00:00",
+ "generated": "2026-11-07T01:57:28+00:00",
  "model_version": "3.0",
  "seasons": {
   "2025": {
@@ -95,57 +95,57 @@
    }
   },
   "2027": {
-   "exact_score": 0.25,
+   "exact_score": 0.2222,
    "maps_model": {
-    "accuracy": 0.6562,
-    "brier": 0.2392,
-    "log_loss": 0.6768,
-    "n": 32
+    "accuracy": 0.6184,
+    "brier": 0.2381,
+    "log_loss": 0.6714,
+    "n": 76
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 8
+    "n": 18
    },
    "series_elo": {
-    "accuracy": 0.875,
-    "brier": 0.1658,
-    "log_loss": 0.6278,
-    "n": 8
+    "accuracy": 0.6667,
+    "brier": 0.236,
+    "log_loss": 0.7388,
+    "n": 18
    },
    "series_model": {
-    "accuracy": 0.625,
-    "brier": 0.2196,
-    "log_loss": 0.6439,
-    "n": 8
+    "accuracy": 0.6111,
+    "brier": 0.2042,
+    "log_loss": 0.6,
+    "n": 18
    }
   },
   "all": {
-   "exact_score": 0.299,
+   "exact_score": 0.2973,
    "maps_model": {
-    "accuracy": 0.6051,
-    "brier": 0.233,
-    "log_loss": 0.6582,
-    "n": 2398
+    "accuracy": 0.6048,
+    "brier": 0.2331,
+    "log_loss": 0.6584,
+    "n": 2442
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 582
+    "n": 592
    },
    "series_elo": {
-    "accuracy": 0.6753,
-    "brier": 0.2125,
-    "log_loss": 0.6253,
-    "n": 582
+    "accuracy": 0.6723,
+    "brier": 0.2139,
+    "log_loss": 0.6287,
+    "n": 592
    },
    "series_model": {
-    "accuracy": 0.6856,
-    "brier": 0.2052,
-    "log_loss": 0.599,
-    "n": 582
+    "accuracy": 0.6841,
+    "brier": 0.205,
+    "log_loss": 0.5985,
+    "n": 592
    }
   }
  }
