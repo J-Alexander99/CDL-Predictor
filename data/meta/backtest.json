@@ -8,17 +8,17 @@
    "predicted": 0.5504
   },
   {
-   "actual": 0.6667,
+   "actual": 0.6629,
    "hi": 0.7,
    "lo": 0.6,
-   "n": 177,
-   "predicted": 0.6505
+   "n": 178,
+   "predicted": 0.6503
   },
   {
-   "actual": 0.8028,
+   "actual": 0.7972,
    "hi": 0.8,
    "lo": 0.7,
-   "n": 142,
+   "n": 143,
    "predicted": 0.7461
   },
   {
@@ -37,7 +37,7 @@
   }
  ],
  "eval_from": "2025-01-01",
- "generated": "2026-11-08T01:28:11+00:00",
+ "generated": "2026-11-08T22:07:37+00:00",
  "model_version": "3.0",
  "seasons": {
   "2025": {
@@ -95,57 +95,57 @@
    }
   },
   "2027": {
-   "exact_score": 0.2667,
+   "exact_score": 0.25,
    "maps_model": {
-    "accuracy": 0.6303,
-    "brier": 0.2347,
-    "log_loss": 0.6633,
-    "n": 119
+    "accuracy": 0.6063,
+    "brier": 0.24,
+    "log_loss": 0.6742,
+    "n": 127
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 30
+    "n": 32
    },
    "series_elo": {
-    "accuracy": 0.7,
-    "brier": 0.2347,
-    "log_loss": 0.7139,
-    "n": 30
+    "accuracy": 0.6562,
+    "brier": 0.253,
+    "log_loss": 0.7571,
+    "n": 32
    },
    "series_model": {
-    "accuracy": 0.6333,
-    "brier": 0.2073,
-    "log_loss": 0.6044,
-    "n": 30
+    "accuracy": 0.5938,
+    "brier": 0.2228,
+    "log_loss": 0.6378,
+    "n": 32
    }
   },
   "all": {
-   "exact_score": 0.298,
+   "exact_score": 0.297,
    "maps_model": {
-    "accuracy": 0.6056,
-    "brier": 0.233,
-    "log_loss": 0.6582,
-    "n": 2485
+    "accuracy": 0.6045,
+    "brier": 0.2333,
+    "log_loss": 0.6588,
+    "n": 2493
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 604
+    "n": 606
    },
    "series_elo": {
-    "accuracy": 0.6738,
-    "brier": 0.2143,
-    "log_loss": 0.6297,
-    "n": 604
+    "accuracy": 0.6716,
+    "brier": 0.2153,
+    "log_loss": 0.6322,
+    "n": 606
    },
    "series_model": {
-    "accuracy": 0.6838,
-    "brier": 0.2051,
-    "log_loss": 0.5987,
-    "n": 604
+    "accuracy": 0.6815,
+    "brier": 0.2059,
+    "log_loss": 0.6005,
+    "n": 606
    }
   }
  }
