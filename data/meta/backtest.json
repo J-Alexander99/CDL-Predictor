@@ -1,18 +1,18 @@
 {
  "calibration": [
   {
-   "actual": 0.543,
+   "actual": 0.5401,
    "hi": 0.6,
    "lo": 0.5,
-   "n": 186,
-   "predicted": 0.5504
+   "n": 187,
+   "predicted": 0.5505
   },
   {
-   "actual": 0.6629,
+   "actual": 0.6648,
    "hi": 0.7,
    "lo": 0.6,
-   "n": 178,
-   "predicted": 0.6503
+   "n": 179,
+   "predicted": 0.6505
   },
   {
    "actual": 0.7972,
@@ -37,7 +37,7 @@
   }
  ],
  "eval_from": "2025-01-01",
- "generated": "2026-11-08T22:07:37+00:00",
+ "generated": "2026-11-09T01:45:17+00:00",
  "model_version": "3.0",
  "seasons": {
   "2025": {
@@ -95,57 +95,57 @@
    }
   },
   "2027": {
-   "exact_score": 0.25,
+   "exact_score": 0.2647,
    "maps_model": {
-    "accuracy": 0.6063,
-    "brier": 0.24,
-    "log_loss": 0.6742,
-    "n": 127
+    "accuracy": 0.5956,
+    "brier": 0.2398,
+    "log_loss": 0.6736,
+    "n": 136
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 32
+    "n": 34
    },
    "series_elo": {
-    "accuracy": 0.6562,
-    "brier": 0.253,
-    "log_loss": 0.7571,
-    "n": 32
+    "accuracy": 0.6765,
+    "brier": 0.2454,
+    "log_loss": 0.7369,
+    "n": 34
    },
    "series_model": {
-    "accuracy": 0.5938,
-    "brier": 0.2228,
-    "log_loss": 0.6378,
-    "n": 32
+    "accuracy": 0.5882,
+    "brier": 0.2217,
+    "log_loss": 0.6352,
+    "n": 34
    }
   },
   "all": {
-   "exact_score": 0.297,
+   "exact_score": 0.2977,
    "maps_model": {
-    "accuracy": 0.6045,
+    "accuracy": 0.6039,
     "brier": 0.2333,
     "log_loss": 0.6588,
-    "n": 2493
+    "n": 2502
    },
    "series_coinflip": {
     "accuracy": 0.5,
     "brier": 0.25,
     "log_loss": 0.6931,
-    "n": 606
+    "n": 608
    },
    "series_elo": {
-    "accuracy": 0.6716,
-    "brier": 0.2153,
-    "log_loss": 0.6322,
-    "n": 606
+    "accuracy": 0.6727,
+    "brier": 0.215,
+    "log_loss": 0.6315,
+    "n": 608
    },
    "series_model": {
-    "accuracy": 0.6815,
+    "accuracy": 0.6809,
     "brier": 0.2059,
     "log_loss": 0.6005,
-    "n": 606
+    "n": 608
    }
   }
  }
